@@ -1,8 +1,0 @@
-spider climb$underdark
-web$underdark
-gaseous form$underdark
-stinking cloud$underdark
-greater invisibility$underdark
-stone shape$underdark
-cloudkill$underdark
-insect plague$underdark

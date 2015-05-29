@@ -1,8 +1,0 @@
-darkness$swamp
-melf's acid arrow$swamp
-water walk$swamp
-stinking cloud$swamp
-freedin of movement$swamp
-locate creature$swamp
-insect plague$swamp
-scrying$swamp
