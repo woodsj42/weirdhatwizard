@@ -1,0 +1,84 @@
+blade ward$warlock
+chill touch$warlock
+create bonfire$warlock
+eldritch blast$warlock
+friends$warlock
+frostbite$warlock
+mage hand$warlock
+magic stone$warlock
+minor illusion$warlock
+poison spray$warlock
+prestidigitation$warlock
+thunderclap$warlock
+true strike$warlock
+armor of agathys$warlock
+arms of hadar$warlock
+charm person$warlock
+comprehend languages$warlock
+expeditious retreat$warlock
+hellish rebuke$warlock
+hex$warlock
+illusory script$warlock
+protection from evil and good$warlock
+unseen servant$warlock
+witch bolt$warlock
+cloud of daggers$warlock
+crown of madness$warlock
+darkness$warlock
+earthbind$warlock
+enthrall$warlock
+hold person$warlock
+invisibility$warlock
+mirror image$warlock
+misty step$warlock
+ray of enfeeblement$warlock
+shatter$warlock
+spider climb$warlock
+suggestion$warlock
+counterspell$warlock
+dispel magic$warlock
+fear$warlock
+fly$warlock
+gaseous form$warlock
+hunger of hadar$warlock
+hypnotic pattern$warlock
+magic circle$warlock
+major image$warlock
+remove curse$warlock
+tongues$warlock
+vampiric touch$warlock
+banishment$warlock
+blight$warlock
+dimension door$warlock
+elemental bane$warlock
+hallucinatory terrain$warlock
+contact other plane$warlock
+dream$warlock
+hold monster$warlock
+scrying$warlock
+arcane gate$warlock
+circle of death$warlock
+conjure fey$warlock
+create undead$warlock
+eyebite$warlock
+flesh to stone$warlock
+investiture of flame$warlock
+investiture of ice$warlock
+investiture of stone$warlock
+investiture of wind$warlock
+mass suggestion$warlock
+true seeing$warlock
+etherealness$warlock
+finger of death$warlock
+forcecage$warlock
+plane shift$warlock
+demiplane$warlock
+dominate monster$warlock
+feeblemind$warlock
+glibness$warlock
+power word stun$warlock
+astral projection$warlock
+foresight$warlock
+imprisonment$warlock
+power word kill$warlock
+true polymorph$warlock

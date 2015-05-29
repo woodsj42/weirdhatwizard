@@ -1,0 +1,10 @@
+faerie fire$archfey
+sleep$archfey
+calm emotions$archfey
+phantasmal force$archfey
+blink$archfey
+plant growth$archfey
+dominate beast$archfey
+greater invisibility$archfey
+dominate person$archfey
+seeming$archfey

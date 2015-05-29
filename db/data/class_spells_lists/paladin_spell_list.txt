@@ -1,0 +1,45 @@
+bless$paladin
+command$paladin
+compelled duel$paladin
+cure wounds$paladin
+detect evil and good$paladin
+detect magic$paladin
+detect poison and disease$paladin
+divine favor$paladin
+heroism$paladin
+protection from evil and good$paladin
+purify food and drink$paladin
+searing smite$paladin
+shield of faith$paladin
+thunderous smite$paladin
+wrathful smite$paladin
+aid$paladin
+branding smite$paladin
+find steed$paladin
+lesser restoration$paladin
+locate object$paladin
+magic weapon$paladin
+protection from poison$paladin
+zone of truth$paladin
+aura of vitality$paladin
+blinding smite$paladin
+create food and water$paladin
+crusader's mantle$paladin
+daylight$paladin
+dispel magic$paladin
+elemental weapon$paladin
+magic circle$paladin
+remove curse$paladin
+revivify$paladin
+aura of life$paladin
+aura of purity$paladin
+banishment$paladin
+death ward$paladin
+locate creature$paladin
+staggering smite$paladin
+banishing smite$paladin
+circle of power$paladin
+destructive smite$paladin
+dispel evil and good$paladin
+geas$paladin
+raise dead$paladin

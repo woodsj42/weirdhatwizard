@@ -1,0 +1,126 @@
+blade ward$bard
+dancing lights$bard
+friends$bard
+light$bard
+mage hand$bard
+mending$bard
+message$bard
+minor illusion$bard
+prestidigitation$bard
+thunderclap$bard
+true strike$bard
+vicious mockery$bard
+animal friendship$bard
+bane$bard
+charm person$bard
+comprehend languages$bard
+cure wounds$bard
+detect magic$bard
+disguise self$bard
+dissonant whispers$bard
+earth tremor$bard
+faerie fire$bard
+feather fall$bard
+healing word$bard
+heroism$bard
+identify$bard
+illusory script$bard
+longstrider$bard
+silent image$bard
+sleep$bard
+speak with animals$bard
+tasha's hideous laughter$bard
+thunderwave$bard
+unseen servant$bard
+animal messenger$bard
+blindness/deafness$bard
+calm emotions$bard
+cloud of daggers$bard
+crown of madness$bard
+detect thoughts$bard
+enhance ability$bard
+enthrall$bard
+heat metal$bard
+hold person$bard
+invisibility$bard
+knock$bard
+lesser restoration$bard
+locate animals or plants$bard
+locate object$bard
+magic mouth$bard
+phantasmal force$bard
+pyrotechnics$bard
+see invisibility$bard
+shatter$bard
+silence$bard
+skywrite$bard
+suggestion$bard
+warding wind$bard
+zone of truth$bard
+bestow curse$bard
+clairvoyance$bard
+dispel magic$bard
+fear$bard
+feign death$bard
+glyph of warding$bard
+hypnotic pattern$bard
+leomund's tiny hut$bard
+major image$bard
+nondetection$bard
+plant growth$bard
+sending$bard
+speak with dead$bard
+speak with plants$bard
+stinking cloud$bard
+tongues$bard
+compulsion$bard
+confusion$bard
+dimension door$bard
+freedom of movement$bard
+greater invisibility$bard
+hallucinatory terrain$bard
+locate creature$bard
+polymorph$bard
+animate objects$bard
+awaken$bard
+dominate person$bard
+dream$bard
+geas$bard
+greater restoration$bard
+hold monster$bard
+legend lore$bard
+mass cure wounds$bard
+mislead$bard
+modify memory$bard
+planar binding$bard
+raise dead$bard
+scrying$bard
+seeming$bard
+teleportation circle$bard
+eyebite$bard
+find the path$bard
+guards and wards$bard
+mass suggestion$bard
+otto's irresistible dance$bard
+programmed illusion$bard
+true seeing$bard
+etherealness$bard
+forcecage$bard
+mirage arcane$bard
+mordenkainen's magnificent mansion$bard
+mordenkainen's sword$bard
+project image$bard
+regenerate$bard
+resurrection$bard
+symbol$bard
+teleport$bard
+dominate monster$bard
+feeblemind$bard
+glibness$bard
+mind blank$bard
+power word stun$bard
+foresight$bard
+power word heal$bard
+power word kill$bard
+true polymorph$bard
+$bard

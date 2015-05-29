@@ -1,0 +1,10 @@
+fog cloud$tempest
+thunderwave$tempest
+gust of wind$tempest
+shatter$tempest
+call lightning$tempest
+sleet storm$tempest
+control water$tempest
+ice storm$tempest
+destructive wave$tempest
+insect plague$tempest

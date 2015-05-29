@@ -1,0 +1,1462 @@
+hold person$arctic
+spike growth$arctic
+sleet storm$arctic
+slow$arctic
+freedom of movement$arctic
+ice storm$arctic
+commune with nature$arctic
+cone of cold$arctic
+acid splash$sorcerer
+blade ward$sorcerer
+chill touch$sorcerer
+control flames$sorcerer
+create bonfire$sorcerer
+dancing lights$sorcerer
+fire bolt$sorcerer
+friends$sorcerer
+frostbite$sorcerer
+gust$sorcerer
+light$sorcerer
+mage hand$sorcerer
+mending$sorcerer
+message$sorcerer
+minor illusion$sorcerer
+mold earth$sorcerer
+poison spray$sorcerer
+prestidigitation$sorcerer
+ray of frost$sorcerer
+shape water$sorcerer
+shocking grasp$sorcerer
+thunderclap$sorcerer
+true strike$sorcerer
+burning hands$sorcerer
+catapult$sorcerer
+charm person$sorcerer
+chromatic orb$sorcerer
+color spray$sorcerer
+comprehend languages$sorcerer
+detect magic$sorcerer
+disguise self$sorcerer
+earth tremor$sorcerer
+expeditious retreat$sorcerer
+false life$sorcerer
+feather fall$sorcerer
+fog cloud$sorcerer
+ice knife$sorcerer
+jump$sorcerer
+mage armor$sorcerer
+magic missile$sorcerer
+ray of sickness$sorcerer
+shield$sorcerer
+silent image$sorcerer
+sleep$sorcerer
+thunderwave$sorcerer
+witch bolt$sorcerer
+aganazzar's scorcher$sorcerer
+alter self$sorcerer
+blindness/deafness$sorcerer
+blur$sorcerer
+cloud of daggers$sorcerer
+crown of madness$sorcerer
+darkness$sorcerer
+darkvision$sorcerer
+detect thoughts$sorcerer
+dust devil$sorcerer
+earthbind$sorcerer
+enhance ability$sorcerer
+enlarge/reduce$sorcerer
+gust of wind$sorcerer
+hold person$sorcerer
+invisibility$sorcerer
+knock$sorcerer
+levitate$sorcerer
+maximilian's earthen grasp$sorcerer
+mirror image$sorcerer
+misty step$sorcerer
+phantasmal force$sorcerer
+pyrotechnics$sorcerer
+scorching ray$sorcerer
+see invisibility$sorcerer
+shatter$sorcerer
+snilloc's snowball swarm$sorcerer
+spider climb$sorcerer
+suggestion$sorcerer
+warding wind$sorcerer
+web$sorcerer
+blink$sorcerer
+clairvoyance$sorcerer
+counterspell$sorcerer
+daylight$sorcerer
+dispel magic$sorcerer
+erupting earth$sorcerer
+fear$sorcerer
+fireball$sorcerer
+flame arrows$sorcerer
+fly$sorcerer
+gaseous form$sorcerer
+haste$sorcerer
+hypnotic pattern$sorcerer
+lightning bolt$sorcerer
+major image$sorcerer
+melf's minute meteors$sorcerer
+protection from energy$sorcerer
+sleet storm$sorcerer
+slow$sorcerer
+stinking cloud$sorcerer
+tongues$sorcerer
+wall of water$sorcerer
+water breathing$sorcerer
+water walk$sorcerer
+banishment$sorcerer
+blight$sorcerer
+confusion$sorcerer
+dimension door$sorcerer
+dominate beast$sorcerer
+greater invisibility$sorcerer
+ice storm$sorcerer
+polymorph$sorcerer
+stoneskin$sorcerer
+storm sphere$sorcerer
+vitriolic sphere$sorcerer
+wall of fire$sorcerer
+watery sphere$sorcerer
+animate objects$sorcerer
+cloudkill$sorcerer
+cone of cold$sorcerer
+control winds$sorcerer
+creation$sorcerer
+dominate person$sorcerer
+hold monster$sorcerer
+immolation$sorcerer
+insect plague$sorcerer
+seeming$sorcerer
+telekinesis$sorcerer
+teleportation circle$sorcerer
+wall of stone$sorcerer
+arcane gate$sorcerer
+chain lightning$sorcerer
+circle of death$sorcerer
+disintegrate$sorcerer
+eyebite$sorcerer
+globe of invulnerability$sorcerer
+investiture of flame$sorcerer
+investiture of ice$sorcerer
+investiture of stone$sorcerer
+investiture of wind$sorcerer
+mass suggestion$sorcerer
+move earth$sorcerer
+sunbeam$sorcerer
+true seeing$sorcerer
+delayed blast fireball$sorcerer
+etherealness$sorcerer
+finger of death$sorcerer
+fire storm$sorcerer
+plane shift$sorcerer
+prismatic spray$sorcerer
+reverse gravity$sorcerer
+teleport$sorcerer
+abi-dalzim's horrid wilting$sorcerer
+dominate monster$sorcerer
+earthquake$sorcerer
+incendiary cloud$sorcerer
+power word stun$sorcerer
+sunburst$sorcerer
+gate$sorcerer
+meteor swarm$sorcerer
+power word kill$sorcerer
+time stop$sorcerer
+wish$sorcerer
+acid splash$wizard
+blade ward$wizard
+chill touch$wizard
+control flames$wizard
+create bonfire$wizard
+dancing lights$wizard
+fire bolt$wizard
+friends$wizard
+frostbite$wizard
+gust$wizard
+light$wizard
+mage hand$wizard
+mending$wizard
+message$wizard
+minor illusion$wizard
+mold earth$wizard
+poison spray$wizard
+prestidigitation$wizard
+ray of frost$wizard
+shape water$wizard
+shocking grasp$wizard
+thunderclap$wizard
+true strike$wizard
+absorb elements$wizard
+alarm$wizard
+burning hands$wizard
+catapult$wizard
+charm person$wizard
+chromatic orb$wizard
+color spray$wizard
+comprehend languages$wizard
+detect magic$wizard
+disguise self$wizard
+earth tremor$wizard
+expeditious retreat$wizard
+false life$wizard
+feather fall$wizard
+find familiar$wizard
+fog cloud$wizard
+grease$wizard
+ice knife$wizard
+identify$wizard
+illusory script$wizard
+jump$wizard
+longstrider$wizard
+mage armor$wizard
+magic missile$wizard
+protection from evil and good$wizard
+ray of sickness$wizard
+shield$wizard
+silent image$wizard
+sleep$wizard
+tasha's hideous laughter$wizard
+tenser's floating disk$wizard
+thunderwave$wizard
+unseen servant$wizard
+witch bolt$wizard
+aganazzar's scorcher$wizard
+alter self$wizard
+arcane lock$wizard
+blindness/deafness$wizard
+blur$wizard
+cloud of daggers$wizard
+continual flame$wizard
+crown of madness$wizard
+darkness$wizard
+darkvision$wizard
+detect thoughts$wizard
+dust devil$wizard
+earthbind$wizard
+enlarge/reduce$wizard
+flaming sphere$wizard
+gentle repose$wizard
+gust of wind$wizard
+hold person$wizard
+invisibility$wizard
+knock$wizard
+levitate$wizard
+locate object$wizard
+magic mouth$wizard
+magic weapon$wizard
+maximilian's earthen grasp$wizard
+melf's acid arrow$wizard
+mirror image$wizard
+misty step$wizard
+nystul's magic aura$wizard
+phantasmal force$wizard
+pyrotechnics$wizard
+ray of enfeeblement$wizard
+rope trick$wizard
+scorching ray$wizard
+see invisibility$wizard
+shatter$wizard
+skywrite$wizard
+snilloc's snowball swarm$wizard
+spider climb$wizard
+suggestion$wizard
+web$wizard
+animate dead$wizard
+bestow curse$wizard
+blink$wizard
+clairvoyance$wizard
+counterspell$wizard
+dispel magic$wizard
+erupting earth$wizard
+fear$wizard
+feign death$wizard
+fireball$wizard
+flame arrows$wizard
+fly$wizard
+gaseous form$wizard
+glyph of warding$wizard
+haste$wizard
+hypnotic pattern$wizard
+leomund's tiny hut$wizard
+lightning bolt$wizard
+magic circle$wizard
+major image$wizard
+melf's minute meteors$wizard
+nondetection$wizard
+phantom steed$wizard
+protection from energy$wizard
+remove curse$wizard
+sending$wizard
+sleet storm$wizard
+slow$wizard
+stinking cloud$wizard
+tidal wave$wizard
+tongues$wizard
+vampiric touch$wizard
+wall of sand$wizard
+wall of water$wizard
+water breathing$wizard
+arcane eye$wizard
+banishment$wizard
+blight$wizard
+confusion$wizard
+conjure minor elementals$wizard
+control water$wizard
+dimension door$wizard
+elemental bane$wizard
+evard's black tentacles$wizard
+fabricate$wizard
+fire shield$wizard
+greater invisibility$wizard
+hallucinatory terrain$wizard
+ice storm$wizard
+leomund's secret chest$wizard
+locate creature$wizard
+mordenkainen's faithful hound$wizard
+mordenkainen's private sanctum$wizard
+otiluke's resilient sphere$wizard
+phantasmal killer$wizard
+polymorph$wizard
+stone shape$wizard
+stoneskin$wizard
+storm sphere$wizard
+vitriolic sphere$wizard
+wall of fire$wizard
+watery sphere$wizard
+animate objects$wizard
+bigby's hand$wizard
+cloudkill$wizard
+cone of cold$wizard
+conjure elemental$wizard
+contact other plane$wizard
+control winds$wizard
+creation$wizard
+dominate person$wizard
+dream$wizard
+geas$wizard
+hold monster$wizard
+immolation$wizard
+legend lore$wizard
+mislead$wizard
+modify memory$wizard
+passwall$wizard
+planar binding$wizard
+rary's telepathic bond$wizard
+scrying$wizard
+seeming$wizard
+telekinesis$wizard
+teleportation circle$wizard
+transmute rock$wizard
+wall of force$wizard
+wall of stone$wizard
+arcane gate$wizard
+chain lightning$wizard
+circle of death$wizard
+contingency$wizard
+create undead$wizard
+disintegrate$wizard
+drawmij's instant summons$wizard
+eyebite$wizard
+flesh to stone$wizard
+globe of invulnerability$wizard
+guards and wards$wizard
+investiture of flame$wizard
+investiture of ice$wizard
+investiture of stone$wizard
+investiture of wind$wizard
+magic jar$wizard
+mass suggestion$wizard
+move earth$wizard
+otiluke's freezing sphere$wizard
+otto's irresistible dance$wizard
+programmed illusion$wizard
+sunbeam$wizard
+true seeing$wizard
+wall of ice$wizard
+delayed blast fireball$wizard
+etherealness$wizard
+finger of death$wizard
+forcecage$wizard
+mirage arcane$wizard
+mordenkainen's magnificent mansion$wizard
+mordenkainen's sword$wizard
+plane shift$wizard
+prismatic spray$wizard
+project image$wizard
+reverse gravity$wizard
+sequester$wizard
+simulacrum$wizard
+symbol$wizard
+teleport$wizard
+whirlwind$wizard
+abi-dalzim's horrid wilting$wizard
+antimagic field$wizard
+antipathy/sympathy$wizard
+clone$wizard
+control weather$wizard
+demiplane$wizard
+dominate monster$wizard
+feeblemind$wizard
+incendiary cloud$wizard
+maze$wizard
+mind blank$wizard
+power word stun$wizard
+sunburst$wizard
+telepathy$wizard
+astral projection$wizard
+foresight$wizard
+gate$wizard
+imprisonment$wizard
+meteor swarm$wizard
+power word kill$wizard
+prismatic wall$wizard
+shapechange$wizard
+time stop$wizard
+true polymorph$wizard
+weird$wizard
+wish$wizard
+blade ward$warlock
+chill touch$warlock
+create bonfire$warlock
+eldritch blast$warlock
+friends$warlock
+frostbite$warlock
+mage hand$warlock
+magic stone$warlock
+minor illusion$warlock
+poison spray$warlock
+prestidigitation$warlock
+thunderclap$warlock
+true strike$warlock
+armor of agathys$warlock
+arms of hadar$warlock
+charm person$warlock
+comprehend languages$warlock
+expeditious retreat$warlock
+hellish rebuke$warlock
+hex$warlock
+illusory script$warlock
+protection from evil and good$warlock
+unseen servant$warlock
+witch bolt$warlock
+cloud of daggers$warlock
+crown of madness$warlock
+darkness$warlock
+earthbind$warlock
+enthrall$warlock
+hold person$warlock
+invisibility$warlock
+mirror image$warlock
+misty step$warlock
+ray of enfeeblement$warlock
+shatter$warlock
+spider climb$warlock
+suggestion$warlock
+counterspell$warlock
+dispel magic$warlock
+fear$warlock
+fly$warlock
+gaseous form$warlock
+hunger of hadar$warlock
+hypnotic pattern$warlock
+magic circle$warlock
+major image$warlock
+remove curse$warlock
+tongues$warlock
+vampiric touch$warlock
+banishment$warlock
+blight$warlock
+dimension door$warlock
+elemental bane$warlock
+hallucinatory terrain$warlock
+contact other plane$warlock
+dream$warlock
+hold monster$warlock
+scrying$warlock
+arcane gate$warlock
+circle of death$warlock
+conjure fey$warlock
+create undead$warlock
+eyebite$warlock
+flesh to stone$warlock
+investiture of flame$warlock
+investiture of ice$warlock
+investiture of stone$warlock
+investiture of wind$warlock
+mass suggestion$warlock
+true seeing$warlock
+etherealness$warlock
+finger of death$warlock
+forcecage$warlock
+plane shift$warlock
+demiplane$warlock
+dominate monster$warlock
+feeblemind$warlock
+glibness$warlock
+power word stun$warlock
+astral projection$warlock
+foresight$warlock
+imprisonment$warlock
+power word kill$warlock
+true polymorph$warlock
+darkness$swamp
+melf's acid arrow$swamp
+water walk$swamp
+stinking cloud$swamp
+freedin of movement$swamp
+locate creature$swamp
+insect plague$swamp
+scrying$swamp
+burning hands$light
+faerie fire$light
+flaming sphere$light
+scorching ray$light
+daylight$light
+fireball$light
+guardian of faith$light
+wall of fire$light
+flame strike$light
+barkski$forest
+spider climb$forest
+call lightning$forest
+plant growth$forest
+divination$forest
+freedom of movement$forest
+commune with nature$forest
+tree stride$forest
+burning hands$fiend
+command$fiend
+blindness/deafness$fiend
+scorching ray$fiend
+fireball$fiend
+stinking cloud$fiend
+fire shield$fiend
+wall of fire$fiend
+flame strike$fiend
+hallow$fiend
+acid splash$eldritchknight
+blade ward$eldritchknight
+chill touch$eldritchknight
+control flames$eldritchknight
+create bonfire$eldritchknight
+dancing lights$eldritchknight
+fire bolt$eldritchknight
+friends$eldritchknight
+frostbite$eldritchknight
+gust$eldritchknight
+light$eldritchknight
+mage hand$eldritchknight
+mending$eldritchknight
+message$eldritchknight
+minor illusion$eldritchknight
+mold earth$eldritchknight
+poison spray$eldritchknight
+prestidigitation$eldritchknight
+ray of frost$eldritchknight
+shape water$eldritchknight
+shocking grasp$eldritchknight
+thunderclap$eldritchknight
+true strike$eldritchknight
+absorb elements$eldritchknight
+alarm$eldritchknight
+burning hands$eldritchknight
+catapult$eldritchknight
+charm person$eldritchknight
+chromatic orb$eldritchknight
+color spray$eldritchknight
+comprehend languages$eldritchknight
+detect magic$eldritchknight
+disguise self$eldritchknight
+earth tremor$eldritchknight
+expeditious retreat$eldritchknight
+false life$eldritchknight
+feather fall$eldritchknight
+find familiar$eldritchknight
+fog cloud$eldritchknight
+grease$eldritchknight
+ice knife$eldritchknight
+identify$eldritchknight
+illusory script$eldritchknight
+jump$eldritchknight
+longstrider$eldritchknight
+mage armor$eldritchknight
+magic missile$eldritchknight
+protection from evil and good$eldritchknight
+ray of sickness$eldritchknight
+shield$eldritchknight
+silent image$eldritchknight
+sleep$eldritchknight
+tasha's hideous laughter$eldritchknight
+tenser's floating disk$eldritchknight
+thunderwave$eldritchknight
+unseen servant$eldritchknight
+witch bolt$eldritchknight
+aganazzar's scorcher$eldritchknight
+alter self$eldritchknight
+arcane lock$eldritchknight
+blindness/deafness$eldritchknight
+blur$eldritchknight
+cloud of daggers$eldritchknight
+continual flame$eldritchknight
+crown of madness$eldritchknight
+darkness$eldritchknight
+darkvision$eldritchknight
+detect thoughts$eldritchknight
+dust devil$eldritchknight
+earthbind$eldritchknight
+enlarge/reduce$eldritchknight
+flaming sphere$eldritchknight
+gentle repose$eldritchknight
+gust of wind$eldritchknight
+hold person$eldritchknight
+invisibility$eldritchknight
+knock$eldritchknight
+levitate$eldritchknight
+locate object$eldritchknight
+magic mouth$eldritchknight
+magic weapon$eldritchknight
+maximilian's earthen grasp$eldritchknight
+melf's acid arrow$eldritchknight
+mirror image$eldritchknight
+misty step$eldritchknight
+nystul's magic aura$eldritchknight
+phantasmal force$eldritchknight
+pyrotechnics$eldritchknight
+ray of enfeeblement$eldritchknight
+rope trick$eldritchknight
+scorching ray$eldritchknight
+see invisibility$eldritchknight
+shatter$eldritchknight
+skywrite$eldritchknight
+snilloc's snowball swarm$eldritchknight
+spider climb$eldritchknight
+suggestion$eldritchknight
+web$eldritchknight
+animate dead$eldritchknight
+bestow curse$eldritchknight
+blink$eldritchknight
+clairvoyance$eldritchknight
+counterspell$eldritchknight
+dispel magic$eldritchknight
+erupting earth$eldritchknight
+fear$eldritchknight
+feign death$eldritchknight
+fireball$eldritchknight
+flame arrows$eldritchknight
+fly$eldritchknight
+gaseous form$eldritchknight
+glyph of warding$eldritchknight
+haste$eldritchknight
+hypnotic pattern$eldritchknight
+leomund's tiny hut$eldritchknight
+lightning bolt$eldritchknight
+magic circle$eldritchknight
+major image$eldritchknight
+melf's minute meteors$eldritchknight
+nondetection$eldritchknight
+phantom steed$eldritchknight
+protection from energy$eldritchknight
+remove curse$eldritchknight
+sending$eldritchknight
+sleet storm$eldritchknight
+slow$eldritchknight
+stinking cloud$eldritchknight
+tidal wave$eldritchknight
+tongues$eldritchknight
+vampiric touch$eldritchknight
+wall of sand$eldritchknight
+wall of water$eldritchknight
+water breathing$eldritchknight
+arcane eye$eldritchknight
+banishment$eldritchknight
+blight$eldritchknight
+confusion$eldritchknight
+conjure minor elementals$eldritchknight
+control water$eldritchknight
+dimension door$eldritchknight
+elemental bane$eldritchknight
+evard's black tentacles$eldritchknight
+fabricate$eldritchknight
+fire shield$eldritchknight
+greater invisibility$eldritchknight
+hallucinatory terrain$eldritchknight
+ice storm$eldritchknight
+leomund's secret chest$eldritchknight
+locate creature$eldritchknight
+mordenkainen's faithful hound$eldritchknight
+mordenkainen's private sanctum$eldritchknight
+otiluke's resilient sphere$eldritchknight
+phantasmal killer$eldritchknight
+polymorph$eldritchknight
+stone shape$eldritchknight
+stoneskin$eldritchknight
+storm sphere$eldritchknight
+vitriolic sphere$eldritchknight
+wall of fire$eldritchknight
+watery sphere$eldritchknight
+$eldritchknight
+spider climb$mountain
+spike growth$mountain
+lightning bolt$mountain
+meld into stone$mountain
+stone shape$mountain
+stoneskin$mountain
+passwall$mountain
+wall of stone$mountain
+blur$desert
+silence$desert
+create food and water$desert
+protection from energy$desert
+blight$desert
+hallucinatory terrain$desert
+insect plague$desert
+wall of stone$desert
+mirror image$coast
+misty step$coast
+water breathing$coast
+water walk$coast
+control water$coast
+freedom of movement$coast
+conjure elemental$coast
+scrying$coast
+bless$life
+cure wounds$life
+lesser restoration$life
+spiritual weapon$life
+beacon of hope$life
+revivify$life
+death ward$life
+guardian of faith$life
+mass cure wounds$life
+raise dead$life
+guidance$cleric
+light$cleric
+mending$cleric
+resistance$cleric
+sacred flame$cleric
+spare the dying$cleric
+thaumaturgy$cleric
+bane$cleric
+bless$cleric
+command$cleric
+create or destroy water$cleric
+cure wounds$cleric
+detect evil and good$cleric
+detect magic$cleric
+detect poison and disease$cleric
+guiding bolt$cleric
+healing word$cleric
+inflict wounds$cleric
+protection from evil and good$cleric
+purify food and drink$cleric
+sanctuary$cleric
+shield of faith$cleric
+aid$cleric
+augury$cleric
+blindness/deafness$cleric
+calm emotions$cleric
+continual flame$cleric
+enhance ability$cleric
+find traps$cleric
+gentle repose$cleric
+hold person$cleric
+lesser restoration$cleric
+locate object$cleric
+prayer of healing$cleric
+protection from poison$cleric
+silence$cleric
+spiritual weapon$cleric
+warding bond$cleric
+zone of truth$cleric
+animate dead$cleric
+beacon of hope$cleric
+bestow curse$cleric
+clairvoyance$cleric
+create food and water$cleric
+daylight$cleric
+dispel magic$cleric
+feign death$cleric
+glyph of warding$cleric
+magic circle$cleric
+mass healing word$cleric
+meld into stone$cleric
+protection from energy$cleric
+remove curse$cleric
+revivify$cleric
+sending$cleric
+speak with dead$cleric
+spirit guardians$cleric
+tongues$cleric
+water walk$cleric
+banishment$cleric
+control water$cleric
+death ward$cleric
+divination$cleric
+freedom of movement$cleric
+guardian of faith$cleric
+locate creature$cleric
+stone shape$cleric
+commune$cleric
+contagion$cleric
+dispel evil and good$cleric
+flame strike$cleric
+geas$cleric
+greater restoration$cleric
+hallow$cleric
+insect plague$cleric
+legend lore$cleric
+mass cure wounds$cleric
+planar binding$cleric
+raise dead$cleric
+scrying$cleric
+blade barrier$cleric
+create undead$cleric
+find the path$cleric
+forbiddance$cleric
+harm$cleric
+heal$cleric
+heroes' feast$cleric
+planar ally$cleric
+true seeing$cleric
+word of recall$cleric
+conjure celestial$cleric
+divine word$cleric
+etherealness$cleric
+fire storm$cleric
+plane shift$cleric
+regenerate$cleric
+resurrection$cleric
+symbol$cleric
+antimagic field$cleric
+control weather$cleric
+earthquake$cleric
+holy aura$cleric
+astral projection$cleric
+gate$cleric
+mass heal$cleric
+true resurrection$cleric
+$cleric
+spider climb$underdark
+web$underdark
+gaseous form$underdark
+stinking cloud$underdark
+greater invisibility$underdark
+stone shape$underdark
+cloudkill$underdark
+insect plague$underdark
+blade ward$bard
+dancing lights$bard
+friends$bard
+light$bard
+mage hand$bard
+mending$bard
+message$bard
+minor illusion$bard
+prestidigitation$bard
+thunderclap$bard
+true strike$bard
+vicious mockery$bard
+animal friendship$bard
+bane$bard
+charm person$bard
+comprehend languages$bard
+cure wounds$bard
+detect magic$bard
+disguise self$bard
+dissonant whispers$bard
+earth tremor$bard
+faerie fire$bard
+feather fall$bard
+healing word$bard
+heroism$bard
+identify$bard
+illusory script$bard
+longstrider$bard
+silent image$bard
+sleep$bard
+speak with animals$bard
+tasha's hideous laughter$bard
+thunderwave$bard
+unseen servant$bard
+animal messenger$bard
+blindness/deafness$bard
+calm emotions$bard
+cloud of daggers$bard
+crown of madness$bard
+detect thoughts$bard
+enhance ability$bard
+enthrall$bard
+heat metal$bard
+hold person$bard
+invisibility$bard
+knock$bard
+lesser restoration$bard
+locate animals or plants$bard
+locate object$bard
+magic mouth$bard
+phantasmal force$bard
+pyrotechnics$bard
+see invisibility$bard
+shatter$bard
+silence$bard
+skywrite$bard
+suggestion$bard
+warding wind$bard
+zone of truth$bard
+bestow curse$bard
+clairvoyance$bard
+dispel magic$bard
+fear$bard
+feign death$bard
+glyph of warding$bard
+hypnotic pattern$bard
+leomund's tiny hut$bard
+major image$bard
+nondetection$bard
+plant growth$bard
+sending$bard
+speak with dead$bard
+speak with plants$bard
+stinking cloud$bard
+tongues$bard
+compulsion$bard
+confusion$bard
+dimension door$bard
+freedom of movement$bard
+greater invisibility$bard
+hallucinatory terrain$bard
+locate creature$bard
+polymorph$bard
+animate objects$bard
+awaken$bard
+dominate person$bard
+dream$bard
+geas$bard
+greater restoration$bard
+hold monster$bard
+legend lore$bard
+mass cure wounds$bard
+mislead$bard
+modify memory$bard
+planar binding$bard
+raise dead$bard
+scrying$bard
+seeming$bard
+teleportation circle$bard
+eyebite$bard
+find the path$bard
+guards and wards$bard
+mass suggestion$bard
+otto's irresistible dance$bard
+programmed illusion$bard
+true seeing$bard
+etherealness$bard
+forcecage$bard
+mirage arcane$bard
+mordenkainen's magnificent mansion$bard
+mordenkainen's sword$bard
+project image$bard
+regenerate$bard
+resurrection$bard
+symbol$bard
+teleport$bard
+dominate monster$bard
+feeblemind$bard
+glibness$bard
+mind blank$bard
+power word stun$bard
+foresight$bard
+power word heal$bard
+power word kill$bard
+true polymorph$bard
+$bard
+protection from evil and good$devotion
+sanctuary$devotion
+lesser restoration$devotion
+zone of truth$devotion
+beacon of hope$devotion
+dispel magic$devotion
+freedom of movement$devotion
+guardian of faith$devotion
+commune$devotion
+flame strike$devotion
+absorb elements$ranger
+alarm$ranger
+animal friendship$ranger
+beast bond$ranger
+cure wounds$ranger
+detect magic$ranger
+detect poison and disease$ranger
+ensnaring strike$ranger
+fog cloud$ranger
+goodberry$ranger
+hail of thorns$ranger
+hunter's mark$ranger
+jump$ranger
+longstrider$ranger
+speak with animals$ranger
+animal messenger$ranger
+barkskin$ranger
+beast sense$ranger
+cordon of arrows$ranger
+darkvision$ranger
+find traps$ranger
+lesser restoration$ranger
+locate animals or plants$ranger
+locate object$ranger
+pass without trace$ranger
+protection from poison$ranger
+silence$ranger
+spike growth$ranger
+conjure animals$ranger
+conjure barrage$ranger
+daylight$ranger
+flame arrows$ranger
+lightning arrow$ranger
+nondetection$ranger
+plant growth$ranger
+protection from energy$ranger
+speak with plants$ranger
+water breathing$ranger
+water walk$ranger
+wind wall$ranger
+conjure woodland beings$ranger
+freedom of movement$ranger
+grasping vine$ranger
+locate creature$ranger
+stoneskin$ranger
+commune with nature$ranger
+conjure volley$ranger
+swift quiver$ranger
+tree stride$ranger
+control flames$druid
+create bonfire$druid
+druidcraft$druid
+frostbite$druid
+guidance$druid
+gust$druid
+magic stone$druid
+mending$druid
+mold earth$druid
+poison spray$druid
+produce flame$druid
+resistance$druid
+shape water$druid
+shillelagh$druid
+thorn whip$druid
+thunderclap$druid
+absorb elements$druid
+animal friendship$druid
+beast bond$druid
+charm person$druid
+create or destroy water$druid
+cure wounds$druid
+detect magic$druid
+detect poison and disease$druid
+earth tremor$druid
+entangle$druid
+faerie fire$druid
+fog cloud$druid
+goodberry$druid
+healing word$druid
+ice knife$druid
+jump$druid
+longstrider$druid
+purify food and drink$druid
+speak with animals$druid
+thunderwave$druid
+animal messenger$druid
+barkskin$druid
+beast sense$druid
+darkvision$druid
+dust devil$druid
+earthbind$druid
+enhance ability$druid
+find traps$druid
+flame blade$druid
+flaming sphere$druid
+gust of wind$druid
+heat metal$druid
+hold person$druid
+lesser restoration$druid
+locate animals or plants$druid
+locate object$druid
+moonbeam$druid
+pass without trace$druid
+protection from poison$druid
+skywrite$druid
+spike growth$druid
+warding wind$druid
+call lightning$druid
+conjure animals$druid
+daylight$druid
+dispel magic$druid
+erupting earth$druid
+feign death$druid
+flame arrows$druid
+meld into stone$druid
+plant growth$druid
+protection from energy$druid
+sleet storm$druid
+speak with plants$druid
+tidal wave$druid
+wall of water$druid
+water breathing$druid
+water walk$druid
+wind wall$druid
+blight$druid
+confusion$druid
+conjure minor elementals$druid
+conjure woodland beings$druid
+control water$druid
+dominate beast$druid
+elemental bane$druid
+freedom of movement$druid
+giant insect$druid
+grasping vine$druid
+hallucinatory terrain$druid
+ice storm$druid
+locate creature$druid
+polymorph$druid
+stone shape$druid
+stoneskin$druid
+wall of fire$druid
+watery sphere$druid
+antilife shell$druid
+awaken$druid
+commune with nature$druid
+conjure elemental$druid
+contagion$druid
+control winds$druid
+geas$druid
+greater restoration$druid
+insect plague$druid
+maelstrom$druid
+mass cure wounds$druid
+planar binding$druid
+reincarnate$druid
+scrying$druid
+transmute rock$druid
+tree stride$druid
+wall of stone$druid
+bones of the earth$druid
+conjure fey$druid
+find the path$druid
+heal$druid
+heroes' feast$druid
+investiture of flame$druid
+investiture of ice$druid
+investiture of stone$druid
+investiture of wind$druid
+move earth$druid
+primordial ward$druid
+sunbeam$druid
+transport via plants$druid
+wall of thorns$druid
+wind walk$druid
+fire storm$druid
+mirage arcane$druid
+plane shift$druid
+regenerate$druid
+reverse gravity$druid
+whirlwind$druid
+animal shapes$druid
+antipathy/sympathy$druid
+control weather$druid
+earthquake$druid
+feeblemind$druid
+sunburst$druid
+tsunami$druid
+foresight$druid
+shapechange$druid
+storm of vengeance$druid
+true resurrection$druid
+$druid
+bless$paladin
+command$paladin
+compelled duel$paladin
+cure wounds$paladin
+detect evil and good$paladin
+detect magic$paladin
+detect poison and disease$paladin
+divine favor$paladin
+heroism$paladin
+protection from evil and good$paladin
+purify food and drink$paladin
+searing smite$paladin
+shield of faith$paladin
+thunderous smite$paladin
+wrathful smite$paladin
+aid$paladin
+branding smite$paladin
+find steed$paladin
+lesser restoration$paladin
+locate object$paladin
+magic weapon$paladin
+protection from poison$paladin
+zone of truth$paladin
+aura of vitality$paladin
+blinding smite$paladin
+create food and water$paladin
+crusader's mantle$paladin
+daylight$paladin
+dispel magic$paladin
+elemental weapon$paladin
+magic circle$paladin
+remove curse$paladin
+revivify$paladin
+aura of life$paladin
+aura of purity$paladin
+banishment$paladin
+death ward$paladin
+locate creature$paladin
+staggering smite$paladin
+banishing smite$paladin
+circle of power$paladin
+destructive smite$paladin
+dispel evil and good$paladin
+geas$paladin
+raise dead$paladin
+bsne$vengeance
+hunter's mask$vengeance
+hold person$vengeance
+mistry step$vengeance
+haste$vengeance
+protection from energy$vengeance
+banishment$vengeance
+dimension door$vengeance
+hold monster$vengeance
+scrying$vengeance
+dissonant whispers$greatone
+tasha's hideous laughter$greatone
+detect thoughts$greatone
+phantasmal force$greatone
+clairvoyance$greatone
+sending$greatone
+dominate beast$greatone
+evard's black tentacles$greatone
+dominate person$greatone
+telekinesis$greatone
+animal friendship$nature
+speak with anials$nature
+barkskin$nature
+plant growth$nature
+wind wall$nature
+dominate beast$nature
+grasping vine$nature
+insect plague$nature
+tree stride$nature
+divine favor$war
+shield of faith$war
+magic weapon$war
+spiritual weapon$war
+crusader's mantle$war
+spirit guardians$war
+freedom of movement$war
+stoneskin$war
+flame strike$war
+hold monster$war
+charm person
+disguise self
+mirror image
+pass without trace
+blink
+dispel magic
+dimension door
+polymorph
+dominate person
+modify memory
+faerie fire$archfey
+sleep$archfey
+calm emotions$archfey
+phantasmal force$archfey
+blink$archfey
+plant growth$archfey
+dominate beast$archfey
+greater invisibility$archfey
+dominate person$archfey
+seeming$archfey
+fog cloud$tempest
+thunderwave$tempest
+gust of wind$tempest
+shatter$tempest
+call lightning$tempest
+sleet storm$tempest
+control water$tempest
+ice storm$tempest
+destructive wave$tempest
+insect plague$tempest
+acid splash$arcanetrickster
+blade ward$arcanetrickster
+chill touch$arcanetrickster
+control flames$arcanetrickster
+create bonfire$arcanetrickster
+dancing lights$arcanetrickster
+fire bolt$arcanetrickster
+friends$arcanetrickster
+frostbite$arcanetrickster
+gust$arcanetrickster
+light$arcanetrickster
+mage hand$arcanetrickster
+mending$arcanetrickster
+message$arcanetrickster
+minor illusion$arcanetrickster
+mold earth$arcanetrickster
+poison spray$arcanetrickster
+prestidigitation$arcanetrickster
+ray of frost$arcanetrickster
+shape water$arcanetrickster
+shocking grasp$arcanetrickster
+thunderclap$arcanetrickster
+true strike$arcanetrickster
+absorb elements$arcanetrickster
+alarm$arcanetrickster
+burning hands$arcanetrickster
+catapult$arcanetrickster
+charm person$arcanetrickster
+chromatic orb$arcanetrickster
+color spray$arcanetrickster
+comprehend languages$arcanetrickster
+detect magic$arcanetrickster
+disguise self$arcanetrickster
+earth tremor$arcanetrickster
+expeditious retreat$arcanetrickster
+false life$arcanetrickster
+feather fall$arcanetrickster
+find familiar$arcanetrickster
+fog cloud$arcanetrickster
+grease$arcanetrickster
+ice knife$arcanetrickster
+identify$arcanetrickster
+illusory script$arcanetrickster
+jump$arcanetrickster
+longstrider$arcanetrickster
+mage armor$arcanetrickster
+magic missile$arcanetrickster
+protection from evil and good$arcanetrickster
+ray of sickness$arcanetrickster
+shield$arcanetrickster
+silent image$arcanetrickster
+sleep$arcanetrickster
+tasha's hideous laughter$arcanetrickster
+tenser's floating disk$arcanetrickster
+thunderwave$arcanetrickster
+unseen servant$arcanetrickster
+witch bolt$arcanetrickster
+aganazzar's scorcher$arcanetrickster
+alter self$arcanetrickster
+arcane lock$arcanetrickster
+blindness/deafness$arcanetrickster
+blur$arcanetrickster
+cloud of daggers$arcanetrickster
+continual flame$arcanetrickster
+crown of madness$arcanetrickster
+darkness$arcanetrickster
+darkvision$arcanetrickster
+detect thoughts$arcanetrickster
+dust devil$arcanetrickster
+earthbind$arcanetrickster
+enlarge/reduce$arcanetrickster
+flaming sphere$arcanetrickster
+gentle repose$arcanetrickster
+gust of wind$arcanetrickster
+hold person$arcanetrickster
+invisibility$arcanetrickster
+knock$arcanetrickster
+levitate$arcanetrickster
+locate object$arcanetrickster
+magic mouth$arcanetrickster
+magic weapon$arcanetrickster
+maximilian's earthen grasp$arcanetrickster
+melf's acid arrow$arcanetrickster
+mirror image$arcanetrickster
+misty step$arcanetrickster
+nystul's magic aura$arcanetrickster
+phantasmal force$arcanetrickster
+pyrotechnics$arcanetrickster
+ray of enfeeblement$arcanetrickster
+rope trick$arcanetrickster
+scorching ray$arcanetrickster
+see invisibility$arcanetrickster
+shatter$arcanetrickster
+skywrite$arcanetrickster
+snilloc's snowball swarm$arcanetrickster
+spider climb$arcanetrickster
+suggestion$arcanetrickster
+web$arcanetrickster
+animate dead$arcanetrickster
+bestow curse$arcanetrickster
+blink$arcanetrickster
+clairvoyance$arcanetrickster
+counterspell$arcanetrickster
+dispel magic$arcanetrickster
+erupting earth$arcanetrickster
+fear$arcanetrickster
+feign death$arcanetrickster
+fireball$arcanetrickster
+flame arrows$arcanetrickster
+fly$arcanetrickster
+gaseous form$arcanetrickster
+glyph of warding$arcanetrickster
+haste$arcanetrickster
+hypnotic pattern$arcanetrickster
+leomund's tiny hut$arcanetrickster
+lightning bolt$arcanetrickster
+magic circle$arcanetrickster
+major image$arcanetrickster
+melf's minute meteors$arcanetrickster
+nondetection$arcanetrickster
+phantom steed$arcanetrickster
+protection from energy$arcanetrickster
+remove curse$arcanetrickster
+sending$arcanetrickster
+sleet storm$arcanetrickster
+slow$arcanetrickster
+stinking cloud$arcanetrickster
+tidal wave$arcanetrickster
+tongues$arcanetrickster
+vampiric touch$arcanetrickster
+wall of sand$arcanetrickster
+wall of water$arcanetrickster
+water breathing$arcanetrickster
+arcane eye$arcanetrickster
+banishment$arcanetrickster
+blight$arcanetrickster
+confusion$arcanetrickster
+conjure minor elementals$arcanetrickster
+control water$arcanetrickster
+dimension door$arcanetrickster
+elemental bane$arcanetrickster
+evard's black tentacles$arcanetrickster
+fabricate$arcanetrickster
+fire shield$arcanetrickster
+greater invisibility$arcanetrickster
+hallucinatory terrain$arcanetrickster
+ice storm$arcanetrickster
+leomund's secret chest$arcanetrickster
+locate creature$arcanetrickster
+mordenkainen's faithful hound$arcanetrickster
+mordenkainen's private sanctum$arcanetrickster
+otiluke's resilient sphere$arcanetrickster
+phantasmal killer$arcanetrickster
+polymorph$arcanetrickster
+stone shape$arcanetrickster
+stoneskin$arcanetrickster
+storm sphere$arcanetrickster
+vitriolic sphere$arcanetrickster
+wall of fire$arcanetrickster
+watery sphere$arcanetrickster
+$arcanetrickster
+ensnaring strike$ancients
+speak with animals$ancients
+moonbeam$ancients
+misty step$ancients
+plant growth$ancients
+protection from energy$ancients
+ice storm$ancients
+stoneskin$ancients
+commune with nature$ancients
+tree stride$ancients

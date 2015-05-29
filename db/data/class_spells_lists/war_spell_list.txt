@@ -1,0 +1,10 @@
+divine favor$war
+shield of faith$war
+magic weapon$war
+spiritual weapon$war
+crusader's mantle$war
+spirit guardians$war
+freedom of movement$war
+stoneskin$war
+flame strike$war
+hold monster$war

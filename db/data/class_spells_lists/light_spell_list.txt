@@ -1,0 +1,9 @@
+burning hands$light
+faerie fire$light
+flaming sphere$light
+scorching ray$light
+daylight$light
+fireball$light
+guardian of faith$light
+wall of fire$light
+flame strike$light

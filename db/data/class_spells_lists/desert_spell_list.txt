@@ -1,0 +1,8 @@
+blur$desert
+silence$desert
+create food and water$desert
+protection from energy$desert
+blight$desert
+hallucinatory terrain$desert
+insect plague$desert
+wall of stone$desert

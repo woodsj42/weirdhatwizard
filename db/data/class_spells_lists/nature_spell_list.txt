@@ -1,0 +1,9 @@
+animal friendship$nature
+speak with anials$nature
+barkskin$nature
+plant growth$nature
+wind wall$nature
+dominate beast$nature
+grasping vine$nature
+insect plague$nature
+tree stride$nature

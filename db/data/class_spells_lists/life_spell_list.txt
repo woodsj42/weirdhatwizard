@@ -1,0 +1,10 @@
+bless$life
+cure wounds$life
+lesser restoration$life
+spiritual weapon$life
+beacon of hope$life
+revivify$life
+death ward$life
+guardian of faith$life
+mass cure wounds$life
+raise dead$life

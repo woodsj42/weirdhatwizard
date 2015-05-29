@@ -1,0 +1,161 @@
+acid splash$arcanetrickster
+blade ward$arcanetrickster
+chill touch$arcanetrickster
+control flames$arcanetrickster
+create bonfire$arcanetrickster
+dancing lights$arcanetrickster
+fire bolt$arcanetrickster
+friends$arcanetrickster
+frostbite$arcanetrickster
+gust$arcanetrickster
+light$arcanetrickster
+mage hand$arcanetrickster
+mending$arcanetrickster
+message$arcanetrickster
+minor illusion$arcanetrickster
+mold earth$arcanetrickster
+poison spray$arcanetrickster
+prestidigitation$arcanetrickster
+ray of frost$arcanetrickster
+shape water$arcanetrickster
+shocking grasp$arcanetrickster
+thunderclap$arcanetrickster
+true strike$arcanetrickster
+absorb elements$arcanetrickster
+alarm$arcanetrickster
+burning hands$arcanetrickster
+catapult$arcanetrickster
+charm person$arcanetrickster
+chromatic orb$arcanetrickster
+color spray$arcanetrickster
+comprehend languages$arcanetrickster
+detect magic$arcanetrickster
+disguise self$arcanetrickster
+earth tremor$arcanetrickster
+expeditious retreat$arcanetrickster
+false life$arcanetrickster
+feather fall$arcanetrickster
+find familiar$arcanetrickster
+fog cloud$arcanetrickster
+grease$arcanetrickster
+ice knife$arcanetrickster
+identify$arcanetrickster
+illusory script$arcanetrickster
+jump$arcanetrickster
+longstrider$arcanetrickster
+mage armor$arcanetrickster
+magic missile$arcanetrickster
+protection from evil and good$arcanetrickster
+ray of sickness$arcanetrickster
+shield$arcanetrickster
+silent image$arcanetrickster
+sleep$arcanetrickster
+tasha's hideous laughter$arcanetrickster
+tenser's floating disk$arcanetrickster
+thunderwave$arcanetrickster
+unseen servant$arcanetrickster
+witch bolt$arcanetrickster
+aganazzar's scorcher$arcanetrickster
+alter self$arcanetrickster
+arcane lock$arcanetrickster
+blindness/deafness$arcanetrickster
+blur$arcanetrickster
+cloud of daggers$arcanetrickster
+continual flame$arcanetrickster
+crown of madness$arcanetrickster
+darkness$arcanetrickster
+darkvision$arcanetrickster
+detect thoughts$arcanetrickster
+dust devil$arcanetrickster
+earthbind$arcanetrickster
+enlarge/reduce$arcanetrickster
+flaming sphere$arcanetrickster
+gentle repose$arcanetrickster
+gust of wind$arcanetrickster
+hold person$arcanetrickster
+invisibility$arcanetrickster
+knock$arcanetrickster
+levitate$arcanetrickster
+locate object$arcanetrickster
+magic mouth$arcanetrickster
+magic weapon$arcanetrickster
+maximilian's earthen grasp$arcanetrickster
+melf's acid arrow$arcanetrickster
+mirror image$arcanetrickster
+misty step$arcanetrickster
+nystul's magic aura$arcanetrickster
+phantasmal force$arcanetrickster
+pyrotechnics$arcanetrickster
+ray of enfeeblement$arcanetrickster
+rope trick$arcanetrickster
+scorching ray$arcanetrickster
+see invisibility$arcanetrickster
+shatter$arcanetrickster
+skywrite$arcanetrickster
+snilloc's snowball swarm$arcanetrickster
+spider climb$arcanetrickster
+suggestion$arcanetrickster
+web$arcanetrickster
+animate dead$arcanetrickster
+bestow curse$arcanetrickster
+blink$arcanetrickster
+clairvoyance$arcanetrickster
+counterspell$arcanetrickster
+dispel magic$arcanetrickster
+erupting earth$arcanetrickster
+fear$arcanetrickster
+feign death$arcanetrickster
+fireball$arcanetrickster
+flame arrows$arcanetrickster
+fly$arcanetrickster
+gaseous form$arcanetrickster
+glyph of warding$arcanetrickster
+haste$arcanetrickster
+hypnotic pattern$arcanetrickster
+leomund's tiny hut$arcanetrickster
+lightning bolt$arcanetrickster
+magic circle$arcanetrickster
+major image$arcanetrickster
+melf's minute meteors$arcanetrickster
+nondetection$arcanetrickster
+phantom steed$arcanetrickster
+protection from energy$arcanetrickster
+remove curse$arcanetrickster
+sending$arcanetrickster
+sleet storm$arcanetrickster
+slow$arcanetrickster
+stinking cloud$arcanetrickster
+tidal wave$arcanetrickster
+tongues$arcanetrickster
+vampiric touch$arcanetrickster
+wall of sand$arcanetrickster
+wall of water$arcanetrickster
+water breathing$arcanetrickster
+arcane eye$arcanetrickster
+banishment$arcanetrickster
+blight$arcanetrickster
+confusion$arcanetrickster
+conjure minor elementals$arcanetrickster
+control water$arcanetrickster
+dimension door$arcanetrickster
+elemental bane$arcanetrickster
+evard's black tentacles$arcanetrickster
+fabricate$arcanetrickster
+fire shield$arcanetrickster
+greater invisibility$arcanetrickster
+hallucinatory terrain$arcanetrickster
+ice storm$arcanetrickster
+leomund's secret chest$arcanetrickster
+locate creature$arcanetrickster
+mordenkainen's faithful hound$arcanetrickster
+mordenkainen's private sanctum$arcanetrickster
+otiluke's resilient sphere$arcanetrickster
+phantasmal killer$arcanetrickster
+polymorph$arcanetrickster
+stone shape$arcanetrickster
+stoneskin$arcanetrickster
+storm sphere$arcanetrickster
+vitriolic sphere$arcanetrickster
+wall of fire$arcanetrickster
+watery sphere$arcanetrickster
+$arcanetrickster

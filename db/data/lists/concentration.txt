@@ -1,0 +1,155 @@
+Dancing Lights$Cantrip$Evocation$$1 action$VSM$yes$phb 230
+Friends$Cantrip$Enchantment$$1 action$SM$yes$phb 244
+Guidance$Cantrip$Divination$$1 action$VS$yes$phb 248
+Resistance$Cantrip$Abjuration$$1 action$VSM$yes$phb 272
+True Strike$Cantrip$Divination$$1 action$S$yes$phb 284
+Bane$1st$Enchantment$$1 action$VSM$yes$phb 216
+Bless$1st$Enchantment$$1 action$VSM$yes$phb 219
+Compelled Duel$1st$Enchantment$$1 bonus action$V$yes$phb 224
+Detect Evil and Good$1st$Divination$$1 action$VS$yes$phb 231
+Detect Magic$1st$Divination$yes$1 action$VS$yes$phb 231
+Detect Poison and Disease$1st$Divination$yes$1 action$VSM$yes$phb 231
+Divine Favor$1st$Evocation$$1 bonus action$VS$yes$phb 234
+Ensnaring Strike$1st$Conjuration$$1 bonus action$V$yes$phb 237
+Entangle$1st$Conjuration$$1 action$VS$yes$phb 238
+Expeditious Retreat$1st$Transmutation$$1 bonus action$VS$yes$phb 238
+Faerie Fire$1st$Evocation$$1 action$V$yes$phb 239
+Fog Cloud$1st$Conjuration$$1 action$VS$yes$phb 243
+Hail of Thorns$1st$Conjuration$$1 bonus action$V$yes$phb 249
+Heroism$1st$Enchantment$$1 action$VS$yes$phb 250
+Hex$1st$Enchantment$$1 bonus action$VSM$yes$phb 251
+Hunter's Mark$1st$Divination$$1 bonus action$V$yes$phb 251
+Protection from Evil and Good$1st$Abjuration$$1 action$VSM$yes$phb 270
+Searing Smite$1st$Evocation$$1 bonus action$V$yes$phb 274
+Shield of Faith$1st$Abjuration$$1 bonus action$VSM$yes$phb 275
+Silent Image$1st$Illusion$$1 action$VSM$yes$phb 276
+Tasha's Hideous Laughter$1st$Enchantment$$1 action$VSM$yes$phb 280
+Thunderous Smite$1st$Evocation$$1 bonus action$V$yes$phb 282
+Witch Bolt$1st$Evocation$$1 action$VSM$yes$phb 289
+Wrathful Smite$1st$Evocation$$1 bonus action$V$yes$phb 289
+Alter Self$2nd$Transmutation$$1 action$VS$yes$phb 211
+Barkskin$2nd$Transmutation$$1 action$VSM$yes$phb 217
+Beast Sense$2nd$Divination$yes$1 action$S$yes$phb 217
+Blur$2nd$Illusion$$1 action$V$yes$phb 219
+Branding Smite$2nd$Evocation$$1 bonus action$V$yes$phb 219
+Calm Emotions$2nd$Enchantment$$1 action$VS$yes$phb 221
+Cloud of Daggers$2nd$Conjuration$$1 action$VSM$yes$phb 222
+Crown of Madness$2nd$Enchantment$$1 action$VS$yes$phb 229
+Darkness$2nd$Evocation$$1 action$VM$yes$phb 230
+Detect Thoughts$2nd$Divination$$1 action$VSM$yes$phb 231
+Enhance Ability$2nd$Transmutation$$1 action$VSM$yes$phb 237
+Enlarge/Reduce$2nd$Transmutation$$1 action$VSM$yes$phb 237
+Flame Blade$2nd$Evocation$$1 bonus action$VSM$yes$phb 242
+Flaming Sphere$2nd$Conjuration$$1 action$VSM$yes$phb 242
+Gust of Wind$2nd$Evocation$$1 action$VSM$yes$phb 248
+Heat Metal$2nd$Transmutation$$1 action$VSM$yes$phb 250
+Hold Person$2nd$Enchantment$$1 action$VSM$yes$phb 251
+Invisibility$2nd$Illusion$$1 action$VSM$yes$phb 254
+Levitate$2nd$Transmutation$$1 action$VSM$yes$phb 255
+Locate Object$2nd$Divination$$1 action$VSM$yes$phb 256
+Magic Weapon$2nd$Transmutation$$1 bonus action$VS$yes$phb 257
+Moonbeam$2nd$Evocation$$1 action$VSM$yes$phb 261
+Pass without Trace$2nd$Abjuration$$1 action$VSM$yes$phb 264
+Phantasmal Force$2nd$Illusion$$1 action$VSM$yes$phb 264
+Ray of Enfeeblement$2nd$Necromancy$$1 action$VS$yes$phb 271
+Silence$2nd$Illusion$yes$1 action$VS$yes$phb 275
+Spider Climb$2nd$Transmutation$$1 action$VSM$yes$phb 277
+Spike Growth$2nd$Transmutation$$1 action$VSM$yes$phb 277
+Suggestion$2nd$Enchantment$$1 action$VM$yes$phb 279
+Web$2nd$Conjuration$$1 action$VSM$yes$phb 287
+Aura of Vitality$3rd$Evocation$$1 action$V$yes$phb 216
+Beacon of Hope$3rd$Abjuration$$1 action$VS$yes$phb 217
+Bestow Curse$3rd$Necromancy$$1 action$VS$yes$phb 218
+Blinding Smite$3rd$Evocation$$1 bonus action$V$yes$phb 219
+Call Lightning$3rd$Conjuration$$1 action$VS$yes$phb 220
+Clairvoyance$3rd$Divination$$10 minutes$VSMgp$yes$phb 222
+Conjure Animals$3rd$Conjuration$$1 action$VS$yes$phb 225
+Crusader's Mantle$3rd$Evocation$$1 action$V$yes$phb 230
+Elemental Weapon$3rd$Transmutation$$1 action$VS$yes$phb 237
+Fear$3rd$Illusion$$1 action$VSM$yes$phb 239
+Fly$3rd$Transmutation$$1 action$VSM$yes$phb 243
+Gaseous Form$3rd$Transmutation$$1 action$VSM$yes$phb 244
+Haste$3rd$Transmutation$$1 action$VSM$yes$phb 250
+Hunger of Hadar$3rd$Conjuration$$1 action$VSM$yes$phb 251
+Hypnotic Pattern$3rd$Illusion$$1 action$SM$yes$phb 252
+Lightning Arrow$3rd$Transmutation$$1 bonus action$VS$yes$phb 255
+Major Image$3rd$Illusion$$1 action$VSM$yes$phb 258
+Protection from Energy$3rd$Abjuration$$1 action$VS$yes$phb 270
+Sleet Storm$3rd$Conjuration$$1 action$VSM$yes$phb 276
+Slow$3rd$Transmutation$$1 action$VSM$yes$phb 277
+Spirit Guardians$3rd$Conjuration$$1 action$VSM$yes$phb 278
+Stinking Cloud$3rd$Conjuration$$1 action$VSM$yes$phb 278
+Vampiric Touch$3rd$Necromancy$$1 action$VS$yes$phb 285
+Wind Wall$3rd$Evocation$$1 action$VSM$yes$phb 288
+Arcane Eye$4th$Divination$$1 action$VSM$yes$phb 214
+Aura of Life$4th$Abjuration$$1 action$V$yes$phb 216
+Aura of Purity$4th$Abjuration$$1 action$V$yes$phb 216
+Banishment$4th$Abjuration$$1 action$VSM$yes$phb 217
+Compulsion$4th$Enchantment$$1 action$VS$yes$phb 224
+Confusion$4th$Enchantment$$1 action$VSM$yes$phb 224
+Conjure Minor Elementals$4th$Conjuration$$1 minute$VS$yes$phb 226
+Conjure Woodland Beings$4th$Conjuration$$1 action$VSM$yes$phb 226
+Control Water$4th$Transmutation$$1 action$VSM$yes$phb 227
+Dominate Beast$4th$Enchantment$$1 action$VS$yes$phb 234
+Evard's Black Tentacles$4th$Conjuration$$1 action$VSM$yes$phb 238
+Giant Insect$4th$Transmutation$$1 action$VS$yes$phb 245
+Grasping Vine$4th$Conjuration$$1 bonus action$VS$yes$phb 246
+Greater Invisibility$4th$Illusion$$1 action$VS$yes$phb 246
+Locate Creature$4th$Divination$$1 action$VSM$yes$phb 256
+Otiluke's Resilient Sphere$4th$Evocation$$1 action$VSM$yes$phb 264
+Phantasmal Killer$4th$Illusion$$1 action$VS$yes$phb 265
+Polymorph$4th$Transmutation$$1 action$VSM$yes$phb 266
+Staggering Smite$4th$Evocation$$1 bonus action$V$yes$phb 278
+Stoneskin$4th$Abjuration$$1 action$VSMgp$yes$phb 278
+Wall of Fire$4th$Evocation$$1 action$VSM$yes$phb 285
+Animate Objects$5th$Transmutation$$1 action$VS$yes$phb 213
+Antilife Shell$5th$Abjuration$$1 action$VS$yes$phb 213
+Banishing Smite$5th$Abjuration$$1 bonus action$V$yes$phb 216
+Bigby's Hand$5th$Evocation$$1 action$VSM$yes$phb 218
+Circle of Power$5th$Abjuration$$1 action$V$yes$phb 221
+Cloudkill$5th$Conjuration$$1 action$VS$yes$phb 222
+Conjure Elemental$5th$Conjuration$$1 minute$VSM$yes$phb 225
+Dispel Evil and Good$5th$Abjuration$$1 action$VSM$yes$phb 233
+Dominate Person$5th$Enchantment$$1 action$VS$yes$phb 235
+Hold Monster$5th$Enchantment$$1 action$VSM$yes$phb 251
+Insect Plague$5th$Conjuration$$1 action$VSM$yes$phb 254
+Mislead$5th$Illusion$$1 action$S$yes$phb 260
+Modify Memory$5th$Enchantment$$1 action$VS$yes$phb 261
+Scrying$5th$Divination$$10 minutes$VSMgp$yes$phb 273
+Swift Quiver$5th$Transmutation$$1 bonus action$VSM$yes$phb 279
+Telekinesis$5th$Transmutation$$1 action$VS$yes$phb 280
+Tree Stride$5th$Conjuration$$1 action$VS$yes$phb 283
+Wall of Force$5th$Evocation$$1 action$VSM$yes$phb 285
+Wall of Stone$5th$Evocation$$1 action$VSM$yes$phb 287
+Arcane Gate$6th$Conjuration$$1 action$VS$yes$phb 214
+Blade Barrier$6th$Evocation$$1 action$VS$yes$phb 218
+Conjure Fey$6th$Conjuration$$1 minute$VS$yes$phb 226
+Eyebite$6th$Necromancy$$1 action$VS$yes$phb 238
+Find the Path$6th$Divination$$1 minute$VSMgp$yes$phb 240
+Flesh to Stone$6th$Transmutation$$1 action$VSM$yes$phb 243
+Globe of Invulnerability$6th$Abjuration$$1 action$VSM$yes$phb 245
+Move Earth$6th$Transmutation$$1 action$VSM$yes$phb 263
+Otto's Irresistible Dance$6th$Enchantment$$1 action$V$yes$phb 264
+Sunbeam$6th$Evocation$$1 action$VSM$yes$phb 279
+Wall of Ice$6th$Evocation$$1 action$VSM$yes$phb 285
+Wall of Thorns$6th$Conjuration$$1 action$VSM$yes$phb 287
+Conjure Celestial$7th$Conjuration$$1 minute$VS$yes$phb 225
+Delayed Blast Fireball$7th$Evocation$$1 action$VSM$yes$phb 230
+Mordenkainen's Sword$7th$Evocation$$1 action$VSMgp$yes$phb 262
+Project Image$7th$Illusion$$1 action$VSMgp$yes$phb 270
+Reverse Gravity$7th$Transmutation$$1 action$VSM$yes$phb 272
+Animal Shapes$8th$Transmutation$$1 action$VS$yes$phb 212
+Antimagic Field$8th$Abjuration$$1 action$VSM$yes$phb 213
+Control Weather$8th$Transmutation$$10 minutes$VSM$yes$phb 228
+Dominate Monster$8th$Enchantment$$1 action$VS$yes$phb 235
+Earthquake$8th$Evocation$$1 action$VSM$yes$phb 236
+Holy Aura$8th$Abjuration$$1 action$VSMgp$yes$phb 251
+Incendiary Cloud$8th$Conjuration$$1 action$VS$yes$phb 253
+Maze$8th$Conjuration$$1 action$VS$yes$phb 258
+Tsunami$8th$Conjuration$$1 minute$VS$yes$phb 284
+Gate$9th$Conjuration$$1 action$VSMgp$yes$phb 244
+Shapechange$9th$Transmutation$$1 action$VSMgp$yes$phb 274
+Storm of Vengeance$9th$Conjuration$$1 action$VS$yes$phb 279
+True Polymorph$9th$Transmutation$$1 action$VSM$yes$phb 283
+Weird$9th$Illusion$$1 action$VS$yes$phb 288
+

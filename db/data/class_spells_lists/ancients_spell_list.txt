@@ -1,0 +1,10 @@
+ensnaring strike$ancients
+speak with animals$ancients
+moonbeam$ancients
+misty step$ancients
+plant growth$ancients
+protection from energy$ancients
+ice storm$ancients
+stoneskin$ancients
+commune with nature$ancients
+tree stride$ancients

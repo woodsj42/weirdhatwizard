@@ -1,0 +1,8 @@
+mirror image$coast
+misty step$coast
+water breathing$coast
+water walk$coast
+control water$coast
+freedom of movement$coast
+conjure elemental$coast
+scrying$coast

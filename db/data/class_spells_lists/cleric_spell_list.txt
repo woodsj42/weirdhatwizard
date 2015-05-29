@@ -1,0 +1,107 @@
+guidance$cleric
+light$cleric
+mending$cleric
+resistance$cleric
+sacred flame$cleric
+spare the dying$cleric
+thaumaturgy$cleric
+bane$cleric
+bless$cleric
+command$cleric
+create or destroy water$cleric
+cure wounds$cleric
+detect evil and good$cleric
+detect magic$cleric
+detect poison and disease$cleric
+guiding bolt$cleric
+healing word$cleric
+inflict wounds$cleric
+protection from evil and good$cleric
+purify food and drink$cleric
+sanctuary$cleric
+shield of faith$cleric
+aid$cleric
+augury$cleric
+blindness/deafness$cleric
+calm emotions$cleric
+continual flame$cleric
+enhance ability$cleric
+find traps$cleric
+gentle repose$cleric
+hold person$cleric
+lesser restoration$cleric
+locate object$cleric
+prayer of healing$cleric
+protection from poison$cleric
+silence$cleric
+spiritual weapon$cleric
+warding bond$cleric
+zone of truth$cleric
+animate dead$cleric
+beacon of hope$cleric
+bestow curse$cleric
+clairvoyance$cleric
+create food and water$cleric
+daylight$cleric
+dispel magic$cleric
+feign death$cleric
+glyph of warding$cleric
+magic circle$cleric
+mass healing word$cleric
+meld into stone$cleric
+protection from energy$cleric
+remove curse$cleric
+revivify$cleric
+sending$cleric
+speak with dead$cleric
+spirit guardians$cleric
+tongues$cleric
+water walk$cleric
+banishment$cleric
+control water$cleric
+death ward$cleric
+divination$cleric
+freedom of movement$cleric
+guardian of faith$cleric
+locate creature$cleric
+stone shape$cleric
+commune$cleric
+contagion$cleric
+dispel evil and good$cleric
+flame strike$cleric
+geas$cleric
+greater restoration$cleric
+hallow$cleric
+insect plague$cleric
+legend lore$cleric
+mass cure wounds$cleric
+planar binding$cleric
+raise dead$cleric
+scrying$cleric
+blade barrier$cleric
+create undead$cleric
+find the path$cleric
+forbiddance$cleric
+harm$cleric
+heal$cleric
+heroes' feast$cleric
+planar ally$cleric
+true seeing$cleric
+word of recall$cleric
+conjure celestial$cleric
+divine word$cleric
+etherealness$cleric
+fire storm$cleric
+plane shift$cleric
+regenerate$cleric
+resurrection$cleric
+symbol$cleric
+antimagic field$cleric
+control weather$cleric
+earthquake$cleric
+holy aura$cleric
+astral projection$cleric
+gate$cleric
+mass heal$cleric
+true resurrection$cleric
+$cleric

@@ -1,0 +1,8 @@
+spider climb$mountain
+spike growth$mountain
+lightning bolt$mountain
+meld into stone$mountain
+stone shape$mountain
+stoneskin$mountain
+passwall$mountain
+wall of stone$mountain

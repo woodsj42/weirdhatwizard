@@ -1,0 +1,12 @@
+barbarian
+ranger
+warlock
+wizard
+cleric
+fighter
+paladin
+bard
+druid
+monk
+rogue
+sorcerer

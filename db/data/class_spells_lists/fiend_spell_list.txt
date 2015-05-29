@@ -1,0 +1,10 @@
+burning hands$fiend
+command$fiend
+blindness/deafness$fiend
+scorching ray$fiend
+fireball$fiend
+stinking cloud$fiend
+fire shield$fiend
+wall of fire$fiend
+flame strike$fiend
+hallow$fiend
