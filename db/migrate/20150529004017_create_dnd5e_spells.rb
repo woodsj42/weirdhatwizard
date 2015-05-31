@@ -8,7 +8,7 @@ class CreateDnd5eSpells < ActiveRecord::Migration
       t.string :range
       t.string :components
       t.string :duration
-      t.text :description
+      t.string :description
       t.string :ritual
       t.string :concentration
 
