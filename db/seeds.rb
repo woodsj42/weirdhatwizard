@@ -14,16 +14,19 @@ class_spell_file = "class_spell_list_all.txt"
 archetype_spell_file = "archetype_spell_list_all.txt"
 File.open(path + class_file) do |f|
 	while line = f.gets
-		Dnd5eClass.create(name:line.titleize.chomp)
-#		print line + "\n"
+		cleaned_class =  line.titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+		Dnd5eClass.create(name: cleaned_class)
+		print cleaned_class + "\n"
 	end
 end
 
 File.open(path + archetype_file) do |f|
 	while line = f.gets
 		arr = line.split('$')
-		temp = Dnd5eClass.find_by_name(arr[1].titleize.chomp).id
-		Dnd5eArchetype.create(name: arr[0].titleize, dnd5e_class_id: temp)
+		cleaned_class =  arr[1].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+		cleaned_archetype =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+		temp = Dnd5eClass.find_by_name(cleaned_class).id
+		Dnd5eArchetype.create(name: cleaned_archetype, dnd5e_class_id: temp)
 #		print arr[0] + "-" + arr[1].chomp + "-" + temp.to_s +  "\n"
 	end
 end
@@ -40,19 +43,20 @@ File.open(path + spell_file) do |f|
 #			print arr[7] + "\n"
 #			print arr[8] + "\n"
 #			print arr[9] + "\n"
-			cleaned_name =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into')
-			print cleaned_name 
-			print "-\n"
-			Dnd5eSpell.create(name: cleaned_name,
-					  level: arr[1],
-					  spell_type: arr[2].titleize,
-					  cast: arr[3],
-					  range: arr[4],
-					  components: arr[5],
-					  duration: arr[6],
-					  description: arr[7],
-				          concentration: arr[8],
-					  ritual: arr[9].chomp )
+			cleaned_name =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			if !Dnd5eSpell.exists?(:name => cleaned_name) 
+				print cleaned_name + "\n"
+				Dnd5eSpell.create(name: cleaned_name,
+					level: arr[1],
+				  	spell_type: arr[2].titleize,
+					cast: arr[3],
+					range: arr[4],
+					components: arr[5],
+					duration: arr[6],
+					description: arr[7],
+				        concentration: arr[8],
+					ritual: arr[9].chomp )
+			end
 		end
 
 end
@@ -60,12 +64,13 @@ end
 File.open(path + class_spell_file) do |f|
 		while line = f.gets
 			arr = line.split('$')
-			cleaned_name =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into')
-			if Dnd5eSpell.exists?( :name => cleaned_name ) and Dnd5eClass.exists?( :name => arr[1].titleize.chomp )
-				Dnd5eClassSpell.create(dnd5e_class_id: Dnd5eClass.find_by_name(arr[1].titleize.chomp).id,
+			cleaned_name =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_class =  arr[1].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			if Dnd5eSpell.exists?( :name => cleaned_name ) and Dnd5eClass.exists?( :name => cleaned_class )
+				Dnd5eClassSpell.create(dnd5e_class_id: Dnd5eClass.find_by_name(cleaned_class).id,
 					               dnd5e_spell_id:Dnd5eSpell.find_by_name(cleaned_name).id)
 			else
-				print cleaned_name + " wasn't found for " + arr[1].chomp + ".\n"
+				print cleaned_name + " wasn't found for " + cleaned_class + ".\n"
 			end
 		end
 
@@ -75,12 +80,13 @@ File.open(path + archetype_spell_file) do |f|
 		while line = f.gets
 			arr = line.split('$')
 #			print arr[0].chomp.titleize + "\n"
-			cleaned_name =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into')
-			if Dnd5eSpell.exists?( :name => cleaned_name ) and Dnd5eArchetype.exists?( :name => arr[1].titleize.chomp )
-				Dnd5eArchetypeSpell.create(dnd5e_archetype_id: Dnd5eArchetype.find_by_name(arr[1].chomp.titleize).id,
+			cleaned_name =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_archetype =  arr[1].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			if Dnd5eSpell.exists?( :name => cleaned_name ) and Dnd5eArchetype.exists?( :name => cleaned_archetype )
+				Dnd5eArchetypeSpell.create(dnd5e_archetype_id: Dnd5eArchetype.find_by_name(cleaned_archetype).id,
 					               dnd5e_spell_id:Dnd5eSpell.find_by_name(cleaned_name).id)
 			else
-				print cleaned_name + " wasn't found for " + arr[1].chomp + ".\n"
+				print cleaned_name + " wasn't found for " + cleaned_archetype + ".\n"
 			end
 		end
 
