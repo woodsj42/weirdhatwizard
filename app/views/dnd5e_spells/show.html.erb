@@ -1,20 +1,15 @@
 
 
 <a href="/dnd5espells" class="btn btn-lg btn-default">&lt;</a>
-<center>
+<div id="show">
+
+
+ <h1> <%= @spell.name %> </h1>
+
 <p>
 <strong><%= @spell.spell_type %> <%= @spell.level %></strong>
 </p>
  
-<p>
-<strong>Name:</strong>
-  <%= @spell.name %>
-</p>
-
-<p>
-<strong>Casting Time:</strong>
-  <%= @spell.cast %>
-</p>
 
 <p>
 <strong>Casting Time:</strong>
@@ -37,6 +32,6 @@
 </p>
 
 <p>
-  <%= raw @spell.description %>
+  <%=  @spell.description.html_safe %>
 </p>
-</center>
+</div>

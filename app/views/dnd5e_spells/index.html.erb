@@ -1,53 +1,93 @@
 
-<center>
-<h2> Cantrips </h2>
-<% @level0spells.each do |spell| %>
-  	<%=link_to  spell.name, dnd5e_spell_url(spell) %>
-	<br>
+
+
+
+<div id="search">  
+<%= form_tag( "dnd5espells" , :method => "get", class: "navbar-form", id: "search-form") do %>
+	<%= label_tag(:q, ":") %>
+      	<%= text_field_tag :search, params[:search], class: "span2", placeholder: "Search Spells" %>
+ 	<%= label_tag(:q, ":") %>
 <% end %>
-<h2> 1st-level </h2>
-<% @level1spells.each do |spell| %>
-  	<%=link_to  spell.name, dnd5e_spell_url(spell) %>
-	<br>
+</div>
+
+
+<% if !@level0spells.empty? %>
+	<h2> Cantrips </h2>
+	<% @level0spells.each do |spell| %>
+  		<%=link_to  spell.name, dnd5e_spell_url(spell) %>
+		<br>
+	<% end %>
 <% end %>
-<h2> 2nd-level </h2>
-<% @level2spells.each do |spell| %>
-  	<%=link_to  spell.name, dnd5e_spell_url(spell) %>
-	<br>
+
+<% if @level0spells.empty? %>
+	<h2> 1st-level </h2>
+	<% @level1spells.each do |spell| %>
+  		<%=link_to  spell.name, dnd5e_spell_url(spell) %>
+		<br>
+	<% end %>
 <% end %>
-<h2> 3rd-level </h2>
-<% @level3spells.each do |spell| %>
-  	<%=link_to  spell.name, dnd5e_spell_url(spell) %>
-	<br>
+
+<% if !@level0spells.empty? %>
+	<h2> 2nd-level </h2>
+	<% @level2spells.each do |spell| %>
+  		<%=link_to  spell.name, dnd5e_spell_url(spell) %>
+		<br>
+	<% end %>
 <% end %>
-<h2> 4th-level </h2>
-<% @level4spells.each do |spell| %>
-  	<%=link_to  spell.name, dnd5e_spell_url(spell) %>
-	<br>
+
+<% if !@level0spells.empty? %>
+	<h2> 3rd-level </h2>
+	<% @level3spells.each do |spell| %>
+  		<%=link_to  spell.name, dnd5e_spell_url(spell) %>
+		<br>
+	<% end %>
 <% end %>
-<h2> 5th-level </h2>
-<% @level5spells.each do |spell| %>
-  	<%=link_to  spell.name, dnd5e_spell_url(spell) %>
-	<br>
+
+<% if !@level0spells.empty? %>
+	<h2> 4th-level </h2>
+	<% @level4spells.each do |spell| %>
+  		<%=link_to  spell.name, dnd5e_spell_url(spell) %>
+		<br>
+	<% end %>
 <% end %>
-<h2> 6th-level </h2>
-<% @level6spells.each do |spell| %>
-  	<%=link_to  spell.name, dnd5e_spell_url(spell) %>
-	<br>
+
+<% if !@level0spells.empty? %>
+	<h2> 5th-level </h2>
+	<% @level5spells.each do |spell| %>
+  		<%=link_to  spell.name, dnd5e_spell_url(spell) %>
+		<br>
+	<% end %>
 <% end %>
-<h2> 7th-level </h2>
-<% @level7spells.each do |spell| %>
-  	<%=link_to  spell.name, dnd5e_spell_url(spell) %>
-	<br>
+
+<% if !@level0spells.empty? %>
+	<h2> 6th-level </h2>
+	<% @level6spells.each do |spell| %>
+  		<%=link_to  spell.name, dnd5e_spell_url(spell) %>
+		<br>
+	<% end %>
 <% end %>
-<h2> 8th-level </h2>
-<% @level8spells.each do |spell| %>
-  	<%=link_to  spell.name, dnd5e_spell_url(spell) %>
-	<br>
+
+<% if !@level0spells.empty? %>
+	<h2> 7th-level </h2>
+	<% @level7spells.each do |spell| %>
+  		<%=link_to  spell.name, dnd5e_spell_url(spell) %>
+		<br>
+	<% end %>
 <% end %>
-<h2> 9th-level </h2>
-<% @level9spells.each do |spell| %>
-  	<%=link_to  spell.name, dnd5e_spell_url(spell) %>
-	<br>
+
+<% if !@level0spells.empty? %>
+	<h2> 8th-level </h2>
+	<% @level8spells.each do |spell| %>
+  		<%=link_to  spell.name, dnd5e_spell_url(spell) %>
+		<br>
+	<% end %>
 <% end %>
-</center>
+
+<% if @level0spells.empty? %>
+	<h2> 9th-level </h2>
+	<% @level9spells.each do |spell| %>
+  		<%=link_to  spell.name, dnd5e_spell_url(spell) %>
+		<br>
+	<% end %>
+<% end %>
+

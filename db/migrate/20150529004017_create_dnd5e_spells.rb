@@ -7,6 +7,9 @@ class CreateDnd5eSpells < ActiveRecord::Migration
       t.string :cast
       t.string :range
       t.string :components
+      t.string :verbal
+      t.string :somatic
+      t.string :material
       t.string :duration
       t.string :description
       t.string :ritual

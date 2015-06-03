@@ -1,6 +1,15 @@
 class Dnd5eSpellsController < ApplicationController
 
 	def index
+	
+		@searched = []	
+		
+		if params[:search]
+     			if !(@searched = Dnd5eSpell.search(params[:search].titleize.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the'))).empty?
+				redirect_to(dnd5e_spell_path(@searched[0]))
+			end
+		end		
+		
 		@spells = Dnd5eSpell.all
 		@level0spells = []	
 		@level1spells = []	
@@ -13,6 +22,7 @@ class Dnd5eSpellsController < ApplicationController
 		@level8spells = []	
 		@level9spells = []	
 		Dnd5eSpell.all.each do |spell|
+			
 			case spell.level.downcase 
 			when "cantrip"
 				@level0spells << spell	
@@ -52,5 +62,7 @@ class Dnd5eSpellsController < ApplicationController
 	def show
     		@spell = Dnd5eSpell.find(params[:id])
   	end
+
+	
 
 end
