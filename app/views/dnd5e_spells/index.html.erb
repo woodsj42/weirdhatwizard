@@ -1,0 +1,7 @@
+
+<center>
+<% @spells.each do |spell| %>
+  	<%=link_to  spell.name, dnd5e_spell_url(spell) %>
+	<br>
+<% end %>
+</center>

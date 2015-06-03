@@ -22,7 +22,7 @@ end
 File.open(path + archetype_file) do |f|
 	while line = f.gets
 		arr = line.split('$')
-		temp = Dnd5eClass.where(name: arr[1].titleize.chomp).take.id
+		temp = Dnd5eClass.find_by_name(arr[1].titleize.chomp).id
 		Dnd5eArchetype.create(name: arr[0].titleize, dnd5e_class_id: temp)
 #		print arr[0] + "-" + arr[1].chomp + "-" + temp.to_s +  "\n"
 	end
@@ -31,7 +31,6 @@ end
 File.open(path + spell_file) do |f|
 		for i in f.read().split("**")
 			arr = i.split('$')
-#			print arr[0] + "\n"
 #			print arr[1] + "\n"
 #			print arr[2] + "\n"
 #			print arr[3] + "\n"
@@ -41,9 +40,12 @@ File.open(path + spell_file) do |f|
 #			print arr[7] + "\n"
 #			print arr[8] + "\n"
 #			print arr[9] + "\n"
-			Dnd5eSpell.create(name: arr[0].titleize,
+			cleaned_name =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into')
+			print cleaned_name 
+			print "-\n"
+			Dnd5eSpell.create(name: cleaned_name,
 					  level: arr[1],
-					  spell_type: arr[2],
+					  spell_type: arr[2].titleize,
 					  cast: arr[3],
 					  range: arr[4],
 					  components: arr[5],
@@ -58,11 +60,12 @@ end
 File.open(path + class_spell_file) do |f|
 		while line = f.gets
 			arr = line.split('$')
-			if Dnd5eSpell.exists?( :name => arr[0].titleize ) and Dnd5eClass.exists?( :name => arr[1].titleize.chomp )
-				Dnd5eClassSpell.create(dnd5e_class_id: Dnd5eClass.where(name: arr[1].titleize.chomp).take.id,
-					               dnd5e_spell_id:Dnd5eSpell.where(name: arr[0].titleize).take.id)
+			cleaned_name =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into')
+			if Dnd5eSpell.exists?( :name => cleaned_name ) and Dnd5eClass.exists?( :name => arr[1].titleize.chomp )
+				Dnd5eClassSpell.create(dnd5e_class_id: Dnd5eClass.find_by_name(arr[1].titleize.chomp).id,
+					               dnd5e_spell_id:Dnd5eSpell.find_by_name(cleaned_name).id)
 			else
-				print arr[0].chomp + " wasn't found for " + arr[1].chomp + ".\n"
+				print cleaned_name + " wasn't found for " + arr[1].chomp + ".\n"
 			end
 		end
 
@@ -72,11 +75,12 @@ File.open(path + archetype_spell_file) do |f|
 		while line = f.gets
 			arr = line.split('$')
 #			print arr[0].chomp.titleize + "\n"
-			if Dnd5eSpell.exists?( :name => arr[0].chomp.titleize ) and Dnd5eArchetype.exists?( :name => arr[1].titleize.chomp )
-				Dnd5eArchetypeSpell.create(dnd5e_archetype_id: Dnd5eArchetype.where(name: arr[1].chomp.titleize).take.id,
-					               dnd5e_spell_id:Dnd5eSpell.where(name: arr[0].chomp.titleize).take.id)
+			cleaned_name =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into')
+			if Dnd5eSpell.exists?( :name => cleaned_name ) and Dnd5eArchetype.exists?( :name => arr[1].titleize.chomp )
+				Dnd5eArchetypeSpell.create(dnd5e_archetype_id: Dnd5eArchetype.find_by_name(arr[1].chomp.titleize).id,
+					               dnd5e_spell_id:Dnd5eSpell.find_by_name(cleaned_name).id)
 			else
-				print arr[0].chomp + " wasn't found for " + arr[1].chomp + ".\n"
+				print cleaned_name + " wasn't found for " + arr[1].chomp + ".\n"
 			end
 		end
 

@@ -262,16 +262,16 @@ divination$druid of the forest
 freedom of movement$druid of the forest
 commune with nature$druid of the forest
 tree stride$druid of the forest
-burning hands$cleric of warlock of the fiend
-command$cleric of warlock of the fiend
-blindness/deafness$cleric of warlock of the fiend
-scorching ray$cleric of warlock of the fiend
-fireball$cleric of warlock of the fiend
-stinking cloud$cleric of warlock of the fiend
-fire shield$cleric of warlock of the fiend
-wall of fire$cleric of warlock of the fiend
-flame strike$cleric of warlock of the fiend
-hallow$cleric of warlock of the fiend
+burning hands$warlock of the fiend
+command$warlock of the fiend
+blindness/deafness$warlock of the fiend
+scorching ray$warlock of the fiend
+fireball$warlock of the fiend
+stinking cloud$warlock of the fiend
+fire shield$warlock of the fiend
+wall of fire$warlock of the fiend
+flame strike$warlock of the fiend
+hallow$warlock of the fiend
 acid splash$eldritch knight
 blade ward$eldritch knight
 chill touch$eldritch knight

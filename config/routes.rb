@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+	root 'static_pages#home'
+
+
+	get  'dnd5espells' => 'dnd5e_spells#index'
+	get  'dnd35espells' => 'static_pages#dnd35espells'
+
+	get '/dnd5e_spells/:id', to: 'dnd5e_spells#show', as: 'dnd5e_spell'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
