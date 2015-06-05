@@ -11,10 +11,39 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150529004017) do
+ActiveRecord::Schema.define(version: 20150604223013) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "dnd35e_class_spells", force: :cascade do |t|
+    t.integer  "dnd35e_spell_id"
+    t.integer  "dnd35e_class_id"
+    t.integer  "level"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+  end
+
+  create_table "dnd35e_classes", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "dnd35e_spells", force: :cascade do |t|
+    t.string   "name"
+    t.string   "description"
+    t.string   "spell_type"
+    t.string   "area"
+    t.string   "target"
+    t.string   "components"
+    t.string   "cast_time"
+    t.string   "duration"
+    t.string   "saving_throw"
+    t.string   "spell_resistance"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
+  end
 
   create_table "dnd5e_archetype_spells", force: :cascade do |t|
     t.integer  "dnd5e_archetype_id"

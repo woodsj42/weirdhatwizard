@@ -1,0 +1,2 @@
+module Dnd35eSpellsHelper
+end

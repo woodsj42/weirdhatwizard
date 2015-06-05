@@ -1,0 +1,59 @@
+
+<a href="/dnd35espells" class="btn btn-lg btn-default">&lt;</a>
+
+<div id="show">
+
+ <h1> <%= @spell.name %> </h1>
+
+<p>
+<% if @spell.spell_type != '-' %>
+	<strong><%= @spell.spell_type %> </strong>
+<% end %>
+</p>
+
+<p>
+<% if @spell.components != '-' %>
+	<strong>Components:</strong>
+	<%= @spell.components %>
+<% end %>
+</p>
+
+<p>
+<% if @spell.cast_time != '-' %>
+	<strong>Cast Time:</strong>
+	<%= @spell.cast_time %>
+<% end %>
+</p>
+
+<p>
+<% if @spell.target != '-' %>
+	<strong>Range:</strong>
+	<%= @spell.target %> 
+<% end %>
+</p>
+
+<p>
+
+<% if @spell.duration != '-' %>
+	<strong>Duration:</strong>
+	<%= @spell.duration %> 
+<% end %>
+</p>
+
+<p>
+<% if @spell.saving_throw != '-' %>
+	<strong>Saving Throw:</strong>
+	<%= @spell.saving_throw %>
+<% end %>
+</p>
+
+<p>
+<% if @spell.spell_resistance != '-' %>
+	<strong>Spell Resistance:</strong>
+	<%= @spell.spell_resistance %>
+<% end %>
+</p>
+
+<%= @spell.description.html_safe %> 
+
+</div>

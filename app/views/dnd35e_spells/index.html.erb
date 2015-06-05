@@ -1,0 +1,19 @@
+
+<div id="search">
+		<div id="searchwrapper">
+		<%= form_tag( "dnd35espells" , :method => "get", class: "navbar-form", id: "search-form") do %>
+      			<%= text_field_tag :search, params[:search], class: "span2" %>
+		<% end %>
+		</div>
+</div>
+
+<div id="index">
+
+
+
+	<h2> Spells </h2>
+	<% @spells.each do |spell| %>
+  		<%=link_to  spell.name, dnd35e_spell_url(spell) %>
+		<br>
+	<% end %>
+</div>

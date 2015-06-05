@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  spell_type: MyString
+  area: MyString
+  target: MyString
+  components: MyString
+  cast_time: MyString
+  duration: MyString
+  saving_throw: MyString
+  spell_resistance: MyString
+
+two:
+  name: MyString
+  description: MyString
+  spell_type: MyString
+  area: MyString
+  target: MyString
+  components: MyString
+  cast_time: MyString
+  duration: MyString
+  saving_throw: MyString
+  spell_resistance: MyString
