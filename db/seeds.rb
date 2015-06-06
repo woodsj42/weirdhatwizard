@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-path = "/home/woodsj/workspace/weirdhatwizard/db/data/dnd5edata/lists/"
+path = "/home/woodsj42/workspace/weirdhatwizard/db/data/dnd5edata/lists/"
 class_file = "classes.txt"
 archetype_file = "archetypes.txt"
 spell_file = "spells.txt"
@@ -94,7 +94,7 @@ end
 
 
 
-path = "/home/woodsj/workspace/weirdhatwizard/db/data/dnd35edata/lists/"
+path = "/home/woodsj42/workspace/weirdhatwizard/db/data/dnd35edata/lists/"
 class_file = "classes.txt"
 spell_file = "spells.txt"
 class_spell_file = "class_spells.txt"
