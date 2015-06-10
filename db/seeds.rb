@@ -6,13 +6,14 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-path = "/home/woodsj42/workspace/weirdhatwizard/db/data/dnd5edata/lists/"
+dnd5e = "dnd5e_"
+dnd35e = "dnd35e_"
 class_file = "classes.txt"
 archetype_file = "archetypes.txt"
 spell_file = "spells.txt"
 class_spell_file = "class_spell_list_all.txt"
 archetype_spell_file = "archetype_spell_list_all.txt"
-File.open(path + class_file) do |f|
+File.open(dnd5e + class_file) do |f|
 	while line = f.gets
 		cleaned_class =  line.titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 		Dnd5eClass.create(name: cleaned_class)
@@ -20,7 +21,7 @@ File.open(path + class_file) do |f|
 	end
 end
 
-File.open(path + archetype_file) do |f|
+File.open(dnd5e + archetype_file) do |f|
 	while line = f.gets
 		arr = line.split('$')
 		cleaned_class =  arr[1].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
@@ -31,7 +32,7 @@ File.open(path + archetype_file) do |f|
 	end
 end
 
-File.open(path + spell_file) do |f|
+File.open(dnd5e + spell_file) do |f|
 		for i in f.read().split("**")
 			arr = i.split('$')
 #			print arr[1] + "\n"
@@ -61,7 +62,7 @@ File.open(path + spell_file) do |f|
 
 end
 
-File.open(path + class_spell_file) do |f|
+File.open(dnd5e + class_spell_file) do |f|
 		while line = f.gets
 			arr = line.split('$')
 			cleaned_name =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
@@ -76,7 +77,7 @@ File.open(path + class_spell_file) do |f|
 
 end
 
-File.open(path + archetype_spell_file) do |f|
+File.open( dnd5e + archetype_spell_file) do |f|
 		while line = f.gets
 			arr = line.split('$')
 #			print arr[0].chomp.titleize + "\n"
@@ -94,14 +95,13 @@ end
 
 
 
-path = "/home/woodsj42/workspace/weirdhatwizard/db/data/dnd35edata/lists/"
 class_file = "classes.txt"
 spell_file = "spells.txt"
 class_spell_file = "class_spells.txt"
 domain_file = "domains.txt"
 domain_spell_file = "domain_spells.txt"
 
-File.open(path + spell_file) do |f|
+File.open(dnd35e + spell_file) do |f|
 		for i in f.read().split("**")
 			arr = i.split('$')
 #			print arr[1] + "\n"
@@ -134,7 +134,7 @@ File.open(path + spell_file) do |f|
 end
 
 
-File.open(path + domain_file) do |f|
+File.open( dnd35e + domain_file) do |f|
 	while line = f.gets
 		arr = line.split('$')
 		Dnd35eDomain.create(name: arr[0].chomp.titleize,
@@ -143,7 +143,7 @@ File.open(path + domain_file) do |f|
 	end
 end
 
-File.open(path + class_file) do |f|
+File.open( dnd35e + class_file) do |f|
 	while line = f.gets
 		cleaned_class =  line.titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 		Dnd35eClass.create(name: cleaned_class)
@@ -151,7 +151,7 @@ File.open(path + class_file) do |f|
 	end
 end
 
-File.open(path + domain_spell_file) do |f|
+File.open( dnd35e + domain_spell_file) do |f|
 		while line = f.gets
 			arr = line.split('$')
 			cleaned_class =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
@@ -168,7 +168,7 @@ File.open(path + domain_spell_file) do |f|
 
 end
 
-File.open(path + class_spell_file) do |f|
+File.open( dnd35e + class_spell_file) do |f|
 		while line = f.gets
 			arr = line.split('$')
 			cleaned_class =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')

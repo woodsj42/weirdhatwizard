@@ -1,0 +1,396 @@
+Water$7$Acid Fog
+Good$2$Aid
+Luck$2$Aid
+Air$4$Air Walk
+Animal$7$Animal Shapes
+Death$3$Animate Dead
+Chaos$6$Animate Objects
+Plant$7$Animate Plants
+Animal$6$Antilife Shell
+Magic$6$Antimagic Field
+Protection$6$Antimagic Field
+Travel$9$Astral Projection
+Plant$2$Barkskin
+Good$6$Blade Barrier
+War$6$Blade Barrier
+Evil$7$Blasphemy
+Luck$5$Break Enchantment
+Strength$2$Bulls Strength
+Fire$1$Burning Hands
+Animal$1$Calm Animals
+Law$2$Calm Emotions
+Death$1$Cause Fear
+Air$6$Chain Lightning
+Chaos$4$Chaos Hammer
+Knowledge$3$Clairaudience/Clairvoyance
+Strength$8$Clenched Fist
+Chaos$8$Cloak of Chaos
+Plant$4$Command Plants
+Animal$5$Commune with Nature
+Water$6$Cone of Cold
+Trickery$4$Confusion
+Destruction$3$Contagion
+Plant$8$Control Plants
+Water$4$Control Water
+Air$7$Control Weather
+Air$5$Control Winds
+Death$8$Create Greater Undead
+Death$6$Create Undead
+Evil$6$Create Undead
+Strength$9$Crushing Hand
+Healing$4$Cure Critical Wounds
+Healing$8$Cure Critical Wounds, Mass
+Healing$1$Cure Light Wounds
+Healing$5$Cure Light Wounds, Mass
+Healing$2$Cure Moderate Wounds
+Healing$3$Cure Serious Wounds
+Death$2$Death Knell
+Death$4$Death Ward
+Evil$2$Desecrate
+Death$7$Destruction
+Knowledge$1$Detect Secret Doors
+Knowledge$2$Detect Thoughts
+Law$7$Dictum
+Travel$4$Dimension Door
+Knowledge$8$Discern Location
+Trickery$1$Disguise Self
+Destruction$7$Disintegrate
+Law$5$Dispel Chaos
+Good$5$Dispel Evil
+Evil$5$Dispel Good
+Chaos$5$Dispel Law
+Magic$3$Dispel Magic
+Knowledge$4$Divination
+War$4$Divine Power
+Animal$3$Dominate Animal
+Destruction$8$Earthquake
+Earth$7$Earthquake
+Air$9$Elemental Swarm
+Earth$9$Elemental Swarm
+Fire$9$Elemental Swarm
+Water$9$Elemental Swarm
+Sun$1$Endure Elements
+Strength$1$Enlarge Person
+Plant$1$Entangle
+Luck$1$Entropic Shield
+Trickery$5$False Vision
+Knowledge$6$Find the Path
+Travel$6$Find the Path
+Fire$6$Fire Seeds
+Sun$6$Fire Seeds
+Fire$5$Fire Shield
+Sun$4$Fire Shield
+Fire$7$Fire Storm
+Sun$5$Flame Strike
+War$5$Flame Strike
+Travel$3$Fly
+Water$2$Fog Cloud
+Knowledge$9$Foresight
+Luck$4$Freedom of Movement
+Air$3$Gaseous Form
+Strength$7$Grasping Hand
+Destruction$6$Harm
+Healing$6$Heal
+Healing$9$Heal, Mass
+Sun$2$Heat Metal
+Animal$2$Hold Animal
+Law$6$Hold Monster
+Good$8$Holy Aura
+Good$4$Holy Smite
+Good$7$Holy Word
+Water$8$Horrid Wilting
+Water$5$Ice Storm
+Magic$2$Identify
+Magic$4$Imbue with Spell Ability
+Destruction$9$Implosion
+Fire$8$Incendiary Cloud
+Destruction$4$Inflict Critical Wounds
+Destruction$1$Inflict Light Wounds
+Destruction$5$Inflict Light Wounds, Mass
+Trickery$2$Invisibility
+Earth$8$Iron Body
+Knowledge$7$Legend Lore
+Travel$2$Locate Object
+Travel$1$Longstrider
+Magic$9$Mages Disjunction
+Magic$1$Magic Aura
+Law$3$Magic Circle against Chaos
+Good$3$Magic Circle against Evil
+Evil$3$Magic Circle against Good
+Chaos$3$Magic Circle against Law
+Earth$1$Magic Stone
+Strength$3$Magic Vestment
+War$3$Magic Vestment
+War$1$Magic Weapon
+Protection$8$Mind Blank
+Luck$9$Miracle
+Luck$6$Mislead
+Trickery$6$Mislead
+Luck$8$Moment of Prescience
+Trickery$3$Nondetection
+Air$1$Obscuring Mist
+Water$1$Obscuring Mist
+Law$4$Orders Wrath
+Travel$8$Phase Door
+Plant$3$Plant Growth
+Trickery$8$Polymorph Any Object
+War$7$Power Word Blind
+War$9$Power Word Kill
+War$8$Power Word Stun
+Protection$9$Prismatic Sphere
+Sun$9$Prismatic Sphere
+Fire$2$Produce Flame
+Law$1$Protection from Chaos
+Luck$3$Protection from Energy
+Protection$3$Protection from Energy
+Good$1$Protection from Evil
+Evil$1$Protection from Good
+Chaos$1$Protection from Law
+Magic$8$Protection from Spells
+Healing$7$Regenerate
+Plant$6$Repel Wood
+Protection$7$Repulsion
+Fire$3$Resist Energy
+Strength$5$Righteous Might
+Protection$1$Sanctuary
+Trickery$7$Screen
+Sun$3$Searing Light
+Plant$9$Shambler
+Animal$9$Shapechange
+Chaos$2$Shatter
+Destruction$2$Shatter
+Law$8$Shield of Law
+Protection$2$Shield Other
+Death$5$Slay Living
+Earth$2$Soften Earth and Stone
+Protection$4$Spell Immunity
+Strength$4$Spell Immunity
+Magic$5$Spell Resistance
+Protection$5$Spell Resistance
+Luck$7$Spell Turning
+Magic$7$Spell Turning
+Earth$4$Spike Stones
+War$2$Spiritual Weapon
+Earth$3$Stone Shape
+Earth$6$Stoneskin
+Strength$6$Stoneskin
+Chaos$9$Summon Monster IX
+Evil$9$Summon Monster IX
+Good$9$Summon Monster IX
+Law$9$Summon Monster IX
+Animal$4$Summon Natures Ally IV
+Animal$8$Summon Natures Ally VIII
+Sun$7$Sunbeam
+Sun$8$Sunburst
+Travel$5$Teleport
+Travel$7$Teleport, Greater
+Trickery$9$Time Stop
+Knowledge$5$True Seeing
+Evil$8$Unholy Aura
+Evil$4$Unholy Blight
+Death$9$Wail of the Banshee
+Fire$4$Wall of Fire
+Earth$5$Wall of Stone
+Plant$5$Wall of Thorns
+Water$3$Water Breathing
+Air$8$Whirlwind
+Air$2$Wind Wall
+Chaos$7$Word of Chaos
+Water$7$Acid Fog
+Good$2$Aid
+Luck$2$Aid
+Air$4$Air Walk
+Animal$7$Animal Shapes
+Death$3$Animate Dead
+Chaos$6$Animate Objects
+Plant$7$Animate Plants
+Animal$6$Antilife Shell
+Magic$6$Antimagic Field
+Protection$6$Antimagic Field
+Travel$9$Astral Projection
+Plant$2$Barkskin
+Good$6$Blade Barrier
+War$6$Blade Barrier
+Evil$7$Blasphemy
+Luck$5$Break Enchantment
+Strength$2$Bulls Strength
+Fire$1$Burning Hands
+Animal$1$Calm Animals
+Law$2$Calm Emotions
+Death$1$Cause Fear
+Air$6$Chain Lightning
+Chaos$4$Chaos Hammer
+Knowledge$3$Clairaudience/Clairvoyance
+Strength$8$Clenched Fist
+Chaos$8$Cloak of Chaos
+Plant$4$Command Plants
+Animal$5$Commune with Nature
+Water$6$Cone of Cold
+Trickery$4$Confusion
+Destruction$3$Contagion
+Plant$8$Control Plants
+Water$4$Control Water
+Air$7$Control Weather
+Air$5$Control Winds
+Death$8$Create Greater Undead
+Death$6$Create Undead
+Evil$6$Create Undead
+Strength$9$Crushing Hand
+Healing$4$Cure Critical Wounds
+Healing$8$Cure Critical Wounds, Mass
+Healing$1$Cure Light Wounds
+Healing$5$Cure Light Wounds, Mass
+Healing$2$Cure Moderate Wounds
+Healing$3$Cure Serious Wounds
+Death$2$Death Knell
+Death$4$Death Ward
+Evil$2$Desecrate
+Death$7$Destruction
+Knowledge$1$Detect Secret Doors
+Knowledge$2$Detect Thoughts
+Law$7$Dictum
+Travel$4$Dimension Door
+Knowledge$8$Discern Location
+Trickery$1$Disguise Self
+Destruction$7$Disintegrate
+Law$5$Dispel Chaos
+Good$5$Dispel Evil
+Evil$5$Dispel Good
+Chaos$5$Dispel Law
+Magic$3$Dispel Magic
+Knowledge$4$Divination
+War$4$Divine Power
+Animal$3$Dominate Animal
+Destruction$8$Earthquake
+Earth$7$Earthquake
+Air$9$Elemental Swarm
+Earth$9$Elemental Swarm
+Fire$9$Elemental Swarm
+Water$9$Elemental Swarm
+Sun$1$Endure Elements
+Strength$1$Enlarge Person
+Plant$1$Entangle
+Luck$1$Entropic Shield
+Trickery$5$False Vision
+Knowledge$6$Find the Path
+Travel$6$Find the Path
+Fire$6$Fire Seeds
+Sun$6$Fire Seeds
+Fire$5$Fire Shield
+Sun$4$Fire Shield
+Fire$7$Fire Storm
+Sun$5$Flame Strike
+War$5$Flame Strike
+Travel$3$Fly
+Water$2$Fog Cloud
+Knowledge$9$Foresight
+Luck$4$Freedom of Movement
+Air$3$Gaseous Form
+Strength$7$Grasping Hand
+Destruction$6$Harm
+Healing$6$Heal
+Healing$9$Heal, Mass
+Sun$2$Heat Metal
+Animal$2$Hold Animal
+Law$6$Hold Monster
+Good$8$Holy Aura
+Good$4$Holy Smite
+Good$7$Holy Word
+Water$8$Horrid Wilting
+Water$5$Ice Storm
+Magic$2$Identify
+Magic$4$Imbue with Spell Ability
+Destruction$9$Implosion
+Fire$8$Incendiary Cloud
+Destruction$4$Inflict Critical Wounds
+Destruction$1$Inflict Light Wounds
+Destruction$5$Inflict Light Wounds, Mass
+Trickery$2$Invisibility
+Earth$8$Iron Body
+Knowledge$7$Legend Lore
+Travel$2$Locate Object
+Travel$1$Longstrider
+Magic$9$Mages Disjunction
+Magic$1$Magic Aura
+Law$3$Magic Circle against Chaos
+Good$3$Magic Circle against Evil
+Evil$3$Magic Circle against Good
+Chaos$3$Magic Circle against Law
+Earth$1$Magic Stone
+Strength$3$Magic Vestment
+War$3$Magic Vestment
+War$1$Magic Weapon
+Protection$8$Mind Blank
+Luck$9$Miracle
+Luck$6$Mislead
+Trickery$6$Mislead
+Luck$8$Moment of Prescience
+Trickery$3$Nondetection
+Air$1$Obscuring Mist
+Water$1$Obscuring Mist
+Law$4$Orders Wrath
+Travel$8$Phase Door
+Plant$3$Plant Growth
+Trickery$8$Polymorph Any Object
+War$7$Power Word Blind
+War$9$Power Word Kill
+War$8$Power Word Stun
+Protection$9$Prismatic Sphere
+Sun$9$Prismatic Sphere
+Fire$2$Produce Flame
+Law$1$Protection from Chaos
+Luck$3$Protection from Energy
+Protection$3$Protection from Energy
+Good$1$Protection from Evil
+Evil$1$Protection from Good
+Chaos$1$Protection from Law
+Magic$8$Protection from Spells
+Healing$7$Regenerate
+Plant$6$Repel Wood
+Protection$7$Repulsion
+Fire$3$Resist Energy
+Strength$5$Righteous Might
+Protection$1$Sanctuary
+Trickery$7$Screen
+Sun$3$Searing Light
+Plant$9$Shambler
+Animal$9$Shapechange
+Chaos$2$Shatter
+Destruction$2$Shatter
+Law$8$Shield of Law
+Protection$2$Shield Other
+Death$5$Slay Living
+Earth$2$Soften Earth and Stone
+Protection$4$Spell Immunity
+Strength$4$Spell Immunity
+Magic$5$Spell Resistance
+Protection$5$Spell Resistance
+Luck$7$Spell Turning
+Magic$7$Spell Turning
+Earth$4$Spike Stones
+War$2$Spiritual Weapon
+Earth$3$Stone Shape
+Earth$6$Stoneskin
+Strength$6$Stoneskin
+Chaos$9$Summon Monster IX
+Evil$9$Summon Monster IX
+Good$9$Summon Monster IX
+Law$9$Summon Monster IX
+Animal$4$Summon Natures Ally IV
+Animal$8$Summon Natures Ally VIII
+Sun$7$Sunbeam
+Sun$8$Sunburst
+Travel$5$Teleport
+Travel$7$Teleport, Greater
+Trickery$9$Time Stop
+Knowledge$5$True Seeing
+Evil$8$Unholy Aura
+Evil$4$Unholy Blight
+Death$9$Wail of the Banshee
+Fire$4$Wall of Fire
+Earth$5$Wall of Stone
+Plant$5$Wall of Thorns
+Water$3$Water Breathing
+Air$8$Whirlwind
+Air$2$Wind Wall
+Chaos$7$Word of Chaos

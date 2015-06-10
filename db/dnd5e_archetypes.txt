@@ -1,0 +1,48 @@
+berserker$barbarian
+totem warrior$barbarian
+college of valor$bard
+college of lore$bard
+knowledge$cleric
+life$cleric
+light$cleric
+nature$cleric
+tempest$cleric
+trickery$cleric
+war$cleric
+land$druid
+arctic$druid
+coast$druid
+desert$druid
+forest$druid
+grassland$druid
+mountain$druid
+swamp$druid
+underdark$druid
+moon$druid
+battle master$fighter
+champion$fighter
+eldritch knight$fighter
+open hand$monk
+shadow$monk
+four elements$monk
+devotion$paladin
+ancients$paladin
+vengeance$paladin
+hunter$ranger
+beast master$ranger
+thief$rogue
+arcane trickster$rogue
+assassin$rogue
+wildling sorcerer$sorcerer
+draconic sorcerer$sorcerer
+archfey$warlock
+great old ones$warlock
+fiend$warlock
+illusionist$wizard
+diviner$wizard
+abjurer$wizard
+necromancer$wizard
+evoker$wizard
+transmuter$wizard
+enchanter$wizard
+conjurer$wizard
