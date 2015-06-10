@@ -50,7 +50,7 @@ class Dnd35eSpellsController < ApplicationController
 			if params[:class]
                       
 		  		Dnd35eClassSpell.spells_known_to_class(params[:class]).map { |m|
-                                	        case Dnd35eClassSpell.find_by_dnd35e_spell_id(m.id).level.to_i        
+                                	        case Dnd35eClassSpell.where(:dnd35e_spell_id => m.id, :dnd35e_class_id => params[:class].to_i ).take.level.to_i        
                                         	        when 0
                                                 	        @level0spells << m      
                        	        	                when 1
