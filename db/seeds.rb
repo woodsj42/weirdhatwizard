@@ -16,7 +16,7 @@ File.open(path + class_file) do |f|
 	while line = f.gets
 		cleaned_class =  line.titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 		Dnd5eClass.create(name: cleaned_class)
-		print cleaned_class + "\n"
+#		print cleaned_class + "\n"
 	end
 end
 
@@ -98,6 +98,8 @@ path = "/home/woodsj42/workspace/weirdhatwizard/db/data/dnd35edata/lists/"
 class_file = "classes.txt"
 spell_file = "spells.txt"
 class_spell_file = "class_spells.txt"
+domain_file = "domains.txt"
+domain_spell_file = "domain_spells.txt"
 
 File.open(path + spell_file) do |f|
 		for i in f.read().split("**")
@@ -114,11 +116,11 @@ File.open(path + spell_file) do |f|
 			cleaned_name =  arr[9].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 			if !Dnd35eSpell.exists?(:name => cleaned_name) 
 				File.open('test.txt', 'w').write(cleaned_name) 
-				print cleaned_name + "\n"
+#				print cleaned_name + "\n"
 				Dnd35eSpell.create(
 					spell_type: arr[0],
 					target: arr[1],
-				  	components: arr[2].titleize,
+				  	components: arr[2],
 					cast_time: arr[3],
 					duration: arr[4],
 					saving_throw: arr[5],
@@ -132,6 +134,15 @@ File.open(path + spell_file) do |f|
 end
 
 
+File.open(path + domain_file) do |f|
+	while line = f.gets
+		arr = line.split('$')
+		Dnd35eDomain.create(name: arr[0].chomp.titleize,
+				    granted_power: arr[1])
+#		print cleaned_class + "\n"
+	end
+end
+
 File.open(path + class_file) do |f|
 	while line = f.gets
 		cleaned_class =  line.titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
@@ -140,16 +151,33 @@ File.open(path + class_file) do |f|
 	end
 end
 
+File.open(path + domain_spell_file) do |f|
+		while line = f.gets
+			arr = line.split('$')
+			cleaned_class =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_name =  arr[2].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			if Dnd35eSpell.exists?( :name => cleaned_name ) and Dnd35eDomain.exists?( :name => cleaned_class ) and !Dnd35eDomainSpell.exists?(:dnd35e_spell_id => Dnd35eSpell.find_by_name(cleaned_name).id, :dnd35e_domain_id => Dnd35eDomain.find_by_name(cleaned_class).id   ) 
+				Dnd35eDomainSpell.create(dnd35e_domain_id: Dnd35eDomain.find_by_name(cleaned_class).id,
+					                dnd35e_spell_id: Dnd35eSpell.find_by_name(cleaned_name).id,
+							level: arr[1].to_i )
+				print cleaned_name + " for " + cleaned_class + ".\n"
+			else
+#				print cleaned_name + " wasn't found for " + cleaned_class + ".\n"
+			end
+		end
+
+end
 
 File.open(path + class_spell_file) do |f|
 		while line = f.gets
 			arr = line.split('$')
 			cleaned_class =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 			cleaned_name =  arr[2].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-			if Dnd35eSpell.exists?( :name => cleaned_name ) and Dnd35eClass.exists?( :name => cleaned_class )
+			if Dnd35eSpell.exists?( :name => cleaned_name ) and Dnd35eClass.exists?( :name => cleaned_class ) and !Dnd35eClassSpell.exists?(:dnd35e_spell_id => Dnd35eSpell.find_by_name(cleaned_name).id, :dnd35e_class_id => Dnd35eClass.find_by_name(cleaned_class).id   ) 
 				Dnd35eClassSpell.create(dnd35e_class_id: Dnd35eClass.find_by_name(cleaned_class).id,
 					                dnd35e_spell_id: Dnd35eSpell.find_by_name(cleaned_name).id,
 							level: arr[1].to_i )
+				print cleaned_name + " for " + cleaned_class + ".\n"
 			else
 #				print cleaned_name + " wasn't found for " + cleaned_class + ".\n"
 			end

@@ -3,7 +3,9 @@
 one:
   dnd35e_spell_id: 1
   dnd35e_class_id: 1
+  level: MyString
 
 two:
   dnd35e_spell_id: 1
   dnd35e_class_id: 1
+  level: MyString

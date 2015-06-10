@@ -569,6 +569,19 @@ $-$Banishment
 </p>
 
 $-$Barkskin
+**Transmutation$Touch$V, S, DF$1 standard action$1 min./level$Will negates (harmless)$Yes$<p>
+	The affected creature gains greater vitality and stamina. The spell grants the subject a +4 enhancement bonus to Constitution, which adds the usual benefits to hit points, Fortitude saves, Constitution checks, and so forth.
+</p>
+<p>
+	Hit points gained by a temporary increase in Constitution score are not temporary hit points. They go away when the subjects Constitution drops back to normal. They are not lost first as temporary hit points are.
+</p>
+
+$-$Bears Endurance
+**Transmutation$Close (25 ft. + 5 ft./2 levels)$-$-$-$-$-$<p>
+	Mass bears endurance works like bears endurance, except that it affects multiple creatures.
+</p>
+
+$-$Bears Endurance, Mass
 **Necromancy$Touch$V, S$1 standard action$Permanent$Will negates$Yes$<p>
 	You place a curse on the subject. Choose one of the following three effects.
 </p>
@@ -836,6 +849,21 @@ $-$Blur
 </p>
 
 $-$Break Enchantment
+**Transmutation$Touch$V, S, M/DF$1 standard action$1 min./level$Will negates (harmless)$Yes (harmless)$<p>
+	The subject becomes stronger. The spell grants a +4 enhancement bonus to Strength, adding the usual benefits to melee attack rolls, melee damage rolls, and other uses of the Strength modifier.
+</p>
+
+<h3>Arcane Material Component</h3>
+<p>
+	A few hairs, or a pinch of dung, from a bull.
+</p>
+
+$-$Bulls Strength
+**Transmutation$Close (25 ft. + 5 ft./2 levels)$-$-$-$-$-$<p>
+	This spell functions like bulls strength, except that it affects multiple creatures.
+</p>
+
+$-$Bulls Strength, Mass
 **Evocation, Fire$15 ft.$V, S$1 standard action$Instantaneous$Reflex half$Yes$<p>
 	A cone of searing flame shoots from your fingertips. Any creature in the area of the flames takes 1d4 points of fire damage per caster level (maximum 5d4). Flammable materials burn if the flames touch them. A character can extinguish burning items as a full-round action.
 </p>
@@ -876,6 +904,21 @@ $-$Calm Animals
 </p>
 
 $Creatures in a 20-ft.-radius spread$Calm Emotions
+**Transmutation$Touch$V, S, M$1 standard action$1 min./level$Will negates (harmless)$Yes$<p>
+	The transmuted creature becomes more graceful, agile, and coordinated. The spell grants a +4 enhancement bonus to Dexterity, adding the usual benefits to AC, Reflex saves, and other uses of the Dexterity modifier.
+</p>
+
+<h3>Material Component</h3>
+<p>
+	A pinch of cat fur.
+</p>
+
+$-$Cats Grace
+**Transmutation$Close (25 ft. + 5 ft./2 levels)$-$-$-$-$-$<p>
+	This spell functions like cats grace, except that it affects multiple creatures.
+</p>
+
+$-$Cats Grace, Mass
 **Necromancy$Close (25 ft. + 5 ft./2 levels)$V, S$1 standard action$1d4 rounds or 1 round; see text$Will partial$Yes$<p>
 	The affected creature becomes frightened. If the subject succeeds on a Will save, it is shaken for 1 round. Creatures with 6 or more Hit Dice are immune to this effect.
 </p>
@@ -2715,6 +2758,21 @@ $-$Doom
 </p>
 
 $-$Dream
+**Transmutation$Touch$V, S, M/DF$1 standard action$1 min./level$Will negates (harmless)$Yes$<p>
+	The transmuted creature becomes more poised, articulate, and personally forceful. The spell grants a +4 enhancement bonus to Charisma, adding the usual benefits to Charisma-based skill checks and other uses of the Charisma modifier. Sorcerers and bards (and other spellcasters who rely on Charisma) affected by this spell do not gain any additional bonus spells for the increased Charisma, but the save DCs for spells they cast while under this spells effect do increase.
+</p>
+
+<h3>Arcane Material Component</h3>
+<p>
+	A few feathers or a pinch of droppings from an eagle.
+</p>
+
+$-$Eagles Splendor
+**Transmutation$Close (25 ft. + 5 ft./2 levels)$-$-$-$-$-$<p>
+	This spell functions like eagles splendor, except that it affects multiple creatures.
+</p>
+
+$-$Eagles Splendor, Mass
 **Evocation, Earth$Long (400 ft. + 40 ft./level)$V, S, DF$1 standard action$1 round$See text$No$<p>
 	When you cast earthquake, an intense but highly localized tremor rips the ground. The shock knocks creatures down, collapses structures, opens cracks in the ground, and more. The effect lasts for 1 round, during which time creatures on the ground cant move or attack. A spellcaster on the ground must make a Concentration check (DC 20 + spell level) or lose any spell he or she tries to cast. The earthquake affects all terrain, vegetation, structures, and creatures in the area. The specific effect of an earthquake spell depends on the nature of the terrain where it is cast.
 </p>
@@ -3343,6 +3401,21 @@ $-$Forceful Hand
 </p>
 
 $-$Foresight
+**Transmutation$Touch$V, S, M/DF$1 standard action$1 min./level$Will negates (harmless)$Yes$<p>
+	The transmuted creature becomes smarter. The spell grants a +4 enhancement bonus to Intelligence, adding the usual benefits to Intelligence-based skill checks and other uses of the Intelligence modifier. Wizards (and other spellcasters who rely on Intelligence) affected by this spell do not gain any additional bonus spells for the increased Intelligence, but the save DCs for spells they cast while under this spells effect do increase. This spell doesnt grant extra skill points.
+</p>
+
+<h3>Arcane Material Component</h3>
+<p>
+	A few hairs, or a pinch of dung, from a fox.
+</p>
+
+$-$Foxs Cunning
+**Transmutation$Close (25 ft. + 5 ft./2 levels)$-$-$-$-$-$<p>
+	This spell functions like foxs cunning, except that it affects multiple creatures.
+</p>
+
+$-$Foxs Cunning, Mass
 **Abjuration$Close (25 ft. + 5 ft./2 levels) or see text$V, S$1 standard action$Instantaneous$Will negates (harmless)$Yes$<p>
 	The subject is freed from spells and effects that restrict its movement, including binding, entangle, grappling, imprisonment, maze, paralysis, petrification, pinning, sleep, slow, stunning, temporal stasis, and web. To free a creature from imprisonment or maze, you must know its name and background, and you must cast this spell at the spot where it was entombed or banished into the maze.
 </p>
@@ -3964,6 +4037,14 @@ $-$Heat Metal
 </p>
 
 $-$Helping Hand
+**Conjuration, Creation$Close (25 ft. + 5 ft./2 levels)$V, S, DF$10 minutes$1 hour plus 12 hours; see text$None$No$<p>
+	You bring forth a great feast, including a magnificent table, chairs, service, and food and drink. The feast takes 1 hour to consume, and the beneficial effects do not set in until this hour is over. Every creature partaking of the feast is cured of all diseases, sickness, and nausea; becomes immune to poison for 12 hours; and gains 1d8 temporary hit points +1 point per two caster levels (maximum +10) after imbibing the nectar-like beverage that is part of the feast. The ambrosial food that is consumed grants each creature that partakes a +1 morale bonus on attack rolls and Will saves and immunity to fear effects for 12 hours.
+</p>
+<p>
+	If the feast is interrupted for any reason, the spell is ruined and all effects of the spell are negated.
+</p>
+
+$-$Heroes Feast
 **Enchantment, Compulsion$Touch$V, S$1 standard action$10 min./level$Will negates (harmless)$Yes (harmless)$<p>
 	This spell imbues a single creature with great bravery and morale in battle. The target gains a +2 morale bonus on attack rolls, saves, and skill checks.
 </p>
@@ -4674,6 +4755,104 @@ $-$Mage Armor
 </p>
 
 $-$Mage Hand
+**Abjuration$Close (25 ft. + 5 ft./2 levels)$V$1 standard action$Instantaneous$Will negates (object)$No$<p>
+	All magical effects and magic items within the radius of the spell, except for those that you carry or touch, are disjoined. That is, spells and spell-like effects are separated into their individual components (ending the effect as a dispel magic spell does), and each permanent magic item must make a successful Will save or be turned into a normal item. An item in a creatures possession uses its own Will save bonus or its possessors Will save bonus, whichever is higher.
+</p>
+<p>
+	You also have a 1% chance per caster level of destroying an antimagic field. If the antimagic field survives the disjunction, no items within it are disjoined.
+</p>
+<p>
+	Even artifacts are subject to disjunction, though there is only a 1% chance per caster level of actually affecting such powerful items. Additionally, if an artifact is destroyed, you must make a DC 25 Will save or permanently lose all spellcasting abilities. (These abilities cannot be recovered by mortal magic, not even miracle or wish.)
+</p>
+<p>
+	<em>Note:</em> Destroying artifacts is a dangerous business, and it is 95% likely to attract the attention of some powerful being who has an interest in or connection with the device.
+</p>
+
+$All magical effects and magic items within a 40-ft.-radius burst$Mages Disjunction
+**Conjuration, Creation$Close (25 ft. + 5 ft./2 levels)$V, S, M$1 standard action$1 hour/caster level or until discharged, then 1 round/caster level; see text$None$No$<p>
+	You conjure up a phantom watchdog that is invisible to everyone but yourself. It then guards the area where it was conjured (it does not move). The hound immediately starts barking loudly if any Small or larger creature approaches within 30 feet of it. (Those within 30 feet of the hound when it is conjured may move about in the area, but if they leave and return, they activate the barking.) The hound sees invisible and ethereal creatures. It does not react to figments, but it does react to shadow illusions.
+</p>
+<p>
+	If an intruder approaches to within 5 feet of the hound, the dog stops barking and delivers a vicious bite (+10 attack bonus, 2d6+3 points of piercing damage) once per round. The dog also gets the bonuses appropriate to an invisible creature.
+</p>
+<p>
+	The dog is considered ready to bite intruders, so it delivers its first bite on the intruders turn. Its bite is the equivalent of a magic weapon for the purpose of damage reduction. The hound cannot be attacked, but it can be dispelled.
+</p>
+<p>
+	The spell lasts for 1 hour per caster level, but once the hound begins barking, it lasts only 1 round per caster level. If you are ever more than 100 feet distant from the hound, the spell ends.
+</p>
+
+<h3>Material Component</h3>
+<p>
+	A tiny silver whistle, a piece of bone, and a thread.
+</p>
+
+$-$Mages Faithful Hound
+**Transmutation$Personal$V, S$1 standard action$Instantaneous$-$-$<p>
+	You instantly recall any one spell of 5th level or lower that you have used during the past 24 hours. The spell must have been actually cast during that period. The recalled spell is stored in your mind as through prepared in the normal fashion.
+</p>
+<p>
+	If the recalled spell requires material components, you must provide them. The recovered spell is not usable until the material components are available.
+</p>
+
+$-$Mages Lucubration
+**Conjuration, Creation$Close (25 ft. + 5 ft./2 levels)$V, S, F$1 standard action$2 hours/level (D)$None$No$<p>
+	You conjure up an extradimensional dwelling that has a single entrance on the plane from which the spell was cast. The entry point looks like a faint shimmering in the air that is 4 feet wide and 8 feet high. Only those you designate may enter the mansion, and the portal is shut and made invisible behind you when you enter. You may open it again from your own side at will. Once observers have passed beyond the entrance, they are in a magnificent foyer with numerous chambers beyond. The atmosphere is clean, fresh, and warm.
+</p>
+<p>
+	You can create any floor plan you desire to the limit of the spells effect. The place is furnished and contains sufficient foodstuffs to serve a nine-course banquet to a dozen people per caster level. A staff of near-transparent servants (as many as two per caster level), liveried and obedient, wait upon all who enter. The servants function as unseen servant spells except that they are visible and can go anywhere in the mansion.
+</p>
+<p>
+	Since the place can be entered only through its special portal, outside conditions do not affect the mansion, nor do conditions inside it pass to the plane beyond.
+</p>
+
+<h3>Focus</h3>
+<p>
+	A miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon (each item worth 5 gp).
+</p>
+
+$-$Mages Magnificent Mansion
+**Abjuration$Close (25 ft. + 5 ft./2 levels)$V, S, M$10 minutes$24 hours (D)$None$No$<p>
+	This spell ensures privacy. Anyone looking into the area from outside sees only a dark, foggy mass. Darkvision cannot penetrate it. No sounds, no matter how loud, can escape the area, so nobody can eavesdrop from outside. Those inside can see out normally.
+</p>
+<p>
+	Divination (scrying) spells cannot perceive anything within the area, and those within are immune to detect thoughts. The ward prevents speech between those inside and those outside (because it blocks sound), but it does not prevent other communication, such as a sending or message spell, or telepathic communication, such as that between a wizard and her familiar.
+</p>
+<p>
+	The spell does not prevent creatures or objects from moving into and out of the area.
+</p>
+<p>
+	Mages private sanctum can be made permanent with a permanency spell.
+</p>
+
+<h3>Material Component</h3>
+<p>
+	A thin sheet of lead, a piece of opaque glass, a wad of cotton or cloth, and powdered chrysolite.
+</p>
+
+$30-ft. cube/level (S)$Mages Private Sanctum
+**Evocation, Force$Close (25 ft. + 5 ft./2 levels)$V, S, F$1 standard action$1 round/level (D)$None$Yes$<p>
+	This spell brings into being a shimmering, swordlike plane of force. The sword strikes at any opponent within its range, as you desire, starting in the round that you cast the spell. The sword attacks its designated target once each round on your turn. Its attack bonus is equal to your caster level + your Int bonus or your Cha bonus (for wizards or sorcerers, respectively) with an additional +3 enhancement bonus. As a force effect, it can strike ethereal and incorporeal creatures. It deals 4d6+3 points of force damage, with a threat range of 19-20 and a critical multiplier of &times;2.
+</p>
+<p>
+	The sword always strikes from your direction. It does not get a bonus for flanking or help a combatant get one. If the sword goes beyond the spell range from you, if it goes out of your sight, or if you are not directing it, the sword returns to you and hovers.
+</p>
+<p>
+	Each round after the first, you can use a standard action to switch the sword to a new target. If you do not, the sword continues to attack the previous rounds target.
+</p>
+<p>
+	The sword cannot be attacked or harmed by physical attacks, but dispel magic, disintegrate, a sphere of annihilation, or a rod of cancellation affects it. The swords AC is 13 (10, +0 size bonus for Medium object, +3 deflection bonus).
+</p>
+<p>
+	If an attacked creature has spell resistance, the resistance is checked the first time Mages sword strikes it. If the sword is successfully resisted, the spell is dispelled. If not, the sword has its normal full effect on that creature for the duration of the spell.
+</p>
+
+<h3>Focus</h3>
+<p>
+	A miniature platinum sword with a grip and pommel of copper and zinc. It costs 250 gp to construct.
+</p>
+
+$-$Mages Sword
 **Illusion, Glamer$Touch$V, S, F$1 standard action$One day/level (D)$None; see text$No$<p>
 	You alter an items aura so that it registers to detect spells (and spells with similar capabilities) as though it were nonmagical, or a magic item of a kind you specify, or the subject of a spell you specify.
 </p>
@@ -5263,11 +5442,37 @@ $-$Obscuring Mist
 </p>
 
 $-$Open/Close
+**Evocation, Lawful$Medium (100 ft. + 10 ft./level)$V, S$1 standard action$Instantaneous (1 round); see text$Will partial; see text$Yes$<p>
+	You channel lawful power to smite enemies. The power takes the form of a three-dimensional grid of energy. Only chaotic and neutral (not lawful) creatures are harmed by the spell.
+</p>
+<p>
+	The spell deals 1d8 points of damage per two caster levels (maximum 5d8) to chaotic creatures (or 1d6 points of damage per caster level, maximum 10d6, to chaotic outsiders) and causes them to be dazed for 1 round. A successful Will save reduces the damage to half and negates the daze effect.
+</p>
+<p>
+	The spell deals only half damage to creatures who are neither chaotic nor lawful, and they are not dazed. They can reduce the damage in half again (down to one-quarter of the roll) with a successful Will save.
+</p>
+
+$Nonlawful creatures within a burst that fills a 30-ft. cube$Orders Wrath
 **Transmutation$Personal$V, S$-$1 hour/level$-$-$<p>
 	This spell functions like a fly spell, except you can fly at a speed of 40 feet (30 feet if wearing medium or heavy armor, or if carrying a medium or heavy load) with average maneuverability. When using this spell for long-distance movement, you can hustle without taking nonlethal damage (a forced march still requires Constitution checks). This means you can cover 64 miles in an eight-hour period of flight (or 48 miles at a speed of 30 feet).
 </p>
 
 $-$Overland Flight
+**Transmutation$Touch$V, S, M/DF$1 standard action$1 min./level$Will negates (harmless)$Yes$<p>
+	The transmuted creature becomes wiser. The spell grants a +4 enhancement bonus to Wisdom, adding the usual benefit to Wisdom-related skills. Clerics, druids, paladins, and rangers (and other Wisdom-based spellcasters) who receive owls wisdom do not gain any additional bonus spells for the increased Wisdom, but the save DCs for their spells increase.
+</p>
+
+<h3>Arcane Material Component</h3>
+<p>
+	A few feathers, or a pinch of droppings, from an owl.
+</p>
+
+$-$Owls Wisdom
+**Transmutation$Close (25 ft. + 5 ft./2 levels)$-$-$-$-$-$<p>
+	This spell functions like owls wisdom, except that it affects multiple creatures.
+</p>
+
+$-$Owls Wisdom, Mass
 **Transmutation$Touch$V, S, M$1 standard action$1 hour/level (D)$None$No$<p>
 	You create a passage through wooden, plaster, or stone walls, but not through metal or other harder materials. The passage is 10 feet deep plus an additional 5 feet deep per three caster levels above 9th (15 feet at 12th, 20 feet at 15th, and a maximum of 25 feet deep at 18th level). If the walls thickness is more than the depth of the passage created, then a single passwall simply makes a niche or short tunnel. Several passwall spells can then form a continuing passage to breach very thick walls. When passwall ends, creatures within the passage are ejected out the nearest exit. If someone dispels the passwall or you dismiss it, creatures in the passage are ejected out the far exit, if there is one, or out the sole exit if there is only one.
 </p>
@@ -7791,6 +7996,78 @@ $-$Summon Monster VIII
 </p>
 
 $-$Summon Monster IX
+**Conjuration, Summoning$Close (25 ft. + 5 ft./2 levels)$V, S, DF$1 round$1 round/level (D)$None$No$<p>
+	This spell summons a natural creature. It appears where you designate and acts immediately, on your turn. It attacks your opponents to the best of its ability. If you can communicate with the creature, you can direct it not to attack, to attack particular enemies, or to perform other actions.
+</p>
+<p>
+	A summoned monster cannot summon or otherwise conjure another creature, nor can it use any teleportation or planar travel abilities. Creatures cannot be summoned into an environment that cannot support them.
+</p>
+<p>
+	The spell conjures one of the creatures from the 1st-level list on the accompanying Summon Natures Ally table. You choose which kind of creature to summon, and you can change that choice each time you cast the spell. All the creatures on the table are neutral unless otherwise noted.
+</p>
+
+$-$Summon Natures Ally I
+**Conjuration, Summoning$-$-$-$-$-$-$<p>
+	This spell functions like summon natures ally I, except that you can summon one 2nd-level creature or 1d3 1st-level creatures of the same kind.
+</p>
+
+$-$Summon Natures Ally II
+**NG, NG, Conjuration, Summoning$-$-$-$-$-$-$<p>
+	This spell functions like summon natures ally I, except that you can summon one 3rd-level creature, 1d3 2nd-level creatures of the same kind, or 1d4+1 1st-level creatures of the same kind.
+</p>
+<p>
+	When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
+</p>
+
+$-$Summon Natures Ally III
+**NE, CG, Conjuration, Summoning$-$-$-$-$-$-$<p>
+	This spell functions like summon natures ally I, except that you can summon one 4th-level creature, 1d3 3rd-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.
+</p>
+<p>
+	When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
+</p>
+
+$-$Summon Natures Ally IV
+**Conjuration, Summoning$-$-$-$-$-$-$<p>
+	This spell functions like summon natures ally I, except that you can summon one 5th-level creature, 1d3 4th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.
+</p>
+<p>
+	When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
+</p>
+
+$-$Summon Natures Ally V
+**NE, Conjuration, Summoning$-$-$-$-$-$-$<p>
+	This spell functions like summon natures ally I, except that you can summon one 6th-level creature, 1d3 5th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.
+</p>
+<p>
+	When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
+</p>
+
+$-$Summon Natures Ally VI
+**NG, Conjuration, Summoning$-$-$-$-$-$-$<p>
+	This spell functions like summon natures ally I, except that you can summon one 7th-level creature, 1d3 6th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.
+</p>
+<p>
+	When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
+</p>
+
+$-$Summon Natures Ally VII
+**NE, Conjuration, Summoning$-$-$-$-$-$-$<p>
+	This spell functions like summon natures ally I, except that you can summon one 8th-level creature, 1d3 7th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.
+</p>
+<p>
+	When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
+</p>
+
+$-$Summon Natures Ally VIII
+**Conjuration, Summoning$-$-$-$-$-$-$<p>
+	This spell functions like summon natures ally I, except that you can summon one 9th-level creature, 1d3 8th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.
+</p>
+<p>
+	When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
+</p>
+
+$-$Summon Natures Ally IX
 **Conjuration, Summoning$Close (25 ft. + 5 ft./2 levels)$V, S, M/DF$1 round$Concentration + 2 rounds$None$No$<p>
 	You summon a swarm of bats, rats, or spiders (your choice), which attacks all other creatures within its area. (You may summon the swarm so that it shares the area of other creatures.) If no living creatures are within its area, the swarm attacks or pursues the nearest creature as best it can. The caster has no control over its target or direction of travel.
 </p>
@@ -9499,6 +9776,19 @@ $-$Banishment
 </p>
 
 $-$Barkskin
+**Transmutation$Touch$V, S, DF$1 standard action$1 min./level$Will negates (harmless)$Yes$<p>
+	The affected creature gains greater vitality and stamina. The spell grants the subject a +4 enhancement bonus to Constitution, which adds the usual benefits to hit points, Fortitude saves, Constitution checks, and so forth.
+</p>
+<p>
+	Hit points gained by a temporary increase in Constitution score are not temporary hit points. They go away when the subjects Constitution drops back to normal. They are not lost first as temporary hit points are.
+</p>
+
+$-$Bears Endurance
+**Transmutation$Close (25 ft. + 5 ft./2 levels)$-$-$-$-$-$<p>
+	Mass bears endurance works like bears endurance, except that it affects multiple creatures.
+</p>
+
+$-$Bears Endurance, Mass
 **Necromancy$Touch$V, S$1 standard action$Permanent$Will negates$Yes$<p>
 	You place a curse on the subject. Choose one of the following three effects.
 </p>
@@ -9766,6 +10056,21 @@ $-$Blur
 </p>
 
 $-$Break Enchantment
+**Transmutation$Touch$V, S, M/DF$1 standard action$1 min./level$Will negates (harmless)$Yes (harmless)$<p>
+	The subject becomes stronger. The spell grants a +4 enhancement bonus to Strength, adding the usual benefits to melee attack rolls, melee damage rolls, and other uses of the Strength modifier.
+</p>
+
+<h3>Arcane Material Component</h3>
+<p>
+	A few hairs, or a pinch of dung, from a bull.
+</p>
+
+$-$Bulls Strength
+**Transmutation$Close (25 ft. + 5 ft./2 levels)$-$-$-$-$-$<p>
+	This spell functions like bulls strength, except that it affects multiple creatures.
+</p>
+
+$-$Bulls Strength, Mass
 **Evocation, Fire$15 ft.$V, S$1 standard action$Instantaneous$Reflex half$Yes$<p>
 	A cone of searing flame shoots from your fingertips. Any creature in the area of the flames takes 1d4 points of fire damage per caster level (maximum 5d4). Flammable materials burn if the flames touch them. A character can extinguish burning items as a full-round action.
 </p>
@@ -9806,6 +10111,21 @@ $-$Calm Animals
 </p>
 
 $Creatures in a 20-ft.-radius spread$Calm Emotions
+**Transmutation$Touch$V, S, M$1 standard action$1 min./level$Will negates (harmless)$Yes$<p>
+	The transmuted creature becomes more graceful, agile, and coordinated. The spell grants a +4 enhancement bonus to Dexterity, adding the usual benefits to AC, Reflex saves, and other uses of the Dexterity modifier.
+</p>
+
+<h3>Material Component</h3>
+<p>
+	A pinch of cat fur.
+</p>
+
+$-$Cats Grace
+**Transmutation$Close (25 ft. + 5 ft./2 levels)$-$-$-$-$-$<p>
+	This spell functions like cats grace, except that it affects multiple creatures.
+</p>
+
+$-$Cats Grace, Mass
 **Necromancy$Close (25 ft. + 5 ft./2 levels)$V, S$1 standard action$1d4 rounds or 1 round; see text$Will partial$Yes$<p>
 	The affected creature becomes frightened. If the subject succeeds on a Will save, it is shaken for 1 round. Creatures with 6 or more Hit Dice are immune to this effect.
 </p>
@@ -11645,6 +11965,21 @@ $-$Doom
 </p>
 
 $-$Dream
+**Transmutation$Touch$V, S, M/DF$1 standard action$1 min./level$Will negates (harmless)$Yes$<p>
+	The transmuted creature becomes more poised, articulate, and personally forceful. The spell grants a +4 enhancement bonus to Charisma, adding the usual benefits to Charisma-based skill checks and other uses of the Charisma modifier. Sorcerers and bards (and other spellcasters who rely on Charisma) affected by this spell do not gain any additional bonus spells for the increased Charisma, but the save DCs for spells they cast while under this spells effect do increase.
+</p>
+
+<h3>Arcane Material Component</h3>
+<p>
+	A few feathers or a pinch of droppings from an eagle.
+</p>
+
+$-$Eagles Splendor
+**Transmutation$Close (25 ft. + 5 ft./2 levels)$-$-$-$-$-$<p>
+	This spell functions like eagles splendor, except that it affects multiple creatures.
+</p>
+
+$-$Eagles Splendor, Mass
 **Evocation, Earth$Long (400 ft. + 40 ft./level)$V, S, DF$1 standard action$1 round$See text$No$<p>
 	When you cast earthquake, an intense but highly localized tremor rips the ground. The shock knocks creatures down, collapses structures, opens cracks in the ground, and more. The effect lasts for 1 round, during which time creatures on the ground cant move or attack. A spellcaster on the ground must make a Concentration check (DC 20 + spell level) or lose any spell he or she tries to cast. The earthquake affects all terrain, vegetation, structures, and creatures in the area. The specific effect of an earthquake spell depends on the nature of the terrain where it is cast.
 </p>
@@ -12273,6 +12608,21 @@ $-$Forceful Hand
 </p>
 
 $-$Foresight
+**Transmutation$Touch$V, S, M/DF$1 standard action$1 min./level$Will negates (harmless)$Yes$<p>
+	The transmuted creature becomes smarter. The spell grants a +4 enhancement bonus to Intelligence, adding the usual benefits to Intelligence-based skill checks and other uses of the Intelligence modifier. Wizards (and other spellcasters who rely on Intelligence) affected by this spell do not gain any additional bonus spells for the increased Intelligence, but the save DCs for spells they cast while under this spells effect do increase. This spell doesnt grant extra skill points.
+</p>
+
+<h3>Arcane Material Component</h3>
+<p>
+	A few hairs, or a pinch of dung, from a fox.
+</p>
+
+$-$Foxs Cunning
+**Transmutation$Close (25 ft. + 5 ft./2 levels)$-$-$-$-$-$<p>
+	This spell functions like foxs cunning, except that it affects multiple creatures.
+</p>
+
+$-$Foxs Cunning, Mass
 **Abjuration$Close (25 ft. + 5 ft./2 levels) or see text$V, S$1 standard action$Instantaneous$Will negates (harmless)$Yes$<p>
 	The subject is freed from spells and effects that restrict its movement, including binding, entangle, grappling, imprisonment, maze, paralysis, petrification, pinning, sleep, slow, stunning, temporal stasis, and web. To free a creature from imprisonment or maze, you must know its name and background, and you must cast this spell at the spot where it was entombed or banished into the maze.
 </p>
@@ -12894,6 +13244,14 @@ $-$Heat Metal
 </p>
 
 $-$Helping Hand
+**Conjuration, Creation$Close (25 ft. + 5 ft./2 levels)$V, S, DF$10 minutes$1 hour plus 12 hours; see text$None$No$<p>
+	You bring forth a great feast, including a magnificent table, chairs, service, and food and drink. The feast takes 1 hour to consume, and the beneficial effects do not set in until this hour is over. Every creature partaking of the feast is cured of all diseases, sickness, and nausea; becomes immune to poison for 12 hours; and gains 1d8 temporary hit points +1 point per two caster levels (maximum +10) after imbibing the nectar-like beverage that is part of the feast. The ambrosial food that is consumed grants each creature that partakes a +1 morale bonus on attack rolls and Will saves and immunity to fear effects for 12 hours.
+</p>
+<p>
+	If the feast is interrupted for any reason, the spell is ruined and all effects of the spell are negated.
+</p>
+
+$-$Heroes Feast
 **Enchantment, Compulsion$Touch$V, S$1 standard action$10 min./level$Will negates (harmless)$Yes (harmless)$<p>
 	This spell imbues a single creature with great bravery and morale in battle. The target gains a +2 morale bonus on attack rolls, saves, and skill checks.
 </p>
@@ -13604,6 +13962,104 @@ $-$Mage Armor
 </p>
 
 $-$Mage Hand
+**Abjuration$Close (25 ft. + 5 ft./2 levels)$V$1 standard action$Instantaneous$Will negates (object)$No$<p>
+	All magical effects and magic items within the radius of the spell, except for those that you carry or touch, are disjoined. That is, spells and spell-like effects are separated into their individual components (ending the effect as a dispel magic spell does), and each permanent magic item must make a successful Will save or be turned into a normal item. An item in a creatures possession uses its own Will save bonus or its possessors Will save bonus, whichever is higher.
+</p>
+<p>
+	You also have a 1% chance per caster level of destroying an antimagic field. If the antimagic field survives the disjunction, no items within it are disjoined.
+</p>
+<p>
+	Even artifacts are subject to disjunction, though there is only a 1% chance per caster level of actually affecting such powerful items. Additionally, if an artifact is destroyed, you must make a DC 25 Will save or permanently lose all spellcasting abilities. (These abilities cannot be recovered by mortal magic, not even miracle or wish.)
+</p>
+<p>
+	<em>Note:</em> Destroying artifacts is a dangerous business, and it is 95% likely to attract the attention of some powerful being who has an interest in or connection with the device.
+</p>
+
+$All magical effects and magic items within a 40-ft.-radius burst$Mages Disjunction
+**Conjuration, Creation$Close (25 ft. + 5 ft./2 levels)$V, S, M$1 standard action$1 hour/caster level or until discharged, then 1 round/caster level; see text$None$No$<p>
+	You conjure up a phantom watchdog that is invisible to everyone but yourself. It then guards the area where it was conjured (it does not move). The hound immediately starts barking loudly if any Small or larger creature approaches within 30 feet of it. (Those within 30 feet of the hound when it is conjured may move about in the area, but if they leave and return, they activate the barking.) The hound sees invisible and ethereal creatures. It does not react to figments, but it does react to shadow illusions.
+</p>
+<p>
+	If an intruder approaches to within 5 feet of the hound, the dog stops barking and delivers a vicious bite (+10 attack bonus, 2d6+3 points of piercing damage) once per round. The dog also gets the bonuses appropriate to an invisible creature.
+</p>
+<p>
+	The dog is considered ready to bite intruders, so it delivers its first bite on the intruders turn. Its bite is the equivalent of a magic weapon for the purpose of damage reduction. The hound cannot be attacked, but it can be dispelled.
+</p>
+<p>
+	The spell lasts for 1 hour per caster level, but once the hound begins barking, it lasts only 1 round per caster level. If you are ever more than 100 feet distant from the hound, the spell ends.
+</p>
+
+<h3>Material Component</h3>
+<p>
+	A tiny silver whistle, a piece of bone, and a thread.
+</p>
+
+$-$Mages Faithful Hound
+**Transmutation$Personal$V, S$1 standard action$Instantaneous$-$-$<p>
+	You instantly recall any one spell of 5th level or lower that you have used during the past 24 hours. The spell must have been actually cast during that period. The recalled spell is stored in your mind as through prepared in the normal fashion.
+</p>
+<p>
+	If the recalled spell requires material components, you must provide them. The recovered spell is not usable until the material components are available.
+</p>
+
+$-$Mages Lucubration
+**Conjuration, Creation$Close (25 ft. + 5 ft./2 levels)$V, S, F$1 standard action$2 hours/level (D)$None$No$<p>
+	You conjure up an extradimensional dwelling that has a single entrance on the plane from which the spell was cast. The entry point looks like a faint shimmering in the air that is 4 feet wide and 8 feet high. Only those you designate may enter the mansion, and the portal is shut and made invisible behind you when you enter. You may open it again from your own side at will. Once observers have passed beyond the entrance, they are in a magnificent foyer with numerous chambers beyond. The atmosphere is clean, fresh, and warm.
+</p>
+<p>
+	You can create any floor plan you desire to the limit of the spells effect. The place is furnished and contains sufficient foodstuffs to serve a nine-course banquet to a dozen people per caster level. A staff of near-transparent servants (as many as two per caster level), liveried and obedient, wait upon all who enter. The servants function as unseen servant spells except that they are visible and can go anywhere in the mansion.
+</p>
+<p>
+	Since the place can be entered only through its special portal, outside conditions do not affect the mansion, nor do conditions inside it pass to the plane beyond.
+</p>
+
+<h3>Focus</h3>
+<p>
+	A miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon (each item worth 5 gp).
+</p>
+
+$-$Mages Magnificent Mansion
+**Abjuration$Close (25 ft. + 5 ft./2 levels)$V, S, M$10 minutes$24 hours (D)$None$No$<p>
+	This spell ensures privacy. Anyone looking into the area from outside sees only a dark, foggy mass. Darkvision cannot penetrate it. No sounds, no matter how loud, can escape the area, so nobody can eavesdrop from outside. Those inside can see out normally.
+</p>
+<p>
+	Divination (scrying) spells cannot perceive anything within the area, and those within are immune to detect thoughts. The ward prevents speech between those inside and those outside (because it blocks sound), but it does not prevent other communication, such as a sending or message spell, or telepathic communication, such as that between a wizard and her familiar.
+</p>
+<p>
+	The spell does not prevent creatures or objects from moving into and out of the area.
+</p>
+<p>
+	Mages private sanctum can be made permanent with a permanency spell.
+</p>
+
+<h3>Material Component</h3>
+<p>
+	A thin sheet of lead, a piece of opaque glass, a wad of cotton or cloth, and powdered chrysolite.
+</p>
+
+$30-ft. cube/level (S)$Mages Private Sanctum
+**Evocation, Force$Close (25 ft. + 5 ft./2 levels)$V, S, F$1 standard action$1 round/level (D)$None$Yes$<p>
+	This spell brings into being a shimmering, swordlike plane of force. The sword strikes at any opponent within its range, as you desire, starting in the round that you cast the spell. The sword attacks its designated target once each round on your turn. Its attack bonus is equal to your caster level + your Int bonus or your Cha bonus (for wizards or sorcerers, respectively) with an additional +3 enhancement bonus. As a force effect, it can strike ethereal and incorporeal creatures. It deals 4d6+3 points of force damage, with a threat range of 19-20 and a critical multiplier of &times;2.
+</p>
+<p>
+	The sword always strikes from your direction. It does not get a bonus for flanking or help a combatant get one. If the sword goes beyond the spell range from you, if it goes out of your sight, or if you are not directing it, the sword returns to you and hovers.
+</p>
+<p>
+	Each round after the first, you can use a standard action to switch the sword to a new target. If you do not, the sword continues to attack the previous rounds target.
+</p>
+<p>
+	The sword cannot be attacked or harmed by physical attacks, but dispel magic, disintegrate, a sphere of annihilation, or a rod of cancellation affects it. The swords AC is 13 (10, +0 size bonus for Medium object, +3 deflection bonus).
+</p>
+<p>
+	If an attacked creature has spell resistance, the resistance is checked the first time Mages sword strikes it. If the sword is successfully resisted, the spell is dispelled. If not, the sword has its normal full effect on that creature for the duration of the spell.
+</p>
+
+<h3>Focus</h3>
+<p>
+	A miniature platinum sword with a grip and pommel of copper and zinc. It costs 250 gp to construct.
+</p>
+
+$-$Mages Sword
 **Illusion, Glamer$Touch$V, S, F$1 standard action$One day/level (D)$None; see text$No$<p>
 	You alter an items aura so that it registers to detect spells (and spells with similar capabilities) as though it were nonmagical, or a magic item of a kind you specify, or the subject of a spell you specify.
 </p>
@@ -14193,11 +14649,37 @@ $-$Obscuring Mist
 </p>
 
 $-$Open/Close
+**Evocation, Lawful$Medium (100 ft. + 10 ft./level)$V, S$1 standard action$Instantaneous (1 round); see text$Will partial; see text$Yes$<p>
+	You channel lawful power to smite enemies. The power takes the form of a three-dimensional grid of energy. Only chaotic and neutral (not lawful) creatures are harmed by the spell.
+</p>
+<p>
+	The spell deals 1d8 points of damage per two caster levels (maximum 5d8) to chaotic creatures (or 1d6 points of damage per caster level, maximum 10d6, to chaotic outsiders) and causes them to be dazed for 1 round. A successful Will save reduces the damage to half and negates the daze effect.
+</p>
+<p>
+	The spell deals only half damage to creatures who are neither chaotic nor lawful, and they are not dazed. They can reduce the damage in half again (down to one-quarter of the roll) with a successful Will save.
+</p>
+
+$Nonlawful creatures within a burst that fills a 30-ft. cube$Orders Wrath
 **Transmutation$Personal$V, S$-$1 hour/level$-$-$<p>
 	This spell functions like a fly spell, except you can fly at a speed of 40 feet (30 feet if wearing medium or heavy armor, or if carrying a medium or heavy load) with average maneuverability. When using this spell for long-distance movement, you can hustle without taking nonlethal damage (a forced march still requires Constitution checks). This means you can cover 64 miles in an eight-hour period of flight (or 48 miles at a speed of 30 feet).
 </p>
 
 $-$Overland Flight
+**Transmutation$Touch$V, S, M/DF$1 standard action$1 min./level$Will negates (harmless)$Yes$<p>
+	The transmuted creature becomes wiser. The spell grants a +4 enhancement bonus to Wisdom, adding the usual benefit to Wisdom-related skills. Clerics, druids, paladins, and rangers (and other Wisdom-based spellcasters) who receive owls wisdom do not gain any additional bonus spells for the increased Wisdom, but the save DCs for their spells increase.
+</p>
+
+<h3>Arcane Material Component</h3>
+<p>
+	A few feathers, or a pinch of droppings, from an owl.
+</p>
+
+$-$Owls Wisdom
+**Transmutation$Close (25 ft. + 5 ft./2 levels)$-$-$-$-$-$<p>
+	This spell functions like owls wisdom, except that it affects multiple creatures.
+</p>
+
+$-$Owls Wisdom, Mass
 **Transmutation$Touch$V, S, M$1 standard action$1 hour/level (D)$None$No$<p>
 	You create a passage through wooden, plaster, or stone walls, but not through metal or other harder materials. The passage is 10 feet deep plus an additional 5 feet deep per three caster levels above 9th (15 feet at 12th, 20 feet at 15th, and a maximum of 25 feet deep at 18th level). If the walls thickness is more than the depth of the passage created, then a single passwall simply makes a niche or short tunnel. Several passwall spells can then form a continuing passage to breach very thick walls. When passwall ends, creatures within the passage are ejected out the nearest exit. If someone dispels the passwall or you dismiss it, creatures in the passage are ejected out the far exit, if there is one, or out the sole exit if there is only one.
 </p>
@@ -16721,6 +17203,78 @@ $-$Summon Monster VIII
 </p>
 
 $-$Summon Monster IX
+**Conjuration, Summoning$Close (25 ft. + 5 ft./2 levels)$V, S, DF$1 round$1 round/level (D)$None$No$<p>
+	This spell summons a natural creature. It appears where you designate and acts immediately, on your turn. It attacks your opponents to the best of its ability. If you can communicate with the creature, you can direct it not to attack, to attack particular enemies, or to perform other actions.
+</p>
+<p>
+	A summoned monster cannot summon or otherwise conjure another creature, nor can it use any teleportation or planar travel abilities. Creatures cannot be summoned into an environment that cannot support them.
+</p>
+<p>
+	The spell conjures one of the creatures from the 1st-level list on the accompanying Summon Natures Ally table. You choose which kind of creature to summon, and you can change that choice each time you cast the spell. All the creatures on the table are neutral unless otherwise noted.
+</p>
+
+$-$Summon Natures Ally I
+**Conjuration, Summoning$-$-$-$-$-$-$<p>
+	This spell functions like summon natures ally I, except that you can summon one 2nd-level creature or 1d3 1st-level creatures of the same kind.
+</p>
+
+$-$Summon Natures Ally II
+**NG, NG, Conjuration, Summoning$-$-$-$-$-$-$<p>
+	This spell functions like summon natures ally I, except that you can summon one 3rd-level creature, 1d3 2nd-level creatures of the same kind, or 1d4+1 1st-level creatures of the same kind.
+</p>
+<p>
+	When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
+</p>
+
+$-$Summon Natures Ally III
+**NE, CG, Conjuration, Summoning$-$-$-$-$-$-$<p>
+	This spell functions like summon natures ally I, except that you can summon one 4th-level creature, 1d3 3rd-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.
+</p>
+<p>
+	When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
+</p>
+
+$-$Summon Natures Ally IV
+**Conjuration, Summoning$-$-$-$-$-$-$<p>
+	This spell functions like summon natures ally I, except that you can summon one 5th-level creature, 1d3 4th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.
+</p>
+<p>
+	When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
+</p>
+
+$-$Summon Natures Ally V
+**NE, Conjuration, Summoning$-$-$-$-$-$-$<p>
+	This spell functions like summon natures ally I, except that you can summon one 6th-level creature, 1d3 5th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.
+</p>
+<p>
+	When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
+</p>
+
+$-$Summon Natures Ally VI
+**NG, Conjuration, Summoning$-$-$-$-$-$-$<p>
+	This spell functions like summon natures ally I, except that you can summon one 7th-level creature, 1d3 6th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.
+</p>
+<p>
+	When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
+</p>
+
+$-$Summon Natures Ally VII
+**NE, Conjuration, Summoning$-$-$-$-$-$-$<p>
+	This spell functions like summon natures ally I, except that you can summon one 8th-level creature, 1d3 7th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.
+</p>
+<p>
+	When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
+</p>
+
+$-$Summon Natures Ally VIII
+**Conjuration, Summoning$-$-$-$-$-$-$<p>
+	This spell functions like summon natures ally I, except that you can summon one 9th-level creature, 1d3 8th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.
+</p>
+<p>
+	When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
+</p>
+
+$-$Summon Natures Ally IX
 **Conjuration, Summoning$Close (25 ft. + 5 ft./2 levels)$V, S, M/DF$1 round$Concentration + 2 rounds$None$No$<p>
 	You summon a swarm of bats, rats, or spiders (your choice), which attacks all other creatures within its area. (You may summon the swarm so that it shares the area of other creatures.) If no living creatures are within its area, the swarm attacks or pursues the nearest creature as best it can. The caster has no control over its target or direction of travel.
 </p>

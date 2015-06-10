@@ -1,8 +1,23 @@
 
+
+<div id="sort">
+	
+	<label>[</label>	
+			<%= link_to "Clear", "3.5_edition_spell_index", {:style => "color: black;" } %>
+	<% Dnd35eClass.all.each do |classs| %>
+		<% if classs.id == @class_highlight %>
+			<%= link_to classs.name, { :controller => "dnd35e_spells", :action => "index", :class => classs.id }, {:style => "color: gray;" }%>
+		<% else %>
+			<%= link_to classs.name, { :controller => "dnd35e_spells", :action => "index", :class => classs.id }, {:style => "color: black;" } %>
+		<% end %>
+	<% end %>	
+	<label>]</label>	
+</div>
+
 <div id="search">
 		<div id="searchwrapper">
-		<%= form_tag( "dnd35espells" , :method => "get", class: "navbar-form", id: "search-form") do %>
-      			<%= text_field_tag :search, params[:search], class: "span2" %>
+		<%= form_tag( "3.5_edition_spell_index" , :method => "get", class: "navbar-form", id: "search-form") do %>
+      			<%= text_field_tag :search, params[:search], class: "span2", placeholder: "Search..."%>
 		<% end %>
 		</div>
 </div>
@@ -10,10 +25,92 @@
 <div id="index">
 
 
+<% if !@level0spells.empty? %>
+        <h2> Cantrips </h2>
+        <% @level0spells.each do |spell| %>
+                <%=link_to  spell.name, dnd35e_spell_url(spell) %>
+                <br>
+        <% end %>
+<% end %>
 
+<% if !@level1spells.empty? %>
+        <h2> 1st-level</h2>
+        <% @level1spells.each do |spell| %>
+                <%=link_to  spell.name, dnd35e_spell_url(spell) %>
+                <br>
+        <% end %>
+<% end %>
+
+<% if !@level2spells.empty? %>
+        <h2> 2nd-level</h2>
+        <% @level2spells.each do |spell| %>
+                <%=link_to  spell.name, dnd35e_spell_url(spell) %>
+                <br>
+        <% end %>
+<% end %>
+
+<% if !@level3spells.empty? %>
+        <h2> 3rd-level</h2>
+        <% @level3spells.each do |spell| %>
+                <%=link_to  spell.name, dnd35e_spell_url(spell) %>
+                <br>
+        <% end %>
+<% end %>
+<% if !@level4spells.empty? %>
+        <h2> 4th-level</h2>
+        <% @level4spells.each do |spell| %>
+                <%=link_to  spell.name, dnd35e_spell_url(spell) %>
+                <br>
+        <% end %>
+<% end %>
+<% if !@level5spells.empty? %>
+        <h2> 5th-level</h2>
+        <% @level5spells.each do |spell| %>
+                <%=link_to  spell.name, dnd35e_spell_url(spell) %>
+                <br>
+        <% end %>
+<% end %>
+<% if !@level6spells.empty? %>
+        <h2> 6th-level</h2>
+        <% @level6spells.each do |spell| %>
+                <%=link_to  spell.name, dnd35e_spell_url(spell) %>
+                <br>
+        <% end %>
+<% end %>
+<% if !@level7spells.empty? %>
+        <h2> 7th-level</h2>
+        <% @level7spells.each do |spell| %>
+                <%=link_to  spell.name, dnd35e_spell_url(spell) %>
+                <br>
+        <% end %>
+<% end %>
+<% if !@level8spells.empty? %>
+        <h2> 8th-level</h2>
+        <% @level8spells.each do |spell| %>
+                <%=link_to  spell.name, dnd35e_spell_url(spell) %>
+                <br>
+        <% end %>
+<% end %>
+<% if !@level9spells.empty? %>
+        <h2> 9th-level</h2>
+        <% @level9spells.each do |spell| %>
+                <%=link_to  spell.name, dnd35e_spell_url(spell) %>
+                <br>
+        <% end %>
+<% end %>
+<% if !@spells.empty?   %>
 	<h2> Spells </h2>
 	<% @spells.each do |spell| %>
   		<%=link_to  spell.name, dnd35e_spell_url(spell) %>
 		<br>
 	<% end %>
+
+	<div id=totop>
+		<a href="3.5_edition_spell_index"> to Top</a>
+	</div>
+<% end %>
+
+<% if @level0spells.empty? and  @level1spells.empty? and @spells.empty? %>
+	<h2> None </h2>
+<% end %>
 </div>

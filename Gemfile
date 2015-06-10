@@ -1,9 +1,12 @@
 source 'https://rubygems.org'
 
+gem 'actionpack-page_caching'
 
-gem "pdf-reader"
+gem 'actionpack-action_caching'
 
-gem "prawn"
+#gem "pdf-reader"
+
+#gem "prawn"
 
 gem 'bootstrap-sass'
 

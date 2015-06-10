@@ -72,6 +72,15 @@ sorcerer$7$Banishment
 wizard$7$Banishment
 druid$2$Barkskin
 ranger$2$Barkskin
+cleric$2$Bears Endurance
+druid$2$Bears Endurance
+ranger$2$Bears Endurance
+sorcerer$2$Bears Endurance
+wizard$2$Bears Endurance
+cleric$6$Bears Endurance, Mass
+druid$6$Bears Endurance, Mass
+sorcerer$6$Bears Endurance, Mass
+wizard$6$Bears Endurance, Mass
 cleric$3$Bestow Curse
 sorcerer$4$Bestow Curse
 wizard$4$Bestow Curse
@@ -104,6 +113,15 @@ cleric$5$Break Enchantment
 paladin$4$Break Enchantment
 sorcerer$5$Break Enchantment
 wizard$5$Break Enchantment
+cleric$2$Bulls Strength
+druid$2$Bulls Strength
+paladin$2$Bulls Strength
+sorcerer$2$Bulls Strength
+wizard$2$Bulls Strength
+cleric$6$Bulls Strength, Mass
+druid$6$Bulls Strength, Mass
+sorcerer$6$Bulls Strength, Mass
+wizard$6$Bulls Strength, Mass
 sorcerer$1$Burning Hands
 wizard$1$Burning Hands
 druid$3$Call Lightning
@@ -112,6 +130,15 @@ druid$1$Calm Animals
 ranger$1$Calm Animals
 bard$2$Calm Emotions
 cleric$2$Calm Emotions
+bard$2$Cats Grace
+druid$2$Cats Grace
+ranger$2$Cats Grace
+sorcerer$2$Cats Grace
+wizard$2$Cats Grace
+bard$6$Cats Grace, Mass
+druid$6$Cats Grace, Mass
+sorcerer$6$Cats Grace, Mass
+wizard$6$Cats Grace, Mass
 bard$1$Cause Fear
 cleric$1$Cause Fear
 sorcerer$1$Cause Fear
@@ -373,6 +400,15 @@ cleric$1$Doom
 bard$5$Dream
 sorcerer$5$Dream
 wizard$5$Dream
+bard$2$Eagles Splendor
+cleric$2$Eagles Splendor
+paladin$2$Eagles Splendor
+sorcerer$2$Eagles Splendor
+wizard$2$Eagles Splendor
+bard$6$Eagles Splendor, Mass
+cleric$6$Eagles Splendor, Mass
+sorcerer$6$Eagles Splendor, Mass
+wizard$6$Eagles Splendor, Mass
 cleric$8$Earthquake
 druid$8$Earthquake
 druid$9$Elemental Swarm
@@ -475,6 +511,12 @@ wizard$6$Forceful Hand
 druid$9$Foresight
 sorcerer$9$Foresight
 wizard$9$Foresight
+bard$2$Foxs Cunning
+sorcerer$2$Foxs Cunning
+wizard$2$Foxs Cunning
+bard$6$Foxs Cunning, Mass
+sorcerer$6$Foxs Cunning, Mass
+wizard$6$Foxs Cunning, Mass
 sorcerer$9$Freedom
 wizard$9$Freedom
 bard$4$Freedom of Movement
@@ -547,6 +589,8 @@ cleric$9$Heal, Mass
 paladin$3$Heal Mount
 druid$2$Heat Metal
 cleric$3$Helping Hand
+bard$6$Heroes Feast
+cleric$6$Heroes Feast
 bard$2$Heroism
 sorcerer$3$Heroism
 wizard$3$Heroism
@@ -677,6 +721,16 @@ wizard$1$Mage Armor
 bard$0$Mage Hand
 sorcerer$0$Mage Hand
 wizard$0$Mage Hand
+sorcerer$9$Mages Disjunction
+wizard$9$Mages Disjunction
+sorcerer$5$Mages Faithful Hound
+wizard$5$Mages Faithful Hound
+sorcerer$7$Mages Magnificent Mansion
+wizard$7$Mages Magnificent Mansion
+sorcerer$5$Mages Private Sanctum
+wizard$5$Mages Private Sanctum
+sorcerer$7$Mages Sword
+wizard$7$Mages Sword
 bard$1$Magic Aura
 sorcerer$1$Magic Aura
 wizard$1$Magic Aura
@@ -793,6 +847,16 @@ sorcerer$0$Open/Close
 wizard$0$Open/Close
 sorcerer$5$Overland Flight
 wizard$5$Overland Flight
+cleric$2$Owls Wisdom
+druid$2$Owls Wisdom
+paladin$2$Owls Wisdom
+ranger$2$Owls Wisdom
+sorcerer$2$Owls Wisdom
+wizard$2$Owls Wisdom
+cleric$6$Owls Wisdom, Mass
+druid$6$Owls Wisdom, Mass
+sorcerer$6$Owls Wisdom, Mass
+wizard$6$Owls Wisdom, Mass
 sorcerer$5$Passwall
 wizard$5$Passwall
 druid$1$Pass without Trace
@@ -1167,6 +1231,19 @@ wizard$8$Summon Monster VIII
 cleric$9$Summon Monster IX
 sorcerer$9$Summon Monster IX
 wizard$9$Summon Monster IX
+druid$1$Summon Natures Ally I
+ranger$1$Summon Natures Ally I
+druid$2$Summon Natures Ally II
+ranger$2$Summon Natures Ally II
+druid$3$Summon Natures Ally III
+ranger$3$Summon Natures Ally III
+druid$4$Summon Natures Ally IV
+ranger$4$Summon Natures Ally IV
+druid$5$Summon Natures Ally V
+druid$6$Summon Natures Ally VI
+druid$7$Summon Natures Ally VII
+druid$8$Summon Natures Ally VIII
+druid$9$Summon Natures Ally IX
 bard$2$Summon Swarm
 druid$2$Summon Swarm
 sorcerer$2$Summon Swarm
@@ -1405,6 +1482,15 @@ sorcerer$7$Banishment
 wizard$7$Banishment
 druid$2$Barkskin
 ranger$2$Barkskin
+cleric$2$Bears Endurance
+druid$2$Bears Endurance
+ranger$2$Bears Endurance
+sorcerer$2$Bears Endurance
+wizard$2$Bears Endurance
+cleric$6$Bears Endurance, Mass
+druid$6$Bears Endurance, Mass
+sorcerer$6$Bears Endurance, Mass
+wizard$6$Bears Endurance, Mass
 cleric$3$Bestow Curse
 sorcerer$4$Bestow Curse
 wizard$4$Bestow Curse
@@ -1437,6 +1523,15 @@ cleric$5$Break Enchantment
 paladin$4$Break Enchantment
 sorcerer$5$Break Enchantment
 wizard$5$Break Enchantment
+cleric$2$Bulls Strength
+druid$2$Bulls Strength
+paladin$2$Bulls Strength
+sorcerer$2$Bulls Strength
+wizard$2$Bulls Strength
+cleric$6$Bulls Strength, Mass
+druid$6$Bulls Strength, Mass
+sorcerer$6$Bulls Strength, Mass
+wizard$6$Bulls Strength, Mass
 sorcerer$1$Burning Hands
 wizard$1$Burning Hands
 druid$3$Call Lightning
@@ -1445,6 +1540,15 @@ druid$1$Calm Animals
 ranger$1$Calm Animals
 bard$2$Calm Emotions
 cleric$2$Calm Emotions
+bard$2$Cats Grace
+druid$2$Cats Grace
+ranger$2$Cats Grace
+sorcerer$2$Cats Grace
+wizard$2$Cats Grace
+bard$6$Cats Grace, Mass
+druid$6$Cats Grace, Mass
+sorcerer$6$Cats Grace, Mass
+wizard$6$Cats Grace, Mass
 bard$1$Cause Fear
 cleric$1$Cause Fear
 sorcerer$1$Cause Fear
@@ -1706,6 +1810,15 @@ cleric$1$Doom
 bard$5$Dream
 sorcerer$5$Dream
 wizard$5$Dream
+bard$2$Eagles Splendor
+cleric$2$Eagles Splendor
+paladin$2$Eagles Splendor
+sorcerer$2$Eagles Splendor
+wizard$2$Eagles Splendor
+bard$6$Eagles Splendor, Mass
+cleric$6$Eagles Splendor, Mass
+sorcerer$6$Eagles Splendor, Mass
+wizard$6$Eagles Splendor, Mass
 cleric$8$Earthquake
 druid$8$Earthquake
 druid$9$Elemental Swarm
@@ -1808,6 +1921,12 @@ wizard$6$Forceful Hand
 druid$9$Foresight
 sorcerer$9$Foresight
 wizard$9$Foresight
+bard$2$Foxs Cunning
+sorcerer$2$Foxs Cunning
+wizard$2$Foxs Cunning
+bard$6$Foxs Cunning, Mass
+sorcerer$6$Foxs Cunning, Mass
+wizard$6$Foxs Cunning, Mass
 sorcerer$9$Freedom
 wizard$9$Freedom
 bard$4$Freedom of Movement
@@ -1880,6 +1999,8 @@ cleric$9$Heal, Mass
 paladin$3$Heal Mount
 druid$2$Heat Metal
 cleric$3$Helping Hand
+bard$6$Heroes Feast
+cleric$6$Heroes Feast
 bard$2$Heroism
 sorcerer$3$Heroism
 wizard$3$Heroism
@@ -2010,6 +2131,16 @@ wizard$1$Mage Armor
 bard$0$Mage Hand
 sorcerer$0$Mage Hand
 wizard$0$Mage Hand
+sorcerer$9$Mages Disjunction
+wizard$9$Mages Disjunction
+sorcerer$5$Mages Faithful Hound
+wizard$5$Mages Faithful Hound
+sorcerer$7$Mages Magnificent Mansion
+wizard$7$Mages Magnificent Mansion
+sorcerer$5$Mages Private Sanctum
+wizard$5$Mages Private Sanctum
+sorcerer$7$Mages Sword
+wizard$7$Mages Sword
 bard$1$Magic Aura
 sorcerer$1$Magic Aura
 wizard$1$Magic Aura
@@ -2126,6 +2257,16 @@ sorcerer$0$Open/Close
 wizard$0$Open/Close
 sorcerer$5$Overland Flight
 wizard$5$Overland Flight
+cleric$2$Owls Wisdom
+druid$2$Owls Wisdom
+paladin$2$Owls Wisdom
+ranger$2$Owls Wisdom
+sorcerer$2$Owls Wisdom
+wizard$2$Owls Wisdom
+cleric$6$Owls Wisdom, Mass
+druid$6$Owls Wisdom, Mass
+sorcerer$6$Owls Wisdom, Mass
+wizard$6$Owls Wisdom, Mass
 sorcerer$5$Passwall
 wizard$5$Passwall
 druid$1$Pass without Trace
@@ -2500,6 +2641,19 @@ wizard$8$Summon Monster VIII
 cleric$9$Summon Monster IX
 sorcerer$9$Summon Monster IX
 wizard$9$Summon Monster IX
+druid$1$Summon Natures Ally I
+ranger$1$Summon Natures Ally I
+druid$2$Summon Natures Ally II
+ranger$2$Summon Natures Ally II
+druid$3$Summon Natures Ally III
+ranger$3$Summon Natures Ally III
+druid$4$Summon Natures Ally IV
+ranger$4$Summon Natures Ally IV
+druid$5$Summon Natures Ally V
+druid$6$Summon Natures Ally VI
+druid$7$Summon Natures Ally VII
+druid$8$Summon Natures Ally VIII
+druid$9$Summon Natures Ally IX
 bard$2$Summon Swarm
 druid$2$Summon Swarm
 sorcerer$2$Summon Swarm

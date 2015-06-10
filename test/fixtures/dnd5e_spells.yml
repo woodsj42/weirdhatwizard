@@ -8,7 +8,7 @@ one:
   range: MyString
   components: MyString
   duration: MyString
-  description: MyText
+  description: MyString
   ritual: MyString
   concentration: MyString
 
@@ -20,6 +20,6 @@ two:
   range: MyString
   components: MyString
   duration: MyString
-  description: MyText
+  description: MyString
   ritual: MyString
   concentration: MyString

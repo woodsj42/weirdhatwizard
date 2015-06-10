@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dnd35e_spell_id: 1
+  dnd35e_domain_id: 1
+  level: MyString
+
+two:
+  dnd35e_spell_id: 1
+  dnd35e_domain_id: 1
+  level: MyString
