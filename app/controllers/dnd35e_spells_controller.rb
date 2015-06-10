@@ -5,6 +5,7 @@ class Dnd35eSpellsController < ApplicationController
 	def index
 
 		@domains = []
+		@classes = []
 		@class_highlight = params[:class].to_i
 #		@domain_highlight = params[:domain].to_i
 
@@ -29,6 +30,10 @@ class Dnd35eSpellsController < ApplicationController
 					redirect_to(dnd35e_spell_path(@best_fit))
 				end
 		end	
+		
+		Dnd35eClass.all.each do |c|
+			@classes << c
+		end
 
 		@spells = []
                 @level0spells = []
@@ -85,6 +90,7 @@ class Dnd35eSpellsController < ApplicationController
 				@spells.sort_by!{ |m| m.name }	
 
                 	end
+			@classes.sort_by!{ |m| m.name }
 end
 	
 	def show

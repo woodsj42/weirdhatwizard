@@ -5,6 +5,7 @@ class Dnd5eSpellsController < ApplicationController
 	def index
 
 		@archetypes = []	
+		@classes = []	
 		@class_highlight = params[:class].to_i	
 		@archetype_highlight = params[:archetype].to_i
 
@@ -22,8 +23,12 @@ class Dnd5eSpellsController < ApplicationController
 				else
 					redirect_to(dnd5e_spell_path(@best_fit))
 				end
-		end		
-		
+		end			
+	
+		Dnd5eClass.all.each do |c|
+			@classes << c
+		end
+	
 		if params[:class]
 				
 			Dnd5eArchetype.all.each do |archetype|
@@ -137,6 +142,8 @@ class Dnd5eSpellsController < ApplicationController
 			@level7spells.sort_by!{ |m| m.name }	
 			@level8spells.sort_by!{ |m| m.name }	
 			@level9spells.sort_by!{ |m| m.name }
+			@archetypes.sort_by!{ |m| m.name }
+			@classes.sort_by!{ |m| m.name }
 	end
 
 	def show
