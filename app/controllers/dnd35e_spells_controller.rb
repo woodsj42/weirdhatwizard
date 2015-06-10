@@ -55,7 +55,7 @@ class Dnd35eSpellsController < ApplicationController
                                                 	        @level0spells << m      
                        	        	                when 1
                          	        	                @level1spells << m      
-                                    	            	when 1
+                                    	            	when 2
                                                         	@level2spells << m      
                                                 	when 3
                                                         	@level3spells << m      
@@ -91,6 +91,7 @@ class Dnd35eSpellsController < ApplicationController
 
                 	end
 			@classes.sort_by!{ |m| m.name }
+			raise @level0spells.map { |m| m = m.name }.inspect
 end
 	
 	def show
