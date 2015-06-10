@@ -91,7 +91,7 @@ class Dnd35eSpellsController < ApplicationController
 
                 	end
 			@classes.sort_by!{ |m| m.name }
-			raise @level0spells.map { |m| m = m.name }.inspect
+#			raise @level0spells.map { |m| m = m.name }.inspect
 end
 	
 	def show
