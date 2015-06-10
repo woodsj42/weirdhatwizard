@@ -86,7 +86,7 @@ class Dnd35eSpellsController < ApplicationController
  
 			else
 		
-				Dnd5eSpell.all.map { |m| @spells << m }
+				Dnd35eSpell.all.map { |m| @spells << m }
 				@spells.sort_by!{ |m| m.name }	
 
                 	end
