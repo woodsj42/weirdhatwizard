@@ -6,14 +6,15 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-dnd5e = "dnd5e_"
-dnd35e = "dnd35e_"
+dnd5e =  Dir.pwd + "/db/dnd5e_"
+dnd35e = Dir.pwd + "/db/dnd35e_"
 class_file = "classes.txt"
 archetype_file = "archetypes.txt"
 spell_file = "spells.txt"
 class_spell_file = "class_spell_list_all.txt"
 archetype_spell_file = "archetype_spell_list_all.txt"
-File.open(dnd5e + class_file) do |f|
+
+File.open( dnd5e + class_file) do |f|
 	while line = f.gets
 		cleaned_class =  line.titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 		Dnd5eClass.create(name: cleaned_class)
