@@ -1,4 +1,7 @@
 class Dnd5eArchetypeSpell < ActiveRecord::Base
+	
+	belongs_to :dnd5e_class
+	belongs_to :dnd5e_spell
 
 	def self.spells_known_to_archetype(id)
 

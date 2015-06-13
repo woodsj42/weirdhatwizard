@@ -1,7 +1,17 @@
 class Dnd35eClassSpell < ActiveRecord::Base
-	def self.spells_known_to_class(id)
 
-		where("dnd35e_class_id = ?", id).pluck(:dnd35e_spell_id).map{ |m| m = Dnd35eSpell.where("id = ?", m).take}
+	belongs_to :dnd35e_spell
+	belongs_to :dnd35e_class
 
+	def self.spells_known_to_class_by_level(id)
+
+		length = [0,0,0,0,0,0,0,0,0,0]
+		@sorted = [[],[],[],[],[],[],[],[],[],[]]
+		where(dnd35e_class_id: id).map { |m| 
+							temp = m.level.to_i
+					        	@sorted[ temp ][ length[temp] ] = m.id 
+							length[temp] += 1 
+		 			      }
+		@sorted
 	end
 end

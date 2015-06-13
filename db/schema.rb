@@ -17,12 +17,15 @@ ActiveRecord::Schema.define(version: 20150609221318) do
   enable_extension "plpgsql"
 
   create_table "dnd35e_class_spells", force: :cascade do |t|
-    t.integer  "dnd35e_spell_id"
     t.integer  "dnd35e_class_id"
+    t.integer  "dnd35e_spell_id"
     t.string   "level"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
   end
+
+  add_index "dnd35e_class_spells", ["dnd35e_class_id"], name: "index_dnd35e_class_spells_on_dnd35e_class_id", using: :btree
+  add_index "dnd35e_class_spells", ["dnd35e_spell_id"], name: "index_dnd35e_class_spells_on_dnd35e_spell_id", using: :btree
 
   create_table "dnd35e_classes", force: :cascade do |t|
     t.string   "name"
@@ -31,12 +34,15 @@ ActiveRecord::Schema.define(version: 20150609221318) do
   end
 
   create_table "dnd35e_domain_spells", force: :cascade do |t|
-    t.integer  "dnd35e_spell_id"
     t.integer  "dnd35e_domain_id"
+    t.integer  "dnd35e_spell_id"
     t.string   "level"
     t.datetime "created_at",       null: false
     t.datetime "updated_at",       null: false
   end
+
+  add_index "dnd35e_domain_spells", ["dnd35e_domain_id"], name: "index_dnd35e_domain_spells_on_dnd35e_domain_id", using: :btree
+  add_index "dnd35e_domain_spells", ["dnd35e_spell_id"], name: "index_dnd35e_domain_spells_on_dnd35e_spell_id", using: :btree
 
   create_table "dnd35e_domains", force: :cascade do |t|
     t.string   "name"
@@ -69,9 +75,13 @@ ActiveRecord::Schema.define(version: 20150609221318) do
   create_table "dnd5e_archetype_spells", force: :cascade do |t|
     t.integer  "dnd5e_archetype_id"
     t.integer  "dnd5e_spell_id"
+    t.string   "level"
     t.datetime "created_at",         null: false
     t.datetime "updated_at",         null: false
   end
+
+  add_index "dnd5e_archetype_spells", ["dnd5e_archetype_id"], name: "index_dnd5e_archetype_spells_on_dnd5e_archetype_id", using: :btree
+  add_index "dnd5e_archetype_spells", ["dnd5e_spell_id"], name: "index_dnd5e_archetype_spells_on_dnd5e_spell_id", using: :btree
 
   create_table "dnd5e_archetypes", force: :cascade do |t|
     t.string   "name"
@@ -83,9 +93,13 @@ ActiveRecord::Schema.define(version: 20150609221318) do
   create_table "dnd5e_class_spells", force: :cascade do |t|
     t.integer  "dnd5e_class_id"
     t.integer  "dnd5e_spell_id"
+    t.string   "level"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
   end
+
+  add_index "dnd5e_class_spells", ["dnd5e_class_id"], name: "index_dnd5e_class_spells_on_dnd5e_class_id", using: :btree
+  add_index "dnd5e_class_spells", ["dnd5e_spell_id"], name: "index_dnd5e_class_spells_on_dnd5e_spell_id", using: :btree
 
   create_table "dnd5e_classes", force: :cascade do |t|
     t.string   "name"

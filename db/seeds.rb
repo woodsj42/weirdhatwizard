@@ -95,7 +95,6 @@ File.open( dnd5e + archetype_spell_file) do |f|
 end
 
 
-
 class_file = "classes.txt"
 spell_file = "spells.txt"
 class_spell_file = "class_spells.txt"
@@ -185,4 +184,3 @@ File.open( dnd35e + class_spell_file) do |f|
 		end
 
 end
-
