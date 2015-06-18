@@ -11,10 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150609221318) do
+ActiveRecord::Schema.define(version: 20150615213618) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "dnd35e_cast_times", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "dnd35e_class_spells", force: :cascade do |t|
     t.integer  "dnd35e_class_id"
@@ -28,6 +34,12 @@ ActiveRecord::Schema.define(version: 20150609221318) do
   add_index "dnd35e_class_spells", ["dnd35e_spell_id"], name: "index_dnd35e_class_spells_on_dnd35e_spell_id", using: :btree
 
   create_table "dnd35e_classes", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "dnd35e_components", force: :cascade do |t|
     t.string   "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -49,6 +61,12 @@ ActiveRecord::Schema.define(version: 20150609221318) do
     t.string   "granted_power"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
+  end
+
+  create_table "dnd35e_durations", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "dnd35e_spell_types", force: :cascade do |t|
@@ -90,6 +108,25 @@ ActiveRecord::Schema.define(version: 20150609221318) do
     t.datetime "updated_at",     null: false
   end
 
+  add_index "dnd5e_archetypes", ["dnd5e_class_id"], name: "index_dnd5e_archetypes_on_dnd5e_class_id", using: :btree
+
+  create_table "dnd5e_cast_times", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "dnd5e_class_attributes", force: :cascade do |t|
+    t.string   "name"
+    t.string   "value"
+    t.string   "level"
+    t.integer  "dnd5e_class_id"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+  end
+
+  add_index "dnd5e_class_attributes", ["dnd5e_class_id"], name: "index_dnd5e_class_attributes_on_dnd5e_class_id", using: :btree
+
   create_table "dnd5e_class_spells", force: :cascade do |t|
     t.integer  "dnd5e_class_id"
     t.integer  "dnd5e_spell_id"
@@ -102,6 +139,18 @@ ActiveRecord::Schema.define(version: 20150609221318) do
   add_index "dnd5e_class_spells", ["dnd5e_spell_id"], name: "index_dnd5e_class_spells_on_dnd5e_spell_id", using: :btree
 
   create_table "dnd5e_classes", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "dnd5e_components", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "dnd5e_durations", force: :cascade do |t|
     t.string   "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

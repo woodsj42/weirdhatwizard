@@ -31,9 +31,10 @@ for i in re.finditer(first_page_pattern,first_page):
 		print spell_type + '\n'
 		mylist = spell_type.split()
 		if mylist[1] == 'cantrip':
-			whole += mylist[1] + '$'
+			whole += "cantrip" + '$'
 			whole += mylist[0] + '$'
 		else:
+			
 			whole += mylist[0] + '$'
 			whole += mylist[1] + '$'
 		casting_time = replace_all(i.group(2),reps)

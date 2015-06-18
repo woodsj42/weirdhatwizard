@@ -1,0 +1,5 @@
+<% if dnd5e_class.id != 0  %>
+	<label>,</label>
+<% end %>
+
+<%= link_to dnd5e_archetype.name, "dnd5e_archetypes#index", id: "class" + dnd5e_class.id.to_s, remote: true %>

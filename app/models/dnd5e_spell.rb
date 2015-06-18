@@ -2,6 +2,20 @@ class Dnd5eSpell < ActiveRecord::Base
 	
 	has_many :dnd5e_class_spells
 	has_many :dnd5e_classes, :through => :dnd5e_class_spells	
+	has_many :dnd5e_archetype_spells
+	has_many :dnd5e_archetypes, :through => :dnd5e_archetype_spells	
+
+
+	def self.sort_by_level
+		length = [0,0,0,0,0,0,0,0,0,0]
+		@sorted = [[],[],[],[],[],[],[],[],[],[]]
+		Dnd5eSpell.all.map { |m| 
+				      	temp = m.level.to_i 	
+					@sorted[ temp ][ length[ temp ] ] = m
+					length[temp] += 1 
+	     			   }
+		@sorted
+	end
 
 	def self.search(query)
 #		where(:name query)

@@ -1,11 +1,11 @@
 class CreateDnd35eClassSpells < ActiveRecord::Migration
   def change
     create_table :dnd35e_class_spells do |t|
-      t.integer :dnd35e_spell_id
-      t.integer :dnd35e_class_id
-      t.string :level
+      	t.belongs_to :dnd35e_class, index: true
+	t.belongs_to :dnd35e_spell, index: true
+	t.string :level
 
-      t.timestamps null: false
+      	t.timestamps null: false
     end
   end
 end

@@ -9,7 +9,7 @@ class Dnd5eClassSpell < ActiveRecord::Base
 		@sorted = [[],[],[],[],[],[],[],[],[],[]]
 		Dnd5eSpell.includes(:dnd5e_class_spells).where(:dnd5e_class_spells => {dnd5e_class_id: id}).map { |m| 
 															temp = m.level.to_i 	
-														        @sorted[ temp ][ length[ temp ] ] = m.id 
+														        @sorted[ temp ][ length[ temp ] ] = m  
 															length[temp] += 1 
 														}
 		@sorted

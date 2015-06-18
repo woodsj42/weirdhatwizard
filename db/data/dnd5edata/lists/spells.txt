@@ -530,7 +530,7 @@ spell slot of 2nd level or higher, the damage increases by
 <p>If you cast the spell two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret.</p>
 
   $false$true
-**Barkskin$2nd-level$transmuation$1 action$Touch$V, S, M (a handful of oak bark)$Concentration, up to 1 hour$<p>You touch a willing creature. Until the spell ends, the targets skin has a rough, bark-like appearance, and the targets AC cant be less than 16, regardless of what kind of armor it is wearing.</p>
+**Barkskin$2nd-level$transmutation$1 action$Touch$V, S, M (a handful of oak bark)$Concentration, up to 1 hour$<p>You touch a willing creature. Until the spell ends, the targets skin has a rough, bark-like appearance, and the targets AC cant be less than 16, regardless of what kind of armor it is wearing.</p>
 
   $true$false
 **Beast Sense$2nd-level$divination$1 action$touch$S$Concentration, up to 1 hour$<p>You touch a willing beast. For the duration of the spell, you can use your action to see through the beasts eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses.</p>
@@ -591,6 +591,11 @@ spell slot of 2nd level or higher, the damage increases by
 <p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.</p>
 
   $true$false
+**Invisibility$2nd-level$illusion$1 action$Touch$V, S, M (an eyelash encased in gum arabic)$Concentration, up to 1 hour$<p>A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the targets person. The spell ends for a target that attacks or casts a spell.</p>
+
+<p>When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</p>
+
+  $true$false
 **Lesser Restoration$2nd-level$abjuration$1 action$Touch$V, S$Instantaneous$<p>You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.</p>
 
   $false$false
@@ -609,7 +614,7 @@ spell slot of 2nd level or higher, the damage increases by
 <p><strong>At Higher Levels</strong>. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for every two slot levels above the 2nd.</p>
 
   $false$false
-**Suggestion$2nd-level$enchantment$1 action$30 feet$V, M (a snakes tongue and either a bit of honeycomb or a drop of sweet oil)$Concentration, up to 8 hours$<p>You suggest a course of activity (limited to a sentence or two) and magically influence a creature you can see within range that can hear and understand you.
+**Suggestion$2nd-level$enchantment$1 action$30 feet$V,M (a snakes tongue and either a bit of honeycomb or a drop of sweet oil)$Concentration, up to 8 hours$<p>You suggest a course of activity (limited to a sentence or two) and magically influence a creature you can see within range that can hear and understand you.
 Creatures that cant be charmed are immune to this effect.
 The suggestion must be worded in such a manner as to make the course of action sound reasonable.
 Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the spell.</p>
@@ -1465,7 +1470,7 @@ If the condition isnt met before the spell expires, the activity isnt performed.
 <p>Each time you cast this spell, you can create a new demiplane, or have the shadowy door connect to a demiplane you created with a previous casting of this spell.  Additionally, if you know the nature and contents of a demiplane created by a casting of this spell by another creature, you can have the shadowy door connect to its demiplane instead.</p>
 
   $false$false
-**Dominate Monster$8th-level$enchantment$1 action$60 feet$V, S$Concentration, up to 1 hour$<p>You attempt to beguile a creature that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures taht are friendly to you are fighting it, it has advantage on the saving throw.</p>
+**Dominate Monster$8th-level$enchantment$1 action$60 feet$V, S$Concentyration, up to 1 hour$<p>You attempt to beguile a creature that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures taht are friendly to you are fighting it, it has advantage on the saving throw.</p>
 
 <p>While the creature is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as Attack that creature, Run over there, or Fetch that object. If the creature completes the order and doesnt receive further direction from you, it defends and preserves itself to the best of its ability.</p>
 

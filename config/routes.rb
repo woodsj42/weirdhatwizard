@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'dnd35e_classes/index'
+
+  get 'dnd5e_archetypes/index'
+
+  get 'dnd5e_classes/index'
+
 	root 'static_pages#home'
 
 

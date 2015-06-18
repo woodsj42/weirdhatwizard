@@ -495,7 +495,7 @@ spell slot of 2nd level or higher, the damage increases by
 <p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 3rd level or higher, a targets hit points increase by an additional 5 for each slot level above 2nd.</p>
 
   $false$false
-**Alter Self$2nd-Level$Transmuation$1 action$Self$V, S$Concentration, up to 1 hour$<p>You assume a different form. When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one.</p>
+**Alter Self$2nd-Level$Transmutation$1 action$Self$V, S$Concentration, up to 1 hour$<p>You assume a different form. When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one.</p>
 
 <p><strong>Aquatic Adaptation.</strong> You adapt your body to an aquatic environment, sprouting gills and growing webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed. </p>
 
@@ -530,7 +530,7 @@ spell slot of 2nd level or higher, the damage increases by
 <p>If you cast the spell two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret.</p>
 
   $false$true
-**Barkskin$2nd-level$transmuation$1 action$Touch$V, S, M (a handful of oak bark)$Concentration, up to 1 hour$<p>You touch a willing creature. Until the spell ends, the targets skin has a rough, bark-like appearance, and the targets AC cant be less than 16, regardless of what kind of armor it is wearing.</p>
+**Barkskin$2nd-level$transmutation$1 action$Touch$V, S, M (a handful of oak bark)$Concentration, up to 1 hour$<p>You touch a willing creature. Until the spell ends, the targets skin has a rough, bark-like appearance, and the targets AC cant be less than 16, regardless of what kind of armor it is wearing.</p>
 
   $true$false
 **Beast Sense$2nd-level$divination$1 action$touch$S$Concentration, up to 1 hour$<p>You touch a willing beast. For the duration of the spell, you can use your action to see through the beasts eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses.</p>

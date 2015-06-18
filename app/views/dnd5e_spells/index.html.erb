@@ -1,32 +1,33 @@
-
-
+</script>
 <div id="sort">
-	<label>[</label>	
-			<%= link_to "Clear", "5th_edition_spell_index", {:style => "color: black;" } %>
-	<% @classes.each do |classs| %>
-		<label>,</label>
-		<% if classs.id == @class_highlight %>
-			<%= link_to classs.name, { :controller => "dnd5e_spells", :action => "index", :class => classs.id }, {:style => "color: gray;" }%>
-		<% else %>
-			<%= link_to classs.name, { :controller => "dnd5e_spells", :action => "index", :class => classs.id }, {:style => "color: black;" } %>
-		<% end %>
-	<% end %>	
-	<label>]</label>	
-	<% if !@archetypes.empty? %>
-		<br>	
-		<label>[</label>	
-		<% @archetypes.each_with_index do |archetype, index| %>
-			<% if index > 0%> 
-				<label>,</label>
-			<% end %>
-			<% if archetype.id == @archetype_highlight %>
-				<%= link_to archetype.name, { :controller => "dnd5e_spells", :action => "index", :archetype => archetype.id, :class => @class_highlight }, {:style => "color: gray;" }%>
-			<% else %>
-				<%= link_to archetype.name, { :controller => "dnd5e_spells", :action => "index", :archetype => archetype.id, :class => @class_highlight }, {:style => "color: black;" } %>
-			<% end %>
-		<% end %>	
-		<label>]</label>	
-	<% end %>
+	
+	<div id="classes">
+		 <label>[</label>        
+                        <%= link_to "Clear", "5th_edition_spell_index", {:style => "color: black;" } %>
+        	<% Dnd35eClass.all.each do |classs| %>
+                	<% if classs.id == @class_highlight %>
+                        	<%= link_to classs.name, { :controller => "dnd5e_spells", :action => "index", :class => classs.id }, {:style => "color: gray;" }%>
+                	<% else %>
+                        	<%= link_to classs.name, { :controller => "dnd5e_spells", :action => "index", :class => classs.id }, {:style => "color: black;" } %>
+                	<% end %>
+        	<% end %>       
+        	<label>]</label>     
+	</div>
+
+	<% if @class_highlight%> 
+		<div id="archetypes">
+			<label>[</label>        
+        		<% @archetypes.each do |a| %>
+                		<% if a.id == @archetype_highlight %>
+                        		<%= link_to a.name, { :controller => "dnd5e_spells", :action => "index", :class => @class_highlight, :archetype => a.id}, {:style => "color: gray;" }%>
+                		<% else %>
+                        		<%= link_to a.name, { :controller => "dnd5e_spells", :action => "index", :class => @class_highlight, :archetype => a.id }, {:style => "color: black;" } %>
+                		<% end %>
+        		<% end %>       
+        	<label>]</label>  
+	<% end %>   
+	</div>
+
 </div>
 
 
@@ -40,94 +41,19 @@
 
 <div id="index">
 
+	<% @levels.each_with_index do |level, index| %>
+		<h2><%= level %></h2> 
+		<% @spells[index].each do |spell| %>
+	        	<%=link_to  spell.name, dnd5e_spell_url(spell) %>
+			<br>
+		<% end %>
+	<% end %>	
 
-
-<% if !@level0spells.empty? %>
-	<h2> Cantrips </h2>
-	<% @level0spells.each do |spell| %>
-  		<%=link_to  spell.name, dnd5e_spell_url(spell) %>
-		<br>
+	<% if @spells.flatten.empty?   %>
+		<h2> None </h2>
+	<% else %>
+		<div id=totop>
+			<a href="5th_edition_spell_index"> to Top</a>
+		</div>
 	<% end %>
-<% end %>
-
-<% if !@level1spells.empty? %>
-	<h2> 1st-level </h2>
-	<% @level1spells.each do |spell| %>
-  		<%=link_to  spell.name, dnd5e_spell_url(spell) %>
-		<br>
-	<% end %>
-<% end %>
-
-<% if !@level2spells.empty? %>
-	<h2> 2nd-level </h2>
-	<% @level2spells.each do |spell| %>
-  		<%=link_to  spell.name, dnd5e_spell_url(spell) %>
-		<br>
-	<% end %>
-<% end %>
-
-<% if !@level3spells.empty? %>
-	<h2> 3rd-level </h2>
-	<% @level3spells.each do |spell| %>
-  		<%=link_to  spell.name, dnd5e_spell_url(spell) %>
-		<br>
-	<% end %>
-<% end %>
-
-<% if !@level4spells.empty? %>
-	<h2> 4th-level </h2>
-	<% @level4spells.each do |spell| %>
-  		<%=link_to  spell.name, dnd5e_spell_url(spell) %>
-		<br>
-	<% end %>
-<% end %>
-
-<% if !@level5spells.empty? %>
-	<h2> 5th-level </h2>
-	<% @level5spells.each do |spell| %>
-  		<%=link_to  spell.name, dnd5e_spell_url(spell) %>
-		<br>
-	<% end %>
-<% end %>
-
-<% if !@level6spells.empty? %>
-	<h2> 6th-level </h2>
-	<% @level6spells.each do |spell| %>
-  		<%=link_to  spell.name, dnd5e_spell_url(spell) %>
-		<br>
-	<% end %>
-<% end %>
-
-<% if !@level7spells.empty? %>
-	<h2> 7th-level </h2>
-	<% @level7spells.each do |spell| %>
-  		<%=link_to  spell.name, dnd5e_spell_url(spell) %>
-		<br>
-	<% end %>
-<% end %>
-
-
-<% if !@level8spells.empty? %>
-	<h2> 8th-level </h2>
-	<% @level8spells.each do |spell| %>
-  		<%=link_to  spell.name, dnd5e_spell_url(spell) %>
-		<br>
-	<% end %>
-<% end %>
-
-<% if !@level9spells.empty? %>
-	<h2> 9th-level </h2>
-	<% @level9spells.each do |spell| %>
-  		<%=link_to  spell.name, dnd5e_spell_url(spell) %>
-		<br>
-	<% end %>
-<% end %>
-
-<% if @level0spells.empty? and @level2spells.empty?  and @level3spells.empty?  and @level4spells.empty? and @level5spells.empty? and @level6spells.empty? and @level7spells.empty? and @level8spells.empty? and @level9spells.empty? and @level1spells.empty?   %>
-	<h2> None </h2>
-<% else %>
-	<div id=totop>
-		<a href="5th_edition_spell_index"> to Top</a>
-	</div>
-<% end %>
 </div>

@@ -9,7 +9,7 @@ class Dnd35eClassSpell < ActiveRecord::Base
 		@sorted = [[],[],[],[],[],[],[],[],[],[]]
 		where(dnd35e_class_id: id).map { |m| 
 							temp = m.level.to_i
-					        	@sorted[ temp ][ length[temp] ] = m.id 
+					        	@sorted[ temp ][ length[temp] ] = Dnd35eSpell.find(m.dnd35e_spell_id)
 							length[temp] += 1 
 		 			      }
 		@sorted

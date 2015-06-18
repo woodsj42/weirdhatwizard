@@ -192,12 +192,23 @@ table {
       		color: $gray-darker;
     	}
 
+	a{
+		color: black;
+	}
+
 	input{
-	visibility: hidden;
+		visibility: hidden;
 	}	
 
 	label{
-//	font-size: 20pt;
+		padding: 5px;
+//		font-size: 20pt;
 	}	
 
+	button{
+		background:none!important;
+     		border:none; 
+     		padding:0!important;
+	}
+	
 }
