@@ -4,7 +4,7 @@
 	<div id="classes">
 		 <label>[</label>        
                         <%= link_to "Clear", "5th_edition_spell_index", {:style => "color: black;" } %>
-        	<% Dnd35eClass.all.each do |classs| %>
+        	<% Dnd5eClass.all.each do |classs| %>
                 	<% if classs.id == @class_highlight %>
                         	<%= link_to classs.name, { :controller => "dnd5e_spells", :action => "index", :class => classs.id }, {:style => "color: gray;" }%>
                 	<% else %>
