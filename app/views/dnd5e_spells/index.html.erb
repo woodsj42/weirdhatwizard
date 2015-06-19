@@ -34,7 +34,9 @@
 <div id="search">
 		<div id="searchwrapper">
 		<%= form_tag( "5th_edition_spell_index" , :method => "get", class: "navbar-form", id: "search-form") do %>
-      			<%= text_field_tag :search, params[:search], class: "span2", placeholder: "Search..." %>
+			<%= hidden_field_tag "class",@class_highlight %>
+			<%= hidden_field_tag "archetype",@archetype_highlight %>
+			<%= text_field_tag :search, params[:search], class: "span2", placeholder: "Search..." %>
 		<% end %>
 		</div>
 </div>
