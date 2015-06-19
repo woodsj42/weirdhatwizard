@@ -1,8 +1,13 @@
 
-<a href="/5th_edition_spell_index" class="btn btn-lg btn-default">&lt;</a>
-
+<% if @archetype_highlight %>	
+	<a href="/5th_edition_spell_index?archetype=<%= @archetype_highlight %>&class=<%= @class_highlight %>"  class="btn btn-lg btn-default">&lt;</a>
+<% elsif @class_highlight %>	
+	<a href="/5th_edition_spell_index?class=<%= @class_highlight %>"  class="btn btn-lg btn-default">&lt;</a>
+<% else %>	
+	<a href="/5th_edition_spell_index"  class="btn btn-lg btn-default">&lt;</a>
+<% end %>
+	
 <div id="show">
-
  <h1> <%= @spell.name %> </h1>
 
 <p>

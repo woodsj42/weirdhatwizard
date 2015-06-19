@@ -28,14 +28,14 @@
 		<% @levels.each_with_index do |level, index| %>
                 	<h2><%= level %></h2> 
                 	<% @spells[index].each do |spell| %>
-                        	<%=link_to  spell.name, dnd35e_spell_url(spell) %>
+				<%= link_to spell.name, { :controller => "dnd35e_spells", :action => "show", :id => spell.id, :class => @class_highlight} %>
                         	<br>
                 	<% end %>
         	<% end %>   
 	<% else  %>
 		<h2> Spells </h2>
 		<% @spells.each do |spell| %>
-  			<%=link_to  spell.name, dnd35e_spell_url(spell) %>
+			<%= link_to spell.name, { :controller => "dnd35e_spells", :action => "show", :id => spell.id} %>
 			<br>
 		<% end %>
 

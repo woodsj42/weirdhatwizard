@@ -14,9 +14,9 @@
         	<label>]</label>     
 	</div>
 
-	<% if @class_highlight%> 
-		<div id="archetypes">
-			<label>[</label>        
+	<div id="archetypes">
+		<label>[</label>        
+		<% if @class_highlight%> 
         		<% @archetypes.each do |a| %>
                 		<% if a.id == @archetype_highlight %>
                         		<%= link_to a.name, { :controller => "dnd5e_spells", :action => "index", :class => @class_highlight, :archetype => a.id}, {:style => "color: gray;" }%>
@@ -24,8 +24,8 @@
                         		<%= link_to a.name, { :controller => "dnd5e_spells", :action => "index", :class => @class_highlight, :archetype => a.id }, {:style => "color: black;" } %>
                 		<% end %>
         		<% end %>       
-        	<label>]</label>  
 	<% end %>   
+        <label>]</label>  
 	</div>
 
 </div>
@@ -46,7 +46,7 @@
 	<% @levels.each_with_index do |level, index| %>
 		<h2><%= level %></h2> 
 		<% @spells[index].each do |spell| %>
-	        	<%=link_to  spell.name, dnd5e_spell_url(spell) %>
+			<%= link_to spell.name, { :controller => "dnd5e_spells", :action => "show", :id => spell.id, :class => @class_highlight, :archetype => @archetype_highlight } %>
 			<br>
 		<% end %>
 	<% end %>	
@@ -57,5 +57,5 @@
 		<div id=totop>
 			<a href="5th_edition_spell_index"> to Top</a>
 		</div>
-	<% end %>
+	<% end %nk_to spell.name, { :controller => "dnd5e_spells", :action => "show", :id => spell.id, :class => @class_highlight, :archetype => @archetype_highlight }>
 </div>

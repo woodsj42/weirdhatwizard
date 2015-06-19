@@ -32,8 +32,8 @@ class Dnd5eSpellsController < ApplicationController
 			
 		if params[:search]
 			params[:search] = params[:search].titleize.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-			if @best_fit = Dnd5eSpell.find_by_name(params[:search])
-					redirect_to(dnd5e_spell_path(@best_fit))
+			if @spells.flatten.find { |x|  x == (@best_fit = Dnd5eSpell.find_by_name(params[:search])) }  
+				redirect_to :controller => "dnd5e_spells", :action => "show", :id => @best_fit.id, :class => @class_highlight, :archetype => @archetype_highlight
 			else
 				if @best_fit = Dnd5eSpell.search(params[:search])
 					for i in 0..@spells.length
@@ -53,6 +53,16 @@ class Dnd5eSpellsController < ApplicationController
 	end
 
 	def show
+		@class_highlight = nil	
+		@archetype_highlight = nil
+		if Dnd5eClass.exists?(params[:class].to_i)
+			@class_highlight = params[:class].to_i	
+		end
+
+		if Dnd5eArchetype.exists?(params[:archetype].to_i)
+			@archetype_highlight = params[:archetype].to_i	
+		end
+
     		@spell = Dnd5eSpell.find(params[:id])
   	end
 

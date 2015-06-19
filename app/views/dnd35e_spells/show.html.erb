@@ -1,5 +1,9 @@
 
-<a href="/3.5_edition_spell_index" class="btn btn-lg btn-default">&lt;</a>
+<% if @class_highlight %>	
+	<a href="/3.5_edition_spell_index?class=<%= @class_highlight %>"  class="btn btn-lg btn-default">&lt;</a>
+<% else %>	
+	<a href="/3.5_edition_spell_index"  class="btn btn-lg btn-default">&lt;</a>
+<% end %>
 
 <div id="show">
 
