@@ -15,10 +15,23 @@ class_attr_file = "class_attr.txt"
 class_spell_file = "class_spell_list_all.txt"
 archetype_spell_file = "archetype_spell_list_all.txt"
 
+File.open( dnd5e + "encounter_multipliers.txt" ) do |f|
+	while line = f.gets
+		arr = line.split('$')
+		Dnd5eEncounterMultiplier.create( number_of_monsters: arr[0], multiplier: arr[1], number_of_characters: arr[2].chomp )
+	end
+end
+
+File.open( dnd5e + "xp_thresholds_by_character_level.txt" ) do |f|
+	while line = f.gets
+		arr  =  line.split('$')
+		Dnd5eXpThresholdsByCharacterLevel.create(character_level: arr[0], easy: arr[1], medium: arr[2], hard: arr[3], deadly: arr[4].chomp)
+	end
+end
+
 File.open( Dir.pwd + "/db/monster_categories.txt" ) do |f|
 	while line = f.gets
-		cleaned_category =  line.titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-		MonsterCategory.create(name: cleaned_category)
+		MonsterCategory.create(name: line.chomp)
 #		print cleaned_category + "\n"
 	end
 end

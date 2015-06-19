@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150619215644) do
+ActiveRecord::Schema.define(version: 20150619224236) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -156,6 +156,14 @@ ActiveRecord::Schema.define(version: 20150619215644) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "dnd5e_encounter_multipliers", force: :cascade do |t|
+    t.string   "number_of_monsters"
+    t.string   "multiplier"
+    t.string   "number_of_characters"
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
+  end
+
   create_table "dnd5e_monsters", force: :cascade do |t|
     t.string   "name"
     t.string   "size"
@@ -188,6 +196,16 @@ ActiveRecord::Schema.define(version: 20150619215644) do
     t.string   "concentration"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
+  end
+
+  create_table "dnd5e_xp_thresholds_by_character_levels", force: :cascade do |t|
+    t.string   "character_level"
+    t.string   "easy"
+    t.string   "medium"
+    t.string   "hard"
+    t.string   "deadly"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
   end
 
   create_table "monster_categories", force: :cascade do |t|
