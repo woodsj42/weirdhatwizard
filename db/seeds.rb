@@ -15,6 +15,14 @@ class_attr_file = "class_attr.txt"
 class_spell_file = "class_spell_list_all.txt"
 archetype_spell_file = "archetype_spell_list_all.txt"
 
+File.open( Dir.pwd + "/db/monster_categories.txt" ) do |f|
+	while line = f.gets
+		cleaned_category =  line.titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+		MonsterCategory.create(name: cleaned_category)
+#		print cleaned_category + "\n"
+	end
+end
+
 File.open( dnd5e + class_file) do |f|
 	while line = f.gets
 		cleaned_class =  line.titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  character_level: MyString
+  easy: MyString
+  medium: MyString
+  hard: MyString
+  deadly: MyString
+
+two:
+  character_level: MyString
+  easy: MyString
+  medium: MyString
+  hard: MyString
+  deadly: MyString
