@@ -17,7 +17,7 @@ archetype_spell_file = "archetype_spell_list_all.txt"
 
 File.open( dnd5e + class_file) do |f|
 	while line = f.gets
-		cleaned_class =  line.titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+		cleaned_class =  line.titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 		Dnd5eClass.create(name: cleaned_class)
 #		print cleaned_class + "\n"
 	end
@@ -26,8 +26,8 @@ end
 File.open(dnd5e + archetype_file) do |f|
 	while line = f.gets
 		arr = line.split('$')
-		cleaned_class =  arr[1].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-		cleaned_archetype =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+		cleaned_class =  arr[1].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+		cleaned_archetype =  arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 		temp = Dnd5eClass.find_by_name(cleaned_class).id
 		Dnd5eArchetype.create(name: cleaned_archetype, dnd5e_class_id: temp)
 #		print arr[0] + "-" + arr[1].chomp + "-" + temp.to_s +  "\n"
@@ -46,10 +46,10 @@ File.open(dnd5e + spell_file) do |f|
 #			print arr[7] + "\n"
 #			print arr[8] + "\n"
 #			print arr[9] + "\n"
-			cleaned_name =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-			cleaned_spell_type =  arr[2].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-			cleaned_cast_time =  arr[3].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-			cleaned_duration =  arr[6].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_name =  arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_spell_type =  arr[2].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_cast_time =  arr[3].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_duration =  arr[6].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 			if !Dnd5eSpellType.exists?(:name => cleaned_spell_type)
 				Dnd5eSpellType.create(:name => cleaned_spell_type)
 			end
@@ -92,8 +92,8 @@ Dnd35eComponent.create(:name => "XP")
 File.open(dnd5e + class_spell_file) do |f|
 		while line = f.gets
 			arr = line.split('$')
-			cleaned_name =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-			cleaned_class =  arr[1].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_name =  arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_class =  arr[1].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 			if Dnd5eSpell.exists?( :name => cleaned_name ) and Dnd5eClass.exists?( :name => cleaned_class )
 				Dnd5eClassSpell.create(dnd5e_class_id: Dnd5eClass.find_by_name(cleaned_class).id,
 					               dnd5e_spell_id:Dnd5eSpell.find_by_name(cleaned_name).id)
@@ -108,8 +108,8 @@ File.open( dnd5e + archetype_spell_file) do |f|
 		while line = f.gets
 			arr = line.split('$')
 #			print arr[0].chomp.titleize + "\n"
-			cleaned_name =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-			cleaned_archetype =  arr[1].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_name =  arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_archetype =  arr[1].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 			if Dnd5eSpell.exists?( :name => cleaned_name ) and Dnd5eArchetype.exists?( :name => cleaned_archetype )
 				Dnd5eArchetypeSpell.create(dnd5e_archetype_id: Dnd5eArchetype.find_by_name(cleaned_archetype).id,
 					               dnd5e_spell_id:Dnd5eSpell.find_by_name(cleaned_name).id)
@@ -139,11 +139,11 @@ File.open(dnd35e + spell_file) do |f|
 #			print arr[7] + "\n"
 #			print arr[8] + "\n"
 #			print arr[9] + "\n"
-			cleaned_name =  arr[9].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-			cleaned_spell_type =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-			cleaned_components =  arr[2].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-			cleaned_cast_time =  arr[3].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-			cleaned_duration =  arr[4].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_name =  arr[9].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_spell_type =  arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_components =  arr[2].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_cast_time =  arr[3].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_duration =  arr[4].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 			
 			temp = cleaned_spell_type.gsub(',','').split(' ')
 			temp.each do |m|
@@ -191,7 +191,7 @@ end
 
 File.open( dnd35e + class_file) do |f|
 	while line = f.gets
-		cleaned_class =  line.titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+		cleaned_class =  line.titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 		Dnd35eClass.create(name: cleaned_class)
 #		print cleaned_class + "\n"
 	end
@@ -200,8 +200,8 @@ end
 File.open( dnd35e + domain_spell_file) do |f|
 		while line = f.gets
 			arr = line.split('$')
-			cleaned_class =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-			cleaned_name =  arr[2].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_class =  arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_name =  arr[2].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 			if Dnd35eSpell.exists?( :name => cleaned_name ) and Dnd35eDomain.exists?( :name => cleaned_class ) and !Dnd35eDomainSpell.exists?(:dnd35e_spell_id => Dnd35eSpell.find_by_name(cleaned_name).id, :dnd35e_domain_id => Dnd35eDomain.find_by_name(cleaned_class).id   ) 
 				Dnd35eDomainSpell.create(dnd35e_domain_id: Dnd35eDomain.find_by_name(cleaned_class).id,
 					                dnd35e_spell_id: Dnd35eSpell.find_by_name(cleaned_name).id,
@@ -217,8 +217,8 @@ end
 File.open( dnd35e + class_spell_file) do |f|
 		while line = f.gets
 			arr = line.split('$')
-			cleaned_class =  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-			cleaned_name =  arr[2].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_class =  arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_name =  arr[2].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 			if Dnd35eSpell.exists?( :name => cleaned_name ) and Dnd35eClass.exists?( :name => cleaned_class ) and !Dnd35eClassSpell.exists?(:dnd35e_spell_id => Dnd35eSpell.find_by_name(cleaned_name).id, :dnd35e_class_id => Dnd35eClass.find_by_name(cleaned_class).id   ) 
 				Dnd35eClassSpell.create(dnd35e_class_id: Dnd35eClass.find_by_name(cleaned_class).id,
 					                dnd35e_spell_id: Dnd35eSpell.find_by_name(cleaned_name).id,
@@ -234,7 +234,7 @@ end
 File.open(dnd5e + class_attr_file) do |f2|
 	while line = f2.gets
 		arr = line.split('$')
-		arr[0]=  arr[0].titleize.chomp.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+		arr[0]=  arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 		if arr[0] == "barbarian" && Dnd5eClass.exists?( :name => arr[0] )
 			temp_class = Dnd5eClass.where(name: arr[0] ).take
 			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'proficiency bonus', value: arr[2], level: arr[1])

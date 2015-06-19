@@ -8,6 +8,8 @@ gem 'actionpack-action_caching'
 
 #gem "prawn"
 
+gem 'angularjs-rails'
+
 gem 'bootstrap-sass'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

@@ -4,6 +4,23 @@ class Dnd5eSpellsController < ApplicationController
 
 	def index
 
+		if params[:search]
+			params[:search] = params[:search].titleize.gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			if Dnd5eSpell.exists?(name: params[:search])
+				raise @best_fit = Dnd5eSpell.find_by_name(params[:search]).inspect
+			else
+				raise @best_fit = Dnd5eSpell.search(params[:search]).inspect
+			end
+				if @best_fit.nil?
+					redirect_to :action => "index"
+				else
+					if @best_fit.length > 1
+						redirect_to(dnd5e_spell_path(@best_fit[0]))
+					else
+						redirect_to(dnd5e_spell_path(@best_fit[0]))
+					end
+				end
+		end			
 
 		@class_highlight = nil	
 		@archetype_highlight = nil
@@ -22,6 +39,8 @@ class Dnd5eSpellsController < ApplicationController
 			@archetypes = Dnd5eArchetype.get_archetypes_by_class(params[:class].to_i)
 		end
 
+
+
 		if @archetype_highlight
 			@spells = Dnd5eArchetypeSpell.spells_known_to_archetype_by_level(params[:archetype].to_i) 
 		elsif @class_highlight
@@ -30,26 +49,12 @@ class Dnd5eSpellsController < ApplicationController
 			@spells = Dnd5eSpell.sort_by_level
 		end
 			
-		if params[:search]
-			params[:search] = params[:search].titleize.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-			if @best_fit = Dnd5eSpell.find_by_name(params[:search])
-					redirect_to(dnd5e_spell_path(@best_fit))
-			else
-				if @best_fit = Dnd5eSpell.search(params[:search])
-					for i in 0..@spells.length
-						@spells[i] = @spells[i] & @best_fit 
-					end
-				else
-					redirect_to :action => "index"
-				end
-			end
-		end
-			
 		for i in 0..9
 			if @spells[i].empty? 
 				@levels[i] = ""
 			end
 		end
+
 	end
 
 	def show
