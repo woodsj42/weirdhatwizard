@@ -23,7 +23,7 @@
 <div id="index">
 
 
-	<% if @class_highlight != 0  %>
+	<% if @class_highlight != nil  %>
 		<% @levels.each_with_index do |level, index| %>
                 	<h2><%= level %></h2> 
                 	<% @spells[index].each do |spell| %>

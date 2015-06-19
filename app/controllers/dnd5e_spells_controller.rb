@@ -18,20 +18,28 @@ class Dnd5eSpellsController < ApplicationController
 				end
 		end			
 
-		@class_highlight = params[:class].to_i	
-		@archetype_highlight = params[:archetype].to_i	
+		@class_highlight = nil	
+		@archetype_highlight = nil
+		if Dnd5eClass.exists?(params[:class].to_i)
+			@class_highlight = params[:class].to_i	
+		end
+
+		if Dnd5eArchetype.exists?(params[:archetype].to_i)
+			@archetype_highlight = params[:archetype].to_i	
+		end
+
 		@archetypes = []
 		@levels = ["Cantrips", "1st-level", "2nd-level", "3rd-level", "4th-level", "5th-level", "6th-level", "7th-level", "8th-level", "9th-level"]
 		
-		if params[:class]
+		if @class_highlight
 			@archetypes = Dnd5eArchetype.get_archetypes_by_class(params[:class].to_i)
 		end
 
 
 
-		if params[:archetype]
+		if @class_highlight
 			@spells = Dnd5eArchetypeSpell.spells_known_to_archetype_by_level(params[:archetype].to_i) 
-		elsif params[:class]
+		elsif @class_highlight
 			@spells = Dnd5eClassSpell.spells_known_to_class_by_level(params[:class].to_i) 
 		else
 			@spells = Dnd5eSpell.sort_by_level

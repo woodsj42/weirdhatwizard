@@ -5,8 +5,10 @@ class Dnd35eSpellsController < ApplicationController
 	def index
 
 		@domains = []
-		@class_highlight = params[:class].to_i
-		@spells = [[],[],[],[],[],[],[],[],[],[]]
+		@class_highlight = nil
+		if Dnd35eClass.exists?(params[:class].to_i)
+			@class_highlight = params[:class].to_i	
+		end
                 @levels = ["cantrips", "1st-level", "2nd-level", "3rd-level", "4th-level", "5th-level", "6th-level", "7th-level", "8th-level", "9th-level"]
 
 
@@ -27,30 +29,28 @@ class Dnd35eSpellsController < ApplicationController
 			else
 				@best_fit = Dnd35eSpell.search(params[:search])[0]
 			end
-				if @best_fit.nil?
-					redirect_to :action => "index"
-				else
-					redirect_to(dnd35e_spell_path(@best_fit))
-				end
+			if @best_fit.nil?
+				redirect_to :action => "index"
+			else
+				redirect_to(dnd35e_spell_path(@best_fit))
+			end
 		end	
 		
 		@classes = Dnd35eClass.all
 
-		@spells = []
-			if params[:class]
-				@spells = Dnd35eClassSpell.spells_known_to_class_by_level(params[:class].to_i)
-			else
-	 			@spells = Dnd35eSpell.all	
-                	end
+		if @class_highlight
+			@spells = Dnd35eClassSpell.spells_known_to_class_by_level(params[:class].to_i)
+		else
+	 		@spells = Dnd35eSpell.all	
+                end
 		
-		if params[:class]	
+		if @class_highlight
 			for i in 0..9
                         	if @spells[i].empty? 
                                 	@levels[i] = ""
                         	end
 			end
 		end
-
 end
 	
 	def show
