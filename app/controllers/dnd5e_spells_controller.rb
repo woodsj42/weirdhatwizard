@@ -35,12 +35,12 @@ class Dnd5eSpellsController < ApplicationController
 			if @spells.flatten.find { |x|  x == (@best_fit = Dnd5eSpell.find_by_name(params[:search])) }  
 				redirect_to :controller => "dnd5e_spells", :action => "show", :id => @best_fit.id, :class => @class_highlight, :archetype => @archetype_highlight
 			else
-				if @best_fit = Dnd5eSpell.search(params[:search])
+				if (@best_fit = Dnd5eSpell.search(params[:search])).empty?
+					redirect_to :action => "index", :class => @class_highlight, :archetype => @archetype_highlight
+				else
 					for i in 0..@spells.length
 						@spells[i] = @spells[i] & @best_fit 
 					end
-				else
-					redirect_to :action => "index"
 				end
 			end
 		end
