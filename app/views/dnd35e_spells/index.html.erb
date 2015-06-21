@@ -1,7 +1,12 @@
 <div id="sort">
 	
+	
 	<label>[</label>	
-			<%= link_to "Clear", "3.5_edition_spell_index", {:style => "color: black;" } %>
+        <% if 0 == @all %>
+		<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :class => 0 }, {:style => "color: gray;" }%>
+        <% else %>
+		<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :class => 0 }, {:style => "color: black;" }%>
+	<% end %>
 	<% Dnd35eClass.all.each do |classs| %>
 		<% if classs.id == @class_highlight %>
 			<%= link_to classs.name, { :controller => "dnd35e_spells", :action => "index", :class => classs.id }, {:style => "color: gray;" }%>

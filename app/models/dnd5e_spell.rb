@@ -5,7 +5,6 @@ class Dnd5eSpell < ActiveRecord::Base
 	has_many :dnd5e_archetype_spells
 	has_many :dnd5e_archetypes, :through => :dnd5e_archetype_spells	
 
-
 	def self.sort_by_level
 		length = [0,0,0,0,0,0,0,0,0,0]
 		@sorted = [[],[],[],[],[],[],[],[],[],[]]
@@ -16,6 +15,7 @@ class Dnd5eSpell < ActiveRecord::Base
 	     			   }
 		@sorted
 	end
+	
 
 	def self.search(query)
 #		where(:name query)

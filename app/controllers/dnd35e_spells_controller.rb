@@ -4,7 +4,13 @@ class Dnd35eSpellsController < ApplicationController
 
 	def index
 
+
 		@domains = []
+
+		if params[:class].to_i == 0
+			@all = 0
+		end
+
 		@class_highlight = nil
 		if Dnd35eClass.exists?(params[:class].to_i)
 			@class_highlight = params[:class].to_i	

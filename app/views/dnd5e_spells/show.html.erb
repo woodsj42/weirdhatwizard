@@ -1,8 +1,18 @@
 
 <% if @archetype_highlight %>	
-	<a href="/5th_edition_spell_index?archetype=<%= @archetype_highlight %>&class=<%= @class_highlight %>"  class="btn btn-lg btn-default">&lt;</a>
+	<% if @spell_type_highlight %>	
+		<a href="/5th_edition_spell_index?archetype=<%= @archetype_highlight %>&class=<%= @class_highlight %>&spell_type=<%= @spell_type_highlight %>"  class="btn btn-lg btn-default">&lt;</a>
+	<% else %>	
+		<a href="/5th_edition_spell_index?archetype=<%= @archetype_highlight %>&class=<%= @class_highlight %>"  class="btn btn-lg btn-default">&lt;</a>
+	<% end %>	
 <% elsif @class_highlight %>	
-	<a href="/5th_edition_spell_index?class=<%= @class_highlight %>"  class="btn btn-lg btn-default">&lt;</a>
+	<% if @spell_type_highlight %>	
+		<a href="/5th_edition_spell_index?class=<%= @class_highlight %>&spell_type=<%= @spell_type_highlight %>"  class="btn btn-lg btn-default">&lt;</a>
+	<% else %>	
+		<a href="/5th_edition_spell_index?class=<%= @class_highlight %>"  class="btn btn-lg btn-default">&lt;</a>
+	<% end %>
+<% elsif @spell_type_highlight %>	
+	<a href="/5th_edition_spell_index?spell_type=<%= @spell_type_highlight %>"  class="btn btn-lg btn-default">&lt;</a>
 <% else %>	
 	<a href="/5th_edition_spell_index"  class="btn btn-lg btn-default">&lt;</a>
 <% end %>
@@ -14,6 +24,21 @@
 <strong><%= @spell.spell_type %> <%= @spell.level %></strong>
 </p>
  
+<p>
+	<% @class_spells.each_with_index do |i,index| %>
+		<% if index > 0%>	
+			<label>,</label>
+		<% end %>
+		<strong><%= i[0] %> <%= i[1] %></strong>
+		
+	<% end %>	
+	<% @archetype_spells.each_with_index do |i,index| %>
+		<% if index < @archetype_spells.length%>	
+			<label>,</label>
+		<% end %>
+		<strong><%= i[0] %> <%= i[1] %></strong>
+	<% end %>	
+</p>
 
 <p>
 <strong>Casting Time:</strong>

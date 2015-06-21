@@ -14,4 +14,8 @@ class Dnd5eArchetypeSpell < ActiveRecord::Base
 															    }
 		@sorted
 	end
+	def self.archetypes_that_know_this_spell_by_level(id)
+
+		Dnd5eArchetype.includes(:dnd5e_archetype_spells).where(:dnd5e_archetype_spells => {dnd5e_spell_id: id})
+	end
 end

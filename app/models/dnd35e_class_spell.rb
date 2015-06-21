@@ -14,4 +14,9 @@ class Dnd35eClassSpell < ActiveRecord::Base
 		 			      }
 		@sorted
 	end
+	
+	def self.classes_that_know_this_spell_by_level(id)
+
+		Dnd35eClass.includes(:dnd35e_class_spells).where(:dnd35e_class_spells => {dnd35e_spell_id: id})
+	end
 end

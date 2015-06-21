@@ -1,514 +1,514 @@
-barkskin$forest
-spider climb$forest
-call lightning$forest
-plant growth$forest
-divination$forest
-dissonant whispers$great old ones
-tasha's hideous laughter$great old ones
-detect thoughts$great old ones
-phantasmal force$great old ones
-clairvoyance$great old ones
-sending$great old ones
-dominate beast$great old ones
-evard's black tentacles$great old ones
-dominate person$great old ones
-telekinesis$great old ones
-freedom of movement$forest
-faerie fire$archfey
-sleep$archfey
-calm emotions$archfey
-phantasmal force$archfey
-blink$archfey
-plant growth$archfey
-dominate beast$archfey
-greater invisibility$archfey
-dominate person$archfey
-seeming$archfey
-commune with nature$forest
-tree stride$forest
-burning hands$fiend
-command$fiend
-blindness/deafness$fiend
-scorching ray$fiend
-fireball$fiend
-stinking cloud$fiend
-fire shield$fiend
-wall of fire$fiend
-flame strike$fiend
-hallow$fiend
-acid splash$eldritch knight
-blade ward$eldritch knight
-chill touch$eldritch knight
-control flames$eldritch knight
-create bonfire$eldritch knight
-dancing lights$eldritch knight
-fire bolt$eldritch knight
-friends$eldritch knight
-frostbite$eldritch knight
-gust$eldritch knight
-light$eldritch knight
-mage hand$eldritch knight
-mending$eldritch knight
-message$eldritch knight
-minor illusion$eldritch knight
-mold earth$eldritch knight
-poison spray$eldritch knight
-prestidigitation$eldritch knight
-ray of frost$eldritch knight
-shape water$eldritch knight
-shocking grasp$eldritch knight
-thunderclap$eldritch knight
-true strike$eldritch knight
-absorb elements$eldritch knight
-alarm$eldritch knight
-burning hands$eldritch knight
-catapult$eldritch knight
-charm person$eldritch knight
-chromatic orb$eldritch knight
-color spray$eldritch knight
-comprehend languages$eldritch knight
-detect magic$eldritch knight
-disguise self$eldritch knight
-earth tremor$eldritch knight
-expeditious retreat$eldritch knight
-false life$eldritch knight
-feather fall$eldritch knight
-find familiar$eldritch knight
-fog cloud$eldritch knight
-grease$eldritch knight
-ice knife$eldritch knight
-identify$eldritch knight
-illusory script$eldritch knight
-jump$eldritch knight
-longstrider$eldritch knight
-mage armor$eldritch knight
-magic missile$eldritch knight
-protection from evil and good$eldritch knight
-ray of sickness$eldritch knight
-shield$eldritch knight
-silent image$eldritch knight
-sleep$eldritch knight
-tasha's hideous laughter$eldritch knight
-tenser's floating disk$eldritch knight
-thunderwave$eldritch knight
-unseen servant$eldritch knight
-witch bolt$eldritch knight
-aganazzar's scorcher$eldritch knight
-alter self$eldritch knight
-arcane lock$eldritch knight
-blindness/deafness$eldritch knight
-blur$eldritch knight
-cloud of daggers$eldritch knight
-continual flame$eldritch knight
-crown of madness$eldritch knight
-darkness$eldritch knight
-darkvision$eldritch knight
-detect thoughts$eldritch knight
-dust devil$eldritch knight
-earthbind$eldritch knight
-enlarge/reduce$eldritch knight
-flaming sphere$eldritch knight
-gentle repose$eldritch knight
-gust of wind$eldritch knight
-hold person$eldritch knight
-invisibility$eldritch knight
-knock$eldritch knight
-levitate$eldritch knight
-locate object$eldritch knight
-magic mouth$eldritch knight
-magic weapon$eldritch knight
-maximilian's earthen grasp$eldritch knight
-melf's acid arrow$eldritch knight
-mirror image$eldritch knight
-misty step$eldritch knight
-nystul's magic aura$eldritch knight
-phantasmal force$eldritch knight
-pyrotechnics$eldritch knight
-ray of enfeeblement$eldritch knight
-rope trick$eldritch knight
-scorching ray$eldritch knight
-see invisibility$eldritch knight
-shatter$eldritch knight
-skywrite$eldritch knight
-snilloc's snowball swarm$eldritch knight
-spider climb$eldritch knight
-suggestion$eldritch knight
-web$eldritch knight
-animate dead$eldritch knight
-bestow curse$eldritch knight
-blink$eldritch knight
-clairvoyance$eldritch knight
-counterspell$eldritch knight
-dispel magic$eldritch knight
-erupting earth$eldritch knight
-fear$eldritch knight
-feign death$eldritch knight
-fireball$eldritch knight
-flame arrows$eldritch knight
-fly$eldritch knight
-gaseous form$eldritch knight
-glyph of warding$eldritch knight
-haste$eldritch knight
-hypnotic pattern$eldritch knight
-leomund's tiny hut$eldritch knight
-lightning bolt$eldritch knight
-magic circle$eldritch knight
-major image$eldritch knight
-melf's minute meteors$eldritch knight
-nondetection$eldritch knight
-phantom steed$eldritch knight
-protection from energy$eldritch knight
-remove curse$eldritch knight
-sending$eldritch knight
-sleet storm$eldritch knight
-slow$eldritch knight
-stinking cloud$eldritch knight
-tidal wave$eldritch knight
-tongues$eldritch knight
-vampiric touch$eldritch knight
-wall of sand$eldritch knight
-wall of water$eldritch knight
-water breathing$eldritch knight
-arcane eye$eldritch knight
-banishment$eldritch knight
-blight$eldritch knight
-confusion$eldritch knight
-conjure minor elementals$eldritch knight
-control water$eldritch knight
-dimension door$eldritch knight
-elemental bane$eldritch knight
-evard's black tentacles$eldritch knight
-fabricate$eldritch knight
-fire shield$eldritch knight
-greater invisibility$eldritch knight
-hallucinatory terrain$eldritch knight
-ice storm$eldritch knight
-leomund's secret chest$eldritch knight
-locate creature$eldritch knight
-mordenkainen's faithful hound$eldritch knight
-mordenkainen's private sanctum$eldritch knight
-otiluke's resilient sphere$eldritch knight
-phantasmal killer$eldritch knight
-polymorph$eldritch knight
-stone shape$eldritch knight
-stoneskin$eldritch knight
-storm sphere$eldritch knight
-vitriolic sphere$eldritch knight
-wall of fire$eldritch knight
-watery sphere$eldritch knight
-spider climb$mountain
-spike growth$mountain
-lightning bolt$mountain
-meld into stone$mountain
-stone shape$mountain
-stoneskin$mountain
-passwall$mountain
-wall of stone$mountain
-blur$desert
-silence$desert
-create food and water$desert
-protection from energy$desert
-blight$desert
-hallucinatory terrain$desert
-insect plague$desert
-wall of stone$desert
-mirror image$coast
-misty step$coast
-water breathing$coast
-water walk$coast
-control water$coast
-freedom of movement$coast
-conjure elemental$coast
-scrying$coast
-bless$life
-cure wounds$life
-lesser restoration$life
-spiritual weapon$life
-beacon of hope$life
-revivify$life
-death ward$life
-guardian of faith$life
-mass cure wounds$life
-raise dead$life
-protection from evil and good$devotion
-sanctuary$devotion
-lesser restoration$devotion
-zone of truth$devotion
-beacon of hope$devotion
-dispel magic$devotion
-freedom of movement$devotion
-guardian of faith$devotion
-commune$devotion
-flame strike$devotion
-hold person$arctic
-spike growth$arctic
-sleet storm$arctic
-slow$arctic
-freedom of movement$arctic
-ice storm$arctic
-commune with nature$arctic
-cone of cold$arctic
-spider climb$underdark
-web$underdark
-gaseous form$underdark
-stinking cloud$underdark
-greater invisibility$underdark
-stone shape$underdark
-cloudkill$underdark
-insect plague$underdark
-command$knowledge
-identify$knowledge
-augury$knowledge
-suggestion$knowledge
-nondetection$knowledge
-speak with dead$knowledge
-arcane eye$knowledge
-confusion$knowledge
-legend lore$knowledge
-scrying$knowledge
-burning hands$light
-faerie fire$light
-flaming sphere$light
-scorching ray$light
-daylight$light
-fireball$light
-guardian of faith$light
-wall of fire$light
-flame strike$light
-scrying$light
-animal friendship$nature
-speak with animals$nature
-barkskin$nature
-spike growth$nature
-plant growth$nature
-wind wall$nature
-dominate beast$nature
-grasping vine$nature
-insect plague$nature
-tree stride$nature
-fog cloud$tempest
-thunderwave$tempest
-gust of wind$tempest
-shatter$tempest
-call lightning$tempest
-sleet storm$tempest
-control water$tempest
-ice storm$tempest
-destructive wave$tempest
-insect plague$tempest
-charm person$trickery
-disguise self$trickery
-mirror image$trickery
-pass without trace$trickery
-blink$trickery
-dispel magic$trickery
-dimension door$trickery
-polymorph$trickery
-dominate person$trickery
-modify memory$trickery
-divine favor$war
-shield of faith$war
-magic weapon$war
-spiritual weapon$war
-crusader's mantle$war
-spirit guardian$war
-freedom of movement$war
-stoneskin$war
-flame strike$war
-hold monster$war
-ensnaring strike$ancients
-speak with animals$ancients
-moonbeam$ancients
-misty step$ancients
-plant growth$ancients
-protection from energy$ancients
-ice storm$ancients
-stoneskin$ancients
-commune with nature$ancients
-tree stride$ancients
-bane$vengeance
-hunter's mark$vengeance
-hold person$vengeance
-misty step$vengeance
-haste$vengeance
-protection from energy$vengeance
-banishment$vengeance
-dimension door$vengeance
-hold monster$vengeance
-scrying$vengeance
-invisibility$grassland
-pass without trace$grassland
-daylight$grassland
-haste$grassland
-divination$grassland
-freedom of movement$grassland
-dream$grassland
-insect plague$grassland
-darkness$swamp
-melf's acid arrow$swamp
-water walk$swamp
-stinking cloud$swamp
-freedom of movement$swamp
-locate creature$swamp
-insect plague$swamp
-scrying$swamp
-acid splash$arcane trickster
-blade ward$arcane trickster
-chill touch$arcane trickster
-control flames$arcane trickster
-create bonfire$arcane trickster
-dancing lights$arcane trickster
-fire bolt$arcane trickster
-friends$arcane trickster
-frostbite$arcane trickster
-gust$arcane trickster
-light$arcane trickster
-mage hand$arcane trickster
-mending$arcane trickster
-message$arcane trickster
-minor illusion$arcane trickster
-mold earth$arcane trickster
-poison spray$arcane trickster
-prestidigitation$arcane trickster
-ray of frost$arcane trickster
-shape water$arcane trickster
-shocking grasp$arcane trickster
-thunderclap$arcane trickster
-true strike$arcane trickster
-absorb elements$arcane trickster
-alarm$arcane trickster
-burning hands$arcane trickster
-catapult$arcane trickster
-charm person$arcane trickster
-chromatic orb$arcane trickster
-color spray$arcane trickster
-comprehend languages$arcane trickster
-detect magic$arcane trickster
-disguise self$arcane trickster
-earth tremor$arcane trickster
-expeditious retreat$arcane trickster
-false life$arcane trickster
-feather fall$arcane trickster
-find familiar$arcane trickster
-fog cloud$arcane trickster
-grease$arcane trickster
-ice knife$arcane trickster
-identify$arcane trickster
-illusory script$arcane trickster
-jump$arcane trickster
-longstrider$arcane trickster
-mage armor$arcane trickster
-magic missile$arcane trickster
-protection from evil and good$arcane trickster
-ray of sickness$arcane trickster
-shield$arcane trickster
-silent image$arcane trickster
-sleep$arcane trickster
-tasha's hideous laughter$arcane trickster
-tenser's floating disk$arcane trickster
-thunderwave$arcane trickster
-unseen servant$arcane trickster
-witch bolt$arcane trickster
-aganazzar's scorcher$arcane trickster
-alter self$arcane trickster
-arcane lock$arcane trickster
-blindness/deafness$arcane trickster
-blur$arcane trickster
-cloud of daggers$arcane trickster
-continual flame$arcane trickster
-crown of madness$arcane trickster
-darkness$arcane trickster
-darkvision$arcane trickster
-detect thoughts$arcane trickster
-dust devil$arcane trickster
-earthbind$arcane trickster
-enlarge/reduce$arcane trickster
-flaming sphere$arcane trickster
-gentle repose$arcane trickster
-gust of wind$arcane trickster
-hold person$arcane trickster
-invisibility$arcane trickster
-knock$arcane trickster
-levitate$arcane trickster
-locate object$arcane trickster
-magic mouth$arcane trickster
-magic weapon$arcane trickster
-maximilian's earthen grasp$arcane trickster
-melf's acid arrow$arcane trickster
-mirror image$arcane trickster
-misty step$arcane trickster
-nystul's magic aura$arcane trickster
-phantasmal force$arcane trickster
-pyrotechnics$arcane trickster
-ray of enfeeblement$arcane trickster
-rope trick$arcane trickster
-scorching ray$arcane trickster
-see invisibility$arcane trickster
-shatter$arcane trickster
-skywrite$arcane trickster
-snilloc's snowball swarm$arcane trickster
-spider climb$arcane trickster
-suggestion$arcane trickster
-web$arcane trickster
-animate dead$arcane trickster
-bestow curse$arcane trickster
-blink$arcane trickster
-clairvoyance$arcane trickster
-counterspell$arcane trickster
-dispel magic$arcane trickster
-erupting earth$arcane trickster
-fear$arcane trickster
-feign death$arcane trickster
-fireball$arcane trickster
-flame arrows$arcane trickster
-fly$arcane trickster
-gaseous form$arcane trickster
-glyph of warding$arcane trickster
-haste$arcane trickster
-hypnotic pattern$arcane trickster
-leomund's tiny hut$arcane trickster
-lightning bolt$arcane trickster
-magic circle$arcane trickster
-major image$arcane trickster
-melf's minute meteors$arcane trickster
-nondetection$arcane trickster
-phantom steed$arcane trickster
-protection from energy$arcane trickster
-remove curse$arcane trickster
-sending$arcane trickster
-sleet storm$arcane trickster
-slow$arcane trickster
-stinking cloud$arcane trickster
-tidal wave$arcane trickster
-tongues$arcane trickster
-vampiric touch$arcane trickster
-wall of sand$arcane trickster
-wall of water$arcane trickster
-water breathing$arcane trickster
-arcane eye$arcane trickster
-banishment$arcane trickster
-blight$arcane trickster
-confusion$arcane trickster
-conjure minor elementals$arcane trickster
-control water$arcane trickster
-dimension door$arcane trickster
-elemental bane$arcane trickster
-evard's black tentacles$arcane trickster
-fabricate$arcane trickster
-fire shield$arcane trickster
-greater invisibility$arcane trickster
-hallucinatory terrain$arcane trickster
-ice storm$arcane trickster
-leomund's secret chest$arcane trickster
-locate creature$arcane trickster
-mordenkainen's faithful hound$arcane trickster
-mordenkainen's private sanctum$arcane trickster
-otiluke's resilient sphere$arcane trickster
-phantasmal killer$arcane trickster
-polymorph$arcane trickster
-stone shape$arcane trickster
-stoneskin$arcane trickster
-storm sphere$arcane trickster
-vitriolic sphere$arcane trickster
-wall of fire$arcane trickster
-watery sphere$arcane trickster
+barkskin$forest$3
+spider climb$forest$3
+call lightning$forest$5
+plant growth$forest$5
+divination$forest$7
+dissonant whispers$great old ones$1
+tasha's hideous laughter$great old ones$1
+detect thoughts$great old ones$3
+phantasmal force$great old ones$3
+clairvoyance$great old ones$5
+sending$great old ones$5
+dominate beast$great old ones$7
+evard's black tentacles$great old ones$7
+dominate person$great old ones$9
+telekinesis$great old ones$9
+freedom of movement$forest$7
+faerie fire$archfey$1
+sleep$archfey$1
+calm emotions$archfey$3
+phantasmal force$archfey$3
+blink$archfey$5
+plant growth$archfey$5
+dominate beast$archfey$7
+greater invisibility$archfey$7
+dominate person$archfey$9
+seeming$archfey$9
+commune with nature$forest$9
+tree stride$forest$9
+burning hands$fiend$1
+command$fiend$1
+blindness/deafness$fiend$3
+scorching ray$fiend$3
+fireball$fiend$5
+stinking cloud$fiend$5
+fire shield$fiend$7
+wall of fire$fiend$7
+flame strike$fiend$9
+hallow$fiend$9
+spider climb$mountain$3
+spike growth$mountain$3
+lightning bolt$mountain$5
+meld into stone$mountain$5
+stone shape$mountain$7
+stoneskin$mountain$7
+passwall$mountain$9
+wall of stone$mountain$9
+blur$desert$3
+silence$desert$3
+create food and water$desert$5
+protection from energy$desert$5
+blight$desert$7
+hallucinatory terrain$desert$7
+insect plague$desert$9
+wall of stone$desert$9
+mirror image$coast$3
+misty step$coast$3
+water breathing$coast$5
+water walk$coast$5
+control water$coast$7
+freedom of movement$coast$7
+conjure elemental$coast$9
+scrying$coast$9
+bless$life$1
+cure wounds$life$1
+lesser restoration$life$3
+spiritual weapon$life$3
+beacon of hope$life$5
+revivify$life$5
+death ward$life$7
+guardian of faith$life$7
+mass cure wounds$life$9
+raise dead$life$9
+protection from evil and good$devotion$3
+sanctuary$devotion$3
+lesser restoration$devotion$5
+zone of truth$devotion$5
+beacon of hope$devotion$9
+dispel magic$devotion$9
+freedom of movement$devotion$13
+guardian of faith$devotion$13
+commune$devotion$17
+flame strike$devotion$17
+hold person$arctic$3
+spike growth$arctic$3
+sleet storm$arctic$5
+slow$arctic$5
+freedom of movement$arctic$7
+ice storm$arctic$7
+commune with nature$arctic$9
+cone of cold$arctic$9
+spider climb$underdark$3
+web$underdark$3
+gaseous form$underdark$5
+stinking cloud$underdark$5
+greater invisibility$underdark$7
+stone shape$underdark$7
+cloudkill$underdark$9
+insect plague$underdark$9
+command$knowledge$1
+identify$knowledge$1
+augury$knowledge$3
+suggestion$knowledge$3
+nondetection$knowledge$5
+speak with dead$knowledge$5
+arcane eye$knowledge$7
+confusion$knowledge$7
+legend lore$knowledge$9
+scrying$knowledge$9
+burning hands$light$1
+faerie fire$light$1
+flaming sphere$light$3
+scorching ray$light$3
+daylight$light$5
+fireball$light$5
+guardian of faith$light$7
+wall of fire$light$7
+flame strike$light$9
+scrying$light$9
+animal friendship$nature$1
+speak with animals$nature$1
+barkskin$nature$3
+spike growth$nature$3
+plant growth$nature$5
+wind wall$nature$5
+dominate beast$nature$7
+grasping vine$nature$7
+insect plague$nature$9
+tree stride$nature$9
+fog cloud$tempest$1
+thunderwave$tempest$1
+gust of wind$tempest$3
+shatter$tempest$3
+call lightning$tempest$5
+sleet storm$tempest$5
+control water$tempest$7
+ice storm$tempest$7
+destructive wave$tempest$9
+insect plague$tempest$9
+charm person$trickery$1
+disguise self$trickery$1
+mirror image$trickery$3
+pass without trace$trickery$3
+blink$trickery$5
+dispel magic$trickery$5
+dimension door$trickery$7
+polymorph$trickery$7
+dominate person$trickery$9
+modify memory$trickery$9
+divine favor$war$1
+shield of faith$war$1
+magic weapon$war$3
+spiritual weapon$war$3
+crusader's mantle$war$5
+spirit guardian$war$5
+freedom of movement$war$7
+stoneskin$war$7
+flame strike$war$9
+hold monster$war$9
+ensnaring strike$ancients$3
+speak with animals$ancients$3
+moonbeam$ancients$5
+misty step$ancients$5
+plant growth$ancients$9
+protection from energy$ancients$9
+ice storm$ancients$13
+stoneskin$ancients$13
+commune with nature$ancients$17
+tree stride$ancients$17
+bane$vengeance$3
+hunter's mark$vengeance$3
+hold person$vengeance$5
+misty step$vengeance$5
+haste$vengeance$9
+protection from energy$vengeance$9
+banishment$vengeance$13
+dimension door$vengeance$13
+hold monster$vengeance$17
+scrying$vengeance$17
+invisibility$grassland$3
+pass without trace$grassland$3
+daylight$grassland$5
+haste$grassland$5
+divination$grassland$7
+freedom of movement$grassland$7
+dream$grassland$9
+insect plague$grassland$9
+darkness$swamp$3
+melf's acid arrow$swamp$3
+water walk$swamp$5
+stinking cloud$swamp$5
+freedom of movement$swamp$7
+locate creature$swamp$7
+insect plague$swamp$9
+scrying$swamp$9
+acid splash$arcane trickster$3
+blade ward$arcane trickster$3
+chill touch$arcane trickster$3
+control flames$arcane trickster$3
+create bonfire$arcane trickster$3
+dancing lights$arcane trickster$3
+fire bolt$arcane trickster$3
+friends$arcane trickster$3
+frostbite$arcane trickster$3
+gust$arcane trickster$3
+light$arcane trickster$3
+mage hand$arcane trickster$3
+mending$arcane trickster$3
+message$arcane trickster$3
+minor illusion$arcane trickster$3
+mold earth$arcane trickster$3
+poison spray$arcane trickster$3
+prestidigitation$arcane trickster$3
+ray of frost$arcane trickster$3
+shape water$arcane trickster$3
+shocking grasp$arcane trickster$3
+thunderclap$arcane trickster$3
+true strike$arcane trickster$3
+absorb elements$arcane trickster$3
+alarm$arcane trickster$3
+burning hands$arcane trickster$3
+catapult$arcane trickster$3
+charm person$arcane trickster$3
+chromatic orb$arcane trickster$3
+color spray$arcane trickster$3
+comprehend languages$arcane trickster$3
+detect magic$arcane trickster$3
+disguise self$arcane trickster$3
+earth tremor$arcane trickster$3
+expeditious retreat$arcane trickster$3
+false life$arcane trickster$3
+feather fall$arcane trickster$3
+find familiar$arcane trickster$3
+fog cloud$arcane trickster$3
+grease$arcane trickster$3
+ice knife$arcane trickster$3
+identify$arcane trickster$3
+illusory script$arcane trickster$3
+jump$arcane trickster$3
+longstrider$arcane trickster$3
+mage armor$arcane trickster$3
+magic missile$arcane trickster$3
+protection from evil and good$arcane trickster$3
+ray of sickness$arcane trickster$3
+shield$arcane trickster$3
+silent image$arcane trickster$3
+sleep$arcane trickster$3
+tasha's hideous laughter$arcane trickster$3
+tenser's floating disk$arcane trickster$3
+thunderwave$arcane trickster$3
+unseen servant$arcane trickster$3
+witch bolt$arcane trickster$3
+aganazzar's scorcher$arcane trickster$3
+alter self$arcane trickster$7
+arcane lock$arcane trickster$7
+blindness/deafness$arcane trickster$7
+blur$arcane trickster$7
+cloud of daggers$arcane trickster$7
+continual flame$arcane trickster$7
+crown of madness$arcane trickster$7
+darkness$arcane trickster$7
+darkvision$arcane trickster$7
+detect thoughts$arcane trickster$7
+dust devil$arcane trickster$7
+earthbind$arcane trickster$7
+enlarge/reduce$arcane trickster$7
+flaming sphere$arcane trickster$7
+gentle repose$arcane trickster$7
+gust of wind$arcane trickster$7
+hold person$arcane trickster$7
+invisibility$arcane trickster$7
+knock$arcane trickster$7
+levitate$arcane trickster$7
+locate object$arcane trickster$7
+magic mouth$arcane trickster$7
+magic weapon$arcane trickster$7
+maximilian's earthen grasp$arcane trickster$7
+melf's acid arrow$arcane trickster$7
+mirror image$arcane trickster$7
+misty step$arcane trickster$7
+nystul's magic aura$arcane trickster$7
+phantasmal force$arcane trickster$7
+pyrotechnics$arcane trickster$7
+ray of enfeeblement$arcane trickster$7
+rope trick$arcane trickster$7
+scorching ray$arcane trickster$7
+see invisibility$arcane trickster$7
+shatter$arcane trickster$7
+skywrite$arcane trickster$7
+snilloc's snowball swarm$arcane trickster$7
+spider climb$arcane trickster$7
+suggestion$arcane trickster$7
+web$arcane trickster$7
+animate dead$arcane trickster$13
+bestow curse$arcane trickster$13
+blink$arcane trickster$13
+clairvoyance$arcane trickster$13
+counterspell$arcane trickster$13
+dispel magic$arcane trickster$13
+erupting earth$arcane trickster$13
+fear$arcane trickster$13
+feign death$arcane trickster$13
+fireball$arcane trickster$13
+flame arrows$arcane trickster$13
+fly$arcane trickster$13
+gaseous form$arcane trickster$13
+glyph of warding$arcane trickster$13
+haste$arcane trickster$13
+hypnotic pattern$arcane trickster$13
+leomund's tiny hut$arcane trickster$13
+lightning bolt$arcane trickster$13
+magic circle$arcane trickster$13
+major image$arcane trickster$13
+melf's minute meteors$arcane trickster$13
+nondetection$arcane trickster$13
+phantom steed$arcane trickster$13
+protection from energy$arcane trickster$13
+remove curse$arcane trickster$13
+sending$arcane trickster$13
+sleet storm$arcane trickster$13
+slow$arcane trickster$13
+stinking cloud$arcane trickster$13
+tidal wave$arcane trickster$13
+tongues$arcane trickster$13
+vampiric touch$arcane trickster$13
+wall of sand$arcane trickster$13
+wall of water$arcane trickster$13
+water breathing$arcane trickster$13
+arcane eye$arcane trickster$19
+banishment$arcane trickster$19
+blight$arcane trickster$19
+confusion$arcane trickster$19
+conjure minor elementals$arcane trickster$19
+control water$arcane trickster$19
+dimension door$arcane trickster$19
+elemental bane$arcane trickster$19
+evard's black tentacles$arcane trickster$19
+fabricate$arcane trickster$19
+fire shield$arcane trickster$19
+greater invisibility$arcane trickster$19
+hallucinatory terrain$arcane trickster$19
+ice storm$arcane trickster$19
+leomund's secret chest$arcane trickster$19
+locate creature$arcane trickster$19
+mordenkainen's faithful hound$arcane trickster$19
+mordenkainen's private sanctum$arcane trickster$19
+otiluke's resilient sphere$arcane trickster$19
+phantasmal killer$arcane trickster$19
+polymorph$arcane trickster$19
+stone shape$arcane trickster$19
+stoneskin$arcane trickster$19
+storm sphere$arcane trickster$19
+vitriolic sphere$arcane trickster$19
+wall of fire$eldritch knight$19
+watery sphere$eldritch knight$19
+acid splash$eldritch knight$3
+blade ward$eldritch knight$3
+chill touch$eldritch knight$3
+control flames$eldritch knight$3
+create bonfire$eldritch knight$3
+dancing lights$eldritch knight$3
+fire bolt$eldritch knight$3
+friends$eldritch knight$3
+frostbite$eldritch knight$3
+gust$eldritch knight$3
+light$eldritch knight$3
+mage hand$eldritch knight$3
+mending$eldritch knight$3
+message$eldritch knight$3
+minor illusion$eldritch knight$3
+mold earth$eldritch knight$3
+poison spray$eldritch knight$3
+prestidigitation$eldritch knight$3
+ray of frost$eldritch knight$3
+shape water$eldritch knight$3
+shocking grasp$eldritch knight$3
+thunderclap$eldritch knight$3
+true strike$eldritch knight$3
+absorb elements$eldritch knight$3
+alarm$eldritch knight$3
+burning hands$eldritch knight$3
+catapult$eldritch knight$3
+charm person$eldritch knight$3
+chromatic orb$eldritch knight$3
+color spray$eldritch knight$3
+comprehend languages$eldritch knight$3
+detect magic$eldritch knight$3
+disguise self$eldritch knight$3
+earth tremor$eldritch knight$3
+expeditious retreat$eldritch knight$3
+false life$eldritch knight$3
+feather fall$eldritch knight$3
+find familiar$eldritch knight$3
+fog cloud$eldritch knight$3
+grease$eldritch knight$3
+ice knife$eldritch knight$3
+identify$eldritch knight$3
+illusory script$eldritch knight$3
+jump$eldritch knight$3
+longstrider$eldritch knight$3
+mage armor$eldritch knight$3
+magic missile$eldritch knight$3
+protection from evil and good$eldritch knight$3
+ray of sickness$eldritch knight$3
+shield$eldritch knight$3
+silent image$eldritch knight$3
+sleep$eldritch knight$3
+tasha's hideous laughter$eldritch knight$3
+tenser's floating disk$eldritch knight$3
+thunderwave$eldritch knight$3
+unseen servant$eldritch knight$3
+witch bolt$eldritch knight$3
+aganazzar's scorcher$eldritch knight$3
+alter self$eldritch knight$7
+arcane lock$eldritch knight$7
+blindness/deafness$eldritch knight$7
+blur$eldritch knight$7
+cloud of daggers$eldritch knight$7
+continual flame$eldritch knight$7
+crown of madness$eldritch knight$7
+darkness$eldritch knight$7
+darkvision$eldritch knight$7
+detect thoughts$eldritch knight$7
+dust devil$eldritch knight$7
+earthbind$eldritch knight$7
+enlarge/reduce$eldritch knight$7
+flaming sphere$eldritch knight$7
+gentle repose$eldritch knight$7
+gust of wind$eldritch knight$7
+hold person$eldritch knight$7
+invisibility$eldritch knight$7
+knock$eldritch knight$7
+levitate$eldritch knight$7
+locate object$eldritch knight$7
+magic mouth$eldritch knight$7
+magic weapon$eldritch knight$7
+maximilian's earthen grasp$eldritch knight$7
+melf's acid arrow$eldritch knight$7
+mirror image$eldritch knight$7
+misty step$eldritch knight$7
+nystul's magic aura$eldritch knight$7
+phantasmal force$eldritch knight$7
+pyrotechnics$eldritch knight$7
+ray of enfeeblement$eldritch knight$7
+rope trick$eldritch knight$7
+scorching ray$eldritch knight$7
+see invisibility$eldritch knight$7
+shatter$eldritch knight$7
+skywrite$eldritch knight$7
+snilloc's snowball swarm$eldritch knight$7
+spider climb$eldritch knight$7
+suggestion$eldritch knight$7
+web$eldritch knight$7
+animate dead$eldritch knight$13
+bestow curse$eldritch knight$13
+blink$eldritch knight$13
+clairvoyance$eldritch knight$13
+counterspell$eldritch knight$13
+dispel magic$eldritch knight$13
+erupting earth$eldritch knight$13
+fear$eldritch knight$13
+feign death$eldritch knight$13
+fireball$eldritch knight$13
+flame arrows$eldritch knight$13
+fly$eldritch knight$13
+gaseous form$eldritch knight$13
+glyph of warding$eldritch knight$13
+haste$eldritch knight$13
+hypnotic pattern$eldritch knight$13
+leomund's tiny hut$eldritch knight$13
+lightning bolt$eldritch knight$13
+magic circle$eldritch knight$13
+major image$eldritch knight$13
+melf's minute meteors$eldritch knight$13
+nondetection$eldritch knight$13
+phantom steed$eldritch knight$13
+protection from energy$eldritch knight$13
+remove curse$eldritch knight$13
+sending$eldritch knight$13
+sleet storm$eldritch knight$13
+slow$eldritch knight$13
+stinking cloud$eldritch knight$13
+tidal wave$eldritch knight$13
+tongues$eldritch knight$13
+vampiric touch$eldritch knight$13
+wall of sand$eldritch knight$13
+wall of water$eldritch knight$13
+water breathing$eldritch knight$13
+arcane eye$eldritch knight$19
+banishment$eldritch knight$19
+blight$eldritch knight$19
+confusion$eldritch knight$19
+conjure minor elementals$eldritch knight$19
+control water$eldritch knight$19
+dimension door$eldritch knight$19
+elemental bane$eldritch knight$19
+evard's black tentacles$eldritch knight$19
+fabricate$eldritch knight$19
+fire shield$eldritch knight$19
+greater invisibility$eldritch knight$19
+hallucinatory terrain$eldritch knight$19
+ice storm$eldritch knight$19
+leomund's secret chest$eldritch knight$19
+locate creature$eldritch knight$19
+mordenkainen's faithful hound$eldritch knight$19
+mordenkainen's private sanctum$eldritch knight$19
+otiluke's resilient sphere$eldritch knight$19
+phantasmal killer$eldritch knight$19
+polymorph$eldritch knight$19
+stone shape$eldritch knight$19
+stoneskin$eldritch knight$19
+storm sphere$eldritch knight$19
+vitriolic sphere$eldritch knight$19
+wall of fire$eldritch knight$19
+watery sphere$eldritch knight$19
