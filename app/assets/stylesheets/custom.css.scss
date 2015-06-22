@@ -8,6 +8,7 @@
 }
 
 html{
+  width:100%;
   overflow-y: scroll;
 }
 
@@ -18,9 +19,14 @@ $gray-medium-light: #eaeaea;
 /* universal */
 
 body {
+  width:100%;
   padding-top: 60px;
 }
 
+#main {
+  overflow:auto;
+  padding-bottom:145px
+} 
 section {
   overflow: auto;
 }
@@ -84,10 +90,14 @@ p {
 /* footer */
 
 footer {
-  margin-top: 45px;
-  padding-top: 5px;
+  margin-top: 145px;
   border-top: 1px solid $gray-medium-light;
   color: $gray-light;
+  position: relative;
+  height: 45px;
+  clear:both;
+  padding-top: 25px;
+
   a {
     padding-bottom: 25px;
     color: $gray;
@@ -141,8 +151,10 @@ table {
 
 #show {
 
+	float:right;
+	width:50%;
 	text-align: left;
-	padding-left: 10%;
+	padding-right: 20%;
 	h1 {
 		text-align: left;
 	}
@@ -151,27 +163,14 @@ table {
 
 #index {
 
+	float:left;
+	width:50%;
 	text-align: left;
 	padding-left: 10%;
 	h2 {
 		text-align: left;
 	}
 	
-	#totop {
-		padding-top: 15px;
-  		color: $gray-light;
-    		&:hover {
-      			color: $gray-darker;
-    		}
-	
-		a {
-    			padding-bottom: 25px;
-    			color: $gray;
-    			&:hover {
-      				color: $gray-darker;
-    			}
-  		}
-	}
 }	
 
 #search {

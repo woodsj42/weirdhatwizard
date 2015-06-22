@@ -1,0 +1,57 @@
+
+ <h1> <%= spell.name %> </h1>
+
+<p>
+<strong><%= spell.spell_type %> <%= spell.level %></strong>
+</p>
+
+<p>
+<strong>Casting Time:</strong>
+  <%= spell.cast %>
+</p>
+ 
+<p>
+	<strong>Level:</strong>
+	
+	<% Dnd5eClassSpell.classes_that_know_this_spell_by_level(spell.id).each_with_index do |m, index| %>
+		<% if index > 0%>	
+			<label>,</label>
+		<% end %>
+		<%= m.name %>
+		<%= Dnd5eClassSpell.where(dnd5e_class_id: m.id,dnd5e_spell_id: spell.id).take.level %>
+	<% end %>
+	<% Dnd5eArchetypeSpell.archetypes_that_know_this_spell_by_level(spell.id).each_with_index do |m, index| %>
+		<label>,</label>
+		<%= m.name %>
+		<%= Dnd5eArchetypeSpell.where(dnd5e_archetype_id: m.id,dnd5e_spell_id: spell.id).take.level %>
+	<% end %>
+</p>
+
+<p>
+<strong>Range:</strong>
+  <%= spell.range %>
+</p>
+
+<p>
+<strong>Components:</strong>
+  <%= spell.components %>
+</p>
+
+<p>
+<strong>Duration:</strong>
+  <%= spell.duration %>
+</p>
+
+<p>
+<strong>Concentration:</strong>
+  <%= spell.concentration %>
+</p>
+
+<p>
+<strong>Ritual:</strong>
+  <%= spell.ritual %>
+</p>
+
+<p>
+  <%=  spell.description.html_safe %>
+</p>

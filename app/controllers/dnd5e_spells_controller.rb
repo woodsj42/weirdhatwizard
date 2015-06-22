@@ -1,13 +1,14 @@
 class Dnd5eSpellsController < ApplicationController
 
 #	caches_page :show, :index
-
+	
 	def index
 
 
-		@class_highlight = nil	
-		@archetype_highlight = nil
-		@spell_type_highlight = nil
+		@class = nil	
+		@archetype = nil
+		@spell_type = nil
+		@spell = nil
 	
 		if params[:class].to_i == 0
 			@class_all = 0
@@ -18,35 +19,39 @@ class Dnd5eSpellsController < ApplicationController
 		end
 
 		if Dnd5eSpellType.exists?(params[:spell_type].to_i)
-			@spell_type_highlight = params[:spell_type].to_i	
+			@spell_type = params[:spell_type].to_i	
 		end
 		
 		if Dnd5eClass.exists?(params[:class].to_i)
-			@class_highlight = params[:class].to_i	
+			@class = params[:class].to_i	
+		end
+		
+		if Dnd5eSpell.exists?(params[:spell].to_i)
+			@spell = params[:spell].to_i	
 		end
 
 		if Dnd5eArchetype.exists?(params[:archetype].to_i)
-			@archetype_highlight = params[:archetype].to_i	
+			@archetype = params[:archetype].to_i	
 		end
 
 		@classes = Dnd5eClass.all.sort_by &:name
 		@spell_types = Dnd5eSpellType.all.sort_by &:name
 		@levels = ["Cantrips", "1st-level", "2nd-level", "3rd-level", "4th-level", "5th-level", "6th-level", "7th-level", "8th-level", "9th-level"]
 		
-		if @class_highlight
+		if @class
 			@archetypes = Dnd5eArchetype.get_archetypes_by_class(params[:class].to_i).sort_by &:name
 		end
 
-		if @archetype_highlight
+		if @archetype
 			@spells = Dnd5eArchetypeSpell.spells_known_to_archetype_by_level(params[:archetype].to_i) 
-		elsif @class_highlight
+		elsif @class
 			@spells = Dnd5eClassSpell.spells_known_to_class_by_level(params[:class].to_i) 
 		else
 			@spells = Dnd5eSpell.sort_by_level
 		end
 	
-		if @spell_type_highlight
-			spells_of_type = Dnd5eSpellType.spells_of_certain_type_by_level(Dnd5eSpellType.find(@spell_type_highlight).name)
+		if @spell_type
+			spells_of_type = Dnd5eSpellType.spells_of_certain_type_by_level(Dnd5eSpellType.find(@spell_type).name)
 			for i in 0..@spells.length
                         	@spells[i] = @spells[i] & spells_of_type[i]
 
@@ -57,11 +62,11 @@ class Dnd5eSpellsController < ApplicationController
 		
 		if params[:search]
 			params[:search] = params[:search].titleize.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-			if @spells.flatten.find { |x|  x == (@best_fit = Dnd5eSpell.find_by_name(params[:search])) }  
-				redirect_to :controller => "dnd5e_spells", :action => "show", :id => @best_fit.id, :class => @class_highlight, :archetype => @archetype_highlight, :spell_type => @spell_type_highlight
+			if @spells.flatten.find { |x|  x == (@best_fit = Dnd5eSpell.find_by_name(params[:search])) } 
+				redirect_to :action => "index", :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => @best_fit.id
 			else
 				if (@best_fit = Dnd5eSpell.search(params[:search])).empty?
-					redirect_to :action => "index", :class => @class_highlight, :archetype => @archetype_highlight, :spell_type => @spell_type_highlight
+					redirect_to :action => "index", :class => @class, :archetype => @archetype, :spell_type => @spell_type
 				else
 					for i in 0..@spells.length
 						@spells[i] = @spells[i] & @best_fit 
@@ -77,22 +82,23 @@ class Dnd5eSpellsController < ApplicationController
 				@spells[i].sort! {|a,b| a.name <=> b.name }
 			end
 		end
+		
 	end
 
 	def show
-		@class_highlight = nil	
-		@archetype_highlight = nil
-		@spell_type_highlight = nil
+		@class = nil	
+		@archetype = nil
+		@spell_type = nil
 		if Dnd5eClass.exists?(params[:class].to_i)
-			@class_highlight = params[:class].to_i	
+			@class = params[:class].to_i	
 		end
 
 		if Dnd5eArchetype.exists?(params[:archetype].to_i)
-			@archetype_highlight = params[:archetype].to_i	
+			@archetype = params[:archetype].to_i	
 		end
 		
 		if Dnd5eSpellType.exists?(params[:spell_type].to_i)
-			@spell_type_highlight = params[:spell_type].to_i	
+			@spell_type = params[:spell_type].to_i	
 		end
 
 		@spell = Dnd5eSpell.find(params[:id])
