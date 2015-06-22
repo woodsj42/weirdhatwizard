@@ -79,7 +79,6 @@ class Dnd5eSpellsController < ApplicationController
 					@spells[i] = @spells[i] & @best_fit 
 				end
 
-				raise @spells.flatten.inspect
 				if @spells.flatten.empty?
 					redirect_to :action => "index", :class => @class, :spell => @spell, :spell_type => @spell_type, :archetype => @archetype	
 				end
