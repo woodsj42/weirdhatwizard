@@ -66,14 +66,14 @@ class Dnd5eSpellsController < ApplicationController
 				redirect_to :action => "index", :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => @best_fit.id
 			else
 				if (@best_fit = Dnd5eSpell.search(params[:search])).empty?
-					redirect_to :action => "index", :class => @class, :archetype => @archetype, :spell_type => @spell_type
+					redirect_to :action => "index", :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => @spell
 				else
 					for i in 0..@spells.length
 						@spells[i] = @spells[i] & @best_fit 
 					end
 					
 					if @spells.flatten
-						redirect_to :action => "index", :class => @class, :spell => @spell
+						redirect_to :action => "index", :class => @class, :spell => @spell, :spell_type => @spell_type, :archetype => @archetype
 					end
 				end
 			end
