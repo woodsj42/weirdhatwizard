@@ -62,18 +62,18 @@ class Dnd5eSpellsController < ApplicationController
 		
 		if params[:search]
 			params[:search] = params[:search].titleize.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-			if @spells.flatten.find { |x|  x == (@best_fit = Dnd5eSpell.find_by_name(params[:search])) } 
-				redirect_to :action => "index", :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => @best_fit.id
+			if @best_fit = Dnd5eSpell.find_by_name(params[:search]) 
+				if @spells.flatten.find { |x|  x == @best_fit }
+					redirect_to :action => "index", :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => @best_fit.id
+				else
+					redirect_to :action => "index", :class => @class, :spell => @spell, :spell_type => @spell_type, :archetype => @archetype
+				end
 			else
 				if (@best_fit = Dnd5eSpell.search(params[:search])).empty?
 					redirect_to :action => "index", :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => @spell
 				else
 					for i in 0..@spells.length
 						@spells[i] = @spells[i] & @best_fit 
-					end
-					
-					if @spells.flatten
-						redirect_to :action => "index", :class => @class, :spell => @spell, :spell_type => @spell_type, :archetype => @archetype
 					end
 				end
 			end
