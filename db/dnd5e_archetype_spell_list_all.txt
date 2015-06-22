@@ -1,3 +1,36 @@
+commanders strike$battle master$1
+disarming strike$battle master$1
+distracting strike$battle master$1
+evasive footwork$battle master$1
+feinting attack$battle master$1
+goading attack$battle master$1
+lunging attack$battle master$1
+maneuvering attack$battle master$1
+menacing attack$battle master$1
+parry$battle master$1
+precision attack$battle master$1
+pushing attack$battle master$1
+rally attack$battle master$1
+riposte$battle master$1
+sweeping attack$battle master$1
+tripping attack$battle master$1
+breath of winter$four elements$17
+clench of the north wind$four elements$6
+elemental attunement$four elements$3
+eternal mountain defense$four elements$11
+fangs of the fire snake$four elements$3
+fist of four thunders$four elements$3
+fist of unbroken air$four elements$3
+flames of the phoenix$four elements$11
+gong of the summit$four elements$6
+mist stance$four elements$11
+ride the wind$four elements$11
+river of hungry flame$four elements$17
+rush of the gale spirits$four elements$3
+shape the flowing river$four elements$3
+sweeping cinder strike$four elements$3
+water whip$four elements$3
+wave of rolling earth$four elements$17
 barkskin$forest$3
 spider climb$forest$3
 call lightning$forest$5
