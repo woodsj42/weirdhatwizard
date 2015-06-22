@@ -51,27 +51,17 @@ class Dnd35eSpellsController < ApplicationController
 				end
 			else
 				@best_fit = Dnd35eSpell.search(params[:search])
-                                if @best_fit.empty?
-                                        redirect_to :action => "index", :class => @class, :spell => @spell
-                                end
-				
-				empty = true
-				@best_fit.each do |m|
-					if @spells.flatten.find { |x|  x == m }
-						empty = false
-					end
-				end
-				
-				if empty
-					redirect_to :action => "index", :class => @class, :spell => @spell
-				end
 				
 				if @class or @archetype
-					for i in 0..@spells.length
+					for i in 0..@spells.length-1
 						@spells[i] = @spells[i] & @best_fit 
 					end
 				else
 					@spells = @spells & @best_fit 
+				end
+
+				if @spells.flatten.empty?
+					redirect_to :action => "index", :class => @class, :spell => @spell
 				end
 			end
 		end	
