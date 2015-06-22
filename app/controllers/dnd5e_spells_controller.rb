@@ -83,7 +83,6 @@ class Dnd5eSpellsController < ApplicationController
 				end
 				
 				if empty
-					raise @best_fit.map{|m| m = m.name}.inspect
 					redirect_to :action => "index", :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => @spell
 				end
 	
