@@ -55,7 +55,7 @@ class Dnd5eSpellsController < ApplicationController
 	
 		if @spell_type
 			spells_of_type = Dnd5eSpellType.spells_of_certain_type_by_level(Dnd5eSpellType.find(@spell_type).name)
-			for i in 0..@spells.length
+			for i in 0..@spells.length-1
                         	@spells[i] = @spells[i] & spells_of_type[i]
 
                         end
@@ -79,6 +79,7 @@ class Dnd5eSpellsController < ApplicationController
 					@spells[i] = @spells[i] & @best_fit 
 				end
 
+				raise @spells.flatten.inspect
 				if @spells.flatten.empty?
 					redirect_to :action => "index", :class => @class, :spell => @spell, :spell_type => @spell_type, :archetype => @archetype	
 				end
