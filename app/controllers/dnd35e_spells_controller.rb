@@ -55,14 +55,17 @@ class Dnd35eSpellsController < ApplicationController
                                         redirect_to :action => "index", :class => @class, :spell => @spell
                                 end
 				
+				empty = true
 				@best_fit.each do |m|
-                                        if !@spells.flatten.find { |x|  x == m }
-                                                redirect_to :action => "index", :class => @class, :spell => @spell
-                                                return
-                                        end
-
-					
+					if @spells.flatten.find { |x|  x == m }
+						empty = false
+					end
 				end
+				
+				if empty
+					redirect_to :action => "index", :class => @class, :spell => @spell
+				end
+				
 				if @class or @archetype
 					for i in 0..@spells.length
 						@spells[i] = @spells[i] & @best_fit 

@@ -75,12 +75,18 @@ class Dnd5eSpellsController < ApplicationController
 					redirect_to :action => "index", :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => @spell
 				end
 				
+				empty = true
 				@best_fit.each do |m|
-					if !@spells.flatten.find { |x|  x == m }
-						redirect_to :action => "index", :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => @spell
-						return
+					if @spells.flatten.find { |x|  x == m }
+						empty = false
 					end
 				end
+				
+				if empty
+					raise @best_fit.map{|m| m = m.name}.inspect
+					redirect_to :action => "index", :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => @spell
+				end
+	
 				for i in 0..@spells.length
 					@spells[i] = @spells[i] & @best_fit 
 				end
