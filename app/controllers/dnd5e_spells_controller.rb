@@ -71,6 +71,10 @@ class Dnd5eSpellsController < ApplicationController
 					for i in 0..@spells.length
 						@spells[i] = @spells[i] & @best_fit 
 					end
+					
+					if @spells.flatten
+						redirect_to :action => "index", :class => @class, :spell => @spell
+					end
 				end
 			end
 		end

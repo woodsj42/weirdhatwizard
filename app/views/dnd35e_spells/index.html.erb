@@ -3,15 +3,15 @@
 	
 	<label>[</label>	
         <% if 0 == @all %>
-		<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :class => 0 }, {:style => "color: gray;" }%>
+		<%= link_to "All", { :controller => "dnd35e_spells", :action => "index", :class => 0, :spell => @spell }, {:style => "color: gray;" }%>
         <% else %>
-		<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :class => 0 }, {:style => "color: black;" }%>
+		<%= link_to "All", { :controller => "dnd35e_spells", :action => "index", :class => 0, :spell => @spell }, {:style => "color: black;" }%>
 	<% end %>
 	<% Dnd35eClass.all.each do |classs| %>
-		<% if classs.id == @class_highlight %>
-			<%= link_to classs.name, { :controller => "dnd35e_spells", :action => "index", :class => classs.id }, {:style => "color: gray;" }%>
+		<% if classs.id == @class %>
+			<%= link_to classs.name, { :controller => "dnd35e_spells", :action => "index", :class => classs.id, :spell => @spell }, {:style => "color: gray;" }%>
 		<% else %>
-			<%= link_to classs.name, { :controller => "dnd35e_spells", :action => "index", :class => classs.id }, {:style => "color: black;" } %>
+			<%= link_to classs.name, { :controller => "dnd35e_spells", :action => "index", :class => classs.id, :spell => @spell }, {:style => "color: black;" } %>
 		<% end %>
 	<% end %>	
 	<label>]</label>	
@@ -20,36 +20,38 @@
 <div id="search">
 		<div id="searchwrapper">
 		<%= form_tag( "3.5_edition_spell_index" , :method => "get", class: "navbar-form", id: "search-form") do %>
-			<%= hidden_field_tag "class",@class_highlight %>
-      			<%= text_field_tag :search, params[:search], class: "span2", placeholder: "Search..."%>
+			<%= hidden_field_tag "class",@class %>
+      			<%= hidden_field_tag "spell",@spell %>
+			<%= text_field_tag :search, params[:search], class: "span2", placeholder: "Search..."%>
 		<% end %>
 		</div>
 </div>
 
+<div id="bottom-container">
 <div id="index">
 
 
-	<% if @class_highlight != nil  %>
+	<% if @class != nil  %>
 		<% @levels.each_with_index do |level, index| %>
                 	<h2><%= level %></h2> 
                 	<% @spells[index].each do |spell| %>
-				<%= link_to spell.name, { :controller => "dnd35e_spells", :action => "show", :id => spell.id, :class => @class_highlight} %>
+				<%= link_to spell.name, { :controller => "dnd35e_spells", :action => "index", :class => @class, :spell => spell.id} %>
                         	<br>
                 	<% end %>
         	<% end %>   
 	<% else  %>
 		<h2> Spells </h2>
 		<% @spells.each do |spell| %>
-			<%= link_to spell.name, { :controller => "dnd35e_spells", :action => "show", :id => spell.id} %>
+			<%= link_to spell.name, { :controller => "dnd35e_spells", :action => "index", :spell => spell.id} %>
 			<br>
 		<% end %>
 
-		<div id=totop>
-			<a href="3.5_edition_spell_index"> to Top</a>
-		</div>
 	<% end %>
 
-	<% if @spells.flatten.empty?  %>
-		<h2> None </h2>
-	<% end %>
+	
+</div>
+		<% if @spell %>
+			<%= render 'show' , :spell => Dnd35eSpell.find(@spell)  %> 
+		<% end %>
+</div>
 </div>
