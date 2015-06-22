@@ -13,6 +13,7 @@ class Dnd35eSpellsController < ApplicationController
 
 		@class = nil
 		@spell = nil
+		@search = params[:search]
 		if Dnd35eClass.exists?(params[:class].to_i)
 			@class = params[:class].to_i	
 		end
@@ -41,16 +42,16 @@ class Dnd35eSpellsController < ApplicationController
 	 		@spells = Dnd35eSpell.all	
                 end
 			
-		if params[:search]
-			params[:search] = params[:search].titleize.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-			if @best_fit = Dnd35eSpell.find_by_name(params[:search])
+		if @search
+			@search = @search.titleize.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			if @best_fit = Dnd35eSpell.find_by_name(@search)
 				if @spells.flatten.find { |x|  x == @best_fit }
                                 	redirect_to :controller => "dnd35e_spells", :action => "index", :spell => @best_fit.id, :class => @class
 				else
 					redirect_to :action => "index", :class => @class, :spell => @spell
 				end
 			else
-				@best_fit = Dnd35eSpell.search(params[:search])
+				@best_fit = Dnd35eSpell.search(@search)
 				
 				if @class or @archetype
 					for i in 0..@spells.length-1
