@@ -17,41 +17,39 @@
 	<label>]</label>	
 </div>
 
-<div id="search">
-		<div id="searchwrapper">
-		<%= form_tag( "3.5_edition_spell_index" , :method => "get", class: "navbar-form", id: "search-form") do %>
-			<%= hidden_field_tag "class",@class %>
-      			<%= hidden_field_tag "spell",@spell %>
-			<%= text_field_tag :search, params[:search], class: "span2", placeholder: "Search..."%>
-		<% end %>
-		</div>
-</div>
 
-<div id="bottom-container">
-<div id="index">
-
-
-	<% if @class != nil  %>
-		<% @levels.each_with_index do |level, index| %>
-                	<h2><%= level %></h2> 
-                	<% @spells[index].each do |spell| %>
-				<%= link_to spell.name, { :controller => "dnd35e_spells", :action => "index", :class => @class, :spell => spell.id, :search => @search} %>
-                        	<br>
-                	<% end %>
-        	<% end %>   
-	<% else  %>
-		<h2> Spells </h2>
-		<% @spells.each do |spell| %>
-			<%= link_to spell.name, { :controller => "dnd35e_spells", :action => "index", :spell => spell.id, :search => @search} %>
-			<br>
-		<% end %>
-
-	<% end %>
-
+<div id="list-wrapper">
 	
+	<div id="search">
+			<div id="searchwrapper">
+			<%= form_tag( "3.5_edition_spell_index" , :method => "get", class: "navbar-form", id: "search-form") do %>
+				<%= hidden_field_tag "class",@class %>
+      				<%= hidden_field_tag "spell",@spell %>
+				<%= text_field_tag :search, params[:search], class: "span2", placeholder: "Search..."%>
+			<% end %>
+			</div>
+	</div>
+	
+	<div id="index">
+		<% if @class != nil  %>
+			<% @levels.each_with_index do |level, index| %>
+               	 		<h2><%= level %></h2> 
+                		<% @spells[index].each do |spell| %>
+					<%= link_to spell.name, { :controller => "dnd35e_spells", :action => "index", :class => @class, :spell => spell.id, :search => @search} %>
+                       		 	<br>
+                		<% end %>
+        		<% end %>   
+		<% else  %>
+			<h2> Spells </h2>
+			<% @spells.each do |spell| %>
+				<%= link_to spell.name, { :controller => "dnd35e_spells", :action => "index", :spell => spell.id, :search => @search} %>
+				<br>
+			<% end %>
+
+		<% end %>
+	</div>
 </div>
 		<% if @spell %>
 			<%= render 'show' , :spell => Dnd35eSpell.find(@spell)  %> 
 		<% end %>
-</div>
 </div>

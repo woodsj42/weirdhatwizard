@@ -25,7 +25,9 @@ body {
 
 #main {
   overflow:auto;
-  padding-bottom:145px
+  padding-bottom:145px;
+  margin-left: auto;
+  margin-right: auto;
 } 
 section {
   overflow: auto;
@@ -161,12 +163,19 @@ table {
 		
 }
 
-#index {
+#list-wrapper{
 
 	float:left;
 	width:50%;
+	padding-top: 25px;
+	padding-left: 20%;
+
+}
+#index {
+	
+
+	padding-left: 16px;
 	text-align: left;
-	padding-left: 10%;
 	h2 {
 		text-align: left;
 	}
@@ -174,9 +183,19 @@ table {
 }	
 
 #search {
+	#spell,#class,#archetype,#spell_type{
+	
+		display: block;
+		line-height:0;
+		height: 0;
+		overflow: hidden;
+		zoom: 1;
+	}
 	height: 20px;
+	padding-right: 30px;
 	#searchwrapper {
-		padding-left: 8.7%;
+	margin-right: auto;
+	margin-left: auto;
 	}
 }
 #sort {
