@@ -8,6 +8,24 @@
 </p>
 
 <p>
+        <strong>Level:</strong>
+
+<% @class_spells = Dnd5eClassSpell.classes_that_know_this_spell_by_level(spell.id) %>
+        <% @class_spells.each_with_index do |m, index| %>
+                <%= m.name %>
+                <%= Dnd5eClassSpell.where(dnd5e_class_id: m.id,dnd5e_spell_id: spell.id).take.level %>
+                <% if ( ( index + 1 ) % 2 ) == 0 and @class_spells.length != ( index + 1) %>
+                        <br>            
+                <% end %>
+                
+                <% if index % 2 == 0 and @class_spells.length != 1 %>   
+                        <label>,</label>
+                <% end %>
+        <% end %>
+
+</p>
+
+<p>
 <% if spell.components != '-' %>
 	<strong>Components:</strong>
 	<%= spell.components %>

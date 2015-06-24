@@ -6,30 +6,37 @@
 </p>
 
 <p>
-<strong>Casting Time:</strong>
-  <%= spell.cast %>
-</p>
- 
-<p>
 	<strong>Level:</strong>
 	
+	<% @archetype_spells = Dnd5eArchetypeSpell.archetypes_that_know_this_spell_by_level(spell.id)%>
 	<% @class_spells = Dnd5eClassSpell.classes_that_know_this_spell_by_level(spell.id) %>
 	<% @class_spells.each_with_index do |m, index| %>
-		<% if index > 0%>	
-			<label>,</label>
-		<% end %>
 		<%= m.name %>
 		<%= Dnd5eClassSpell.where(dnd5e_class_id: m.id,dnd5e_spell_id: spell.id).take.level %>
-	<% end %>
-	<% @archetype_spells = Dnd5eArchetypeSpell.archetypes_that_know_this_spell_by_level(spell.id)%>
-	<%@archetype_spells.each_with_index do |m, index| %>
+		<% if ( ( index + 1 ) % 2 ) == 0 and @class_spells.length != ( index + 1) %>
+			<br>		
+		<% end %>
 		
-		<% if @class_spells.length != 0  %>	
+		<% if index % 2 == 0 and @class_spells.length != 1 %>	
 			<label>,</label>
+		<% end %>
+	<% end %>
+	<%@archetype_spells.each_with_index do |m, index| %>
+		<% if ( (  index + @class_spells.length) % 2 ) == 0 and @archetype_spells.length != 1%>
+			<br>		
 		<% end %>
 		<%= m.name %>
 		<%= Dnd5eArchetypeSpell.where(dnd5e_archetype_id: m.id,dnd5e_spell_id: spell.id).take.level %>
+		<% if @class_spells.length != 0 and ( index + @class_spells.length + 1 ) % 2 != 0 and ( index + 1 ) != @archetype_spells.length  %>	
+			<label>,</label>
+		<% end %>
+		
 	<% end %>
+</p>
+
+<p>
+<strong>Casting Time:</strong>
+  <%= spell.cast %>
 </p>
 
 <p>

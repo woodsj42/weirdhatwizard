@@ -47,6 +47,10 @@
 			<% end %>
 
 		<% end %>
+
+	<% if @spells.flatten.empty?   %>
+        	<h2> None </h2>
+        <% end %>
 	</div>
 </div>
 		<% if @spell %>
