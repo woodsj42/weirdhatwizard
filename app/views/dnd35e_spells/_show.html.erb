@@ -18,7 +18,7 @@
                         <br>            
                 <% end %>
                 
-                <% if index % 2 == 0 and @class_spells.length != 1 %>   
+                <% if index % 2 == 0 and @class_spells.length != ( index + 1 ) %>   
                         <label>,</label>
                 <% end %>
         <% end %>
