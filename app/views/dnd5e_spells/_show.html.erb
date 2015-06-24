@@ -22,7 +22,7 @@
 		<% end %>
 	<% end %>
 	<%@archetype_spells.each_with_index do |m, index| %>
-		<% if ( (  index + @class_spells.length) % 2 ) == 0 and ( @archetype_spells.length != 1 or @class_spells.length % 2 == 0 ) %>
+		<% if ( (  index + @class_spells.length) % 2 ) == 0 and ( @archetype_spells.length != 1 or @class_spells.length % 2 == 0 ) and ( @archetype_spells.length == 0 and @class_spells.length == 0  ) %>
 			<br>		
 		<% end %>
 		<%= m.name %>
