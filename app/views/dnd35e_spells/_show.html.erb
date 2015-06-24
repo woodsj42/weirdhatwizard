@@ -8,12 +8,12 @@
 </p>
 
 <p>
-        <strong>Level:</strong>
+        <strong>Class Level:</strong>
 
 <% @class_spells = Dnd35eClassSpell.classes_that_know_this_spell_by_level(spell.id) %>
         <% @class_spells.each_with_index do |m, index| %>
                 <%= m.name %>
-                <%= Dnd35eClassSpell.where(dnd35e_class_id: m.id,dnd35e_spell_id: spell.id).take.level %>
+                <%= Dnd35eClassSpell.where(dnd35e_class_id: m.id,dnd35e_spell_id: spell.id).take.class_level %>
                 <% if ( ( index + 1 ) % 2 ) == 0 and @class_spells.length != ( index + 1) %>
                         <br>            
                 <% end %>

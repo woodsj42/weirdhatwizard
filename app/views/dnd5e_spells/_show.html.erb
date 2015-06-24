@@ -6,7 +6,7 @@
 </p>
 
 <p>
-	<strong>Level:</strong>
+	<strong>Class Level:</strong>
 	
 	<% @archetype_spells = Dnd5eArchetypeSpell.archetypes_that_know_this_spell_by_level(spell.id)%>
 	<% @class_spells = Dnd5eClassSpell.classes_that_know_this_spell_by_level(spell.id) %>
@@ -17,12 +17,12 @@
 			<br>		
 		<% end %>
 		
-		<% if index % 2 == 0 and @class_spells.length != 1 %>	
+		<% if index % 2 == 0 and @class_spells.length != 1 or ( @archetype_spells.length == 1 and @class_spells.length == 1 ) %>
 			<label>,</label>
 		<% end %>
 	<% end %>
 	<%@archetype_spells.each_with_index do |m, index| %>
-		<% if ( (  index + @class_spells.length) % 2 ) == 0 and @archetype_spells.length != 1%>
+		<% if ( (  index + @class_spells.length) % 2 ) == 0 and ( @archetype_spells.length != 1 or @class_spells.length % 2 == 0 ) %>
 			<br>		
 		<% end %>
 		<%= m.name %>

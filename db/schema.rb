@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 20150619224236) do
     t.integer  "dnd35e_class_id"
     t.integer  "dnd35e_spell_id"
     t.string   "level"
+    t.string   "class_level"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
   end

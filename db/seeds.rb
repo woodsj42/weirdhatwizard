@@ -245,11 +245,12 @@ File.open( dnd35e + class_spell_file) do |f|
 		while line = f.gets
 			arr = line.split('$')
 			cleaned_class =  arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-			cleaned_name =  arr[2].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_name =  arr[3].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 			if Dnd35eSpell.exists?( :name => cleaned_name ) and Dnd35eClass.exists?( :name => cleaned_class ) and !Dnd35eClassSpell.exists?(:dnd35e_spell_id => Dnd35eSpell.find_by_name(cleaned_name).id, :dnd35e_class_id => Dnd35eClass.find_by_name(cleaned_class).id   ) 
 				Dnd35eClassSpell.create(dnd35e_class_id: Dnd35eClass.find_by_name(cleaned_class).id,
 					                dnd35e_spell_id: Dnd35eSpell.find_by_name(cleaned_name).id,
-							level: arr[1].to_i )
+							level: arr[1].to_i, 
+							class_level: arr[2].to_i )
 				print cleaned_name + " for " + cleaned_class + ".\n"
 			else
 #				print cleaned_name + " wasn't found for " + cleaned_class + ".\n"
