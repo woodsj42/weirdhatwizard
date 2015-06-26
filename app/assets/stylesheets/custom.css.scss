@@ -147,9 +147,9 @@ table {
 
 	float:right;
 	width:40%;
+	padding-right:5%;
+	margin-right: 5%;
 	text-align: left;
-	padding-right: 16%;
-	margin-right: 4%;
 	h1 {
 		text-align: left;
 	}
@@ -159,8 +159,11 @@ table {
 #list-wrapper{
 
 	float:left;
-	width:40%;
-	padding-top: 25px;
+	width:30%;
+	margin-left: 15%;
+	padding-left: 5%;
+	margin-right: 10%;
+	padding-top: 2.5%;
 
 }
 #index {
@@ -175,6 +178,7 @@ table {
 }	
 
 #search {
+	width:100%;
 	#spell,#class,#archetype,#spell_type{
 	
 		display: block;
