@@ -52,37 +52,38 @@
 
 
 
-	
-<div id="list-wrapper">
-		<div id="search">
-			<div id="searchwrapper">
-				<%= form_tag( "5th_edition_spell_index" , :method => "get", class: "navbar-form", id: "search-form") do %>
-					<%= hidden_field_tag "class",@class %>
-					<%= hidden_field_tag "archetype",@archetype %>
-					<%= hidden_field_tag "spell_type",@spell_type %>
-					<%= hidden_field_tag "spell",@spell %>
-					<%= text_field_tag :search, params[:search], class: "span2", placeholder: "Search..." %>
-				<% end %>
+<div id="bottom">	
+	<div id="list-wrapper">
+			<div id="search">
+				<div id="searchwrapper">
+					<%= form_tag( "5th_edition_spell_index" , :method => "get", class: "navbar-form", id: "search-form") do %>
+						<%= hidden_field_tag "class",@class %>
+						<%= hidden_field_tag "archetype",@archetype %>
+						<%= hidden_field_tag "spell_type",@spell_type %>
+						<%= hidden_field_tag "spell",@spell %>
+						<%= text_field_tag :search, params[:search], class: "span2", placeholder: "Search..." %>
+					<% end %>
+				</div>
 			</div>
-		</div>
 
-		<div id="index">
-		<% @levels.each_with_index do |level, index| %>
-			<h2><%= level %></h2> 
-			<% @spells[index].each do |spell| %>
-				<%= link_to spell.name, { :controller => "dnd5e_spells", :action => "index", :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => spell.id, :search => @search } %>
-				<br>
+			<div id="index">
+			<% @levels.each_with_index do |level, index| %>
+				<h2><%= level %></h2> 
+				<% @spells[index].each do |spell| %>
+					<%= link_to spell.name, { :controller => "dnd5e_spells", :action => "index", :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => spell.id, :search => @search } %>
+					<br>
+				<% end %>
+			<% end %>	
+
+			<% if @spells.flatten.empty?   %>
+				<h2> None </h2>
 			<% end %>
-		<% end %>	
-
-		<% if @spells.flatten.empty?   %>
-			<h2> None </h2>
-		<% end %>
-		</div>
-</div>
+			</div>
+	</div>
 	<div id="show">
 		<% if @spell %>
 			<%= render 'show' , :spell => Dnd5eSpell.find(@spell)  %> 
 		<% end %>
 	
 	</div>
+</div>

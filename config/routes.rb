@@ -9,6 +9,7 @@ Rails.application.routes.draw do
 
 
 	get  '5th_edition_spell_index' => 'dnd5e_spells#index'
+	get  '5th_edition_class_index' => 'dnd5e_classes#index'
 	get  '3.5_edition_spell_index' => 'dnd35e_spells#index'
 
 	get '/5th_edition_spell_index/:id', to: 'dnd5e_spells#show'

@@ -1,5 +1,6 @@
 thief
 urban
+shallow ocean
 suburban
 rural
 forest
@@ -32,5 +33,25 @@ plains
 raid
 mercenary
 guard
+boss
+dungeon
 castle
+tundra
+haunting
 sentinel
+anywhere
+minions
+surprise
+trap
+layer
+camp
+base of operations
+stream
+river
+hills
+underdark
+hell
+war
+skirmish
+pack
+gang

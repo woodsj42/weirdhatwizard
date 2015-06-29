@@ -1,0 +1,189 @@
+**berserker$3$frenzy$
+**berserker$6$mindless rage$
+**berserker$10$intimidating presence$
+**berserker$14$retaliation$
+**totem warrior$3$spirit seeker$
+**totem warrior$3$totem spirit$
+**totem warrior$6$aspect of the beast$
+**totem warrior$10$spirit walker$
+**totem warrior$14$totemic attunement$
+**college of lore$3$bonus proficiencies$
+**college of lore$3$cutting words$
+**college of lore$6$additional magical secrets$
+**college of lore$14$peerless skills$
+**college of valor$3$bonus proficiencies$
+**college of valor$3$combat inspiration$
+**college of valor$6$extra attack$
+**college of valor$14$battle magic$
+**knowledge$1$blessings of knowledge$
+**knowledge$2$channel divinity: knowledge of the ages$
+**knowledge$6$channel divinity: read thoughts$
+**knowledge$8$potent spellcasting$
+**knowledge$17$visions of the past$
+**life$1$bonus proficiency$
+**life$1$disciple of life$
+**life$2$channel divinity: preserve life$
+**life$6$blessed healer$
+**life$8$divine strike$
+**life$17$supreme healing$
+**light$1$bonus cantrip$
+**light$1$warding flare$
+**light$2$channel divinity: radiane of the dawn$
+**light$6$improved flare$
+**light$8$cpotent spellcasting$
+**light$17$corona of light$
+**nature$1$acolyte of nature$
+**nature$1$bonus proficiency$
+**nature$2$channel divinity: charm animals and plants$
+**nature$6$dampen elements$
+**nature$8$divine strike$
+**nature$17$master of nature$
+**tempest$1$bonus proficiencies$
+**tempest$1$wrath of the storm$
+**tempest$2$channel divinity: destructive wrath$
+**tempest$6$thunderbolt strike$
+**tempest$8$divine strike$
+**tempest$17$stormborn$
+**trickery$1$blessing of the trickster$
+**trickery$2$channel divinity: invoke duplicity$
+**trickery$6$channel divinity: cloak of shadows$
+**trickery$8$divine strike$
+**trickery$17$improved duplicity$
+**war$1$bonus proficiencies$
+**war$1$war priest$
+**war$2$channel divinity: guided strike$
+**war$6$channel divinity: war god's blessing$
+**war$8$divine strike$
+**war$17$avatar battle$
+**circle of the land$1$bonus cantrip$
+**circle of the land$2$natural recovery$
+**circle of the land$6$land's stride$
+**circle of the land$10$nature's ward$
+**circle of the land$14$nature's sanctuary$
+**circle of the moon$2$combat wild shape$
+**circle of the moon$2$circle forms$
+**circle of the moon$6$primal strike$
+**circle of the moon$10$elemental wild shape$
+**circle of the moon$14$thousand forms$
+**battle master$1$combat superiority$
+**battle master$3$student of war$
+**battle master$7$know your enemy$
+**battle master$10,18$improved combat superiority$
+**battle master$15$relentless$
+**champion$3$improved critical$
+**champion$7$remarkable athlete$
+**champion$10$additional fighting style$
+**champion$15$superior critical$
+**champion$18$survivor$
+**eldritch knight$3$spellcasting$
+**eldritch knight$3$weapon bond$
+**eldritch knight$7$war magic$
+**eldritch knight$10$eldritch magic$
+**eldritch knight$15$arcane charge$
+**eldritch knight$18$improved war magic$
+**way of shadow3$shadow arts$
+**way of shadow$6$shadow step$
+**way of shadow$11$cloak of shadows$
+**way of shadow$17$opportunist$
+**way of the open hand$3$open hand technique$
+**way of the open hand$6$wholeness of body$
+**way of the open hand$11$tranquility$
+**way of the open hand$17$quivering palm$
+**way of the four elements$3$disciple of the elements$
+**oath of devotion$3$channel divinity: sacred weapon$
+**oath of devotion$3$channel divinity: turn the unholy$
+**oath of devotion$7,18$aura of devotion$
+**oath of devotion$15$purity of spirit$
+**oath of devotion$20$holy nimbus$
+**oath of the ancients$3$channel divinity: nature's wrath$
+**oath of the ancients$3$channel divinity: turn the faithless$
+**oath of the ancients$7,18$aura of warding$
+**oath of the ancients$15$undying sentinel$
+**oath of the ancients$20$elder champion$
+**oath of vengeance$3$channel divinity: abjure enemy$
+**oath of vengeance$3$channel divinity: vow of enmity$
+**oath of vengeance$7,18$relentless avenger$
+**oath of vengeance$15$soul of vengeance$
+**oath of vengeance$20$avenging angel$
+**hunter$3$hunter's prey$
+**hunter$7$defensive tactics$
+**hunter$11$multiattack$
+**hunter$15$superior hunter's defense$
+**beast hunter$3$ranger's companion$
+**beast hunter$7$exceptional training$
+**beast hunter$11$bestial fury$
+**beast hunter$15$share spells$
+**thief$3$fast hands$
+**thief$3$second-story work$
+**thief$9$supreme sneak$
+**thief$13$use magic device$
+**thief$17$thief's reflexes$
+**assassin$3$bonus proficiencie$
+**assassin$3$assassinate$
+**assassin$9$infiltration expertise$
+**assassin$13$impostor$
+**assassin$17$death strike$
+**arcane trickster$3$spellcasting$
+**arcane trickster$3$mage hand legerdemain$
+**arcane trickster$9$magical ambush$
+**arcane trickster$13$versatile trickster$
+**arcane trickster$17$spell thief$
+**wildling sorcerer$1$wild magic surge$
+**wildling sorcerer$1$tides of chaos$
+**wildling sorcerer$6$bend luck$
+**wildling sorcerer$14$controlled chaos$
+**wildling sorcerer$18$spell bombardment$
+**draconic sorcerer$1$dragon ancestor$
+**draconic sorcerer$1$draconic resilience$
+**draconic sorcerer$6$elemental affinity$
+**draconic sorcerer$14$dragon wings$
+**draconic sorcerer$18$draconic presence$
+**abjurer$2$abjuration savant$
+**abjurer$2$arcane ward$
+**abjurer$6$projected war$
+**abjurer$10$improved abjuration$
+**abjurer$14$spell resistance$
+**conjurer$2$conjuration savant$
+**conjurer$2minor conjuration$
+**conjurer$6$benign transposition$
+**conjurer$10$focused conjuration$
+**conjurer$14$durable summons$
+**diviner$2$divination savant$
+**diviner$2$portent$
+**diviner$6$expert divination$
+**diviner$10$the third eye$
+**diviner$14$greater portent$
+**enchanter$2$enchantment savant$
+**enchanter$2$hypnotic gaze$
+**enchanter$6$instinctive charm$
+**enchanter$10$split enchantment$
+**enchanter$14$alter memories$
+**evoker$2$evocation savant$
+**evoker$2$sculpt spells$
+**evoker$6$potent cantrip$
+**evoker$10$empowered evocation$
+**evoker$14$overchannel$
+**illusionist$2$illusion savant$
+**illusionist$2$improved minor illusion$
+**illusionist$6$malleable illusions$
+**illusionist$10$illusory self$
+**illusionist$14$illusory reality$
+**necromancer$2$necromancy savant$
+**necromancer$2$grim harvest$
+**necromancer$6$undead thralls$
+**necromancer$10$inured to undeath$
+**necromancer$14$command unead$
+**transmuterer$2$transmutation savant$
+**transmuterer$2$minor alchemy$
+**transmuterer$6$transmuter's stone$
+**transmuterer$10$shapechanger$
+**transmuterer$14$master transmuter$
+**great old ones$1$awakened mind$
+**great old ones$6$entropic ward$
+**great old ones$10$thought shield$
+**great old ones$14$create thrall$
+**fiend$1$dark one's blessing$
+**fiend$6$fiendish resilience$
+**fiend$10$fiendish resilience$
+**fiend$14$hurl through hell$
+**archfey$1$fey presence$

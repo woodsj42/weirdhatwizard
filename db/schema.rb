@@ -141,8 +141,15 @@ ActiveRecord::Schema.define(version: 20150619224236) do
 
   create_table "dnd5e_classes", force: :cascade do |t|
     t.string   "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "weapon_proficiencies"
+    t.string   "skill_proficiencies"
+    t.string   "armor_proficiencies"
+    t.string   "saving_throws"
+    t.string   "tools"
+    t.string   "hit_die"
+    t.string   "main_ability"
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
   end
 
   create_table "dnd5e_components", force: :cascade do |t|

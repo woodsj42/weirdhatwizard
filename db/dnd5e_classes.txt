@@ -1,12 +1,12 @@
-Barbarian
-Bard
-Cleric
-Druid
-Fighter
-Monk
-Paladin
-Ranger
-Rogue
-Sorcerer
-Warlock
-Wizard
+Barbarian$12$Light,Medium,Shields$Simple,Martial$None$Strength, Constitution$Choose two from Animal Handling, Athletics, Intimididation, Nature, Perception, Survival$None$
+Bard$8$Light$Simple, hand crossbow, longsword, rapier, shortsword$Three musical instruments of your choice$Dexterity, Charisma$Choose any three$Charisma$
+Cleric$8$Light, Medium, Shields$Simple$None$Wisdom, Charisma$Choose two from History, Insight, Medicine, Persuasion, and Religion$Wisdom$
+Druid$8$Light, Medium, Shields(druids will not use armor or shields made of metal)$club, dagger, dart, javelin, mace, quartestaff, scimitar, sickle, sling, spear$Herbalism Kit$Intelligence, Wisdom$Choose two from Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, and Survival$Wisdom$
+Fighter$10$Light, Medium, Heavy, Shields$Simple, Martial$None$Strength, Constitution$Choose two skills from Acrobatics Animal Handling, Athletics, History, Insight, Intimidation, Perception, Survival$Intelligence$
+Monk$8$None$Simple, shortsword$Choose one type of artisan's tools or one musical instrument$Strength, Dexterity$Choose two from Acrobatics, Athletics, History, Insight, Religion, and Stealth$Wisdom$
+Paladin$10$Heavy, Medium, Light, Shields$Simple, Martial$None$Wisdom, Charisma$Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion$Charisma$
+Ranger$10$Light, Medium, Shields$Simple, Martial$None$Strength, Dexterity$Choose three from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival$Wisdom$
+Rogue$8$Light$Simple, hand crossbow, longsword, rapier, shortsword$Thieves' Tools$Dexterity, Intelligence$Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Perception, Performance, Persuasion, Sleight of Hand, and Stealth$Intelligence$
+Sorcerer$6$None$dagger, dart, sling, quarterstaff, light crossbow$None$Constitution, Charisma$Choose two from Arcana, Deception, Insight, Intimidation, Persuasion, and Religion$Charisma$
+Warlock$8$Light$Simple$None$Wisdom, Charisma$Choose two skills from Arcana, Deception, History, Intimidation, Investigation, Nature, and Religion$Charisma$
+Wizard$6$None$dagger, dart, sling, quarterstaff, light crossbow$None$Intelligence, Wisdom$$Intelligence$

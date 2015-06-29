@@ -1,2 +1,129 @@
-**class$level$name$description
-
+**barbarian$1$rage$
+**barbarian$1$unarmored defense$
+**barbarian$1$reckless attack$
+**barbarian$2$danger sense$
+**barbarian$4,8,12,16$ability score improvement$
+**barbarian$5$extra attack$
+**barbarian$5$fast movement$
+**barbarian$9,13,17$brutal critical$
+**barbarian$11$relentless rage$
+**barbarian$15$persistent rage$
+**barbarian$18$indomitable might$
+**barbarian$20$primal champion$
+**bard$1$spellcasting$
+**bard$1$cantrips$
+**bard$1$ritual casting$
+**bard$1$spellcasting focus$
+**bard$1$bardic inspiration$
+**bard$2$jack of all trades$
+**bard$2$song of rest$
+**bard$3$expertise$
+**bard$4,8,12,16$ability score improvement$
+**bard$5$font of inspiration$
+**bard$6$countercharm$
+**bard$10,14,18$magical secrets$
+**bard$20$superior inspiration$
+**cleric$1$spellcasting$
+**cleric$1$spellcasting$
+**cleric$1$cantrips$
+**cleric$1$spellcasting focus$
+**cleric$1$ritual casting$
+**cleric$2$channel divinity$
+**cleric$4,8,12,16,19$ability score improvement$
+**cleric$5,8,11,14,17$destroy undead$
+**cleric$10,20$divine intervention$
+**druid$1$druidic$
+**druid$1$spellcasting$
+**druid$1$cantrips$
+**druid$1$ritual casting$
+**druid$1$spellcasting focus$
+**druid$2$wild shape$
+**druid$4,8,12,16$ability score improvement$
+**druid$18$timeless body$
+**druid$18$beast spells$
+**druid$20$archdruid$
+**druid$20$archdruid$
+**fighter$1$fighting style$
+**fighter$1$second wind$
+**fighter$2$action surge$
+**fighter$4,6,8,12$ability score improvement$
+**fighter$5$extra attack$
+**fighter$9$indomitable$
+**monk$1$unarmored defense$
+**monk$1$martial arts$
+**monk$2$ki$
+**monk$2$flurry of blows$
+**monk$2$patient defense$
+**monk$2$step of the wind$
+**monk$2,9$unarmored defense$
+**monk$3$deflect missiles$
+**monk$4,8,12,163$ability score improvement$
+**monk$4$slow fall$
+**monk$5$extra attack$
+**monk$5$stunning strike$
+**monk$6$ki-empowered strikes$
+**monk$7$evasion$
+**monk$10$purity of body$
+**monk$13$tongue of sun and moon$
+**monk$14$diamond soul$
+**monk$15$timeless body$
+**monk$18$empty body$
+**monk$20$perfect self$
+**paladin$1$divine sense$
+**paladin$1$lay on hands$
+**paladin$2$fighting style$
+**paladin$2$spellcasting$
+**paladin$2$divine smite$
+**paladin$3$divine health$
+**paladin$4,8,12,16,19$ablity score improvement$
+**paladin$5$extra attack$
+**paladin$6,18$aura of protection$
+**paladin$10,18$aura of courage$
+**paladin$11$improved divine smite$
+**paladin$14$cleansing touch$
+**ranger$1,6,14$favored enemy$
+**ranger$1,10$natural explorer$
+**ranger$2$fighting style$
+**ranger$2$spellcasting$
+**ranger$3$primeval awareness$
+**ranger$4,8,12,16$ability score improvement$
+**ranger$5$extra attack$
+**ranger$8$land's stride$
+**ranger$10$hide in plain sight$
+**ranger$14$vanish$
+**ranger$18$feral senses$
+**ranger$20$foe slayer$
+**rogue$1$sexpertise$
+**rogue$1$sneak attack$
+**rogue$1$thieves' cant$
+**rogue$2$cunning action$
+**rogue$4,8,10,12,16,19$ability score improvement$
+**rogue$5$uncanny dodge$
+**rogue$7$evasion$
+**rogue$11$reliable talent$
+**rogue$14$blindsense$
+**rogue$15$slippery mind$
+**rogue$18$elusive$
+**sorcerer$1$spellcasting$
+**sorcerer$1$cantrips$
+**sorcerer$1$arcane focus$
+**sorcerer$2$font of magic$
+**sorcerer$3$metamagic$
+**sorcerer$4,8,12,16,19$ability score improvement$
+**sorcerer$20$sorcerous restoration$
+**warlock$1$pact magic$
+**warlock$1$cantrips$
+**warlock$2$eldritch invocations$
+**warlock$3$pact boon$
+**warlock$4,8,12,16,19$ability score improvement$
+**warlock$11,13,15,17$mystic arcanum$
+**warlock$20$eldritch master$
+**wizard$2$arcane recovery$
+**wizard$4,8,12,16,19$abiltiy core improvement$
+**wizard$1$arcane tradition$
+**wizard$1$spells$
+**wizard1$cantrips$
+**wizard$2$arcane recovery$
+**wizard$1$spellbook$
+**wizard$18$spell mastery$
+**wizard$20$signature spells$
