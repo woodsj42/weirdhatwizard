@@ -1,0 +1,396 @@
+Acid Splash$offense,saving throw
+Blade Ward$defense
+Chill Touch$offense
+Dancing Lights$utility
+Druidcraft$utility
+Eldritch Blast$offense,range
+Fire Bolt$offense,range
+Friends$utility
+Guidance$utility
+Light$utility
+Mage Hand$utility
+Mending$utility
+Message$utility
+Minor Illusion$utility,niche,saving throw,offense
+Poison Spray$offense,saving throw,range
+Prestidigitation$utiltiy,niche
+Produce Flame$utility,offense,range
+Ray of Frost$offense,range
+Resistance$niche,melee
+Sacred Flame$offense,saving throw,range
+Shillelagh$offense,melee
+Shocking Grasp$melee,offense
+Spare the Dying$utility,healing
+Thaumaturgy$utility
+Thorn Whip$range,offense
+True Strike$offense,niche,melee
+Vicious Mockery$offense,saving throw,range
+Alarm$utility
+Animal Friendship$niche,utility
+Armor of Agathys$defense
+Arms of Hadar$offense,area of effect,saving throw
+Bane$multiple targets,offense,range
+Bless$multiple targets,defense,range
+Burning Hands$offense,melee
+Charm Person$niche,utility
+Chromatic Orb$range,offense
+Color Spray$cone,area of effect,niche,offense
+Command$niche,range
+Compelled Duel$offense,niche,range
+Comprehend Languages$utility
+Create Or Destroy Water$utility
+Cure Wounds$melee,defense,healing
+Detect Evil and Good$niche
+Detect Magic$niche,utility
+Detect Poison Or Disease$niche
+Disguise Self$niche
+Guiding Bolt$range,offense
+Dissonant Whispers$saving throw,offense,range
+Divine Favor$offense,melee
+Ensnaring Strike$offense,range,melee
+Entangle$area of effect,niche
+Expeditious Retreat$utility
+Faerie Fire$niche,range
+False Life$niche,healing
+Feather Fall$utility
+Find Familiar$utility
+Fog Cloud$niche,area of effect
+Goodberry$niche,defense,healing
+Grease$area of effect,niche
+Hail of Thorns$area of effect,crowd control
+Healing Word$healing,defense
+Hellish Rebuke$saving throw,range,offense,defense
+Heroism$buff,melee
+Hex$range,curse
+Hunter's Mark$range,curse
+Identify$utility,melee
+Illusory Script$niche
+Inflict Wounds$offense,melee
+Jump$niche
+Longstrider$buff,melee
+Mage Armor$buff,defense
+Magic Missile$offense,range
+Protection From Evil and Good$defense
+Purify Food and Drink$utiltiy
+Ray of Sickness$range,offense,saving throw
+Sanctuary$defense
+Searing Smite$melee,offense
+Shield$defense
+Shield of Faith$buff,range
+Silent Image$niche,range
+Sleep$offense,niche,range,area of effect
+Speak with Animals$niche,utility
+Tasha's Hideous Laughter$range,niche
+Tenser's Floating Disk$niche
+Thunderous Smite$offense,melee
+Thunderwave$offense,area of effect
+Unseen Servant$niche,utility
+Witch Bolt$offense,range
+Wrathful Smite$offense,melee
+Aid$buff,range
+Alter Self$niche
+Dispel Magic$niche
+Animal Messenger$utility,niche
+Arcane Lock$niche
+Augury$niche
+Barkskin$defense,buff
+Beast Sense$niche
+Blindness/Deafness$niche,offense,range
+Blur$buff
+Branding Smite$melee,offense
+Calm Emotions$niche,saving throw
+Cloud of Daggers$area of effect,offense
+Aura of Life$buff
+Cordon of Arrows$defense
+Crown of Madness$range,saving throw,niche,offense
+Darkness$niche,range
+Darkvision$niche,buff
+Detect Thoughts$niche,range
+Hold Person$niche,range,offense,saving throw
+Lesser Restoration$healing
+Prayer of Healing$healing
+Silence$
+Spiritual Weapon$melee,offense
+Elemental Weapon$melee,offense
+Stoneskin$defense
+Suggestion$saving throw,niche
+Warding Bond$buff
+Animate Dead$niche
+Aura of Vitality$healing
+Beacon of Hope$buff,area of effect
+Bestow Curse$saving throw,curse
+Blinding Smite$offense,melee
+Fear$saving throw,offense,niche,range,curse
+Blink$utility
+Call Lightning$area of effect,range,saving throw
+Clairvoyance$niche
+Conjure Animals$niche
+Conjure Barrage$niche
+Counterspell$defense,range,saving throw,niche
+Create Food and Water$utility
+Crusader's Mantle$buff,area of effect,offense
+Daylight$niche,utility
+Parry$defense
+Feign Death$niche
+Fireball$offense,area of effect,saving throw
+Fly$utility
+Gaseous Form$niche
+Haste$buff
+Hunger of Hadar$area of effect,saving throw
+Hypnotic Pattern$saving throw,niche
+Leomund's Tiny Hut$utility
+Lightning Arrow$offense,range
+Revivify$healing
+Magic Circle$area of effect,defense
+Major Image$niche
+Mass Healing Word$healing
+Meld into Stone$utility
+Nondetection$niche
+Phantom Steed$utility
+Plant Growth$niche,area of effect,
+Protection From Energy$defense
+Remove Curse$healing
+Sending$utility
+Sleet Storm$area of effect
+Slow$niche,area of effect
+Speak with Dead$utility
+Speak with Plants$utility
+Spirit Guardian$saving throw,offense
+Stinking Cloud$area of effect,curse,offense
+Tongues$utility
+Arcane Eye$utility
+Aura of Purity$buff,area of effect
+Banishment$saving throw,niche,offense
+Blight$offense,saving throw
+Compulsion$niche,saving throw
+Confusion$area of effect,curse,saving throw,niche
+Conjure Minor Elementals$niche
+Conjure Woodland Beings$niche
+Control Water$utility,niche
+Death Ward$healing,buff
+Dimension Door$utility
+Conjure Celestial$niche
+Delayed Blast Fireball$offense,area of effect,saving throw
+Divine Word$saving throw,niche
+Mordenkainen's Sword$offense
+Cone of Cold$saving throw,offense,area of effect
+Etherealness$niche
+Finger of Death$offense,saving throw
+Fire Storm$area of effect,offense,saving throw
+Forcecage$niche
+Mirage Arcane$niche,area of effect
+Mordenkainen's Magnificent Mansion$utility
+Precision Attack$offense
+Plane Shift$utility
+Prismatic Spray$range,offense,area of effect
+Project Image$range,niche
+Regenerate$healing,utility
+Resurrection$healing,niche
+Reverse Gravity$niche,range
+Sequester$melee,niche
+Simulacrum$melee,niche
+Symbol$niche
+Teleport$utility
+Animal Shapes$utility
+Antimagic Field$area of effect,niche
+Antipathy/Sympathy$range,niche
+Clone$melee,niche
+Control Weather$niche,range,area of effect
+Demiplane$utility,range
+Dominate Monster$niche,range
+Earthquake$area of effect,offense,range
+Feeblemind$niche,range
+Glibness$niche
+Holy Aura$area of effect,buff
+Incendiary Cloud$area of effect,offense,saving throw
+Maze$niche,range,saving throw
+Mind Blank$melee,buff,defense
+Power Word Stun$saving throw,range,niche
+Sunburst$area of effect,range,saving throw,offense
+Telepathy$niche,range
+Tsunami$offense,niche,range
+Astral Projection$niche,utility
+Foresight$niche
+Banishing Smite$offense,melee,saving throw
+Gate$range,utility
+Imprisonment$niche,range,saving throw
+Mass Heal$healing,area of effect,range
+Meteor Swarm$offense,area of effect,range
+Power Word Heal$healing,melee
+Power Word Kill$range,offense
+Prismatic Wall$defense,range
+Shapechange$utility
+Storm of Vengeance$area of effect,niche
+Time Stop$utility,niche
+True Polymorph$utility,niche
+True Resurrection$healing
+Weird$niche
+Wish$utility
+Animate Objects$niche,range
+Anti Life Shell$area of effect,defense
+Arcane Gate$utility
+Awaken$healing,niche,buff
+Bigby's Hand$offense,summoning,range
+Blade Barrier$defense,area of effect
+Chain Lightning$offense,area of effect,range
+Circle of Power$saving throw,niche,buff,offense,area of effect
+Circle of Death$saving throw,area of effect,offense
+Cloudkill$range,area of effect,saving throw,offense
+Commune$utility
+Commune with Nature$utility
+Riposte$offense,melee
+Conjure Elemental$summoning
+Conjure Fey$summoning
+Conjure Volley$summoning
+Contact Other Plane$utility
+Contagion$niche,range
+Contingency$niche
+Continual Flame$utility
+Find Traps$utility
+Create Undead$summoning
+Creation$utiltiy
+Destructive Wave$area of effect,offense,saving throw
+Detect Poison and Disease$utility
+Disintegrate$offense,range
+Dispel Evil and Good$niche,range
+Divination$utility
+Pushing Attack$offense
+Dominate Beast$range,niche
+Dominate Person$range,niche
+Drawmij's Instant Summons$summons
+Dream$utility
+Enhance Ability$utility
+Rally$niche,area of effect
+Enlarge/Reduce$niche,range
+Enthrall$summons,range
+Evard's Black Tentacles$area of effect,offense,range
+Eyebite$saving throw,niche
+Fabricate$utility
+Find Steed$utility
+Lightning Bolt$range,offense
+Find the Path$utility
+Fire Shield$niche,defense
+Flame Blade$melee,offense
+Flame Strike$range,offense
+Flaming Sphere$range,area of effect,summoning
+Flesh To Stone$range,saving throw,niche
+Forbiddance$niche,melee
+Freedom of Movement$
+Geas$saving throw,niche,range
+Gentle Repose$healing,niche
+Giant Insect$summoning,range
+Globe of Invulnerability$defense,area of effect
+Glyph of Warding$niche
+Grasping Vine$range,summoning
+Greater Invisibility$utility
+Greater Restoration$healing
+Guardian of Faith$buff,range
+Guards and Wards$defense,niche
+Gust of Wind$saving throw,range,niche
+Hallow$melee,niche
+Hallucinatory Terrain$range,area of effect,niche
+Harm$range,offense,saving throw
+Heal$healing,range
+Heat Metal$offense,niche,range
+Locate Animals Or Plants$utility,range
+Heroes' Feast$utility,niche
+Hold Monster$niche,range
+Ice Storm$area of effect,saving throw,offense
+Insect Plague$range,saving throw,offense
+Invisibility$utility
+Knock$range,utility
+Legend Lore$melee,utility
+Leomund's Secret Chest$utility
+Levitate$niche,utility
+Locate Creature$utility
+Locate Object$utility
+Magic Jar$niche
+Magic Mouth$niche
+Magic Weapon$offense
+Mass Cure Wounds$area of effects,healing
+Mass Suggestion$area of effect,niche
+Pass without Trace$utility
+Melf's Acid Arrow$range,offense
+Mirror Image$niche
+Mislead$niche
+Misty Step$niche
+Modify Memory$niche,range
+Moonbeam$range,offense,saving throw
+Mordenkainen's Faithful Hound$summoning
+Passwall$utility
+Maneuvering Attack$offense
+Mordenkainen's Private Sanctum$utility
+Move Earth$utility,niche,range
+Nystul's Magic Aura$niche
+Otiluke's Freezing Sphere$area of effect,range,saving throw,offense
+Otiluke's Resilient Sphere$defense,saving throw,niche
+Otto's Irresistible Dance$range,niche,saving throw
+Phantasmal Force$offense,saving throw,range
+Phantasmal Killer$offense,saving throw,range
+Planar Ally$summoning,niche
+Planar Binding$range,summoning
+Polymorph$niche
+Programmed Illusion$niche
+Protection From Poison$buff,defense
+Raise Dead$summoning
+Rary's Telepathic Bond$utility
+Ray of Enfeeblement$offense,range,saving throw
+Reincarnate$healing
+Rope Trick$niche,utility
+Scorching Ray$range,offense
+Scrying$utility
+See Invisibility$utility,niche
+Seeming$range,saving throw,niche
+Shatter$niche,range,saving throw
+Spider Climb$utility,niche
+Spike Growth$area of effect,defense
+Spirit Guardians$summoning
+Staggering Smite$offense,melee,saving throw
+Stone Shape$utility,melee
+Sunbeam$range,saving throw
+Swift Quiver$offense,range,utility
+Telekinesis$utility,niche,range
+Teleportation Circle$area of effect,utility
+Transport Via Plants$utility
+Tree Stride$utility
+True Seeing$utility,niche
+Vampiric Touch$melee,offense
+Wall of Fire$defense,range
+Wall of Force$defense,range
+Wall of Ice$defense,range
+Wall of Stone$defense,range
+Wall of Thorns$defense,range
+Water Breathing$utility,niche
+Water Walk$utility,niche,travel
+Menacing Attack$offense,saving throw
+Web$niche,range
+Wind Walk$travel
+Wind Wall$range,defense
+Word of Recall$defense
+Zone of Truth$utility,area of effect,saving throw
+Commanders Strike$offense,buff
+Disarming Attack$offense,saving throw
+Distracting Strike$offense,saving throw
+Evasive Footwork$niche
+Feinting Attack$offense,melee
+Goading Attack$offense
+Lunging Attack$offense
+Sweeping Attack$offense,melee
+Trip Attack$offense,melee
+Breath of Winter$saving throw,offense,range
+Clench of the North Wind$control,range
+Elemental Attunement$utilty,range
+Eternal Mountain Defense$defense,buff
+Fangs of the Fire Snake$range,offense
+Fist of the Four Thunders$area of effect,offense
+Fist of Unbroken Air$offense,range
+Flames of the Phoenix$area of effect,range,offense,saving throw
+Gong of the Summit$saving throw,area of effect,offense
+Mist Stance$niche,shapechangers
+Ride the Wind$travel
+River of Hungry Flame$range,defense
+Rush of the Gale Spirits$range,control,saving throw
+Shape the Flowing River$utility,niche,range
+Sweeping Cinder Strike$melee,offense
+Water Whip$range,offense
+Wave of Rolling Earth$offense,range

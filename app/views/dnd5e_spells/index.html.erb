@@ -1,7 +1,7 @@
 <div id="sort">
 	
+	<label>_______________________________</label>	
 	<div id="spell_types">
-	<label>[</label>	
         <% if 0 == @spell_type_all %>
 			<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :class => @class, :archetype => @archetype, :spell_type => 0, :spell => @spell }, {:style => "color: gray;" }%>
         <% else %>
@@ -14,11 +14,10 @@
 			<%= link_to spell_type.name, { :controller => "dnd5e_spells", :action => "index", :class => @class, :archetype => @archetype, :spell_type => spell_type.id, :spell => @spell }, {:style => "color: black;" } %>
 		<% end %>
 	<% end %>	
-	<label>]</label>
 	</div>
 	
+	<label>_______________________________</label>	
 	<div id="classes">
-		 <label>[</label>        
                 <% if 0 == @class_all %>
 			<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :class => 0, :spell_type => @spell_type, :spell => @spell }, {:style => "color: gray;" }%>
                 <% else %>
@@ -31,11 +30,10 @@
                         	<%= link_to classs.name, { :controller => "dnd5e_spells", :action => "index", :class => classs.id, :spell_type => @spell_type, :spell => @spell }, {:style => "color: black;" } %>
                 	<% end %>
         	<% end %>       
-        	<label>]</label>     
 	</div>
+	<label>_______________________________</label>	
 
 	<div id="archetypes">
-		<label>[</label>        
 		<% if @class%> 
         		<% @archetypes.each do |a| %>
                 		<% if a.id == @archetype %>
@@ -44,9 +42,11 @@
                         		<%= link_to a.name, { :controller => "dnd5e_spells", :action => "index", :class => @class, :archetype => a.id, :spell_type => @spell_type, :spell => @spell }, {:style => "color: black;" } %>
                 		<% end %>
         		<% end %>       
-	<% end %>   
-        <label>]</label>  
+		<% else %>   
+			<div style="color:white;">[]</div>	
+        	<% end %>       
 	</div>
+	<label>_______________________________</label>	
 
 </div>
 

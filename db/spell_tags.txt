@@ -1,0 +1,16 @@
+saving throw
+control
+summoning
+range
+melee
+offense
+niche
+utility
+defense
+healing
+necrotic
+fire
+lightning
+poison
+plant
+travel
