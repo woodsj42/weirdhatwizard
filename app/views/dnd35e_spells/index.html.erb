@@ -1,8 +1,9 @@
 <div id="sort">
 	
 	
-	<label>[</label>	
-        <% if 0 == @all %>
+        <label>_______________________________</label>
+	<div id="classes">
+	<% if 0 == @all %>
 		<%= link_to "All", { :controller => "dnd35e_spells", :action => "index", :class => 0, :spell => @spell }, {:style => "color: gray;" }%>
         <% else %>
 		<%= link_to "All", { :controller => "dnd35e_spells", :action => "index", :class => 0, :spell => @spell }, {:style => "color: black;" }%>
@@ -14,7 +15,8 @@
 			<%= link_to classs.name, { :controller => "dnd35e_spells", :action => "index", :class => classs.id, :spell => @spell }, {:style => "color: black;" } %>
 		<% end %>
 	<% end %>	
-	<label>]</label>	
+	</div>
+        <label>_______________________________</label>
 </div>
 
 
