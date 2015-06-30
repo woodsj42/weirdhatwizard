@@ -63,6 +63,8 @@ class Dnd35eSpellsController < ApplicationController
 
 				if @spells.flatten.empty?
 					redirect_to :action => "index", :class => @class, :spell => @spell
+				elsif @spells.flatten.length == 1
+					redirect_to :action => "index", :class => @class, :spell => @spells.flatten.first, :spell_type => @spell_type, :archetype => @archetype	
 				end
 			end
 		end	
