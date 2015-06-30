@@ -11,6 +11,7 @@ class CreateDnd5eSpells < ActiveRecord::Migration
       t.string :description
       t.string :ritual
       t.string :concentration
+      t.string :tags
 
       t.timestamps null: false
     end

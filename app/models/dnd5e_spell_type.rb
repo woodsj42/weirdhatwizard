@@ -16,4 +16,20 @@ class Dnd5eSpellType < ActiveRecord::Base
 		end
 		@sorted	
 	end
+	
+	def self.spells_of_certain_type_by_level_dnd35e(name)
+
+		@sorted = []
+#		Dnd5eSpell.includes(:dnd5e_spell_types).where(:dnd5e_spell_types => {dnd5e_spell_type_id: id})
+		Dnd35eSpell.all.each do |spell|
+
+			spell.spell_type.split(', ').each do |n|	
+				if n == name
+                        		@sorted <<  spell
+				end
+			end
+			
+		end
+		@sorted	
+	end
 end

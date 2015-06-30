@@ -11,6 +11,7 @@ class CreateDnd35eSpells < ActiveRecord::Migration
       t.string :duration
       t.string :saving_throw
       t.string :spell_resistance
+      t.string :tags
 
       t.timestamps null: false
     end
