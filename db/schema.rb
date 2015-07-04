@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150619224236) do
+ActiveRecord::Schema.define(version: 20150703215459) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -87,9 +87,22 @@ ActiveRecord::Schema.define(version: 20150619224236) do
     t.string   "duration"
     t.string   "saving_throw"
     t.string   "spell_resistance"
+    t.string   "tags"
     t.datetime "created_at",       null: false
     t.datetime "updated_at",       null: false
   end
+
+  create_table "dnd5e_archetype_attributes", force: :cascade do |t|
+    t.string   "name"
+    t.string   "value"
+    t.string   "description"
+    t.string   "level"
+    t.integer  "dnd5e_archetype_id"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+  end
+
+  add_index "dnd5e_archetype_attributes", ["dnd5e_archetype_id"], name: "index_dnd5e_archetype_attributes_on_dnd5e_archetype_id", using: :btree
 
   create_table "dnd5e_archetype_spells", force: :cascade do |t|
     t.integer  "dnd5e_archetype_id"
@@ -120,6 +133,7 @@ ActiveRecord::Schema.define(version: 20150619224236) do
   create_table "dnd5e_class_attributes", force: :cascade do |t|
     t.string   "name"
     t.string   "value"
+    t.string   "description"
     t.string   "level"
     t.integer  "dnd5e_class_id"
     t.datetime "created_at",     null: false
@@ -202,6 +216,7 @@ ActiveRecord::Schema.define(version: 20150619224236) do
     t.string   "description"
     t.string   "ritual"
     t.string   "concentration"
+    t.string   "tags"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
   end

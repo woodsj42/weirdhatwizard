@@ -1,44 +1,93 @@
-**barbarian$1$rage$
-**barbarian$1$unarmored defense$
-**barbarian$1$reckless attack$
-**barbarian$2$danger sense$
-**barbarian$4,8,12,16$ability score improvement$
-**barbarian$5$extra attack$
-**barbarian$5$fast movement$
-**barbarian$9,13,17$brutal critical$
-**barbarian$11$relentless rage$
-**barbarian$15$persistent rage$
-**barbarian$18$indomitable might$
-**barbarian$20$primal champion$
-**bard$1$spellcasting$
-**bard$1$cantrips$
-**bard$1$ritual casting$
-**bard$1$spellcasting focus$
-**bard$1$bardic inspiration$
-**bard$2$jack of all trades$
-**bard$2$song of rest$
-**bard$3$expertise$
-**bard$4,8,12,16$ability score improvement$
-**bard$5$font of inspiration$
-**bard$6$countercharm$
-**bard$10,14,18$magical secrets$
-**bard$20$superior inspiration$
+barbarian$1$rage$ <p> Enter rage as a bonus action, you gain the following benefits if you aren't wearing heavy armor.</p>
+<p><ul>
+<li>You have advantage on strength checks and strength saving throws</li>
+<li>when you make a melee weapon attak using strength, you gain a bonues to the damage roll that increases as you gain levels as a barbarian.</li>
+<li>you have resistance to bludgeoning, piercing, and slashing damage.</li>
+</p></ul>
+<p>if you are able to cast spells, you can't cas them or concentrate on them while raging</p>
+<p>your rage lasts 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature sine your last turn or taken damage since then. It is also possible to end rage as a bonus action</p>
+<p>Once you have raged the maximum number of times possible, you must finish a long rest before you can rage again</p> 
+**barbarian$1$unarmored defense$<p>While you are not wearing any armor, your armor class equals 10 + Dex modifier + Con modifier. You ca use a shield and still gain this benefit</p>
+**barbarian$1$reckless attack$ <p>When you make your first attack for a turn you can decide whether to attack recklessly or not, giving yourself advantage on melee attack rolls that are using your strength modifier. However attack rolls against you have advantage until your next turn.  </p>
+**barbarian$2$danger sense$<p>You have advantage on dexterity saving throws against effects that you can see, such as traps and spells to gain this benefit, you can't be blinded, deafened, or incapacitated.</p>
+**barbarian$4$ability score improvement$ <p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**barbarian$8$ability score improvement$ <p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**barbarian$12$ability score improvement$ <p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**barbarian$16$ability score improvement$ <p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**barbarian$5$extra attack$<p> When you use the attack action you make another attack</p>
+**barbarian$5$fast movement$your speed increases by 10 feet while your aren't wearing heavy armor.</p>
+**barbarian$9$brutal critical$<p>you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</p>
+**barbarian$13$brutal critical$<p>you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</p>
+**barbarian$17$brutal critical$<p>you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</p>
+**barbarian$11$relentless rage$<p>Your rage can keep you fighting if you would drop below zero hit points while raging you don't die outright, you can make a dc 10 constitution saving throw, if you succeed you drop to one hit point instead. </p><p>each time you use this feature, the dc increases by 5. When you finish a short or long rest the dc resetes to 10.</p>
+**barbarian$15$persistent rage$<p>Your rage is so fierce that it ends early only if you fall unconcsious or if you choose to end it.</p>
+**barbarian$18$indomitable might$<p>If your total for a strength check is less than your strength score, you can use that score in place of the total.</p>
+**barbarian$20$primal champion$<p>You embody the power of the wilds. Your strength and constitution scores are increased by 4. Your maximum for those scores is now 24</p>
+**bard$1$spellcasting$<p><strong>Cantrips</strong><br> You can cast cantrips. you know these spells so well that you can cast them as many times as you want.</p>
+<p><strong>Spell Slots</strong><br> how many spells you can cast per day for spells of 1st level or higher. To use a spell you expend 1 spell slot.</p>
+<p><strong>Spellcasting ability</strong><br> Charisma is your spellcasting abiltiy.</p><p><strong>Spell Save DC</strong> = 8 + proficiency bonus + Charisma modifier </p>
+<p><strong>Spell attack modifier</strong><br> = proficiency bonus + charisma modifier</p>
+<p><strong> Ritual Casting</strong><br> You can cast any bard spell you know as a ritual if that spell has a ritual tag</p>
+<p><strong>Arcane Focus</strong><br>You can use a musical instrument as a spellcasting focus for your bard spells</p>
+**bard$1$bardic inspiration$<p>use a bonus action on our turn to choose one creature other than yourself within 60 feet of you who can hear you. that creature gains one bardic inspiration die, a d6</p>
+<p>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The create can wait until after it rolls the d20 before deciding to use the bardic inspiration die, but must decide before the dm says whether the roll succeeds or fails. A creature can have only one bardic inspiration die at a time.</p>
+<p>You can use this feature aa number of times equal to your charisma modifier. You regain any expended inspiration die after a long rest.</p>
+**bard$5$bardic inspiration$<p>use a bonus action on our turn to choose one creature other than yourself within 60 feet of you who can hear you. that creature gains one bardic inspiration die, a d6</p>
+<p>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The create can wait until after it rolls the d20 before deciding to use the bardic inspiration die, but must decide before the dm says whether the roll succeeds or fails. A creature can have only one bardic inspiration die at a time.</p>
+<p>You can use this feature aa number of times equal to your charisma modifier. You regain any expended inspiration die after a long rest.</p>
+**bard$10$bardic inspiration$<p>use a bonus action on our turn to choose one creature other than yourself within 60 feet of you who can hear you. that creature gains one bardic inspiration die, a d6</p>
+<p>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The create can wait until after it rolls the d20 before deciding to use the bardic inspiration die, but must decide before the dm says whether the roll succeeds or fails. A creature can have only one bardic inspiration die at a time.</p>
+<p>You can use this feature aa number of times equal to your charisma modifier. You regain any expended inspiration die after a long rest.</p>
+**bard$15$bardic inspiration$<p>use a bonus action on our turn to choose one creature other than yourself within 60 feet of you who can hear you. that creature gains one bardic inspiration die, a d6</p>
+<p>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The create can wait until after it rolls the d20 before deciding to use the bardic inspiration die, but must decide before the dm says whether the roll succeeds or fails. A creature can have only one bardic inspiration die at a time.</p>
+<p>You can use this feature aa number of times equal to your charisma modifier. You regain any expended inspiration die after a long rest.</p>
+**bard$2$jack of all trades$<p>You can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus</p>
+**bard$2$song of rest$<p>You can use soothing music or oration to help revitalize your wounded allies during a short rest, each of those creatures regains an extra 1d6 hit points</p>
+**bard$9$song of rest$<p>You can use soothing music or oration to help revitalize your wounded allies during a short rest, each of those creatures regains an extra 1d6 hit points</p>
+**bard$13$song of rest$<p>You can use soothing music or oration to help revitalize your wounded allies during a short rest, each of those creatures regains an extra 1d6 hit points</p>
+**bard$17$song of rest$<p>You can use soothing music or oration to help revitalize your wounded allies during a short rest, each of those creatures regains an extra 1d6 hit points</p>
+**bard$3$expertise$<p>choose two of your skill proficiencies. Your proficiency bonus doubled for any ability check you make that uses either of the chosen proficiencies.</p>
+**bard$4$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**bard$8$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**bard$12$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**bard$16$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**bard$5$font of inspiration$<p>you can regain all of your expended uses of bardic inspiration when you finish a short or long rest</p>
+**bard$6$countercharm$<p> You gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being frightened or charmed. A creature must be able to hear you to gain this benefit. The performance ends early if you are incapacitated</p>
+**bard$10$magical secrets$<p>You can choose two spells from any class, including this one. A spell you choose must be of a level you can cast.</p><p>the chosen spells count as bard spells for you and are included with the number of spells known</p>
+**bard$14$magical secrets$<p>You can choose two spells from any class, including this one. A spell you choose must be of a level you can cast.</p><p>the chosen spells count as bard spells for you and are included with the number of spells known</p>
+**bard$18$magical secrets$<p>You can choose two spells from any class, including this one. A spell you choose must be of a level you can cast.</p><p>the chosen spells count as bard spells for you and are included with the number of spells known</p>
+**bard$20$superior inspiration$<p>When you roll initiative. If you have no uses of bardic inspiration left, you regain one use</p>
 **cleric$1$spellcasting$
-**cleric$1$spellcasting$
-**cleric$1$cantrips$
-**cleric$1$spellcasting focus$
-**cleric$1$ritual casting$
-**cleric$2$channel divinity$
-**cleric$4,8,12,16,19$ability score improvement$
-**cleric$5,8,11,14,17$destroy undead$
-**cleric$10,20$divine intervention$
+<p><strong>Cantrips</strong><br>You can cast cantrips when ever you want as long as you can</p>
+<p><strong>Preparing and Casting Spells</strong><br> You prepare the list of cleric spells that available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your wisdom modifier + your cleric level (minimum of one spell). the spells must be of a level for which you have spells.</p>
+<p><strong>Spellcasting Ability</strong><br>Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your wisdom whenever a cleric spell refers to your spellcasting ability.</p><p><strong>Spell save DC</strong> = 8 + proficiency bonus + your wisdom modifier</p><p><strong>Spell attack modifier</strong> = your proficiency bonus + your wisdom modifier</p>
+<p><strong>Ritual Casting</strong><br> You can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared</p>
+<p><strong>Spellcasting focus</strong><br>You can use a holy symbol as a spellcasting focus</p>
+**cleric$2$channel divinity$<p> You have the ability to channel your deity's power into magical effects</p>
+**cleric$6$channel divinity$<p> You have the ability to channel your deity's power into magical effects</p>
+**cleric$4$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**cleric$8$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**cleric$12$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**cleric$16$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**cleric$19$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**cleric$5$destroy undead$
+**cleric$8$destroy undead$
+**cleric$11$destroy undead$
+**cleric$14$destroy undead$
+**cleric$17$destroy undead$
+**cleric$20$divine intervention$
+**cleric$10$divine intervention$
+**cleric$20$divine intervention$
 **druid$1$druidic$
 **druid$1$spellcasting$
 **druid$1$cantrips$
 **druid$1$ritual casting$
 **druid$1$spellcasting focus$
 **druid$2$wild shape$
-**druid$4,8,12,16$ability score improvement$
+**druid$4$ability score improvement$
+**druid$8$ability score improvement$
+**druid$12$ability score improvement$
+**druid$16$ability score improvement$
 **druid$18$timeless body$
 **druid$18$beast spells$
 **druid$20$archdruid$
@@ -46,7 +95,10 @@
 **fighter$1$fighting style$
 **fighter$1$second wind$
 **fighter$2$action surge$
-**fighter$4,6,8,12$ability score improvement$
+**fighter$4$ability score improvement$
+**fighter$6$ability score improvement$
+**fighter$8$ability score improvement$
+**fighter$12$ability score improvement$
 **fighter$5$extra attack$
 **fighter$9$indomitable$
 **monk$1$unarmored defense$
@@ -55,9 +107,13 @@
 **monk$2$flurry of blows$
 **monk$2$patient defense$
 **monk$2$step of the wind$
-**monk$2,9$unarmored defense$
+**monk$2$unarmored movement$
+**monk$9$unarmored movement$
 **monk$3$deflect missiles$
-**monk$4,8,12,163$ability score improvement$
+**monk$16$ability score improvement$
+**monk$4$ability score improvement$
+**monk$8$ability score improvement$
+**monk$12$ability score improvement$
 **monk$4$slow fall$
 **monk$5$extra attack$
 **monk$5$stunning strike$
@@ -75,18 +131,30 @@
 **paladin$2$spellcasting$
 **paladin$2$divine smite$
 **paladin$3$divine health$
-**paladin$4,8,12,16,19$ablity score improvement$
+**paladin$4$ablity score improvement$
+**paladin$8$ablity score improvement$
+**paladin$12$ablity score improvement$
+**paladin$16$ablity score improvement$
+**paladin$19$ablity score improvement$
 **paladin$5$extra attack$
-**paladin$6,18$aura of protection$
-**paladin$10,18$aura of courage$
+**paladin$18$aura of protection$
+**paladin$6$aura of protection$
+**paladin$10$aura of courage$
+**paladin$18$aura of courage$
 **paladin$11$improved divine smite$
 **paladin$14$cleansing touch$
-**ranger$1,6,14$favored enemy$
-**ranger$1,10$natural explorer$
+**ranger$1$favored enemy$
+**ranger$6$favored enemy$
+**ranger$14$favored enemy$
+**ranger$1$natural explorer$
+**ranger$10$natural explorer$
 **ranger$2$fighting style$
 **ranger$2$spellcasting$
 **ranger$3$primeval awareness$
-**ranger$4,8,12,16$ability score improvement$
+**ranger$4$ability score improvement$
+**ranger$8$ability score improvement$
+**ranger$12$ability score improvement$
+**ranger$16$ability score improvement$
 **ranger$5$extra attack$
 **ranger$8$land's stride$
 **ranger$10$hide in plain sight$
@@ -97,7 +165,12 @@
 **rogue$1$sneak attack$
 **rogue$1$thieves' cant$
 **rogue$2$cunning action$
-**rogue$4,8,10,12,16,19$ability score improvement$
+**rogue$4$ability score improvement$
+**rogue$8$ability score improvement$
+**rogue$10$ability score improvement$
+**rogue$12$ability score improvement$
+**rogue$16$ability score improvement$
+**rogue$19$ability score improvement$
 **rogue$5$uncanny dodge$
 **rogue$7$evasion$
 **rogue$11$reliable talent$
@@ -109,17 +182,32 @@
 **sorcerer$1$arcane focus$
 **sorcerer$2$font of magic$
 **sorcerer$3$metamagic$
-**sorcerer$4,8,12,16,19$ability score improvement$
+**sorcerer$4$ability score improvement$
+**sorcerer$8$ability score improvement$
+**sorcerer$12$ability score improvement$
+**sorcerer$16$ability score improvement$
+**sorcerer$19$ability score improvement$
 **sorcerer$20$sorcerous restoration$
 **warlock$1$pact magic$
 **warlock$1$cantrips$
 **warlock$2$eldritch invocations$
 **warlock$3$pact boon$
-**warlock$4,8,12,16,19$ability score improvement$
-**warlock$11,13,15,17$mystic arcanum$
+**warlock$4$ability score improvement$
+**warlock$8$ability score improvement$
+**warlock$12$ability score improvement$
+**warlock$16$ability score improvement$
+**warlock$19$ability score improvement$
+**warlock$11$mystic arcanum$
+**warlock$13$mystic arcanum$
+**warlock$15$mystic arcanum$
+**warlock$17$mystic arcanum$
 **warlock$20$eldritch master$
 **wizard$2$arcane recovery$
-**wizard$4,8,12,16,19$abiltiy core improvement$
+**wizard$4$abiltiy core improvement$
+**wizard$8$abiltiy core improvement$
+**wizard$12$abiltiy core improvement$
+**wizard$16$abiltiy core improvement$
+**wizard$19$abiltiy core improvement$
 **wizard$1$arcane tradition$
 **wizard$1$spells$
 **wizard1$cantrips$

@@ -1,4 +1,4 @@
-**berserker$3$frenzy$
+berserker$3$frenzy$
 **berserker$6$mindless rage$
 **berserker$10$intimidating presence$
 **berserker$14$retaliation$
@@ -68,7 +68,8 @@
 **battle master$1$combat superiority$
 **battle master$3$student of war$
 **battle master$7$know your enemy$
-**battle master$10,18$improved combat superiority$
+**battle master$18$improved combat superiority$
+**battle master$10$improved combat superiority$
 **battle master$15$relentless$
 **champion$3$improved critical$
 **champion$7$remarkable athlete$
@@ -92,17 +93,20 @@
 **way of the four elements$3$disciple of the elements$
 **oath of devotion$3$channel divinity: sacred weapon$
 **oath of devotion$3$channel divinity: turn the unholy$
-**oath of devotion$7,18$aura of devotion$
+**oath of devotion$7$aura of devotion$
+**oath of devotion$18$aura of devotion$
 **oath of devotion$15$purity of spirit$
 **oath of devotion$20$holy nimbus$
 **oath of the ancients$3$channel divinity: nature's wrath$
 **oath of the ancients$3$channel divinity: turn the faithless$
-**oath of the ancients$7,18$aura of warding$
+**oath of the ancients$7$aura of warding$
+**oath of the ancients$18$aura of warding$
 **oath of the ancients$15$undying sentinel$
 **oath of the ancients$20$elder champion$
 **oath of vengeance$3$channel divinity: abjure enemy$
 **oath of vengeance$3$channel divinity: vow of enmity$
-**oath of vengeance$7,18$relentless avenger$
+**oath of vengeance$7$relentless avenger$
+**oath of vengeance$18$relentless avenger$
 **oath of vengeance$15$soul of vengeance$
 **oath of vengeance$20$avenging angel$
 **hunter$3$hunter's prey$

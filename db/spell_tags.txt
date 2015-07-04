@@ -1,16 +1,14 @@
+healing
+buff
+damage
+offense
+defense
 saving throw
-control
-summoning
+mobility
+utility
 range
 melee
-offense
-niche
-utility
-defense
-healing
-necrotic
-fire
-lightning
-poison
-plant
-travel
+quick
+control
+area of effect
+summons
