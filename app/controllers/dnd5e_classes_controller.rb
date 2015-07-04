@@ -5,11 +5,7 @@ class Dnd5eClassesController < ApplicationController
         @archetype = nil
 	@level = nil 
 	
-	if params[:class].to_i == 0
-        	@class_all = 0
-        end
-
-	if params[:level].to_i > 0 and params[:level].to_i < 20
+	if params[:level].to_i > 0 and params[:level].to_i < 21
         	@level = params[:level].to_i
         end
 
@@ -28,7 +24,10 @@ class Dnd5eClassesController < ApplicationController
 	if @class
         	@archetypes = Dnd5eArchetype.get_archetypes_by_class(params[:class].to_i).sort_by &:name
         end
-
+	
+	if @class and @level
+		@attr = Dnd5eClassAttribute.get_attributes(@class,@level)
+	end
 
   end
 end

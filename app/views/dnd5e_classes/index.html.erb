@@ -1,7 +1,49 @@
-<div id="classes">
-                <label>[</label>
-                                <%= link_to "Clear", "#", id: "clear", remote: true %>
-                                <%= render @classes %>
-                <label>]</label>
-        </div>
+<div id="sort">	
+	<label>_______________________________</label>	
+	<div id="levels">
+        	<% @levels.each do |l| %>
+                	<% if l.to_i == @level %>
+                        	<%= link_to l, { :controller => "dnd5e_classes", :action => "index", :class => @class, :level => l.to_i }, {:style => "color: gray;" }%>
+                	<% else %>
+                        	<%= link_to l, { :controller => "dnd5e_classes", :action => "index", :class => @class, :level => l.to_i }, {:style => "color: black;" } %>
+                	<% end %>
+        	<% end %>       
+	</div>
+	<label>_______________________________</label>	
+	<div id="classes">
+        	<% @classes.each do |classs| %>
+                	<% if classs.id == @class %>
+                        	<%= link_to classs.name, { :controller => "dnd5e_classes", :action => "index", :class => classs.id, :level => @level }, {:style => "color: gray;" }%>
+                	<% else %>
+                        	<%= link_to classs.name, { :controller => "dnd5e_classes", :action => "index", :class => classs.id, :level => @level }, {:style => "color: black;" } %>
+                	<% end %>
+        	<% end %>       
+	</div>
+	<label>_______________________________</label>	
 
+	<div id="archetypes">
+		<% if @class%> 
+        		<% @archetypes.each do |a| %>
+                		<% if a.id == @archetype %>
+                        		<%= link_to a.name, { :controller => "dnd5e_classes", :action => "index", :class => @class, :archetype => a.id, :level => @level }, {:style => "color: gray;" }%>
+                		<% else %>
+                        		<%= link_to a.name, { :controller => "dnd5e_classes", :action => "index", :class => @class, :archetype => a.id, :level => @level }, {:style => "color: black;" } %>
+                		<% end %>
+        		<% end %>       
+		<% else %>   
+			<div style="color:white;">[]</div>	
+        	<% end %>       
+	</div>
+	<label>_______________________________</label>	
+	<div id="index">
+	
+		<% @attr.each do |a| %>
+        	<label><%=a[0]%>:</label><%= a[1] %>	
+		<br><br>
+		<% end %>       
+
+
+	</div>
+
+
+</div>
