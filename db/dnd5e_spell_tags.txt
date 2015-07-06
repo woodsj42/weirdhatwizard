@@ -175,7 +175,7 @@ Divine Word$saving throw,control,area of effect
 Mordenkainen's Sword$offense,summons,damage
 Cone of Cold$saving throw,offense,area of effect,damage
 Etherealness$utility,mobility
-Finger of Death$offense,saving throw,range,damage
+Finger of Death$offense,saving throw,range,damage,summons
 Fire Storm$area of effect,offense,saving throw,damage
 Forcecage$utility,control
 Mirage Arcane$area of effect,control
