@@ -3,9 +3,9 @@
 	<label>_______________________________</label>	
 	<div id="spell_tags">
         <% if 0 == @tag_all %>
-			<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :tag => 0, :class => @class, :archetype => @archetype, :spell_type => 0, :spell => @spell }, {:style => "color: gray;" }%>
+			<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :tag => 0, :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => @spell }, {:style => "color: gray;" }%>
         <% else %>
-			<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :tag => 0, :archetype => @archetype, :spell_type => 0, :spell => @spell }, {:style => "color: black;" } %>
+			<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :tag => 0, :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => @spell }, {:style => "color: black;" } %>
 	<% end %>
 	<% @tags.each do |spell_tag| %>
 		<% if spell_tag.id == @tag %>
