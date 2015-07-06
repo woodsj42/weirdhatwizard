@@ -5,7 +5,11 @@
 <strong><%= spell.spell_type %> <%= spell.level %></strong>
 </p>
 
-<c>
+<p>
+<strong>Tags: </strong><%= spell.tags.gsub(',',', ') %>
+</p>
+
+<p>
 	<strong>Class Level:</strong>
 	
 	<% @archetype_spells = Dnd5eArchetypeSpell.archetypes_that_know_this_spell_by_level(spell.id)%>

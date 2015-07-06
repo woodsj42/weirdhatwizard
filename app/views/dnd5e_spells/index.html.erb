@@ -1,17 +1,33 @@
 <div id="sort">
 	
 	<label>_______________________________</label>	
+	<div id="spell_tags">
+        <% if 0 == @tag_all %>
+			<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :tag => 0, :class => @class, :archetype => @archetype, :spell_type => 0, :spell => @spell }, {:style => "color: gray;" }%>
+        <% else %>
+			<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :tag => 0, :archetype => @archetype, :spell_type => 0, :spell => @spell }, {:style => "color: black;" } %>
+	<% end %>
+	<% @tags.each do |spell_tag| %>
+		<% if spell_tag.id == @tag %>
+			<%= link_to spell_tag.name, { :controller => "dnd5e_spells", :action => "index", :tag => spell_tag.id, :class => @class, :archetype => @archetype, :spell_type => @spell_tag, :spell => @spell }, {:style => "color: gray;" }%>
+		<% else %>
+			<%= link_to spell_tag.name, { :controller => "dnd5e_spells", :action => "index", :tag => spell_tag.id, :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => @spell }, {:style => "color: black;" } %>
+		<% end %>
+	<% end %>	
+	</div>
+
+	<label>_______________________________</label>	
 	<div id="spell_types">
         <% if 0 == @spell_type_all %>
-			<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :class => @class, :archetype => @archetype, :spell_type => 0, :spell => @spell }, {:style => "color: gray;" }%>
+			<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :tag => @tag, :class => @class, :archetype => @archetype, :spell_type => 0, :spell => @spell }, {:style => "color: gray;" }%>
         <% else %>
-			<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :class => @class, :archetype => @archetype, :spell_type => 0, :spell => @spell }, {:style => "color: black;" } %>
+			<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :tag => @tag, :class => @class, :archetype => @archetype, :spell_type => 0, :spell => @spell }, {:style => "color: black;" } %>
 	<% end %>
 	<% @spell_types.each do |spell_type| %>
 		<% if spell_type.id == @spell_type %>
-			<%= link_to spell_type.name, { :controller => "dnd5e_spells", :action => "index", :class => @class, :archetype => @archetype, :spell_type => spell_type.id, :spell => @spell }, {:style => "color: gray;" }%>
+			<%= link_to spell_type.name, { :controller => "dnd5e_spells", :action => "index", :tag => @tag, :class => @class, :archetype => @archetype, :spell_type => spell_type.id, :spell => @spell }, {:style => "color: gray;" }%>
 		<% else %>
-			<%= link_to spell_type.name, { :controller => "dnd5e_spells", :action => "index", :class => @class, :archetype => @archetype, :spell_type => spell_type.id, :spell => @spell }, {:style => "color: black;" } %>
+			<%= link_to spell_type.name, { :controller => "dnd5e_spells", :action => "index", :tag => @tag, :class => @class, :archetype => @archetype, :spell_type => spell_type.id, :spell => @spell }, {:style => "color: black;" } %>
 		<% end %>
 	<% end %>	
 	</div>
@@ -19,15 +35,15 @@
 	<label>_______________________________</label>	
 	<div id="classes">
                 <% if 0 == @class_all %>
-			<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :class => 0, :spell_type => @spell_type, :spell => @spell }, {:style => "color: gray;" }%>
+			<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :tag => @tag, :class => 0, :spell_type => @spell_type, :spell => @spell }, {:style => "color: gray;" }%>
                 <% else %>
-			<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :class => 0, :spell_type => @spell_type, :spell => @spell }, {:style => "color: black;" }%>
+			<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :tag => @tag, :class => 0, :spell_type => @spell_type, :spell => @spell }, {:style => "color: black;" }%>
 		<% end %>
         	<% @classes.each do |classs| %>
                 	<% if classs.id == @class %>
-                        	<%= link_to classs.name, { :controller => "dnd5e_spells", :action => "index", :class => classs.id, :spell_type => @spell_type, :spell => @spell }, {:style => "color: gray;" }%>
+                        	<%= link_to classs.name, { :controller => "dnd5e_spells", :action => "index", :tag => @tag, :class => classs.id, :spell_type => @spell_type, :spell => @spell }, {:style => "color: gray;" }%>
                 	<% else %>
-                        	<%= link_to classs.name, { :controller => "dnd5e_spells", :action => "index", :class => classs.id, :spell_type => @spell_type, :spell => @spell }, {:style => "color: black;" } %>
+                        	<%= link_to classs.name, { :controller => "dnd5e_spells", :action => "index", :tag => @tag, :class => classs.id, :spell_type => @spell_type, :spell => @spell }, {:style => "color: black;" } %>
                 	<% end %>
         	<% end %>       
 	</div>
@@ -37,9 +53,9 @@
 		<% if @class%> 
         		<% @archetypes.each do |a| %>
                 		<% if a.id == @archetype %>
-                        		<%= link_to a.name, { :controller => "dnd5e_spells", :action => "index", :class => @class, :archetype => a.id, :spell_type => @spell_type, :spell => @spell }, {:style => "color: gray;" }%>
+                        		<%= link_to a.name, { :controller => "dnd5e_spells", :action => "index", :tag => @tag, :class => @class, :archetype => a.id, :spell_type => @spell_type, :spell => @spell }, {:style => "color: gray;" }%>
                 		<% else %>
-                        		<%= link_to a.name, { :controller => "dnd5e_spells", :action => "index", :class => @class, :archetype => a.id, :spell_type => @spell_type, :spell => @spell }, {:style => "color: black;" } %>
+                        		<%= link_to a.name, { :controller => "dnd5e_spells", :action => "index", :tag => @tag, :class => @class, :archetype => a.id, :spell_type => @spell_type, :spell => @spell }, {:style => "color: black;" } %>
                 		<% end %>
         		<% end %>       
 		<% else %>   
@@ -61,6 +77,7 @@
 						<%= hidden_field_tag "archetype",@archetype %>
 						<%= hidden_field_tag "spell_type",@spell_type %>
 						<%= hidden_field_tag "spell",@spell %>
+						<%= hidden_field_tag "tag",@tag %>
 						<%= text_field_tag :search, params[:search], class: "span2", placeholder: "Search..." %>
 					<% end %>
 				</div>
@@ -70,7 +87,7 @@
 			<% @levels.each_with_index do |level, index| %>
 				<h2><%= level %></h2> 
 				<% @spells[index].each do |spell| %>
-					<%= link_to spell.name, { :controller => "dnd5e_spells", :action => "index", :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => spell.id, :search => @search } %>
+					<%= link_to spell.name, { :controller => "dnd5e_spells", :action => "index", :tag => @spell_tag, :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => spell.id, :search => @search } %>
 					<br>
 				<% end %>
 			<% end %>	

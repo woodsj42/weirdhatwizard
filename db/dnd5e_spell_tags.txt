@@ -11,7 +11,7 @@ Light$utility
 Mage Hand$utility
 Mending$utility
 Message$utility
-Minor Illusion$utility,saving throw
+Minor Illusion$utility,saving throw,control
 Poison Spray$offense,saving throw,range,damage
 Prestidigitation$utiltiy,range
 Produce Flame$utility,offense,range,damage

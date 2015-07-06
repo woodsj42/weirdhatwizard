@@ -436,5 +436,21 @@ File.open(dnd5e + class_feats_file) do |f|
 		end
 end
 
+File.open(Dir.pwd + '/db/spell_tags.txt') do |f|
+		while line = f.gets
+			SpellTag.create(name: line.chomp.titleize )
+		end
+end
 
-
+File.open(dnd5e + 'spell_tags.txt') do |f|
+		while line = f.gets
+			arr = line.split('$')
+			temp = ''
+			arr[1].split(',').each do |m|
+				temp = temp + m.titleize.chomp.gsub('And','and').gsub('With','with').gsub('Into','into').gsub('The', 'the') + ','
+			end
+			spell = Dnd5eSpell.find_by_name(arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the'))
+			spell.tags = temp[0..-2]
+			spell.save
+		end
+end

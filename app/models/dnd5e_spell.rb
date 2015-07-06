@@ -16,6 +16,20 @@ class Dnd5eSpell < ActiveRecord::Base
 		@sorted
 	end
 	
+	def self.sort_by_tag(id)
+		length = [0,0,0,0,0,0,0,0,0,0]
+		@sorted = [[],[],[],[],[],[],[],[],[],[]]
+		tag = SpellTag.find(id)
+		Dnd5eSpell.all.map { |m| 
+					if m.tags.split(',').detect {|i| i == tag.name}
+				      		temp = m.level.to_i 	
+						@sorted[ temp ][ length[ temp ] ] = m
+						length[temp] += 1 
+					end
+	     			   }
+		@sorted
+	end
+	
 
 	def self.search(query)
 #		where(:name query)
