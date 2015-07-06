@@ -87,7 +87,7 @@
 			<% @levels.each_with_index do |level, index| %>
 				<h2><%= level %></h2> 
 				<% @spells[index].each do |spell| %>
-					<%= link_to spell.name, { :controller => "dnd5e_spells", :action => "index", :tag => @spell_tag, :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => spell.id, :search => @search } %>
+					<%= link_to spell.name, { :controller => "dnd5e_spells", :action => "index", :tag => @tag, :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => spell.id, :search => @search } %>
 					<br>
 				<% end %>
 			<% end %>	
