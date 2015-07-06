@@ -63,35 +63,73 @@ barbarian$1$rage$ <p> Enter rage as a bonus action, you gain the following benef
 <p><strong>Spellcasting Ability</strong><br>Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your wisdom whenever a cleric spell refers to your spellcasting ability.</p><p><strong>Spell save DC</strong> = 8 + proficiency bonus + your wisdom modifier</p><p><strong>Spell attack modifier</strong> = your proficiency bonus + your wisdom modifier</p>
 <p><strong>Ritual Casting</strong><br> You can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared</p>
 <p><strong>Spellcasting focus</strong><br>You can use a holy symbol as a spellcasting focus</p>
-**cleric$2$channel divinity$<p> You have the ability to channel your deity's power into magical effects</p>
-**cleric$6$channel divinity$<p> You have the ability to channel your deity's power into magical effects</p>
+**cleric$2$channel divinity$<p> You have the ability to channel your deity's power into magical effects one a day</p>
+**cleric$6$channel divinity$<p> You have the ability to channel your deity's power into magical effects twice a day</p>
+**cleric$2$channel divinity: turn undead$<p> As an action, you present your holy symbol. Each ndead that can see or hear you within 30 feet of you must mae a wisom saving throw. If the creature fails its saving throw, it is turned for one minute or until it takes damage</p>
+<p>A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use the dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the dodge action.</p>
 **cleric$4$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
 **cleric$8$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
 **cleric$12$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
 **cleric$16$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
 **cleric$19$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
 **cleric$5$destroy undead$
+<p>If an undead fails it's saving throw against your Turn Undead, the creature is instantly destroyed if its challenge rating is 1/2 or lower </p>
 **cleric$8$destroy undead$
+<p>If an undead fails it's saving throw against your Turn Undead, the creature is instantly destroyed if its challenge rating is 1 or lower </p>
 **cleric$11$destroy undead$
+<p>If an undead fails it's saving throw against your Turn Undead, the creature is instantly destroyed if its challenge rating is 2 or lower </p>
 **cleric$14$destroy undead$
+<p>If an undead fails it's saving throw against your Turn Undead, the creature is instantly destroyed if its challenge rating is 3 or lower </p>
 **cleric$17$destroy undead$
-**cleric$20$divine intervention$
-**cleric$10$divine intervention$
-**cleric$20$divine intervention$
-**druid$1$druidic$
-**druid$1$spellcasting$
-**druid$1$cantrips$
-**druid$1$ritual casting$
-**druid$1$spellcasting focus$
-**druid$2$wild shape$
-**druid$4$ability score improvement$
-**druid$8$ability score improvement$
-**druid$12$ability score improvement$
-**druid$16$ability score improvement$
-**druid$18$timeless body$
-**druid$18$beast spells$
-**druid$20$archdruid$
-**druid$20$archdruid$
+<p>If an undead fails it's saving throw against your Turn Undead, the creature is instantly destroyed if its challenge rating is 4 or lower </p>
+**cleric$10$divine intervention$<p> Ask for assistance from what you worship. Ask for the kind of assistance you require and roll percentile dice. If you roll a number equal or lower than your cleric level, your deity intervenes. The Dm choose the nature of the intervention; effect of any cleric spell or cleric domain spell is appropriate. </p>  If the object of your worship intervenes, you can't use this feature again for 7 days. Otherwise you can use it again after you finish a long rest.</p> 
+**cleric$20$divine intervention$<p> Ask for assistance from what you worship. Ask for the kind of assistance you require and roll percentile dice. If you roll a number equal or lower than your cleric level, your deity intervenes. The Dm choose the nature of the intervention; effect of any cleric spell or cleric domain spell is appropriate. </p>  If the object of your worship intervenes, you can't use this feature again for 7 days. Otherwise you can use it again after you finish a long rest.</p> <p> Your calls for intervention work automatically with no roll required.</p> 
+**druid$1$druidic$<p>You know Druidic, the secret language of druids. You can speak the language and can use it to leave secret languages. You and others who know this language automatically spot such a message. Others spot the message's presene with a successful DC 15 wisdom(perception) check but can't decipher it without magic. </p> 
+**druid$1$spellcasting$ you may cast spells of 1st or higher depending upon your class level. When all of your spell slots are expended you must have a long rest to regain them.</p>
+<p> You prepare your list of castable druid spells for the day by choosing from the full list of druid spells. When you do so you choose a number of spells equal to your wisdom modifier + your druid level(minimum one spell), the spells must be of a level for which you have spell slots </p>
+<p><strong>Spellcasting ability:</strong> Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your wisdom whenever a spell refers to your spellcasting ability. In addition, you use your wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.</p>
+<p><strong> Spell save DC = </strong>8 + proficiency bonus + your Wisdom modifier</p>
+<p><strong>Spell attack modifier = </strong>your proficiency bonus + your Wisdom modifier</p>
+<p><strong>Cantrips: </strong>You can use cantrips, the number of which you know base on your druid level. Cantrips are spells that can be cast as many times as you want without rest.</p>
+<p><strong>Ritual Casting: </strong>You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.</p>
+<p><strong>Spellcasting focus: </strong>You can use a druidic focus as a spellcasting focus for your druid spells</p>
+**druid$2$wild shape$<p> You can use your action to magically assume the shape of a beast that you have seen before(use retrospect if you want). You can do this twice between short or long rests.</p>
+<p> the max challenge rating(CR) of the creature you can become is 1/4, it cannot have a flying or swimming speed. </p>
+<p>While you are transformed, the following rulles apply:
+<ul>
+<li> Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the create has the same proficiency as you and the bonus in its stat block is higher than yours. Use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them</li>
+<li>When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form.</li>
+<li>You can't cast spells, and your ability to speak of take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break concentrationon a spell you've already cast, however, or prevent you from taking actions that are part of the spell.</li>
+<li>You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form has that sense.</li>
+<li>You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. You equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the from has no effect until you leave the form</li>
+</ul></p>
+**druid$4$wild shape$<p> You can use your action to magically assume the shape of a beast that you have seen before(use retrospect if you want). You can do this twice between short or long rests.</p>
+<p> the max challenge rating(CR) of the creature you can become is 1/2. it cannot have a flying speed </p>
+<p>While you are transformed, the following rulles apply:
+<ul>
+<li> Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the create has the same proficiency as you and the bonus in its stat block is higher than yours. Use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them</li>
+<li>When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form.</li>
+<li>You can't cast spells, and your ability to speak of take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break concentrationon a spell you've already cast, however, or prevent you from taking actions that are part of the spell.</li>
+<li>You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form has that sense.</li>
+<li>You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. You equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the from has no effect until you leave the form</li>
+</ul></p>
+**druid$8$wild shape$<p> You can use your action to magically assume the shape of a beast that you have seen before(use retrospect if you want). You can do this twice between short or long rests.</p>
+<p> the max challenge rating(CR) of the creature you can become is 1. </p>
+<p>While you are transformed, the following rulles apply:
+<ul>
+<li> Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the create has the same proficiency as you and the bonus in its stat block is higher than yours. Use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them</li>
+<li>When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form.</li>
+<li>You can't cast spells, and your ability to speak of take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break concentrationon a spell you've already cast, however, or prevent you from taking actions that are part of the spell.</li>
+<li>You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form has that sense.</li>
+<li>You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. You equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the from has no effect until you leave the form</li>
+</ul></p>
+**druid$4$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**druid$8$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**druid$12$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**druid$16$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**druid$18$timeless body$<p></p>As a result of the primal magic you wield you age more slowly, every 10 years that pass, your body ages 1 year.</p>
+**druid$18$beast spells$<p>You can cast druid spells with somatic(S) and verbal(V) components while in beast shape, but you aren't able to provide material(M) components. </p> 
+**druid$20$archdruid$<p>You can use your Wild Shape an unlimited amount of times</p>
 **fighter$1$fighting style$
 **fighter$1$second wind$
 **fighter$2$action surge$
