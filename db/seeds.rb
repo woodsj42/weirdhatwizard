@@ -447,7 +447,7 @@ File.open(dnd5e + 'spell_tags.txt') do |f|
 			arr = line.split('$')
 			temp = ''
 			arr[1].split(',').each do |m|
-				temp = temp + m.titleize.chomp.gsub('And','and').gsub('With','with').gsub('Into','into').gsub('The', 'the') + ','
+				temp = temp + m.titleize.chomp.gsub('And','and').gsub('With','with').gsub('Into','into').gsub('The', 'the').gsub('Of ', 'of ') + ','
 			end
 			spell = Dnd5eSpell.find_by_name(arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the'))
 			spell.tags = temp[0..-2]
