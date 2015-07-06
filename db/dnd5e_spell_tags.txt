@@ -75,7 +75,7 @@ Purify Food and Drink$utiltiy
 Ray of Sickness$range,offense,saving throw
 Sanctuary$defense
 Searing Smite$melee,offense,damage
-Shield$defense
+Shield$defense,quick
 Shield of Faith$buff,range,defense
 Silent Image$range
 Sleep$offense,range,area of effect
