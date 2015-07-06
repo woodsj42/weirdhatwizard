@@ -80,7 +80,7 @@ Shield of Faith$buff,range,defense
 Silent Image$range
 Sleep$offense,range,area of effect
 Speak with Animals$utility
-Tasha's Hideous Laughter$range,offense
+Tasha's Hideous Laughter$range,offense,saving throw,control
 Tenser's Floating Disk$utility
 Thunderous Smite$offense,melee,damage
 Thunderwave$offense,area of effect,damage
