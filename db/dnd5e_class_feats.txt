@@ -210,7 +210,7 @@ barbarian$1$rage$ <p> Enter rage as a bonus action, you gain the following benef
 **wizard$19$abiltiy core improvement$
 **wizard$1$arcane tradition$
 **wizard$1$spells$
-**wizard1$cantrips$
+**wizard$1$cantrips$
 **wizard$2$arcane recovery$
 **wizard$1$spellbook$
 **wizard$18$spell mastery$

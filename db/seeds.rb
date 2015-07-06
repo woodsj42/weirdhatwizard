@@ -272,21 +272,6 @@ File.open( dnd35e + class_spell_file) do |f|
 
 end
 
-File.open(dnd5e + archetype_feats_file) do |f|
-		for i in f.read().split("**")
-			arr = i.split('$')
-			temp_archetype = Dnd5eArchetype.where(name: arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the') ).take
-			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: arr[2], value: '*', level: arr[1], description: 'hades!')
-		end
-end
-
-File.open(dnd5e + class_feats_file) do |f|
-		for i in f.read().split("**")
-			arr = i.split('$')
-			temp_class = Dnd5eClass.where(name: arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the') ).take
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: arr[2], value: '*', level: arr[1], description: 'hades!')
-		end
-end
 
 File.open(dnd5e + class_attr_file) do |f2|
 	while line = f2.gets
@@ -435,6 +420,21 @@ File.open(dnd5e + class_attr_file) do |f2|
 end
 
 
+File.open(dnd5e + archetype_feats_file) do |f|
+		for i in f.read().split("**")
+			arr = i.split('$')
+			temp_archetype = Dnd5eArchetype.where(name: arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the') ).take
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: arr[2], value: '*', level: arr[1], description: 'hades!')
+		end
+end
+
+File.open(dnd5e + class_feats_file) do |f|
+		for i in f.read().split("**")
+			arr = i.split('$')
+			temp_class = Dnd5eClass.where(name: arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the') ).take
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: arr[2], value: '*', level: arr[1], description: 'hades!')
+		end
+end
 
 
 

@@ -1,11 +1,25 @@
 <div id="sort">	
 	<label>_______________________________</label>	
+	<div id="allnew">
+                <% if true %>
+                       	<%= link_to "All", { :controller => "dnd5e_classes", :action => "index", :archetype  => @archetype,  :class => @class, :level => @level }, {:style => "color: gray;" }%>
+                <% else %>
+                       	<%= link_to "All", { :controller => "dnd5e_classes", :action => "index", :archetype  => @archetype,  :class => @class, :level => @level }, {:style => "color: black;" } %>
+                <% end %>
+
+                <% if true %>
+                       	<%= link_to "Newest", { :controller => "dnd5e_classes", :action => "index", :archetype  => @archetype,  :class => @class, :level => @level }, {:style => "color: gray;" }%>
+                <% else %>
+                       	<%= link_to "Newest", { :controller => "dnd5e_classes", :action => "index", :archetype  => @archetype,  :class => @class, :level => @level }, {:style => "color: black;" } %>
+                <% end %>
+	</div>
+	<label>_______________________________</label>	
 	<div id="levels">
         	<% @levels.each do |l| %>
                 	<% if l.to_i == @level %>
-                        	<%= link_to l, { :controller => "dnd5e_classes", :action => "index", :class => @class, :level => l.to_i }, {:style => "color: gray;" }%>
+                        	<%= link_to l, { :controller => "dnd5e_classes", :action => "index", :archetype  => @archetype,  :class => @class, :level => l.to_i }, {:style => "color: gray;" }%>
                 	<% else %>
-                        	<%= link_to l, { :controller => "dnd5e_classes", :action => "index", :class => @class, :level => l.to_i }, {:style => "color: black;" } %>
+                        	<%= link_to l, { :controller => "dnd5e_classes", :action => "index", :archetype  => @archetype,  :class => @class, :level => l.to_i }, {:style => "color: black;" } %>
                 	<% end %>
         	<% end %>       
 	</div>
@@ -15,7 +29,7 @@
                 	<% if classs.id == @class %>
                         	<%= link_to classs.name, { :controller => "dnd5e_classes", :action => "index", :class => classs.id, :level => @level }, {:style => "color: gray;" }%>
                 	<% else %>
-                        	<%= link_to classs.name, { :controller => "dnd5e_classes", :action => "index", :class => classs.id, :level => @level }, {:style => "color: black;" } %>
+                        	<%= link_to classs.name, { :controller => "dnd5e_classes", :action => "index",  :class => classs.id, :level => @level }, {:style => "color: black;" } %>
                 	<% end %>
         	<% end %>       
 	</div>
@@ -37,8 +51,14 @@
 	<label>_______________________________</label>	
 	<div id="index">
 	
-		<% @attr.each do |a| %>
-        	<label><%=a[0]%>:</label><%= a[1] %>	
+			
+		<% @d_attr.each do |a| %>
+        	<label><%=a.name%>:</label><%= a.value %>	
+		<br><br>
+		<% end %>       
+		
+		<% @n_attr.each do |a| %>
+        	<label><%=a.name%>:</label><%= a.value %>	
 		<br><br>
 		<% end %>       
 

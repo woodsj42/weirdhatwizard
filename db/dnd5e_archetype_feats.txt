@@ -55,16 +55,51 @@ berserker$3$frenzy$
 **war$6$channel divinity: war god's blessing$
 **war$8$divine strike$
 **war$17$avatar battle$
-**circle of the land$1$bonus cantrip$
-**circle of the land$2$natural recovery$
-**circle of the land$6$land's stride$
-**circle of the land$10$nature's ward$
-**circle of the land$14$nature's sanctuary$
-**circle of the moon$2$combat wild shape$
-**circle of the moon$2$circle forms$
-**circle of the moon$6$primal strike$
-**circle of the moon$10$elemental wild shape$
-**circle of the moon$14$thousand forms$
+**swamp$1$bonus cantrip$
+**swamp$2$natural recovery$
+**swamp$6$land's stride$
+**swamp$10$nature's ward$
+**swamp$14$nature's sanctuary$
+**forest$1$bonus cantrip$
+**forest$2$natural recovery$
+**forest$6$land's stride$
+**forest$10$nature's ward$
+**forest$14$nature's sanctuary$
+**arctic$1$bonus cantrip$
+**arctic$2$natural recovery$
+**arctic$6$land's stride$
+**arctic$10$nature's ward$
+**arctic$14$nature's sanctuary$
+**coast$1$bonus cantrip$
+**coast$2$natural recovery$
+**coast$6$land's stride$
+**coast$10$nature's ward$
+**coast$14$nature's sanctuary$
+**desert$1$bonus cantrip$
+**desert$2$natural recovery$
+**desert$6$land's stride$
+**desert$10$nature's ward$
+**desert$14$nature's sanctuary$
+**grassland$1$bonus cantrip$
+**grassland$2$natural recovery$
+**grassland$6$land's stride$
+**grassland$10$nature's ward$
+**grassland$14$nature's sanctuary$
+**mountain$1$bonus cantrip$
+**mountain$2$natural recovery$
+**mountain$6$land's stride$
+**mountain$10$nature's ward$
+**mountain$14$nature's sanctuary$
+**underdark$1$bonus cantrip$
+**underdark$2$natural recovery$
+**underdark$6$land's stride$
+**underdark$10$nature's ward$
+**underdark$14$nature's sanctuary$
+**moon$2$combat wild shape$
+**moon$2$circle forms$
+**moon$6$primal strike$
+**moon$10$elemental wild shape$
+**moon$14$thousand forms$
 **battle master$1$combat superiority$
 **battle master$3$student of war$
 **battle master$7$know your enemy$
@@ -82,41 +117,41 @@ berserker$3$frenzy$
 **eldritch knight$10$eldritch magic$
 **eldritch knight$15$arcane charge$
 **eldritch knight$18$improved war magic$
-**way of shadow3$shadow arts$
-**way of shadow$6$shadow step$
-**way of shadow$11$cloak of shadows$
-**way of shadow$17$opportunist$
-**way of the open hand$3$open hand technique$
-**way of the open hand$6$wholeness of body$
-**way of the open hand$11$tranquility$
-**way of the open hand$17$quivering palm$
-**way of the four elements$3$disciple of the elements$
-**oath of devotion$3$channel divinity: sacred weapon$
-**oath of devotion$3$channel divinity: turn the unholy$
-**oath of devotion$7$aura of devotion$
-**oath of devotion$18$aura of devotion$
-**oath of devotion$15$purity of spirit$
-**oath of devotion$20$holy nimbus$
-**oath of the ancients$3$channel divinity: nature's wrath$
-**oath of the ancients$3$channel divinity: turn the faithless$
-**oath of the ancients$7$aura of warding$
-**oath of the ancients$18$aura of warding$
-**oath of the ancients$15$undying sentinel$
-**oath of the ancients$20$elder champion$
-**oath of vengeance$3$channel divinity: abjure enemy$
-**oath of vengeance$3$channel divinity: vow of enmity$
-**oath of vengeance$7$relentless avenger$
-**oath of vengeance$18$relentless avenger$
-**oath of vengeance$15$soul of vengeance$
-**oath of vengeance$20$avenging angel$
+**shadow$shadow arts$
+**shadow$6$shadow step$
+**shadow$11$cloak of shadows$
+**shadow$17$opportunist$
+**open hand$3$open hand technique$
+**open hand$6$wholeness of body$
+**open hand$11$tranquility$
+**open hand$17$quivering palm$
+**four elements$3$disciple of the elements$
+**devotion$3$channel divinity: sacred weapon$
+**devotion$3$channel divinity: turn the unholy$
+**devotion$7$aura of devotion$
+**devotion$18$aura of devotion$
+**devotion$15$purity of spirit$
+**devotion$20$holy nimbus$
+**ancients$3$channel divinity: nature's wrath$
+**ancients$3$channel divinity: turn the faithless$
+**ancients$7$aura of warding$
+**ancients$18$aura of warding$
+**ancients$15$undying sentinel$
+**ancients$20$elder champion$
+**vengeance$3$channel divinity: abjure enemy$
+**vengeance$3$channel divinity: vow of enmity$
+**vengeance$7$relentless avenger$
+**vengeance$18$relentless avenger$
+**vengeance$15$soul of vengeance$
+**vengeance$20$avenging angel$
 **hunter$3$hunter's prey$
 **hunter$7$defensive tactics$
 **hunter$11$multiattack$
 **hunter$15$superior hunter's defense$
-**beast hunter$3$ranger's companion$
-**beast hunter$7$exceptional training$
-**beast hunter$11$bestial fury$
-**beast hunter$15$share spells$
+**beast master$3$ranger's companion$
+**beast master$7$exceptional training$
+**beast master$11$bestial fury$
+**beast master$15$share spells$
 **thief$3$fast hands$
 **thief$3$second-story work$
 **thief$9$supreme sneak$
@@ -177,11 +212,11 @@ berserker$3$frenzy$
 **necromancer$6$undead thralls$
 **necromancer$10$inured to undeath$
 **necromancer$14$command unead$
-**transmuterer$2$transmutation savant$
-**transmuterer$2$minor alchemy$
-**transmuterer$6$transmuter's stone$
-**transmuterer$10$shapechanger$
-**transmuterer$14$master transmuter$
+**transmuter$2$transmutation savant$
+**transmuter$2$minor alchemy$
+**transmuter$6$transmuter's stone$
+**transmuter$10$shapechanger$
+**transmuter$14$master transmuter$
 **great old ones$1$awakened mind$
 **great old ones$6$entropic ward$
 **great old ones$10$thought shield$

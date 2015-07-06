@@ -25,9 +25,25 @@ class Dnd5eClassesController < ApplicationController
         	@archetypes = Dnd5eArchetype.get_archetypes_by_class(params[:class].to_i).sort_by &:name
         end
 	
-	if @class and @level
-		@attr = Dnd5eClassAttribute.get_attributes(@class,@level)
+	@d_attr = []
+	@n_attr = []
+	
+	if @level and @archetype
+		Dnd5eArchetypeAttribute.get_all_attributes(@archetype,@level).map {|m| if m.value == '*'
+										       		@n_attr << m
+										       else
+											  	@d_attr << m
+										       end}
 	end
+	
+	if @level and @class
+		Dnd5eClassAttribute.get_all_attributes(@class,@level).map {|m| if m.value == '*'
+									    	@n_attr << m
+								            else
+								            	@d_attr << m
+								            end} 
+	end
+
 
   end
 end
