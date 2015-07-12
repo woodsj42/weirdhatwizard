@@ -130,126 +130,403 @@ barbarian$1$rage$ <p> Enter rage as a bonus action, you gain the following benef
 **druid$18$timeless body$<p></p>As a result of the primal magic you wield you age more slowly, every 10 years that pass, your body ages 1 year.</p>
 **druid$18$beast spells$<p>You can cast druid spells with somatic(S) and verbal(V) components while in beast shape, but you aren't able to provide material(M) components. </p> 
 **druid$20$archdruid$<p>You can use your Wild Shape an unlimited amount of times</p>
-**fighter$1$fighting style$
-**fighter$1$second wind$
-**fighter$2$action surge$
-**fighter$4$ability score improvement$
-**fighter$6$ability score improvement$
-**fighter$8$ability score improvement$
-**fighter$12$ability score improvement$
-**fighter$5$extra attack$
-**fighter$9$indomitable$
-**monk$1$unarmored defense$
-**monk$1$martial arts$
-**monk$2$ki$
-**monk$2$flurry of blows$
-**monk$2$patient defense$
-**monk$2$step of the wind$
-**monk$2$unarmored movement$
-**monk$9$unarmored movement$
-**monk$3$deflect missiles$
-**monk$16$ability score improvement$
-**monk$4$ability score improvement$
-**monk$8$ability score improvement$
-**monk$12$ability score improvement$
-**monk$4$slow fall$
-**monk$5$extra attack$
-**monk$5$stunning strike$
-**monk$6$ki-empowered strikes$
-**monk$7$evasion$
-**monk$10$purity of body$
-**monk$13$tongue of sun and moon$
-**monk$14$diamond soul$
-**monk$15$timeless body$
-**monk$18$empty body$
-**monk$20$perfect self$
-**paladin$1$divine sense$
-**paladin$1$lay on hands$
-**paladin$2$fighting style$
+**fighter$1$fighting style$<p>You can choose one of the following options</p>
+<p>
+<h3>Archery</h3>ou gain a +2 bonus to attack rolls you make with ranged weapons.
+<h3>Defense</h3>While you are wearing armor, you gain a +1 bonus to AC
+<h3>Dueling</h3>When you are wielding a melee weapon in one hamd and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
+<h3>Great Weapon Fighting</h3>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
+<h3>Protection</h3>When a creature ou can see attacks a target other than you that is within 5 feet of you you an use your reaction to impose disadvantage on the attack roll. You must be wielding a shield
+<h3>Two-Weapon Fighting</h3> When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack</p>
+**fighter$1$second wind$<p>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your figher level.</p> <p>Once you use this feature, you must finish a short or long rest before you can use it agin.</p>
+**fighter$2$action surge$<p> You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.</p><p>Once you use this feature, you must finish a short of long rest before you can use it again.</p>
+**fighter$17$action surge$<p> You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.</p><p>You have two uses of this feature, before you must finish a short of long rest to use it again.</p>
+**fighter$4$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**fighter$6$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**fighter$8$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**fighter$12$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**fighter$5$extra attack$<p> You can attack twice with your attack action</p>
+**fighter$11$extra attack$<p> You can attack thrice with your attack action</p>
+**fighter$20$extra attack$<p> You can attack four times with your attack action</p>
+**fighter$9$indomitable$<p>you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a long rest</p>
+**fighter$13$indomitable$<p>you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can use this feature twice before you need to finish a long rest</p>
+**fighter$17$indomitable$<p>you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can use this feature thrice before you need finish a long rest</p><p></p>
+**monk$1$unarmored defense$<p>While you are wearing no armor and not wielding a shield, your AC equals <strong>10 + your dexterity modifier + your wisdom modifier</strong></p>
+**monk$1$martial arts$<p>You gain the following benefits while you are unarmed or wield only monk weapons and you aren't wearing armor or wielding a shield</p>
+<p><ul>
+<li>You can use dexterity instead of strength for the attack and damage rolls of your unarmed strikes and monk weapons</li>
+<li>You can roll martial arts damage in place of the normal damage of your unarmed strike or monk weapon.</p>
+<li> You can also use your bonus action to make an unarmed strike as a bonus action, if you used an unarmed strike or a monk weapon. </li>
+</ul></p>
+**monk$2$ki$<p>You have access to ki points. You can spend these points to fuel various ki features including. </p>
+<p><h3>flurry of blows</h3>Immediately after you take the attack action on our turn, you can spend 1 ki point to make two unarmed strikes as a bonus action</p>
+<p><h3>patient defense</h3>You can spend 1 ki point to take the dodge action as a bonus action on your turn.</p>
+<p><h3>step of the wind$</h3>You can spend 1 ki point to take the disengage action or dash action as a bonus action on your turn, and your jump distance is doubled</p>
+<p><strong>Ki save DC = </strong>8 + your proficiency modifier + your wisdom modifier</p>
+**monk$2$unarmored movement$<p>Your speed increases by 10 feet while you are not wearing armor or wielding a shield.</p>
+**monk$9$unarmored movement$<p>Your speed increases by 10 feet while you are not wearing armor or wielding a shield. YOu can move along vertal surfaces and across liquids on your turn with out falling during the move.</p>
+**monk$3$deflect missiles$You can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by <strong>1d10 + your dexterity modifier + your monk level</strong></p>
+<p>If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have atleast one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack.</p>
+**monk$16$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**monk$4$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**monk$8$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**monk$12$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**monk$4$slow fall$<p>You can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level</p>
+**monk$5$extra attack$<p>When you use your attack action you can attack twice.</p>
+**monk$5$stunning strike$<p>When you hit another creature with a melee weapon attack, you can spend 1 ki point to attampt a stuning strike. The target must succeed on a constitution saving throw or be stunned until the end of your next turn</p>
+**monk$6$ki-empowered strikes$<p>Your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical damage attacks and damage.</p>
+**monk$7$evasion$<p>You can dodge out of the way of certain area effects. If you would make a dexterity saving throw, if you succeed then you take no damage instead of half</p>
+**monk$7$stillness of mind$<p>You can use your action to end one effect on yourself that is causing you to be charmed or frightened.</p>
+**monk$10$purity of body$<p>Your mastery of the ki flowing through you makes you immune to disease and poison </p>
+**monk$13$tongue of sun and moon$<p>Any creature that can understand language can understand you, and you can understand them.</p>
+**monk$14$diamond soul$<p>You have proficiency in all saving throws. Additionally, when you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result.</p>
+**monk$15$timeless body$<p>You suffer none of the frailty of old age and you can't be aged magically. You can still die of old age, however. In adddition, you no longer need food or water.</p>
+**monk$18$empty body$<p>You can use your action to spend 4 ki points to become invisible for 1 minute, during that time, you also have resistance to all damage but force damage</p>
+**monk$20$perfect self$<p>When you roll for initiative and have no ki points remaining, you regain 4 ki points.</p>
+**paladin$1$divine sense$<p>As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of ou that is not behin total cover. You know the typ of any being whose presence you sense , but not its identity. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated.</p>
+**paladin$1$lay on hands$<p>Between longs rests you can restore a total number of hit points equal to your paladin level times 5</p>
+<p>As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in yoru pool</p>
+<p>Alternatively, you can spend 5 hit points from your pool of gealing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple poisons or diseases with a single use of Lay on Hands, expending additional hit points separately for each one.</p>
+<p>This feature has no effect on undead and constructs.</p>
+**paladin$2$fighting style$<p>You can choose one of the following options</p>
+134 <p>
+136 <h3>Defense</h3>While you are wearing armor, you gain a +1 bonus to AC
+137 <h3>Dueling</h3>When you are wielding a melee weapon in one hamd and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
+138 <h3>Great Weapon Fighting</h3>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and mu    st use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
+139 <h3>Protection</h3>When a creature ou can see attacks a target other than you that is within 5 feet of you you an use your reaction to impose disadvantage on the attack roll. You     must be wielding a shield
 **paladin$2$spellcasting$
-**paladin$2$divine smite$
-**paladin$3$divine health$
-**paladin$4$ablity score improvement$
-**paladin$8$ablity score improvement$
-**paladin$12$ablity score improvement$
-**paladin$16$ablity score improvement$
-**paladin$19$ablity score improvement$
-**paladin$5$extra attack$
-**paladin$18$aura of protection$
-**paladin$6$aura of protection$
-**paladin$10$aura of courage$
-**paladin$18$aura of courage$
-**paladin$11$improved divine smite$
-**paladin$14$cleansing touch$
-**ranger$1$favored enemy$
-**ranger$6$favored enemy$
-**ranger$14$favored enemy$
-**ranger$1$natural explorer$
-**ranger$10$natural explorer$
+<p><h3>Preparing and Casting Spells</h3>
+To cast one of your paladin spells you must expend one spell slot. You regain all of your spell slots after a long rest </p>
+<p>YOu prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to <strong>your charisma modifier + half your paladin level, rounded down(minimum of one spell).</strong> The spells must be of a level that you have spell slots for.</p>
+<p><h3>Spellcasting ability</h3> Charisma is your spellcasting ability for your paladin spells, since their power erives from the strength of your convictions. You use your charisma whenever a spell refers to your spellcasting ability. In addition, you use your charisma modifier when setting the saving throw DC for a paladin spell you cast and when making an attack roll with one</p>
+<p><strong>Spell save DC =</strong>8 + your proficiency modifier + your charisma modifier</p>
+<p><strong>Spell attack modifier =</strong> your proficiency modifier + your charisma modifier</p>
+<p><h3>Spellcasting Focus</h3>You can use a holy symbol as a spellcasting focus for your paladin spells.</p>
+**paladin$2$divine smite$When you hit a creature with a melee weapon attack, you can expend one paladin spell slot to deat radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than the 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is and undead or a fiend.</p>
+**paladin$3$divine health$<p>You are immune to disease</p>
+**paladin$4$ablity score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**paladin$8$ablity score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**paladin$12$ablity score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**paladin$16$ablity score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**paladin$19$ablity score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**paladin$5$extra attack$<p>You can use your attack action to attack twice</p>
+**paladin$6$aura of protection$<p>Whenever you or a friendly creature within 10 feet of you  ust make a saving throw, the creature gains a bonus to the to the saving throw equal to your charisma modifier(minumum of +1). You must be conscious to grant this bonus </p>
+**paladin$18$aura of protection$<p>Whenever you or a friendly creature within 30 feet of you  ust make a saving throw, the creature gains a bonus to the to the saving throw equal t    o your charisma modifier(minumum of +1). You must be conscious to grant this bonus </p>
+**paladin$10$aura of courage$<p>You and friendly creatures within 10 feet of you can't be frightened while you are conscious </p>
+**paladin$18$aura of courage$<p>You and friendly creatures within 30 feet of you can't be frightened while you are conscious </p>
+**paladin$11$improved divine smite$Whenever you hit a creature with a melee weapon, the creature takes 1d8 radiant damage. If you also use your divine Smite with an attack, you add this damage to the extra daamge of your divine smite.</p>
+**paladin$14$cleansing touch$<p>You can use your action to end one spell on yourself or on one willing creature you touch.</p>
+<p>You can use this feature a number of times equal to your charisma modifier(minimum once). You regain expended uses when you finish a long rest</p>
+**ranger$1$favored enemy$<p>Choose a type of favored enemy:aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid( gnolls, and orcs) as favored enemies.</p>
+<p>You have advantage on wisdom( survival ) checks to track your favored enemies, as well as on intelligence checks to reclal information about them.</p>
+<p>When you gain this feature, you aso learn one language of your choice that is spoken by your favored enemies, if they speak on at all.</p>
+**ranger$6$favored enemy$<p>Choose another type of favored enemy:aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid( gnolls, and orcs) as favored enemies.</p>
+<p>You have advantage on wisdom( survival ) checks to track your favored enemies, as well as on intelligence checks to reclal information about them.</p>
+<p>When you gain this feature, you aso learn one language of your choice that is spoken by your favored enemies, if they speak on at all.</p>
+**ranger$14$favored enemy$<p>Choose another type of favored enemy:aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid( gnolls, and orcs) as favored enemies.</p>
+<p>You have advantage on wisdom( survival ) checks to track your favored enemies, as well as on intelligence checks to reclal information about them.</p>
+<p>When you gain this feature, you aso learn one language of your choice that is spoken by your favored enemies, if they speak on at all.</p>
+**ranger$1$natural explorer$<p>You are particularly familiar with a type of environment:arctic, coast, desert, forest, grassland, mountain, swamp, or the underdark. When you make an intelligence check or wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you are proficient in.</p>
+<p>While taveling for an hour or more in your favored terrain you gain the following benefits
+<ul>
+<li>Difficult terrain doesn't slow your group's travel.</li>
+<li>Your group can't become lost except by magical means.</li>
+<li>Even when you are engaged in another activity while traveling ( such as foraging, navigating, or tracking, you remain alert to danger</li>
+<li>If you are traveling alone, you can move stealthily at a normal pace</li>
+<li>When you forage, you find twice as much food as you would normally</li>
+<li>While tracking other creatures, you also learn their exact number, their sizes, and how long ago they pass through the area</li>
+</ul></p>
+**ranger$10$natural explorer$<p>You are particularly familiar with another type of environment:arctic, coast, desert, forest, grassland, mountain, swamp, or the underdark. When you make an intelligence check or wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you are proficient in.</p>
+<p>While taveling for an hour or more in your favored terrain you gain the following benefits
+<ul>
+<li>Difficult terrain doesn't slow your group's travel.</li>
+<li>Your group can't become lost except by magical means.</li>
+<li>Even when you are engaged in another activity while traveling ( such as foraging, navigating, or tracking, you remain alert to danger</li>
+<li>If you are traveling alone, you can move stealthily at a normal pace</li>
+<li>When you forage, you find twice as much food as you would normally</li>
+<li>While tracking other creatures, you also learn their exact number, their sizes, and how long ago they pass through the area</li>
+</ul></p>
 **ranger$2$fighting style$
-**ranger$2$spellcasting$
-**ranger$3$primeval awareness$
-**ranger$4$ability score improvement$
-**ranger$8$ability score improvement$
-**ranger$12$ability score improvement$
-**ranger$16$ability score improvement$
-**ranger$5$extra attack$
-**ranger$8$land's stride$
-**ranger$10$hide in plain sight$
-**ranger$14$vanish$
-**ranger$18$feral senses$
-**ranger$20$foe slayer$
-**rogue$1$sexpertise$
+<p>
+You are particularly adept one of the following fighting styles and gain corresponding benefits
+<h3>Archery</h3>
+you gain a +2 bonus to attack rolls you make with ranged weapons.
+<h3>Defense</h3>
+While you are wearing armor you gaina +1 bonus to AC
+<h3>Dueling</h3>
+When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
+<h3>Two-Weapon Fighting</h3>
+When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.
+</p>
+**ranger$2$spellcasting$<p>
+<h3>Spell Slots</h3>
+To cast a ranger spell you must expend one spell slot. you regain all of your spell slots after every successfully completed long rest.
+<h3> Spells Known of 1st-level and Higher</h3>
+When you first gain spellcasting you learn two 1st-level ranger spells. as your ranger class level increases you will learn more spells. each new spell you learn must be of a level for which you have spell slots. Additionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another ranger spell. Which also must be of a level for which you have spell slots
+<h3>Spellcasting Ability</h3>
+Wisdom is your spellcasting ability for your ranger spells, since your magic draws on your attunement to nature. You use your wisdom whenever a spell refers to your spellcasting ability. In addition, you use your wisdom modifier when setting the saving throw DC for a ranger spell you cas and when makming an attack roll with one.
+</p>
+<p><strong>Spell Save DC =</strong> 8 + your proficiency modifier + your wisdom modifier</p>
+<p><strong>Spell Attack Modifier =</strong> your proficiency modifier + your wisdom modifier</p>
+**ranger$3$primeval awareness$<p>You can use your action and expend one ranger spell slot to focus your awareness on the region around you. for 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you( or within up to 6 miles if you are in your favored terrain ): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn't reveal the creatures' location or number</p>
+**ranger$4$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**ranger$8$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**ranger$12$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**ranger$16$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**ranger$5$extra attack$<p>When you use the attack action you can attack twice</p>
+**ranger$8$land's stride$<p>Moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard. </p>
+<p>In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement.</p>
+**ranger$10$hide in plain sight$<p>You can spend 1 minute creating camouflage for yourself. You must have access to fresh mud, dirt, plants, soot, and other naturally occurring materials with which to create your camouflage.</p>
+<p>
+Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to dexterity( stealth ) checks as long as you remain there without moving or taking actions. Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit.
+</p>
+**ranger$14$vanish$<p>You can use the hide action as a bonus action on your turn. Also, you can't be tracked by nonmagical means, unless you choose to leave a trail.</p>
+**ranger$18$feral senses$<p>When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it.</p>
+<p>You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't blinded or deafened.</p>
+**ranger$20$foe slayer$Once on each of your turns, you can add your wisdom modifier to the attack roll of the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.</p>
+**rogue$1$sexpertise$<p>Choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. You proficiency bonus is doubled for any abililty check you make that uses either of the chosen proficiencies.</p>
 **rogue$1$sneak attack$
-**rogue$1$thieves' cant$
-**rogue$2$cunning action$
-**rogue$4$ability score improvement$
-**rogue$8$ability score improvement$
-**rogue$10$ability score improvement$
-**rogue$12$ability score improvement$
-**rogue$16$ability score improvement$
-**rogue$19$ability score improvement$
-**rogue$5$uncanny dodge$
-**rogue$7$evasion$
-**rogue$11$reliable talent$
-**rogue$14$blindsense$
-**rogue$15$slippery mind$
-**rogue$18$elusive$
-**sorcerer$1$spellcasting$
-**sorcerer$1$cantrips$
-**sorcerer$1$arcane focus$
+<p>Once per turn you can deal extra damage based on your sneak attack damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon </p>
+<p>You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.</p>
+**rogue$1$thieves' cant$<p>You speak the secret language of thieves</p>
+**rogue$2$cunning action$<p> You can use your bonus action to disengage, hide, or dash.</p>
+**rogue$4$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**rogue$8$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**rogue$10$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**rogue$12$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**rogue$16$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**rogue$19$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**rogue$5$uncanny dodge$<p>When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</p>
+**rogue$7$evasion$<p>When you are subjected to an effect that allows you to make a dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage you.</p>
+**rogue$11$reliable talent$<p>Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</p>
+**rogue$14$blindsense$<p>If you are abe to hear, ou are aware of the location of any hidden or invisible creature within 10 feet of you.</p>
+**rogue$15$slippery mind$<p>You gain proficiency in wisdom saving throws.</p>
+**rogue$18$elusive$<p>No attack roll has advantage against you while you aren't incapacitated.</p>
+**sorcerer$1$spellcasting$<p>
+<h3>Cantrips</h3>
+At 1st-level, you know four cantrips of your choice from the sorcerer spell list. You learn more as you level up. you can cast cantrips as many times as you want and can.
+<h3>Spell Slots</h3>
+To cast one of your sorcere spells of 1st-level or higher you must expend a spell slot of the spell's level or higher. You regain all of your used spell slots at the successful completion of a long rest.
+<h3>Spells Known of 1st-level and Higher</h3>
+You know two 1st-level spells of your choice from the sorcerer's spell list at level one. when you learn a new spell it can be any spell on the sorcerer spell list of a level that you have a spell slot for. Additionally when you gain a new sorcerer level you can replace one of the spells you know with another spell of a level that you have a spell slot for.
+<h3>Spellcasting Ability</h3>
+Charisma is your spellcasting ability.
+</p>
+<p><strong>Spell Save DC =</strong> 8 + your proficiency modifier + your charisma modifier</p>
+<p><strong>Spell Attack Modifier =</strong> your proficiency modifier + your charisma modifier</p>
+<p>
+<h3>Spellcasting Focus</h3>
+You can use an arcane focus as a spellcasting focus for your sorcerer spells.
+</p>
 **sorcerer$2$font of magic$
-**sorcerer$3$metamagic$
-**sorcerer$4$ability score improvement$
-**sorcerer$8$ability score improvement$
-**sorcerer$12$ability score improvement$
-**sorcerer$16$ability score improvement$
-**sorcerer$19$ability score improvement$
-**sorcerer$20$sorcerous restoration$
+<h3>Sorcery Points</h3>
+<p>
+you have a certain amount of sorcery points based on your level. You can never have more sorcery points than your maximum which is based on your sorcerer level. You regain all expended sorcery points after the successful completion of a long rest.
+</p>
+<h3>Flexible Casting</h3>
+<p>
+You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. 
+</p>
+<p>
+<strong>Creating Spell Slots.</strong> You can transform unexpended sorcery points into one spell slot as a onus action on your turn. You can create spell slots no higher than 5th
+</p>
+<p><table>
+<tr>
+<th>Spell Slot Level</th>
+<th>Sorcery Point Cost</th>
+</tr>
+<tr>
+<td>1st</td>
+<td>2</td>
+</tr>
+<tr>
+<td>2nd</td>
+<td>3</td>
+</tr>
+<tr>
+<td>3rd</td>
+<td>5</td>
+</tr>
+<tr>
+<td>4th</td>
+<td>6</td>
+</tr>
+<tr>
+<td>5th</td>
+<td>7</td>
+</tr>
+</table></p>
+**sorcerer$3$metamagic$<p>You can only one metamagic option on a spell when you cast it, unless otherwise noted</p>
+<h3>Careful Spell</h3>
+<p>
+When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your charisma modifier( minimum 1 ). A chosen creature automatically succeeds on its saving throw against the spell.
+</p>
+<h3>Distant Spell</h3>
+<p>
+When you cast a sepll that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell
+</p>
+<p>
+When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.
+</p>
+<h3>Empowered Spell</h3>
+<p>
+When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage die up to you charisma modifier( minimum 1 ). You must use the new rolls.
+</p>
+<p>
+You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell
+</p>
+<h3>Extended Spell</h3>
+<p>
+When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours.
+</p>
+<h3>Heightened Spell</h3>
+<p>
+hen you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.
+</p>
+<h3>Quickened Spell</h3>
+<p>
+When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting tme to 1 bonus action for this casting.
+</p>
+<h3>Subtle Spell</h3>
+<p>
+When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.
+</p>
+<h3>Twinned Spell</h3>
+<p>
+When you cast a spell that targets only one creature and doesn;t have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second reature in range with the same spell( 1 sorcery point if the spell is a cantrip ). 
+</p>
+**sorcerer$4$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**sorcerer$8$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**sorcerer$12$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**sorcerer$16$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**sorcerer$19$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**sorcerer$20$sorcerous restoration$<p>You regain 4 expended sorcery points whenever you finish a short rest.</p>
 **warlock$1$pact magic$
-**warlock$1$cantrips$
-**warlock$2$eldritch invocations$
-**warlock$3$pact boon$
-**warlock$4$ability score improvement$
-**warlock$8$ability score improvement$
-**warlock$12$ability score improvement$
-**warlock$16$ability score improvement$
-**warlock$19$ability score improvement$
-**warlock$11$mystic arcanum$
-**warlock$13$mystic arcanum$
-**warlock$15$mystic arcanum$
-**warlock$17$mystic arcanum$
-**warlock$20$eldritch master$
+<h3>Cantrips</h3>
+<p>You know two cantrips of your choice from the warlock spell list at class level one. cantrips can be cast as many times as you want and can</p>
+<h3>Spell Slots</h3>
+<p> All of your spell slots can be used on any spell that you know.</p>
+<p>To cast one of your warlock spells, you must expend a spell slot. you regain all of your expended spell slots when you finish a short or long rest.</p>
+<h3>Spells Known of 1st-level and Higher</h3>
+<p> You start out at 1st-level know two 1st-level spells.</p>
+<p> When you learn a new spell it cannot be of a level higher than that of your spell slot's level.</p>
+<h3>Spellcasting Ability</h3>
+<p>Charisma is your spellcasting ability for your warlock spells</p>
+<p><strong>Spell Save DC =</strong> 8 + your proficiency bonus + your charisma modifier</p>
+<p><strong>Spell Attack Modifier =</strong> your proficiency bonus + your charisma modifier</p>
+<h3>Spellcasting Focus</h3>
+<p> You can use an arcane focus as a spellcasting focus for your warlock spells.</p>
+**warlock$2$eldritch invocations$<p>When you level in this class you can choose one of the invocations you know and replace it with another invocation that you can learn at this level.</p><p>You can choose from the invocations below</p>
+<h3>Eldritch Spear</h3>
+<p>Prerequisite: eldritch blast cantrip</p>
+<p>When you cast eldritch blast, its range is 300 feet.</p>
+<h3>Eye of the Rune Keeper</h3>
+<p>You can read all writing.</p>
+<h3>Fiendish Vigor</h3>
+<p>You can cast false life on yourself at will as a 1st-level spell, without expending a spell slot or material components.</p>
+<h3>Gaze of Two Minds</h3>
+<p>You can use your action to touch a willing humanoid an perceive through its senses until the end of your next turn. As long as the creature is on the same plane of extistence as you, you can use your action on subsequent turns to maintain this connections, extending the duration until the end of your next turn. While perceiving through the other creature's senses, you benefit from any special senses possess by that creature, and you are blinded deafened to your own surroundings.</p>
+<h3>Lifedrinker</h3>
+<p>Prerequisite:12th levle, Pact of the Blade feature</p>
+<p>When you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your charisma modifier( mimimum 1 ).</p>
+<h3>Mask of Many Faces</h3>
+<p>You can cast disguise self at will, without expending a spell slot</p>
+<h3>Master of Myriad Forms</h3>
+<p>Prerequisite: 15th level</p>
+<p>You can cast alter self at will, without expending a spell slot</p>
+<h3>Minions of Chaos</h3>
+<p>Prerquisite: 9th level</p>
+<p>You can cast conjure elemental using a warlock spell slots. You can't do so again until you finish a long rest.</p>
+<h3>Mire the Mind</h3>
+<p>You can cast slow once using a warlock spell slot. You can't do so again until you finish a long rest.</p>
+<h3>Misty Visions</h3>
+<p>You can cast silent image at will, without expending a spell slot or material components.</p>
+<h3>One with Shadows</h3>
+<p>Prerequisite: 5th level</p>
+<p>When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction.</p>
+<h3>Otherworldly Leap</h3>
+<p>Prerequisite: 9th level</p>
+<p>You can cast jump on yourself at will, without expending a spell slot or material components.</p>
+<h3>Repelling Blast</h3>
+<p>Prerequisite: eldritch blast cantrip</p>
+<p>When you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line.</p>
+<h3>Sculptor of Flesh</h3>
+<p>Prerequisite: 7th level</p>
+<p>You can cast polymorph once using a warlock spell slot. You can't do so again until you finish a long rest.</p>
+<h3>Sign of Ill Omen</h3>
+<p>Prerequisite: 5th level</p>
+<p>You can cast a bestow curse once using a warlock spell slot. You can't do so again until your finish a long rest</p>
+<h3>Thief of Five Fates</h3>
+<p>You cn cast bane  once using a warlock spell slot. YOu can't do so again until you finish a long rest.</p>
+<h3>Thirsting Blade</h3>
+<p>Prerequisite: 5th level, Pact of the Blade feature</p>
+<p>You can attack with your pact weapon twice, instead of once, whenever you take the attack action on your turn.</p>
+<h3>Visions of Distant Realms</h3>
+<p>Prerequisite: 15th level</p>
+<p>You can cast arcane eye at will, without expending a spell slot.</p>
+<h3>Voice of the Chain Master</h3>
+<p>Prerequisite: Pact of the Chain feature</p>
+<p>You can communicate telepathically with your familiar and perceive through your familiar's senses as long as your are on the same plane of existence. Additionally while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.</p>
+<h3>Witch Sight</h3>
+<p>Prerequisite: 15th level</p>
+<p>You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight.</p>
+**warlock$3$pact boon$<p>You gain one of the following features</p>
+<p>You gain one of the following features</p>
+<h3>Pact of the Chain</h3>
+<p>You learn the find familiar and can cast it as a ritual. The spell doesn't count against your number of spells known</p>
+<p>When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.</p>
+<p>Additionally, when you take the attack action. you can forgo one of your own attack to allow your familiar to make an attack of its own.</p>
+<h3>Pact of the Blade</h3>
+<p>You can use your action to create a pact weapon in your empty hand, You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunityto nonmagical attacks and damage.</p>
+<p>Your pact weapon disappears if it is more than 5 feet from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon( no action required), or if you die.</p>
+<p>You can transform one magic weapon into our pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. YOu can't affect an artifact, or a sentient weapon in this way. The weapon ceases being a pact weapon if you die, if you perform the 1-hour ritual on a different weapon , or if you use a 1-hour ritual to break your bond on to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks. </p>
+<h3>Pact of the Tome</h3>
+<p>You patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list. While the book is on your person, you can cast those cantrips at will.  They don't count against your number of cantrips known.</p>
+<p>If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremny can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.</p>
+**warlock$4$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**warlock$8$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**warlock$12$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**warlock$16$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**warlock$19$ability score improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase a    n abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**warlock$11$mystic arcanum$<p>Choose one 6th-level spell from the warlock spell list as this arcanum</p><p>You can cast this spell once without using a spell slot. You must finish a long rest before you can cast the spell again</p>
+**warlock$13$mystic arcanum$<p>Choose one 7th-level spell from the warlock spell list as this arcanum</p><p>You can cast this spell once without using a spell slot. You must finish a long rest before you can cast the spell again</p>
+**warlock$15$mystic arcanum$<p>Choose one 8th-level spell from the warlock spell list as this arcanum</p><p>You can cast this spell once without using a spell slot. You must finish a long rest before you can cast the spell again</p>
+**warlock$17$mystic arcanum$<p>Choose one 9th-level spell from the warlock spell list as this arcanum</p><p>You can cast this spell once without using a spell slot. You must finish a long rest before you can cast the spell again</p>
+**warlock$20$eldritch master$<p>You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature. Once you regain spell slots with this feature, you must finish a long rest before you can do so again.</p>
 **wizard$2$arcane recovery$
-**wizard$4$abiltiy core improvement$
-**wizard$8$abiltiy core improvement$
-**wizard$12$abiltiy core improvement$
-**wizard$16$abiltiy core improvement$
-**wizard$19$abiltiy core improvement$
-**wizard$1$arcane tradition$
-**wizard$1$spells$
-**wizard$1$cantrips$
-**wizard$2$arcane recovery$
-**wizard$1$spellbook$
-**wizard$18$spell mastery$
-**wizard$20$signature spells$
+**wizard$4$abiltiy core improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**wizard$8$abiltiy core improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**wizard$12$abiltiy core improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**wizard$16$abiltiy core improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**wizard$19$abiltiy core improvement$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**wizard$1$arcane tradition$<p> You can increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. As normal you can't increase an abiltiy score above 20 using this feature. Also you could instead choose a feat from the feats list.</p>
+**wizard$1$spellcasting$
+<h3>Cantrips</h3>
+<p>You can cast cantrips whenever you want and can.</p>
+<h3>Spellbook</h3>
+<p>At 1st level you have a spellbook containing six 1st-level wizard spells of your choice.</p>
+<h3>Preparing and Casting Spells</h3>
+<p>You prepare the list of wizrd spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to <strong> your Intelligence modifier + your wizard level( minimum of one spell  )</strong>. The spells must be of a level for which you have spel slots.</p> 
+<p> You can change your list of prepared spells when you finish a long rest. Preparing a new list of wizard spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list.  </p>
+<h3>Spellcasting Ability</h3>
+<p>Intelligence is your spellcasting ability for wizard spells.</p>
+<p><strong>Spell save DC =</strong> 8 + you proficiency bonus + your intelligence modifier</p>
+<p><strong>Spell attack modifier =</strong> you proficiency bonus + your intelligence modifier</p>
+<h3>Ritual Casting</h3>
+<p>You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You dont need to have the spell prepared.</p>
+<h3>Spellcasting focus</h3>
+<p>You can use an arcane focus as a spellcasting focus for your wizard spells.</p>
+<h3>Learning Spells of 1st Level and Higher</h3>
+<p>Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots.</p>
+**wizard$1$Your Spellbook$<p> The spells that you add to your spellbook as you gain levels reflect the arcane research you conduct on your own, as well as intellectual breakthroughs ou have had about the nature of the multiverse. You might find other spells during your adventures. You could discover a spell recorded on a scroll in an evil wizard's chest, for example, or ina dusty tome in an ancient library.</p>
+<p><strong>Copying a Spell into the Book.</strong> When you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level for which you have spell slots and if you can spare the time to decipher and copy it.</p>
+<p> Copying a spell into your spelbook invlolves reproducing the basic for of the spell, then diciphering the unique system of notation used by the wizard who wrot it. You must practice the spell until you understand the sounds or gestures required, then transcribe it into your spellbook using your own notation.</p>
+<p>For each leel of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you expirement with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, can prepare the spell just like your other spells. </p>
+<p><strong>Replacing the Book.</strong> You can copy a spell from your own spellbook into another book - for example, if you want to make a backup copy of our spellbook. This is just like copying a new spell into your spellbook, but fasterand easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.</p>
+<p>If you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainer of you spellbook requires you to find new spells to do so, as normal. For this reason, many wizards keep backup spellbooks in a safe place.</p>
+<p><strong>The Book's Appearance.</strong> Your spellbook is a unique compilation of spells, with its own decorative flourishes and margin notes. It might be a plain, functional leather volume that your received as a gift from your master, a finely bound gilt-edged tome you found in an ancient library, or even a loose collection of notes scrounged together after you lost your previous spellbook in a mishap.</p>
+**wizard$2$arcane recovery$<p>Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level( rounded up ), and none of the slots can be 6th level or higher.</p>
+**wizard$18$spell mastery$<p>Choosd a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.</p>
+<p>By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels.</p>
+**wizard$20$signature spells$<p>Choose two 3rd-level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don't count against the number of spells you have prepared, and you can cast each of them once at 3rd-level without expending a spell slot. When you do so, you can't do so again until you finish a short or long rest.</p>
+<p>If you want to cast either spell at a higher level, you must expend a spell slot as normal.</p>
