@@ -417,6 +417,35 @@ When you cast a spell that targets only one creature and doesn;t have a range of
 <h3>Spellcasting Focus</h3>
 <p> You can use an arcane focus as a spellcasting focus for your warlock spells.</p>
 **warlock$2$eldritch invocations$<p>When you level in this class you can choose one of the invocations you know and replace it with another invocation that you can learn at this level.</p><p>You can choose from the invocations below</p>
+<h3>Agonizing Blast</h3>
+<p>Prerequisite: eldritch blast cantrip</p>
+<p>WHen you cast eldritch blast, add your charisma modifier to the damage it deals on a hit.</p>
+<h3>Armor of Shadows</h3>
+<p>You can cast mage armor on yourself at will, without expending a spell slot or material components. </p>
+<h3>Ascendant Step</h3>
+<p>Prerequisite:9th level</p>
+<p>You can cast levitate on yourself at will, without expending a spell slot or material components.</p>
+<h3>Beast Speech</h3>
+<p>You can speak with animals at will, without expending a spell slot.</p>
+<h3>Beguiling Influence</h3>
+<p>You gain proficiency in the deception and persuasion skills.</p>
+<h3>Bewitching Whispers</h3>
+<p>Prerequisite:7th level</p>
+<p>You can't cast compulsion once using using a warlock spell slot. you can't do so again until you finish a long rest.</p>
+<h3>Book of Ancient Secrets</h3>
+<p>Prerequisite:Pact of the Tome feature</p>
+<p>You can now inscibe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list. The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as ritual. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag. </p>
+<p>On your adventures, you can add other ritual spells to you Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level ( rounded up ) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.</p>
+<h3>Chains of Carceri</h3>
+<p>Prerequisite:15th level, Pact of the Chain feature</p>
+<p>You can cast hold monster at will - targeting a celestial, fiend, or elemental - without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.</p>
+<h3>Devil's Sight</h3>
+<p>You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</p>
+<h3>Dreadful Word</h3>
+<p>Prerequisite:7th level</p>
+<p>You can cast confusion once using a warlock spell slot. You can't do so again until you finish a long rest.</p>
+<h3>Eldritch Sight</h3>
+<p>You can cast detect magic at will, without expending a spell slot.</p>
 <h3>Eldritch Spear</h3>
 <p>Prerequisite: eldritch blast cantrip</p>
 <p>When you cast eldritch blast, its range is 300 feet.</p>

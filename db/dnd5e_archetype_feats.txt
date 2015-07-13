@@ -191,7 +191,7 @@ berserker$3$frenzy$<p>You can choose to go into a frenzy when you rage. If you d
 <p> Among your 3rd level spells two must be an abjuration spell or an evocation spell from the eldritch knight/wizard spell list  </p>
 <p>All the spells you learn until 8th level must be from the abjuration school or the evocation school.</p>
 <p>The spells you learn after 8th level can be from any school of magic</p>
-<p> Whenever you gain a level you can repalce one of the spells you know with another spell of your choice from the eldritch knight/wizard spell list. The new spell must be of a level for which you have a spell slot available, and it must be an abjuration or evocation spell, unless it is a spell learned after 8th level. </p>
+<p> Whenever you gain a level you can replace one of the spells you know with another spell of your choice from the eldritch knight/wizard spell list. The new spell must be of a level for which you have a spell slot available, and it must be an abjuration or evocation spell, unless it is a spell learned after 8th level. </p>
 <h3>Spellcasting Ability</h3>
 <p>Intelligence is the spellcasting ability for eldritch knight/wizard spells</p>
 <p><strong>Spell save DC = </strong>8 + your proficiency bonus + your intelligence modifier</p>
@@ -201,69 +201,221 @@ berserker$3$frenzy$<p>You can choose to go into a frenzy when you rage. If you d
 **eldritch knight$10$eldritch strike$<p> You can make your weapon strikes undercut a creature's resistance to your spells. When you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against a spell ou cast before the end of your next turn.</p>
 **eldritch knight$15$arcane charge$<p>You have the ability to teleport up to 30 feet to an unoccupied space you can see when you use your Action Surge. You can teleport before or after the additional action.</p>
 **eldritch knight$18$war magic$<p> When you use your action to cast a spell, you can make one weapon attack as a bonus action.</p>
-**shadow$shadow arts$
-**shadow$6$shadow step$
-**shadow$11$cloak of shadows$
-**shadow$17$opportunist$
-**open hand$3$open hand technique$
-**open hand$6$wholeness of body$
-**open hand$11$tranquility$
-**open hand$17$quivering palm$
+**shadow$shadow arts$<p> As an action, you can spend 2 ki points to cast darkness, darkvision, pass without trace, or silence, without providing material components. Additionally, youhave minor illusion cantrip if you don't know it already</p>
+**shadow$6$shadow step$<p>You have the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You then have advantage on the first melee attack you make before the end of the turn.</p>
+**shadow$11$cloak of shadows$<p>When you are in an area of dim light or darkness, you can use your action to become invisible. you remain invisible until you makee an attack, cast a spell, or are in an area of bright light.</p>
+**shadow$17$opportunist$<p>You can exploit a creature's momentary distraction when it is hit by an attack. Whenever a creature within 5 feet of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack against that creature.</p>
+**open hand$3$open hand technique$<p>Whenever you hit a creature with one of the attacks granted by Flurry of Bloows, you can impose one of the following effects on that target:</p>
+<p><ul>
+<li>It must succeed on a dexterity saving throw or be knocked prone.</li>
+<li>It must make a strength saving throw. If it fails, you can push it up to 15 feet away from you.</li>
+<li>It can't take reactions until the end of your next turn.</li>
+</ul></p>
+**open hand$6$wholeness of body$<p>As an action, you can regain hit points equal to <strong>three times your monk level</strong>. You must finish a long rest before you can use this feature again.</p>
+**open hand$11$tranquility$<p>You can enter a special meditation that surraounds you with an aura of peace. At the end of a long rest, you gain the effect of sanctuary spell that lasts until the start of your next long rest ( the spell can end early as normal ). The saving throw DC for the spell equals <strong>8 + your wisdom modifier + your proficiency bonus</strong>.</p>
+**open hand$17$quivering palm$<p>When you hit a creature with an unarmed strike, you can spend 3 ki points to start these imperceptible vibrations, which last for a number of days equal to <strong>your monk level</strong> The vibrations are harmless unless you use your action to end them. To do so, you and the target must be on the same plane of existence. When you use this action, the creature must make a constitution saving throw. If it fails, it is reuced to 0 hit points. If it succeeds, it takes 10d10 necrotic damage.</p>
+<p>You can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action.</p>
 **four elements$3$disciple of the elements$
-**devotion$3$channel divinity: sacred weapon$
-**devotion$3$channel divinity: turn the unholy$
-**devotion$7$aura of devotion$
-**devotion$18$aura of devotion$
-**devotion$15$purity of spirit$
-**devotion$20$holy nimbus$
-**ancients$3$channel divinity: nature's wrath$
-**ancients$3$channel divinity: turn the faithless$
-**ancients$7$aura of warding$
-**ancients$18$aura of warding$
-**ancients$15$undying sentinel$
-**ancients$20$elder champion$
-**vengeance$3$channel divinity: abjure enemy$
-**vengeance$3$channel divinity: vow of enmity$
-**vengeance$7$relentless avenger$
-**vengeance$18$relentless avenger$
-**vengeance$15$soul of vengeance$
-**vengeance$20$avenging angel$
-**hunter$3$hunter's prey$
-**hunter$7$defensive tactics$
-**hunter$11$multiattack$
-**hunter$15$superior hunter's defense$
-**beast master$3$ranger's companion$
-**beast master$7$exceptional training$
-**beast master$11$bestial fury$
-**beast master$15$share spells$
-**thief$3$fast hands$
-**thief$3$second-story work$
-**thief$9$supreme sneak$
-**thief$13$use magic device$
-**thief$17$thief's reflexes$
-**assassin$3$bonus proficiencie$
-**assassin$3$assassinate$
-**assassin$9$infiltration expertise$
-**assassin$13$impostor$
-**assassin$17$death strike$
+<h3>Learning New Disciplines</h3>
+<p>to look at all the disciplines and read up on their description go the the <a href="/5th_edition_spell_index?archetype=24&class=6> "Spell Index </a></p>
+<h3>Casting Elemental Spells</h3>
+<p>Some elemental disciplines allow you to cast spells. To cast one of these spells, you use its casting time and other rules, but you don't need material components for it.</p>
+<p>Once you reach 5th level in this class you can send additional ki points to increase the level of an elemental discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as burning hands does. The spell's level increases by 1 for each additional ki point you spend.</p>
+<p>The maximum number of ki points you can use to increase the level of an elemental discipline you cast ( including its base ki points cost and any additional ki points you spend to increase its level ) is determined by your monk level.</p>
+**devotion$3$channel divinity:sacred weapon$<p>As an action, you can imbue one weapon that you are holding with positive energy, using your Channel Divinity. For 1 minute, you add your <strong> charisma modifier </strong>to attack rolls made with that weapon (minimum bonus of +1 ). The weapon also emits a bright light in a 20-foot radius and dim light 20 feet beyond that, if you are no longer holding or carrying this weapon, or if you fall unconsious, this effect ends.</p>
+**devotion$3$channel divinity:turn the unholy$<p>As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.</p>
+<p>A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can creature can use the dodge action.</p>
+**devotion$7$aura of devotion$<p>You and friendly creature within 10 feet of you can't be charmed while you are conscious.</p>
+**devotion$18$aura of devotion$<p>You and friendly creature within 30 feet of you can't be charmed while you are conscious.</p>
+**devotion$15$purity of spirit$<p> You are always under the effects of a protection from good and evil spell</p>
+**devotion$20$holy nimbus$<p>As an action, you can emanate an aura of sunlight. For 1 minute, bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that.</p>
+<p>Whenever an enemy creature starts its turn in the bright light, the creature takes 10 radiant damage</p>
+<p>In addition, for the duration, you have advantage on saving throws against spells cast by fiends or undead.</p>
+<p>Once you use this feature, you can't use it again until you finish a long rest.</p>
+**ancients$3$channel divinity:nature's wrath$<p>gou can use your Channel Divinity to invoke primeval forces to ensnare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a strength or dexterity saving throw ( its choice ) or be restrained. While restrained by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish.</p>
+**ancients$3$channel divinity:turn the faithless$<p>You can use your Channel Divinity to utter ancienct words that are painful for fey and fiends to hear. As an action, you present your holy symbol, and each fey or fiend within 30 feet of you that can hear you must make a wisdom saving throw. On a failed save, the creatue is turned from 1 minute or until it takes damage.</p><p>A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can creature can use the dodge action.</p>
+<p> If the creature's true form is concealed by an illusion, shapeshifting, or other effects, that form is revealed while it is turned.</p>
+**ancients$7$aura of warding$<p>You and friendly creatures within 10 feet of you have resistance to damage from spells.</p>
+**ancients$18$aura of warding$<p>You and friendly creatures within 30 feet of you have resistance to damage from spells.</p>
+**ancients$15$undying sentinel$<p> When you are reduced to 0 hit points and are not killed outright, you can choose to drop to 1 hit point instead. Once you use this ability, you can't use it again until you finish a long rest.</p>
+<p>Additionally, you suffer none of the drawbacks of old age, and you can't be aged magically.</p>
+**ancients$20$elder champion$<p> You can assume the form of an ancient force of nature, taking on an appearance you choose. Using your action, you undergo a transformation. For 1 minute ( 10 rounds ), you gain the following benefits.</p>
+<p><ul>
+<li>At the start of each of your turns, you regain 10 hit points.</li>
+<li>Whenever you cast a paladin spell that has a casting time of 1 action, you can cast it using a bonus action instead.</li>
+<li>Enemy creatures within 10 feet of you have disadvantage on saving throws against your paladin spells and Channel Divinity options.</li>
+</ul></p>
+<p>Once you use this feature, you can't use it again until you have finished a long rest.</p>
+**vengeance$3$channel divinity:abjure enemy$<p>As an action, you present your holy symbol and speak a prayer of denunciation, using your Channel Divinity. Choose one creature within 60 feet of you that you can see. That creature must make a wisdom saving throw, unless it is immune to being frightened. Fiends and undead have a disadvantage on this saving throw.</p>
+<p>On a failed save, the creature is frightened for 1 minute ( 10 rounds ) or until it takes damage. While frightened the creature's speed is 0, and it can't benefit from any bonus to its speed.</p>
+<p>On a successful save, the creature's speed is halved from 1 minute ( 10 rounds ), or until the creature takes damage.</p>
+**vengeance$3$channel divinity:vow of enmity$<p>As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls unconscious.</p>
+**vengeance$7$relentless avenger$<p> When you hit a creature with an opportunity attack, you can move up to half your speed immediately after the attack and as part of the same reaction. This movement doesn't provoke opportunity attack.</p>
+**vengeance$15$soul of vengeance$<p> When a creaute under the effect of Vow of Enmity makes an attack, you can use your reaction to make a melee weapon attack against that creature if it is in range. </p>
+**vengeance$20$avenging angel$<p> You can assume the form of an avenging angel. Using an action, you undergo a transformation. For 1 hour ( 600 rounds ), you gain the following benefits:</p>
+<p><ul>
+<li>Wings sprout from your back and grant you a flying speed of 60 feet.</li>
+<li>You emanate an aura of menace in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a wisdom saving throw or become frightened of you for 1 minute ( 10 rounds ) or until it takes any damage. attack rolls against the frightened creatures have advantage.</li>
+</ul></p>
+**hunter$3$hunter's prey$<p>You have one of the following features of your choice.</p>
+<h3>Colossus Slayer</h3>
+<p>When you hit a creature with a weapon attack the creature takes an extra 1d8 damage if it's below its hit point maximum. You can deal this extra damage only once per turn.</p>
+<h3>Giant Killer</h3>
+<p>When a large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature.</p>
+<h3>Horde Breaker</h3>
+<p>Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original  target within range of your weapon.</p>
+**hunter$7$defensive tactics$<p>You have one of the following features of your choice.</p>
+<h3>Escape the Horde</h3>
+<p>Opportunity attacks against you are made with disadvantage.</p>
+<h3>Multiattack Defense</h3>
+<p>When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequemt attacks made by that creature for the rest of the turn.</p>
+<h3>Steel Will</h3>
+<p>You have advantage on saving throws against being frightened</p>
+**hunter$11$multiattack$<p>You have one of the following features of your choice.</p>
+<h3>Volley</h3>
+<p>You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, as normal. and you make a separate attack roll for each target.</p>
+<h3>Whirlwind Attack</h3>
+<p>You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target.</p>
+**hunter$15$superior hunter's defense$<p>You have one of the following features of your choice.</p>
+<h3>Evasion</h3>
+<p>You can nimbly dodge out of the way of certain area effects. When you are subjected to an effect that allows you to make a dexterity saving throw to take only half damage, ou instead take no damage. If you succeed on the saving throw, and only half damage if you fail</p>
+<h3>Stand Against the Tide</h3>
+<p><When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attack against another creature ( other than itself ) of your choice./p>
+<h3>Uncanny Dodge</h3>
+<p>When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</p>
+**beast master$3$ranger's companion$<p>You have a beast companion that accompanies you on your adventures and is trained to fight alongside you. Choose a beast that is no larger than medium and that has a challegne rating of of 1/4 or lower. Add your proficiency bonus to the beast's AC, attack rolls, and damage rolls, as well as to any saving throws and skills it is proficient in. Its hit point maximum equals its normal maximum or four times your ranger level, whichever is higher.</p>
+<p>The beast obeys your commands as best as it can. It takes its turn on your initiative though it doesn't take an action unless you command it to. On your turn, you can verbally command the beast where to move ( no action reuired by you ). You can use your action to verbally commaned it to take the attack, dash disengage dodge or help action. Once you have the Extra Attack feature, you can make one weapon attack yourself when you command the beast to take the attack action.</p>
+<p>While traveling throw your favored terrain with only the beast, you can move stealthily at a normal pace.</p>
+<p>If the beast dies, you can obtain another one by spending 8 hours magically bonding with another beast that isn't hostile to you, either the same type of beast as before or a different one.</p>
+**beast master$7$exceptional training$<p>On any of your turns when your beast companion doesn't attack, you can use a bonus action to command the beast to take the dash, disengage, dodge, or help action on its turn.</p>
+**beast master$11$bestial fury$<p> Your beast companion can make two attacks when you command it to use the attack action.</p>
+**beast master$15$share spells$<p> When you cast a spell targeting yourself, you can als affect your beast companion with the spell if the beast is within 30 feet of you.</p>
+**thief$3$fast hands$<p>You can use the bonus action granted by your Cunning Action to make a dexterity ( sleight of hand ) check, use your thieves' tools to disarm a trap or open a lock, or take the use an object action.</p>
+**thief$3$second-story work$<p> You have a faster than normal climbing speed: climbing no longer costs you extra movement. </p>
+<p>In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your dexterity modifer.</p>
+**thief$9$supreme sneak$<p>You have advantage on dexterity ( stealth ) check if you move no more than half your speed on the same turn.</p>
+**thief$13$use magic device$<p>You ignore all class, race, and level requirements on the use of magic items.</p>
+**thief$17$thief's reflexes$<p>You can take two turns during the first round of any combat. You can take two turns during the first round of any combat. You take your first turn at your nomal initiative and your second turn at your initiative minus 10. YOu can't use this feature when you are surprised.</p>
+**assassin$3$bonus proficiencie$<p>You have proficiency with the disguise kit and the poisoner's kit.</p>
+**assassin$3$assassinate$<p>You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit.</p>
+**assassin$9$infiltration expertise$<p>You can unfailingly create false identities for yourself. You mus spend seven days and 25 gp to establish the history, profession, and affiliations for an identity. You can't establish an identity that belongs to somebody else.</p>
+<p>Once the disguise is adopted, other creatures believe you to be your assumed identity until given an obvious reason not to.</p>
+**assassin$13$impostor$<p>You have the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least three hours studying these three components of the person's behavior, listening to speech, examining handwriting, and observing mannerisms.</p>
+<p>Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any charisma ( deception ) check you make to avoid deception.</p>
+**assassin$17$death strike$<p>You are a master of instant death. When you attack and hit a creature that is surprised, it must make a constitution saving throw ( DC = <strong> 8 + your dexterity modifier + your proficiency bonus </strong>) On a failed save, double the damage of your attack against the creature</p>
 **arcane trickster$3$spellcasting$
-**arcane trickster$3$mage hand legerdemain$
-**arcane trickster$9$magical ambush$
-**arcane trickster$13$versatile trickster$
-**arcane trickster$17$spell thief$
-**wildling sorcerer$1$wild magic surge$
-**wildling sorcerer$1$tides of chaos$
-**wildling sorcerer$6$bend luck$
-**wildling sorcerer$14$controlled chaos$
-**wildling sorcerer$18$spell bombardment$
-**draconic sorcerer$1$dragon ancestor$
-**draconic sorcerer$1$draconic resilience$
-**draconic sorcerer$6$elemental affinity$
-**draconic sorcerer$14$dragon wings$
-**draconic sorcerer$18$draconic presence$
-**abjurer$2$abjuration savant$
-**abjurer$2$arcane ward$
-**abjurer$6$projected war$
+<h3>Cantrips</h3>
+<p>You can cast a cantrip you know whenever you can and want to.</p>
+<h3>Spell Slots</h3>
+<p>You have a certain amount of spell slots depending on your class level, which you can use to cast spells. To cast any of the spells you know you must expend a spell slot of the same level or higher.</p>
+<p>You regain all of your expended spell slots when you finish a long rest.</p>
+<h3>Spells Known of 1st-level and Higher</h3>
+<p> Among your 3rd level spells two must be an illusion spell or an enchantment spell from the arcane trickster/wizard spell list  </p>
+<p>All the spells you learn until 8th level must be from the illusion school or the enchantment school.</p>
+<p>The spells you learn after 8th level can be from any school of magic</p>
+<p> Whenever you gain a level you can replace one of the spells you know with another spell of your choice from the arcane trickster/wizard spell list. The new spell must be of a level for which you have a spell slot available, and it must be an illusion or enchantment spell, unless it is a spell learned after 8th level. </p>
+<h3>Spellcasting Ability</h3>
+<p>Intelligence is the spellcasting ability for arcane trickster/wizard spells</p>
+<p><strong>Spell save DC = </strong>8 + your proficiency bonus + your intelligence modifier</p>
+<p><strong>Spell attack modifier =</strong> your proficiency modifier + your intelligence modifier</p>
+**arcane trickster$3$mage hand legerdemain$<p>When you cast mage hand you can make the spectral hand invisible, and you can perform the following additional tasks with it:</p>
+<p><ul>
+<li>You can stow one object the hand is holding in a container worn or carried by another creature.</li>
+<li>You can retrieve an object in a container worn or carried by another creature.</li>
+<li>You can use thieves' tools to pick locks and disarm traps at range.</li>
+</ul></p>
+<p>You can perform one of these tasks without being noticed by a creature if you succeed on a dexterity ( sleight of hand ) check contested by the creature's wisdom ( perception ) check.</p>
+<p>In addition, you can use the bonus action granted by your Cunning Action to control the hand.</p>
+**arcane trickster$9$magical ambush$<p>If you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell this turn.</p>
+**arcane trickster$13$versatile trickster$<p>You have the ability to distract targets with your mage hand. bonus actino on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn. </p>
+**arcane trickster$17$spell thief$<p>You have the ability to magically steal the knowledge of how to cast a spell from another spellcaster.</p>
+<p>Immediately after a creature casts a spell that targets or includes you in its area of effect, you can use your reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your spell save DC. On a failed save, you negate the spell's effect against you and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast ( it doesn't need to be a wizard spell ). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can't cast that spell until the 8 hours have passed.</p>
+<p>Once you use this feature, you can't use it again until you finish a long rest.</p>
+**wildling sorcerer$1$wild magic surge$<p>Your spellcasting can unleash surges of untamed magic. Immediately after you cast a sorcerer spell of 1st-level or higher, the DM can have you roll a d20. If you roll a 1, roll on the Wild Magic Surge Table to create a random magical effect.</p>
+**wildling sorcerer$1$tides of chaos$<p>You can manipulate the forces of chance and chaos to gain advantage on one attack roll, ability check, or saving throw. Once you do so, you must finish a long rest before you can use this feature again.</p>
+<p>Any time before you regain the use of this feature, the DM can have you roll on the Wild MAgic Surge table immediately after you cast a sorcerer spell of 1st-level or higher. You then regain the use of this feature.</p>
+**wildling sorcerer$6$bend luck$When another creature you can see makes an attack roll, an ability check, or a saving throw, you can use your reaction and spend 2 sorcery points to roll 1d4 and apply the number rolled as a bonus or penalty ( your choice ) to the creature's roll. You can do so after the creature rolls but before any effects of the roll occur.</p>
+**wildling sorcerer$14$controlled chaos$Whenever you roll on the Wild Magic Surge table, you can roll twice and use either number.</p>
+**wildling sorcerer$18$spell bombardment$<p>The harmful energy of your spells intensifies. When you roll damage for a spell and roll the highest number possible on any of the dice choose one of those dice, roll it again and add that roll to the damage. You can use the feature only once per turn.</p>
+**draconic sorcerer$1$dragon ancestor$<p> You have one type of dragon ancestor which gives your associations with a certain damage type.</p>
+<h3>Dragon Ancestry</h3>
+<p><table>
+<th>
+<td>Dragon</td>
+<td>Damage Type</td>
+</th>
+<tr>
+<td>Black</td>
+<td>Acid</td>
+</tr>
+<tr>
+<td>Blue</td>
+<td>Lightning</td>
+</tr>
+<tr>
+<td>Brass</td>
+<td>Fire</td>
+</tr>
+<tr>
+<td>Bronze</td>
+<td>Lightning</td>
+</tr>
+<tr>
+<td>Copper</td>
+<td>Acid</td>
+</tr>
+<tr>
+<td>Gold</td>
+<td>Fire</td>
+</tr>
+<tr>
+<td>Green</td>
+<td>Poison</td>
+</tr>
+<tr>
+<td>Red</td>
+<td>Fire</td>
+</tr>
+<tr>
+<td>Silver</td>
+<td>Cold</td>
+</tr>
+<tr>
+<td>White</td>
+<td>Cold</td>
+</tr>
+</table></p>
+<p>You can speak, read, and write Draconic, Additionally, whenever you make a charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check.</p>
+**draconic sorcerer$1$draconic resilience$<p>You hit point maximum is increased by 1 and increases by 1 again whenever you gain a level in this class.</p>
+<p>Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren't wearing armor, your AC equals <strong>13 + your dexterity modifier.</strong></p>
+*draconic sorcerer$6$elemental affinity$<p>When you cast a spell that deals damage of the type associated with your draconic ancestry, add your charisma modifier to that damage. At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour.</p>
+**draconic sorcerer$14$dragon wings$<p>You can sprout a pair of dragon wings from your back, gaining a flying speed equal to your current speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn.</p>
+<p>You can't manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them.</p>
+**draconic sorcerer$18$draconic presence$<p>You can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or frightened. As an action you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear ( your choice ) to a distance of 60 feet. For 1 minute ( 10 rounds ) or until you lose your concentration ( as if you were casting a concentration spell ) , each hostile creature that starts its turn in this aura must succeed on a wisdom saving throw or be charmed ( if you chose awe ) or frightened ( if you chose fear ) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours.  </p>
+**great old ones$1$awakened mind$<p>You can communicate telepathically with any creature you can see within 30 feet of you. You don't need to share a language with the creature for it to understand your telepathic utterancs, but the creature must be able to understand at least one language.</p>
+**great old ones$6$entropic ward$<p>WHen a creature makes an attack roll against you, you can use your reactino to impose disadvantage on that roll. If the attack misses you, your next attack roll against the creature has advantage if you make it before the end of your next turn.  </p>
+<p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+**great old ones$10$thought shield$<p></p>Your thoughts can't be read by telepathy or other means unless you allow it. You also have resistance to psychic damage, and whenever a creature deals psychic damage to you, that creature takes the same amount of damage that you do.</p> 
+**great old ones$14$create thrall$<p>You can use your action to touch an incapacitated humanoid. That creature is then charmed by you until a remove curse spell is cast on it, the charmed condition is removed from it, or you use this feature again.</p>
+<p>You can communicate teepathically with the charmed creature as long as the two of you are on the same plane of existence.</p>
+**fiend$1$dark one's blessing$<p>When you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to <strong>your charisma + your warlock level ( minimum of 1 )</strong>.</p>
+**fiend$6$dark one's own luck$<p>When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll. You can do so after seeing the initial roll but before any of the roll's effects occur.</p>
+<p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+**fiend$10$fiendish resilience$<p>YOu can choose on damage type when you finish a short or long rest. you gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignore this feature.</p>
+**fiend$14$hurl through hell$<p> When you hit a creature with an attack, you can use this feature to instantly transport the target through the lower planes. The creautre disappears and hurtles through a nightmare landscape.</p>
+<p>At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a fiend, it takes 10d10 psychic damage as it reels from its horrific experience.</p>
+<p>Once you use this feature, you can't use it again until you finish a long rest.</p>
+**archfey$1$fey presence$<p>As an action, you can cause each creature in a 10-foot cube originating from you to make a wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all charmed or frightened by you ( your choice ) until the end of your next turn.</p>
+<p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+**archfey$6$misty escape$<p>You can vanish in a puff of mist in response to harm. When you take damage, you can use your reaction to turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack or cast a spell. </p>
+<p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+**archfey$10$beguiling defenses$<p>You patron teaches you how to turn the mind-affecting magic of your enemies against them. You are immune to being charmed, and when another creature attempts to charm you, you can use your reaction to attempt to turn the charm back on that creature.the creature must succeed on a wisdom saving throw against your warlock spell save DC or be charmed by you for 1 minute ( 10 rounds ) or until the creature takes any damage</p>
+**archfey$14$dark delirium$<p>You can plunge a creature into an illusory realm. As an action, choose a creature that you can see within 60 feet of you. It must make a wisdom saving throw against your warlock spell save DC. n a failed save, it is charmed or frightened by you ( your choice ) for 1 minute ( 10 rounds ) or until your concentration os broken ( as if you are concentrating on a spell ). This effect ends early if the creature takes any damage. </p>
+<p>Until this illusion ends, the creature thinks it is lost in a misty realm, the appearance f which you choose. The creature can see and hear only itself, you, and the illusion.</p>
+<p>You must finish a short or long rest before you can use this feature again.</p>
+**abjurer$2$abjuration savant$<p></p>
+**abjurer$2$arcane ward$<p></p>
+**abjurer$6$projected ward$
 **abjurer$10$improved abjuration$
 **abjurer$14$spell resistance$
 **conjurer$2$conjuration savant$
