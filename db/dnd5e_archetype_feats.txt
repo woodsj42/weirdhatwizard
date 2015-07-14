@@ -415,41 +415,94 @@ berserker$3$frenzy$<p>You can choose to go into a frenzy when you rage. If you d
 <p>You must finish a short or long rest before you can use this feature again.</p>
 **abjurer$2$abjuration savant$<p>the gold and time you must spend to copy and abjuration spell into your spellbook is halved.</p>
 **abjurer$2$arcane ward$<p>You can weave margic around yourself for protection. When you cast an abjuration spell of 1st-level or higher, you can simultaneously use a strand of the spell's magic to create a magical ward on yourself that lasts until you finish a long rest. The ward on yourself that lasts until you finish a long rest. The ward has hit points equal to <strong>twice your wizard level + your intelligence modifier</strong>. Whenever you take damage, the ward takes the damage instead. If this damage reduces the ward to 0 hit points, you take any remaining damage. While the ward has 0 hit points, it can't absorb damage, but its magic remains. Whenever you cast an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell. Once your create the ward, you can't create it again until you finish a long rest.</p>
-**abjurer$6$projected ward$
-**abjurer$10$improved abjuration$
-**abjurer$14$spell resistance$
-**conjurer$2$conjuration savant$
-**conjurer$2minor conjuration$
-**conjurer$6$benign transposition$
-**conjurer$10$focused conjuration$
-**conjurer$14$durable summons$
-**diviner$2$divination savant$
-**diviner$2$portent$
-**diviner$6$expert divination$
-**diviner$10$the third eye$
-**diviner$14$greater portent$
-**enchanter$2$enchantment savant$
-**enchanter$2$hypnotic gaze$
-**enchanter$6$instinctive charm$
-**enchanter$10$split enchantment$
-**enchanter$14$alter memories$
-**evoker$2$evocation savant$
+**abjurer$6$projected ward$<p>When a creature that you can see within 30 feet of you takes damage, you can use your reaction to cause your Arcane Ward to absorb that damage. If this damage reduces the ward to 0 hit points, the warded creature takes any remaining damage.</p>
+**abjurer$10$improved abjuration$<p>When you cast an abjuration spell that requires you to make an aility check as a part of casting that spell ( as in counterspell and dispel magic ), you add your proficiency bonus to that ability check.</p>
+**abjurer$14$spell resistance$<p>You have advantage on saving throws against spells.</p>
+<p>Furthermore, you have resistance against the damage of spells.</p>
+**conjurer$2$conjuration savant$<p>The gold and time you must spend to copy a conjuration spell into your spellbook is halved.</p>
+**conjurer$2minor conjuration$<p>You can use your action to conjure up an inanimate object in your hand or on the ground in an unoccupied space that you can see within 10 feet of you.  This object can be no larger than 3 feet on a side and weigh no more than 10 pounds, and its form must be that of a nonmagical object that you have seen. The object is visibly magical, radiating dim light out to 5 feet.</p>
+<p>The object disappears after 1 hour, when you use this feature again, or if it takes any damage.</p>
+**conjurer$6$benign transposition$<p>You can use your action to teleport up to 30 feet to an unoccupied space that you can see. Alternatively, you can choose a space within range that is occupied by a small or medium creature. If that creature is willing, you both teleport, swapping places.</p>
+<p>Once you use this feature, you can't use it again until you finish a long rest or you cast a conjuration spell of 1st-level or higher.</p>
+**conjurer$10$focused conjuration$<p>While you are concentrating on a conjuration spell, your concentration can't be broken as a result of taking damage.</p>
+**conjurer$14$durable summons$<p>Any creature that you summo or create with a conjuration spell has 30 temporary hit points.</p>
+**diviner$2$divination savant$<p>The gold and time you must spend to copy a divination spell into your spellbook is halved.</p>
+**diviner$2$portent$<p>When you finish a long rest, roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.</p>
+<p>Each foretelling roll can be used only once. WHen you finish a long rest, you lose any unused foretelling rolls.</p>
+**diviner$6$expert divination$<p>Casting divination spells comes so easily to you that it expends only a fraction of your spellcasting efforts. When you cast a divination spell of 2nd-level or higher using a spell slot, you regain one expended spell slot. THe slot you regain must be of a level lower than the spell you cast and it can't be higher than 5th-level.</p>
+**diviner$10$the third eye$<p>You can use your action to increase your powers of perception. When you do so choose one of the following benefits, which lasts until you are incapacitated or you tae a short or long rest. You can't use the feature again until you finish a rest.</p>
+<p><strong>Darkvision.</strong> You gain darkvision out to a range of 60 feet.</p>
+<p><strong>Ethereal Sight.</strong> You can see into the Ethereal Plane within 60 feet of you.</p>
+<p><strong>Greater Comprehension.</strong> You can read any language.</p>
+<p><strong>See Invisibility.</strong> You can see invisible creatures and objects within 10 feet of you that are within line of sight.</p>
+**diviner$14$portent$<p>When you finish a long rest, roll three d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.</p>
+<p>Each foretelling roll can be used only once. WHen you finish a long rest, you lose any unused foretelling rolls.</p>
+**enchanter$2$enchantment savant$<p>The gold and time you must spend to copy an enchantment spell into your spellbook is halved.</p>
+**enchanter$2$hypnotic gaze$<p>As an action, choose one creature that you can see within 5 feet of you. If the target can see or hear you, it must succeed on a wisdom saving throw against your wizard spell save DC or be charmed by you until the end of your next turn. The charmed creature;s speed drops to 0, and the creature is incapacitated and visibly dazed.</p>
+<p>On subsequent turns, you can use your action to maintain this effect, extending its duration until the end of your next turn. However the effect ends if you move more than 5 feet away from the creature, if the creature can neither see nor hear you, or if the creature takes damage.</p>
+<p>Once the effect ends, or if the creature succeeds on its initial saving throw against this effect, you can't use this feature on that creature again until you finish a long rest.</p>
+**enchanter$6$instinctive charm$<p>When a creature you can see within 30 feet of you makes an attack roll against you, you can use your reaction to divert the attack provided that another creature is within the attack's range. The attacker must make a wisdom saving throw against your wizard spell save DC. On a failed save, the attacker must target the creature that that is closest to it, not including you or itself. If multiple creatures are closest, the attacker hoose which one to target. On a successful save, you can't use this feature on the attacker again until you finish a long rest.</p>
+**enchanter$10$split enchantment$<p> When you cast an enchantment spell of 1st-level or higher that targets only one creature you can have it target a second creature.</p>
+**enchanter$14$alter memories$<p>You have the ability to make a creature unaware of your magical influence on it. When you cast an enchantment spell to charm on or more creatures, you can alter one creature's understanding so that it remains unaware of being charmed.</p>
+<p>Additionally, once before the spell expires, you can use your action to try to make the chosen creature forget some of the time it spend charmed. The creature must succeed on an intelligence saving throw agains your wizard spell save DC or lose a number of hours equal to <strong>1 + your charisma modifier</strong> ( minimum 1 ). You can make the creature forget less time and the amount of time can't exceed the duration of your enchantment spell.</p>
+**evoker$2$evocation savant$<p>the gold and time you must spend to copy an evocation spell into your spellbook is halved.</p>
 **evoker$2$sculpt spells$
+<p> You can create pockets of relative safety within the effects of your evocation spells. When you cast an evocation spel that affects other creatures that you can see, you can choose a number of them equal to <strong>1 + the spell's level</strong>. The chosen creature's automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.</p>
 **evoker$6$potent cantrip$
+<p>You damaging cantrips affect even creatures that avoid the brunt of the effect. When a creature succeeds on a saving throw against yout cantrip, the creature takes half the cantrip's damage ( if any ) but suffers no additionaly effect from the cantrip.</p>
 **evoker$10$empowered evocation$
+<p> You can add your intelligence modifier to the damage roll of any wizard evocation spell you cast.</p>
 **evoker$14$overchannel$
+<p> You can increase the power of simpler spells. When you cast a wizard spell of 5th-level or lower that deals damage, you can deal maximum damage with that spell.</p>
+<p> The first time you do so. you suffer no adverse effect. If you use this feature again before you finish a long rest, you take 2d12 necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finish a long rest, the necrotic damage per spell level increases by 1d12 This damage ignores resistance and immunity.</p>
 **illusionist$2$illusion savant$
+<p> The gold and time you must spend to copy an illusion spell into your spellbook is halved.</p>
 **illusionist$2$improved minor illusion$
+<p>You know the minor illusion cantrip. If you already know this cantrip, you learn a different wizard cantrip of your choice. The cantrip doesn't count against your number of cantrips known.</p>
+<p>When you cast minor illusion, you can create both a sound and an image with a single casting of the spell.</p>
 **illusionist$6$malleable illusions$
+<p>When you cast an illusion spell that has a duration of 1 minute ( 10 rounds ) or longer, you can use your action to change the nature of that illusion ( using the spell's normal parameters for the illusion ), provided that you can see the illusion.</p>
 **illusionist$10$illusory self$
+<p>You can create an illusory duplicate of yourself as an instant, almost instinctual reaction to danger. When a creature makes an attack roll against you, you can use your reaction to interpose the illusory duplicate between the attacker and yourself. The attack automatically misses you, then the illusion dissipates.</p>
+<p>Once you use this feature, you can't use it again until you finish a short of long rest.</p>
 **illusionist$14$illusory reality$
+<p>When you cast an illusion spell of 1st-level or higher, you can choose one inanimate, nonmagical object that is part of the illusion and make that object real. You can do this on your turn as a bonus action while the spell is ongoing. The object remains real for 1 minute ( 10 rounds ).</p>
+<p>The object can't deal damage or otherwise directly harm anyone.</p>
 **necromancer$2$necromancy savant$
+<p> The gold and time you must spend to copy a necromancy spell into your spellbook is halved.</p>
 **necromancer$2$grim harvest$
+<p>Once per turn when you kill one or more creatures with a spell of 1st-level or higher, you regain hit points equal to twice the spell's level, or three times its level if the spell belongs to the School of Necromancy. You don't gain this benefit for killing constructs or undead.</p>
 **necromancer$6$undead thralls$
+<p>You add the animate dead spell to your spellbook if it is not there already. When you cast animate dead, you can target one additional corpse or pile of bones, creating another zombie or skeleton, as appropriate.</p>
+<p>Whenever you create an undead using a necromancy spell, it has additionaly benefits:</p>
+<p><ul>
+<li>The creature's hit point maximum is increased by an amount equal to your wizard level.</li>
+<li>The creature adds your proficiency bonus to its weapon damage rolls.</li>
+</ul></p>
 **necromancer$10$inured to undeath$
-**necromancer$14$command unead$
+<p>You have resistance to necrotic damage, and your hit point maximum can't be reduced. You have spent so much time dealing with undead and the forces that animate them that you have become inured to some of their worst effects.</p>
+**necromancer$14$command undead$
+<p>You can use magic to bring undead under your control, even those created by other wizards As an action, you can choose one undead that you can see within 60 feet of you. That creature must make a charisma saving throw against your wizard spell save DC. If it succeeds, you can't use this feature on it again. If it fails, it becomes friendly to your and obeys your commands until ou use this feature again.</p>
+<p>Intelligent undead are harder to control in this way. If the target has an intelligence of 8 or higher, it has advantage on the saving throw. If it fails the saving throw and has an intelligence of 12 or higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free.</p>
 **transmuter$2$transmutation savant$
+<p>The gold and time you must spend to copy a transmutation spell into your spellbook is halved.</p>
 **transmuter$2$minor alchemy$
+<p>You can temporarily alter the physical properties of one nonmagical object, changing it from one substance to into another. You perform a special alchemical procedure on one obbject composed entirely of wood, stone ( but not a gemstone ), iron, copper, or silver, transforming it into a different one of those materials. For each 10 minutes you spend performing the procedure, you can transform up to 1 cubic foot of material. After 1 hour ( 600 rounds ), or until you lose your concentration ( as if you were concentrating on a spell). The material reverts to its original substance.</p>
 **transmuter$6$transmuter's stone$
-**transmuter$10$shapechanger$
+<p>You can spend 8 hours creating a transmuter's stone that stores transmutation magic. You can benefit from the stone yourself or give it to another creature. A creature gains a benefit of your choice as long as the stone is in the creature's possession. When you create the stone, choose the benefit from the following options:</p>
+<p><ul>
+<li>Darkvision out to a range of 60 feet.</li>
+<li>An increase to speed of 10 feet while the creature is unencumbered.</li>
+<li>Proficiency on consitution saving throws.</li>
+<li>Resistance to acid, cold, fire, lightning, or thunder damage ( your choice whenever you choose this benefit ) </li>
+</ul></p>
+<p>Each time you cast a transmutation spell of 1st-level or higher you can change the effect of your stone if the stone is on your person.</p>
+<p>If you create a new transmuter's stone, the previous one ceases to function.</p>
+**transmuter$10$shapechanger$<p>You add the polymorph spell of to your spellbook, if it is not there already. You can cast polymorph without expending a spell slot. When you do so, you can target only yourself and transform into a beast whose challenge rating is 1 or lower.</p>
+<p>Once you cast polymorph in this way, you can't do so again until you finish a short or long rest, though you can still cast it normally using an available spell slot.</p>
 **transmuter$14$master transmuter$
+<p>You can use your action to consume the reserve of transmutation magic stored within yuor transmuter's stone in a single burst. When you do so, choose one of the following effects. You transmuter's stone is destroyed and can't be remade until you finish a long rest. </p>
+<p><strong>Major Transformation.</strong> You can transmute one nonmagical object - no larger than a 5-foot cube - into another nonmagical object of similar size and mass and of equal or lesser value. You must spend 10 minutes handling the object to transform it.</p>
+<p><strong>Panacea.</strong> You remove all curses, diseases, and poisons affecting a creature that you touch with the transmuter's stone. The creature also regains all its hit points</p>
+<p><strong>Restore Life.</strong> You cast the raise dead spell on a creature you touch with the transmuter's stone, without expending a spell slot or needing to have the spell in your spellbook.</p>
+<p><strong>Restore Youth.</strong> You touch the transmuter's stone to a willing creature, and that creature's apparent age is reduced by 3d10 years, to a minumum of 13 years. this effect doesn't extend the creature's lifespan.</p>
