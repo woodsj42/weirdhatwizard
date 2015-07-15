@@ -49,7 +49,7 @@ Dissonant Whispers$saving throw,offense,range
 Divine Favor$offense,melee,damage
 Ensnaring Strike$offense,range,melee,damage,control
 Entangle$area of effect,control
-Expeditious Retreat$mobility
+Expeditious Retreat$mobility,quick
 Faerie Fire$range,control
 False Life$healing
 Feather Fall$utility
@@ -394,3 +394,46 @@ Shape the Flowing River$utility,range
 Sweeping Cinder Strike$melee,offense,damage
 Water Whip$range,offense,damage
 Wave of Rolling Earth$offense,range,damage
+Control Flames$utility,range
+Create Bonfire$damage,range,saving throw,offense
+Frostbite$range,damage,saving throw,offense
+Gust$range,control
+Magic Stone$damage,range,offense
+Mold Earth$range,utility
+Shape Water$range,utility
+Thunderclap$area of effect,damage,saving throw
+Absorb Elements$quick,defense,damage
+Beast Bond$melee,utility
+Catapult$damage,range,offense
+Earth Tremor$control,saving throw,area of effect,damage
+Ice Knife$area of effect,range,damage,offense
+Aganazzar's Scorcher$range,damage,saving throw,offense
+Dust Devil$range,summons,saving throw,offense
+Earthbind$control,range
+Maximilian's Earthen Grasp$summons,damage,saving throw
+Pyrotechnics$saving throw,range,control
+Skywrite$utility,range
+Snilloc's Snowball Swarm$area of effect,range,damage
+Warding Wind$area of effect,defense
+Erupting Earth$damage,saving throw,offense,range
+Flame Arrows$damage,range,offense
+Melf's Minute Meteors$range,area of effect,damage,offense
+Tidal Wave$saving throw,area of effect,control,damage,offense
+Wall of Sand$defense,control,damage,range
+Wall of Water$defense,control,defense,range
+Elemental Bane$range,saving throw,offense,damage
+Storm Sphere$summons,range,damage,saving throw,area of effect
+Vitriolic Sphere$range,area of effect,damage,offense
+Watery Sphere$range,control,area of effect,summons
+Control Winds$control,area of effect,range
+Immolation$range,saving throw,damage,offense
+Maelstrom$range,saving throw,offense,damage
+Transmute Rock$control,area of effect,range
+Bones of the Earth$utility,saving throw,control,damage
+Investiture of Flame$damage,utility,offense,damage
+Investiture of Ice$damage,utility,offense,damage
+Investiture of Stone$damage,utility,offense,damage
+Investiture of Wind$damage,utility,offense,damage
+Primordial Ward$defense
+Whirlwind$control,range,damage
+Abi-Dalzim's Horrid Wilting$area of effect,damage,offense,saving throw

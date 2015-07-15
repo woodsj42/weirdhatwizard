@@ -27,9 +27,9 @@
 	<div id="classes">
         	<% @classes.each do |classs| %>
                 	<% if classs.id == @class %>
-                        	<%= link_to classs.name, { :controller => "dnd5e_classes", :action => "index", :class => classs.id, :level => @level }, {:style => "color: gray;" }%>
+                        	<%= link_to classs.name, { :controller => "dnd5e_classes", :action => "index", :class => classs.id, :level => @level, :attr => @attr }, {:style => "color: gray;" }%>
                 	<% else %>
-                        	<%= link_to classs.name, { :controller => "dnd5e_classes", :action => "index",  :class => classs.id, :level => @level }, {:style => "color: black;" } %>
+                        	<%= link_to classs.name, { :controller => "dnd5e_classes", :action => "index",  :class => classs.id, :level => @level, :attr => @attr }, {:style => "color: black;" } %>
                 	<% end %>
         	<% end %>       
 	</div>
@@ -49,21 +49,50 @@
         	<% end %>       
 	</div>
 	<label>_______________________________</label>	
-	<div id="index">
-	
-			
-		<% @d_attr.each do |a| %>
-        	<label><%=a.name%>:</label><%= a.value %>	
-		<br><br>
-		<% end %>       
-		
-		<% @n_attr.each do |a| %>
-        	<label><%=a.name%>:</label><%= a.value %>	
-		<br><br>
-		<% end %>       
+</div>
+<div id="bottom">
+        <div id="list-wrapper">
+		<div id="index">
+			<% if @c_d_attr %>	
+				<h2>Stats</h2>	
+			<%end%>	
+			<% @c_d_attr.each do |a| %>
+               	 		<%= link_to a.name + ":" , { :controller => "dnd5e_classes", :action => "index", :class => @class, :archetype => @archetype, :level => @level, :c_attr => a.id } %>
+				<strong><%=a.value%></strong><br>
+			<% end %>       
+			<% @a_d_attr.each do |a| %>
+               	 		<%= link_to a.name + ":" , { :controller => "dnd5e_classes", :action => "index", :class => @class, :archetype => @archetype, :level => @level, :a_attr => a.id } %>
+				<strong><%=a.value%></strong><br>
+			<% end %>       
+
+			<% if @c_n_attr %>	
+				<h2>Feats</h2>		
+			<% end %>       
+			<% @c_n_attr.each do |a| %>
+                		<%= link_to a.name, { :controller => "dnd5e_classes", :action => "index", :class => @class, :archetype => @archetype, :level => @level, :c_attr => a.id } %>
+				<br>
+			<% end %>       
+			<% @a_n_attr.each do |a| %>
+                		<%= link_to a.name, { :controller => "dnd5e_classes", :action => "index", :class => @class, :archetype => @archetype, :level => @level, :a_attr => a.id } %>
+				<br>
+			<% end %>       
 
 
+		</div>
 	</div>
 
-
+	<div id="show">
+		<% if @c_attr %>
+			<% temp = Dnd5eClassAttribute.find(@c_attr) %>
+			<h1><%=temp.name%></h1>
+			<%= temp.description.html_safe %>
+		<% end %>		
+		<% if @a_attr %>
+			<% temp = Dnd5eArchetypeAttribute.find(@a_attr) %>
+			<h1><%=temp.name%></h1>
+			<%= temp.description.html_safe %>
+		<% end %>		
+	</div>
 </div>
+
+
