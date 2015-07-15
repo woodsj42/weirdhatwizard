@@ -53,7 +53,7 @@
 <div id="bottom">
         <div id="list-wrapper">
 		<div id="index">
-			<% if @c_d_attr %>	
+			<% if !@c_d_attr.empty? %>	
 				<h2>Stats</h2>	
 			<%end%>	
 			<% @c_d_attr.each do |a| %>
@@ -65,7 +65,7 @@
 				<strong><%=a.value%></strong><br>
 			<% end %>       
 
-			<% if @c_n_attr %>	
+			<% if !@c_n_attr.empty? %>	
 				<h2>Feats</h2>		
 			<% end %>       
 			<% @c_n_attr.each do |a| %>
