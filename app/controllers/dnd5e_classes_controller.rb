@@ -6,10 +6,11 @@ class Dnd5eClassesController < ApplicationController
 	@level = nil 
 	@a_attr = nil 
 	@c_attr = nil 
-	
+
 	if params[:level].to_i > 0 and params[:level].to_i < 21
         	@level = params[:level].to_i
         end
+	
 
 	if Dnd5eClassAttribute.exists?(params[:c_attr].to_i)
                         @c_attr = params[:c_attr].to_i
@@ -39,23 +40,21 @@ class Dnd5eClassesController < ApplicationController
 	@a_n_attr = []
 	@c_d_attr = []
 	@c_n_attr = []
+		if @level and @archetype
+			Dnd5eArchetypeAttribute.get_attributes(@archetype,@level).map {|m| if m[1].value == '*'
+											       		@a_n_attr << m
+											       else
+												  	@a_d_attr << m
+											       end}
+		end
 	
-	if @level and @archetype
-		Dnd5eArchetypeAttribute.get_all_attributes(@archetype,@level).map {|m| if m.value == '*'
-										       		@a_n_attr << m
-										       else
-											  	@a_d_attr << m
-										       end}
-	end
-	
-	if @level and @class
-		Dnd5eClassAttribute.get_all_attributes(@class,@level).map {|m| if m.value == '*'
-									    	@c_n_attr << m
-								            else
-								            	@c_d_attr << m
-								            end} 
-	end
-
+		if @level and @class
+			Dnd5eClassAttribute.get_attributes(@class,@level).map {|m| if m[1].value == '*'
+										    	@c_n_attr << m
+									            else
+									            	@c_d_attr << m
+									            end} 
+		end
 
   end
 end

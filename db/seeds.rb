@@ -275,176 +275,407 @@ end
 
 File.open(dnd5e + class_attr_file) do |f2|
 	probono = "<p></p>"
-	rages_per_day = "<p></p>"
-	rage_damage = "<p></p>"
-	cantrips_known = "<p></p>"
-	num_spells_known = "<p></p>"
-	level1 = "<p></p>"
-	level2 = "<p></p>"
-	level3 = "<p></p>"
-	level4 = "<p></p>"
-	level5 = "<p></p>"
-	level6 = "<p></p>"
-	level7 = "<p></p>"
-	level8 = "<p></p>"
-	level9 = "<p></p>"
-	martial_arts = "<p></p>"
-	unarmored_movement = "<p></p>"
-	ki_points = "<p></p>"
-	sneak_attack_damage = "<p></p>"
-	sorcery_points = "<p></p>"
-	num_invocations = "<p></p>"
-	spell_slots = "<p></p>"
-	slot_level = "<p></p>"
-	superiority_die = "<p></p>"
-	num_superiority_dice = "<p></p>"
-	num_known_maneuvers = "<p></p>"
-	num_disciplines = "<p></p>"
-	max_ki_points = "<p></p>"
+	rages_per_day = "<p> This is the Number of times you can rage in between long rests.</p>"
+	rage_damage = "<p> The amount of damage you can do while ragins and using melee strength attacks.</p>"
+	cantrips_known = "<p>The Number of cantrips that you know and can cast.</p>"
+	num_spells_known = "<p>The Number of spells 1st-level and higher that you know.</p>"
+	level1 = "<p>The Number of 1st-level spell slots that you have and can use to cast that level of spell</p>"
+	level2 = "<p>The Number of 2nd-level spell slots that you have and can use to cast that level of spell</p>"
+	level3 = "<p>The Number of 3rd-level spell slots that you have and can use to cast that level of spell</p>"
+	level4 = "<p>The Number of 4th-level spell slots that you have and can use to cast that level of spell</p>"
+	level5 = "<p>The Number of 5th-level spell slots that you have and can use to cast that level of spell</p>"
+	level6 = "<p>The Number of 6th-level spell slots that you have and can use to cast that level of spell</p>"
+	level7 = "<p>The Number of 7th-level spell slots that you have and can use to cast that level of spell</p>"
+	level8 = "<p>The Number of 8th-level spell slots that you have and can use to cast that level of spell</p>"
+	level9 = "<p>The Number of 9th-level spell slots that you have and can use to cast that level of spell</p>"
+	martial_arts = "<p>The damage die for any monk weapons you use or if you use unarmed strikes.</p>"
+	unarmored_movement = "<p>The additional amount of movement granted if you are wearing no armor at all.</p>"
+	ki_points = "<p>The maximum Number of ki points you can have.</p>"
+	sneak_attack_damage = "<p>The damage dice that you add to you damage when you trigger a sneak attack</p>"
+	sorcery_points = "<p>The maximum Number of sorcery points that you can have at one time.</p>"
+	num_invocations = "<p>The maximum Number of Eldritch invocations that you can know</p>"
+	spell_slots = "<p>The Number of spells that you can cast in between long rests. This only includes spells that expend spell slots.</p>"
+	slot_level = "<p>The highest level spell you can cast.</p>"
+	superiority_die = "<p>The die you use with you maneuvers. </p>"
+	num_superiority_dice = "<p>The Number of maneuvers that you can use in between long rests.</p>"
+	num_known_maneuvers = "<p> The Number of maneuvers that you know.</p>"
+	num_disciplines = "<p>The Number of disciplines that you know.</p>"
+	max_ki_points = "<p>The maximum Number of ki points you can use to increase the spell level if the disciplines you cast.</p>"
+	asi = "<p>This is the Number of times that you can do one of the following</p>
+	       <p><ul>
+               <li>Increase one ability score of your choice by 2.</li>
+               <li>Increase two ability scores of your choice by 1.</li>
+               <li>choose a feat from the feats list.</li>
+               </ul></p>
+	       <p>As normal you can't increase an ability score above 20 using this feature.</p>"
 
 	while line = f2.gets
 		arr = line.split('$')
 		arr[0]=  arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 		if arr[0] == "Barbarian" && Dnd5eClass.exists?( :name => arr[0] )
 			temp_class = Dnd5eClass.where(name: arr[0] ).take
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'proficiency bonus', value: arr[2], level: arr[1], description: probono )
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'rages per day',value: arr[4], level: arr[1],  description: rages_per_day )
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'rage damage',value: arr[5], level: arr[1], description: rage_damage )
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Proficiency Bonus', value: arr[2], level: arr[1], description: probono )
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Rages Per Day',value: arr[4], level: arr[1],  description: rages_per_day )
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Rage Damage',value: arr[5], level: arr[1], description: rage_damage )
+			case arr[1].to_i
+				when 1..3
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "-", level: arr[1], description: asi )
+				when 4..7
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "1", level: arr[1], description: asi )
+				when 8..11
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "2", level: arr[1], description: asi )
+				when 12..15
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "3", level: arr[1], description: asi )
+				when 16..18
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "4", level: arr[1], description: asi )
+				when 19..20
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "5", level: arr[1], description: asi )
+			end 
 		elsif arr[0] == "Bard" && Dnd5eClass.exists?( :name => arr[0] )
 			temp_class = Dnd5eClass.where(name: arr[0]).take
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'proficiency bonus', value: arr[2], level: arr[1], description: probono)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'cantrips known',value: arr[4], level: arr[1], description: cantrips_known)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'number spells known',value: arr[5], level: arr[1], description: num_spells_known)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '1st level spells',value: arr[6], level: arr[1], description: level1)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '2nd level spells',value: arr[7], level: arr[1], description: level2)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '3rd level spells',value: arr[8], level: arr[1], description: level3)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '4th level spells',value: arr[9], level: arr[1], description: level4)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '5th level spells',value: arr[10], level: arr[1], description: level5)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '6th level spells',value: arr[11], level: arr[1], description: level6)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '7th level spells',value: arr[12], level: arr[1], description: level7)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '8th level spells',value: arr[13], level: arr[1], description: level8)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '9th level spells',value: arr[14], level: arr[1], description: level9)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Proficiency Bonus', value: arr[2], level: arr[1], description: probono)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Cantrips Known',value: arr[4], level: arr[1], description: cantrips_known)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Number of Spells Known',value: arr[5], level: arr[1], description: num_spells_known)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '1st Level Spells',value: arr[6], level: arr[1], description: level1)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '2nd Level Spells',value: arr[7], level: arr[1], description: level2)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '3rd Level Spells',value: arr[8], level: arr[1], description: level3)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '4th Level Spells',value: arr[9], level: arr[1], description: level4)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '5th Level Spells',value: arr[10], level: arr[1], description: level5)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '6th Level Spells',value: arr[11], level: arr[1], description: level6)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '7th Level Spells',value: arr[12], level: arr[1], description: level7)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '8th Level Spells',value: arr[13], level: arr[1], description: level8)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '9th Level Spells',value: arr[14], level: arr[1], description: level9)
+			case arr[1].to_i
+				when 1..3
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "-", level: arr[1], description: asi )
+				when 4..7
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "1", level: arr[1], description: asi )
+				when 8..11
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "2", level: arr[1], description: asi )
+				when 12..15
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "3", level: arr[1], description: asi )
+				when 16..18
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "4", level: arr[1], description: asi )
+				when 19..20
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "5", level: arr[1], description: asi )
+			end 
 		elsif arr[0] == "Cleric" && Dnd5eClass.exists?( :name => arr[0] )
 			temp_class = Dnd5eClass.where(name: arr[0] ).take
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'proficiency bonus', value:arr[2], level: arr[1], description: probono)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'cantrips known',value: arr[4], level: arr[1], description: cantrips_known)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '1st level spells',value: arr[5], level: arr[1], description: level1)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '2nd level spells',value: arr[6], level: arr[1], description: level2)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '3rd level spells',value: arr[7], level: arr[1], description: level3)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '4th level spells',value: arr[8], level: arr[1], description: level4)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '5th level spells',value: arr[9], level: arr[1], description: level5)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '6th level spells',value: arr[10], level: arr[1], description: level6)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '7th level spells',value: arr[11], level: arr[1], description: level7)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '8th level spells',value: arr[12], level: arr[1], description: level8)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '9th level spells',value: arr[13], level: arr[1], description: level9)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Proficiency Bonus', value:arr[2], level: arr[1], description: probono)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Cantrips Known',value: arr[4], level: arr[1], description: cantrips_known)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '1st Level Spells',value: arr[5], level: arr[1], description: level1)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '2nd Level Spells',value: arr[6], level: arr[1], description: level2)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '3rd Level Spells',value: arr[7], level: arr[1], description: level3)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '4th Level Spells',value: arr[8], level: arr[1], description: level4)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '5th Level Spells',value: arr[9], level: arr[1], description: level5)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '6th Level Spells',value: arr[10], level: arr[1], description: level6)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '7th Level Spells',value: arr[11], level: arr[1], description: level7)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '8th Level Spells',value: arr[12], level: arr[1], description: level8)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '9th Level Spells',value: arr[13], level: arr[1], description: level9)
+			case arr[1].to_i
+				when 1..3
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "-", level: arr[1], description: asi )
+				when 4..7
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "1", level: arr[1], description: asi )
+				when 8..11
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "2", level: arr[1], description: asi )
+				when 12..15
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "3", level: arr[1], description: asi )
+				when 16..18
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "4", level: arr[1], description: asi )
+				when 19..20
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "5", level: arr[1], description: asi )
+			end 
 		elsif arr[0] == "Druid" && Dnd5eClass.exists?( :name => arr[0] )
 			temp_class = Dnd5eClass.where(name: arr[0] ).take
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'proficiency bonus',value: arr[2], level: arr[1], description: probono)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'cantrips known',value: arr[4], level: arr[1], description: cantrips_known)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '1st level spells',value: arr[5], level: arr[1], description: level1)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '2nd level spells',value: arr[6], level: arr[1], description: level2)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '3rd level spells',value: arr[7], level: arr[1], description: level3)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '4th level spells',value: arr[8], level: arr[1], description: level4)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '5th level spells',value: arr[9], level: arr[1], description: level5)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '6th level spells',value: arr[10], level: arr[1], description: level6)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '7th level spells',value: arr[11], level: arr[1], description: level7)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '8th level spells',value: arr[12], level: arr[1], description: level8)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '9th level spells',value: arr[13], level: arr[1], description: level9)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Proficiency Bonus',value: arr[2], level: arr[1], description: probono)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Cantrips Known',value: arr[4], level: arr[1], description: cantrips_known)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '1st Level Spells',value: arr[5], level: arr[1], description: level1)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '2nd Level Spells',value: arr[6], level: arr[1], description: level2)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '3rd Level Spells',value: arr[7], level: arr[1], description: level3)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '4th Level Spells',value: arr[8], level: arr[1], description: level4)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '5th Level Spells',value: arr[9], level: arr[1], description: level5)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '6th Level Spells',value: arr[10], level: arr[1], description: level6)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '7th Level Spells',value: arr[11], level: arr[1], description: level7)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '8th Level Spells',value: arr[12], level: arr[1], description: level8)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '9th Level Spells',value: arr[13], level: arr[1], description: level9)
+			case arr[1].to_i
+				when 1..3
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "-", level: arr[1], description: asi )
+				when 4..7
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "1", level: arr[1], description: asi )
+				when 8..11
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "2", level: arr[1], description: asi )
+				when 12..15
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "3", level: arr[1], description: asi )
+				when 16..18
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "4", level: arr[1], description: asi )
+				when 19..20
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "5", level: arr[1], description: asi )
+			end 
 		elsif arr[0] == "Fighter" && Dnd5eClass.exists?( :name => arr[0] )
 			temp_class = Dnd5eClass.where(name: arr[0]).take
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'proficiency bonus',value: arr[2], level: arr[1], description: probono)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Proficiency Bonus',value: arr[2], level: arr[1], description: probono)
+			case arr[1].to_i
+				when 1..3
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "-", level: arr[1], description: asi )
+				when 4..7
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "1", level: arr[1], description: asi )
+				when 8..11
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "2", level: arr[1], description: asi )
+				when 12..15
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "3", level: arr[1], description: asi )
+				when 16..18
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "4", level: arr[1], description: asi )
+				when 19..20
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "5", level: arr[1], description: asi )
+			end 
 		elsif arr[0] == "Eldritch Knight" && Dnd5eArchetype.exists?( :name => arr[0] )
 			temp_archetype = Dnd5eArchetype.where(name: arr[0] ).take
-			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'proficiency bonus', value: arr[2], level: arr[1], description: probono)
-			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'cantrips known',value: arr[4], level: arr[1], description: cantrips_known)
-			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'number spells known',value: arr[5], level: arr[1], description: num_spells_known)
-			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: '1st level spells',value: arr[6], level: arr[1], description: level1)
-			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: '2nd level spells',value: arr[7], level: arr[1], description: level2)
-			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: '3rd level spells',value: arr[8], level: arr[1], description: level3)
-			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: '4th level spells',value: arr[9], level: arr[1], description: level4)
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'Proficiency Bonus', value: arr[2], level: arr[1], description: probono)
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'Cantrips Known',value: arr[4], level: arr[1], description: cantrips_known)
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'Number of Spells Known',value: arr[5], level: arr[1], description: num_spells_known)
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: '1st Level Spells',value: arr[6], level: arr[1], description: level1)
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: '2nd Level Spells',value: arr[7], level: arr[1], description: level2)
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: '3rd Level Spells',value: arr[8], level: arr[1], description: level3)
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: '4th Level Spells',value: arr[9], level: arr[1], description: level4)
+			case arr[1].to_i
+				when 1..3
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "-", level: arr[1], description: asi )
+				when 4..7
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "1", level: arr[1], description: asi )
+				when 8..11
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "2", level: arr[1], description: asi )
+				when 12..15
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "3", level: arr[1], description: asi )
+				when 16..18
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "4", level: arr[1], description: asi )
+				when 19..20
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "5", level: arr[1], description: asi )
+			end 
 		elsif arr[0] == "Monk" && Dnd5eClass.exists?( :name => arr[0] )
 			temp_class = Dnd5eClass.where(name: arr[0] ).take
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'proficiency bonus', value:arr[2], level: arr[1], description: probono)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'martial arts',value: arr[3], level: arr[1], description: martial_arts)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'ki points',value: arr[4], level: arr[1], description: ki_points)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'unarmored movement',value: arr[5], level: arr[1], description: unarmored_movement)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Proficiency Bonus', value:arr[2], level: arr[1], description: probono)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Martial Arts',value: arr[3], level: arr[1], description: martial_arts)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ki Points',value: arr[4], level: arr[1], description: ki_points)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Unarmored Movement',value: arr[5], level: arr[1], description: unarmored_movement)
+			case arr[1].to_i
+				when 1..3
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "-", level: arr[1], description: asi )
+				when 4..7
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "1", level: arr[1], description: asi )
+				when 8..11
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "2", level: arr[1], description: asi )
+				when 12..15
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "3", level: arr[1], description: asi )
+				when 16..18
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "4", level: arr[1], description: asi )
+				when 19..20
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "5", level: arr[1], description: asi )
+			end 
 		elsif arr[0] == "Paladin" && Dnd5eClass.exists?( :name => arr[0] )
 			temp_class = Dnd5eClass.where(name: arr[0] ).take
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'proficiency bonus', value: arr[2], level: arr[1], description: probono)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '1st level spells',value: arr[4], level: arr[1], description: level1)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '2nd level spells',value: arr[5], level: arr[1], description: level2)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '3rd level spells',value: arr[6], level: arr[1], description: level3)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '4th level spells',value: arr[7], level: arr[1], description: level4)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '5th level spells',value: arr[8], level: arr[1], description: level5)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Proficiency Bonus', value: arr[2], level: arr[1], description: probono)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '1st Level Spells',value: arr[4], level: arr[1], description: level1)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '2nd Level Spells',value: arr[5], level: arr[1], description: level2)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '3rd Level Spells',value: arr[6], level: arr[1], description: level3)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '4th Level Spells',value: arr[7], level: arr[1], description: level4)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '5th Level Spells',value: arr[8], level: arr[1], description: level5)
+			case arr[1].to_i
+				when 1..3
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "-", level: arr[1], description: asi )
+				when 4..7
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "1", level: arr[1], description: asi )
+				when 8..11
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "2", level: arr[1], description: asi )
+				when 12..15
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "3", level: arr[1], description: asi )
+				when 16..18
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "4", level: arr[1], description: asi )
+				when 19..20
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "5", level: arr[1], description: asi )
+			end 
 		elsif arr[0] == "Ranger" && Dnd5eClass.exists?( :name => arr[0] )
 			temp_class = Dnd5eClass.where(name: arr[0] ).take
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'proficiency bonus', value: arr[2], level: arr[1], description: probono)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'number spells known',value: arr[4], level: arr[1], description: num_spells_known)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '1st level spells',value: arr[5], level: arr[1], description: level1)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '2nd level spells',value: arr[6], level: arr[1], description: level2)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '3rd level spells',value: arr[7], level: arr[1], description: level3)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '4th level spells',value: arr[8], level: arr[1], description: level4)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '5th level spells',value: arr[9], level: arr[1], description: level5)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Proficiency Bonus', value: arr[2], level: arr[1], description: probono)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Number of Spells Known',value: arr[4], level: arr[1], description: num_spells_known)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '1st Level Spells',value: arr[5], level: arr[1], description: level1)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '2nd Level Spells',value: arr[6], level: arr[1], description: level2)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '3rd Level Spells',value: arr[7], level: arr[1], description: level3)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '4th Level Spells',value: arr[8], level: arr[1], description: level4)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '5th Level Spells',value: arr[9], level: arr[1], description: level5)
+			case arr[1].to_i
+				when 1..3
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "-", level: arr[1], description: asi )
+				when 4..7
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "1", level: arr[1], description: asi )
+				when 8..11
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "2", level: arr[1], description: asi )
+				when 12..15
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "3", level: arr[1], description: asi )
+				when 16..18
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "4", level: arr[1], description: asi )
+				when 19..20
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "5", level: arr[1], description: asi )
+			end 
 		elsif arr[0] == "Rogue" && Dnd5eClass.exists?( :name => arr[0] )
 			temp_class = Dnd5eClass.where(name: arr[0] ).take
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'proficiency bonus',value: arr[2], level: arr[1], description: probono)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'sneak attack damage',value: arr[3], level: arr[1], description: sneak_attack_damage)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Proficiency Bonus',value: arr[2], level: arr[1], description: probono)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Sneak Attack Damage',value: arr[3], level: arr[1], description: sneak_attack_damage)
+			case arr[1].to_i
+				when 1..3
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "-", level: arr[1], description: asi )
+				when 4..7
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "1", level: arr[1], description: asi )
+				when 8..11
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "2", level: arr[1], description: asi )
+				when 12..15
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "3", level: arr[1], description: asi )
+				when 16..18
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "4", level: arr[1], description: asi )
+				when 19..20
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "5", level: arr[1], description: asi )
+			end 
 		elsif arr[0] == "Arcane Trickster" && Dnd5eArchetype.exists?( :name => arr[0] )
 			temp_archetype = Dnd5eArchetype.where(name: arr[0] ).take
-			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'proficiency bonus',value: arr[2], level: arr[1], description: probono)
-			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'sneak attack damage',value: arr[3], level: arr[1], description: sneak_attack_damage)
-			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'cantrips known',value: arr[5], level: arr[1], description: cantrips_known)
-			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'number spells known',value: arr[6], level: arr[1], description: num_spells_known)
-			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: '1st level spells',value: arr[7], level: arr[1], description: level1)
-			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: '2nd level spells',value: arr[8], level: arr[1], description: level2)
-			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: '3rd level spells',value: arr[9], level: arr[1], description: level3)
-			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: '4th level spells',value: arr[10], level: arr[1], description: level4)
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'Proficiency Bonus',value: arr[2], level: arr[1], description: probono)
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'Sneak Attack Damage',value: arr[3], level: arr[1], description: sneak_attack_damage)
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'Cantrips Known',value: arr[5], level: arr[1], description: cantrips_known)
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'Number of Spells Known',value: arr[6], level: arr[1], description: num_spells_known)
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: '1st Level Spells',value: arr[7], level: arr[1], description: level1)
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: '2nd Level Spells',value: arr[8], level: arr[1], description: level2)
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: '3rd Level Spells',value: arr[9], level: arr[1], description: level3)
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: '4th Level Spells',value: arr[10], level: arr[1], description: level4)
+			case arr[1].to_i
+				when 1..3
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "-", level: arr[1], description: asi )
+				when 4..7
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "1", level: arr[1], description: asi )
+				when 8..11
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "2", level: arr[1], description: asi )
+				when 12..15
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "3", level: arr[1], description: asi )
+				when 16..18
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "4", level: arr[1], description: asi )
+				when 19..20
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "5", level: arr[1], description: asi )
+			end 
 		elsif arr[0] == "Sorcerer" && Dnd5eClass.exists?( :name => arr[0] )
 			temp_class = Dnd5eClass.where(name: arr[0] ).take
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'proficiency bonus', value: arr[2], level: arr[1], description: probono)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'cantrips known',value: arr[4], level: arr[1], description: cantrips_known)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'number spells known',value: arr[5], level: arr[1], description: num_spells_known)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '1st level spells',value: arr[6], level: arr[1], description: level1)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '2nd level spells',value: arr[7], level: arr[1], description: level2)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '3rd level spells',value: arr[8], level: arr[1], description: level3)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '4th level spells',value: arr[9], level: arr[1], description: level4)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '5th level spells',value: arr[10], level: arr[1], description: level5)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '6th level spells',value: arr[11], level: arr[1], description: level6)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '7th level spells',value: arr[12], level: arr[1], description: level7)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '8th level spells',value: arr[13], level: arr[1], description: level8)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '9th level spells',value: arr[14], level: arr[1], description: level9)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'sorcery points',value: arr[15], level: arr[1], description: sorcery_points)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Proficiency Bonus', value: arr[2], level: arr[1], description: probono)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Cantrips Known',value: arr[4], level: arr[1], description: cantrips_known)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Number of Spells Known',value: arr[5], level: arr[1], description: num_spells_known)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '1st Level Spells',value: arr[6], level: arr[1], description: level1)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '2nd Level Spells',value: arr[7], level: arr[1], description: level2)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '3rd Level Spells',value: arr[8], level: arr[1], description: level3)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '4th Level Spells',value: arr[9], level: arr[1], description: level4)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '5th Level Spells',value: arr[10], level: arr[1], description: level5)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '6th Level Spells',value: arr[11], level: arr[1], description: level6)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '7th Level Spells',value: arr[12], level: arr[1], description: level7)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '8th Level Spells',value: arr[13], level: arr[1], description: level8)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '9th Level Spells',value: arr[14], level: arr[1], description: level9)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Sorcery Points',value: arr[15], level: arr[1], description: sorcery_points)
+			case arr[1].to_i
+				when 1..3
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "-", level: arr[1], description: asi )
+				when 4..7
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "1", level: arr[1], description: asi )
+				when 8..11
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "2", level: arr[1], description: asi )
+				when 12..15
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "3", level: arr[1], description: asi )
+				when 16..18
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "4", level: arr[1], description: asi )
+				when 19..20
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "5", level: arr[1], description: asi )
+			end 
 		elsif arr[0] == "Warlock" && Dnd5eClass.exists?( :name => arr[0] )
 			temp_class = Dnd5eClass.where(name: arr[0] ).take
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'proficiency bonus', value:arr[2], level: arr[1], description: probono)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'cantrips known',value: arr[4], level: arr[1], description: cantrips_known)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'number of spells known',value: arr[5], level: arr[1], description: num_spells_known)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'spell slots',value: arr[6], level: arr[1], description: spell_slots)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'slot level',value: arr[7], level: arr[1], description: slot_level)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'number of invocations known',value: arr[8], level: arr[1], description: num_invocations)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Proficiency Bonus', value:arr[2], level: arr[1], description: probono)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Cantrips Known',value: arr[4], level: arr[1], description: cantrips_known)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Number of spells known',value: arr[5], level: arr[1], description: num_spells_known)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Spell Slots',value: arr[6], level: arr[1], description: spell_slots)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Slot Level',value: arr[7], level: arr[1], description: slot_level)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Number of invocations known',value: arr[8], level: arr[1], description: num_invocations)
+			case arr[1].to_i
+				when 1..3
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "-", level: arr[1], description: asi )
+				when 4..7
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "1", level: arr[1], description: asi )
+				when 8..11
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "2", level: arr[1], description: asi )
+				when 12..15
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "3", level: arr[1], description: asi )
+				when 16..18
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "4", level: arr[1], description: asi )
+				when 19..20
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "5", level: arr[1], description: asi )
+			end 
 		elsif arr[0] == "Wizard" && Dnd5eClass.exists?( :name => arr[0] )
 			temp_class = Dnd5eClass.where(name: arr[0] ).take
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'proficiency bonus', value:arr[2], level: arr[1], description: probono)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'cantrips known',value: arr[4], level: arr[1], description: cantrips_known)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '1st level spells',value: arr[5], level: arr[1], description: level1)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '2nd level spells',value: arr[6], level: arr[1], description: level2)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '3rd level spells',value: arr[7], level: arr[1], description: level3)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '4th level spells',value: arr[8], level: arr[1], description: level4)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '5th level spells',value: arr[9], level: arr[1], description: level5)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '6th level spells',value: arr[10], level: arr[1], description: level6)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '7th level spells',value: arr[11], level: arr[1], description: level7)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '8th level spells',value: arr[12], level: arr[1], description: level8)
-			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '9th level spells',value: arr[13], level: arr[1], description: level9)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Proficiency Bonus', value:arr[2], level: arr[1], description: probono)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Cantrips Known',value: arr[4], level: arr[1], description: cantrips_known)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '1st Level Spells',value: arr[5], level: arr[1], description: level1)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '2nd Level Spells',value: arr[6], level: arr[1], description: level2)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '3rd Level Spells',value: arr[7], level: arr[1], description: level3)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '4th Level Spells',value: arr[8], level: arr[1], description: level4)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '5th Level Spells',value: arr[9], level: arr[1], description: level5)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '6th Level Spells',value: arr[10], level: arr[1], description: level6)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '7th Level Spells',value: arr[11], level: arr[1], description: level7)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '8th Level Spells',value: arr[12], level: arr[1], description: level8)
+			Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: '9th Level Spells',value: arr[13], level: arr[1], description: level9)
+			case arr[1].to_i
+				when 1..3
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "-", level: arr[1], description: asi )
+				when 4..7
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "1", level: arr[1], description: asi )
+				when 8..11
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "2", level: arr[1], description: asi )
+				when 12..15
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "3", level: arr[1], description: asi )
+				when 16..18
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "4", level: arr[1], description: asi )
+				when 19..20
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "5", level: arr[1], description: asi )
+			end 
 		elsif arr[0] == "Battle Master" && Dnd5eArchetype.exists?( :name => arr[0] )
 			temp_archetype = Dnd5eArchetype.where(name: arr[0] ).take
-			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'proficiency bonus', value: arr[2], level: arr[1], description: probono)
-			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'superiority dice',value: arr[4], level: arr[1], description: superiority_die)
-			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'number of superiority dice',value: arr[5], level: arr[1], description: num_superiority_dice)
-			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'number of known maneuvers',value: arr[6], level: arr[1], description: num_known_maneuvers)
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'Proficiency Bonus', value: arr[2], level: arr[1], description: probono)
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'Superiority Dice',value: arr[4], level: arr[1], description: superiority_die)
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'Number of Superiority Dice',value: arr[5], level: arr[1], description: num_superiority_dice)
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'Number of known maneuvers',value: arr[6], level: arr[1], description: num_known_maneuvers)
+			case arr[1].to_i
+				when 1..3
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "-", level: arr[1], description: asi )
+				when 4..7
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "1", level: arr[1], description: asi )
+				when 8..11
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "2", level: arr[1], description: asi )
+				when 12..15
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "3", level: arr[1], description: asi )
+				when 16..18
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "4", level: arr[1], description: asi )
+				when 19..20
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "5", level: arr[1], description: asi )
+			end 
 		elsif arr[0] == "Four Elements" && Dnd5eArchetype.exists?( :name => arr[0] )
 			temp_archetype = Dnd5eArchetype.where(name: arr[0] ).take
 			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'Number of Disciplines Known', value: arr[2], level: arr[1], description: num_disciplines)
 			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: 'Maximum Ki Points for a Spell',value: arr[3], level: arr[1], description: max_ki_points)
+			case arr[1].to_i
+				when 1..3
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "-", level: arr[1], description: asi )
+				when 4..7
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "1", level: arr[1], description: asi )
+				when 8..11
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "2", level: arr[1], description: asi )
+				when 12..15
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "3", level: arr[1], description: asi )
+				when 16..18
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "4", level: arr[1], description: asi )
+				when 19..20
+					Dnd5eClassAttribute.create(dnd5e_class_id: temp_class.id, name: 'Ability Score Improvement',value: "5", level: arr[1], description: asi )
+			end 
 		else
 			print "couldn't find -"+arr[0]+"-\n"
 		end

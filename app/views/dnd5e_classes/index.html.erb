@@ -1,19 +1,5 @@
 <div id="sort">	
 	<label>_______________________________</label>	
-	<div id="allnew">
-                <% if true %>
-                       	<%= link_to "All", { :controller => "dnd5e_classes", :action => "index", :archetype  => @archetype,  :class => @class, :level => @level }, {:style => "color: gray;" }%>
-                <% else %>
-                       	<%= link_to "All", { :controller => "dnd5e_classes", :action => "index", :archetype  => @archetype,  :class => @class, :level => @level }, {:style => "color: black;" } %>
-                <% end %>
-
-                <% if true %>
-                       	<%= link_to "Newest", { :controller => "dnd5e_classes", :action => "index", :archetype  => @archetype,  :class => @class, :level => @level }, {:style => "color: gray;" }%>
-                <% else %>
-                       	<%= link_to "Newest", { :controller => "dnd5e_classes", :action => "index", :archetype  => @archetype,  :class => @class, :level => @level }, {:style => "color: black;" } %>
-                <% end %>
-	</div>
-	<label>_______________________________</label>	
 	<div id="levels">
         	<% @levels.each do |l| %>
                 	<% if l.to_i == @level %>
@@ -57,23 +43,26 @@
 				<h2>Stats</h2>	
 			<%end%>	
 			<% @c_d_attr.each do |a| %>
-               	 		<%= link_to a.name + ":" , { :controller => "dnd5e_classes", :action => "index", :class => @class, :archetype => @archetype, :level => @level, :c_attr => a.id } %>
-				<strong><%=a.value%></strong><br>
+               	 		<label><%=a[0].html_safe%></label><%= link_to a[1].name + ":" , { :controller => "dnd5e_classes", :action => "index", :class => @class, :archetype => @archetype, :level => @level, :c_attr => a[1].id } %>
+				<strong><%=a[1].value%></strong><br>
 			<% end %>       
 			<% @a_d_attr.each do |a| %>
-               	 		<%= link_to a.name + ":" , { :controller => "dnd5e_classes", :action => "index", :class => @class, :archetype => @archetype, :level => @level, :a_attr => a.id } %>
-				<strong><%=a.value%></strong><br>
+			<label><%=a[0]%></label><%= link_to a[1].name + ":" , { :controller => "dnd5e_classes", :action => "index", :class => @class, :archetype => @archetype, :level => @level, :a_attr => a[1].id } %>
+				<strong><%=a[1].value%></strong><br>
 			<% end %>       
 
 			<% if !@c_n_attr.empty? %>	
-				<h2>Feats</h2>		
+				<h2>Class Feats</h2>		
 			<% end %>       
 			<% @c_n_attr.each do |a| %>
-                		<%= link_to a.name, { :controller => "dnd5e_classes", :action => "index", :class => @class, :archetype => @archetype, :level => @level, :c_attr => a.id } %>
+                		<label><%=a[0].html_safe%></label><%= link_to a[1].name, { :controller => "dnd5e_classes", :action => "index", :class => @class, :archetype => @archetype, :level => @level, :c_attr => a[1].id } %>
 				<br>
 			<% end %>       
+			<% if !@a_n_attr.empty? %>	
+				<h2>Archetype Feats</h2>		
+			<% end %>       
 			<% @a_n_attr.each do |a| %>
-                		<%= link_to a.name, { :controller => "dnd5e_classes", :action => "index", :class => @class, :archetype => @archetype, :level => @level, :a_attr => a.id } %>
+                		<label><%=a[0].html_safe%></label><%= link_to a[1].name, { :controller => "dnd5e_classes", :action => "index", :class => @class, :archetype => @archetype, :level => @level, :a_attr => a[1].id } %>
 				<br>
 			<% end %>       
 

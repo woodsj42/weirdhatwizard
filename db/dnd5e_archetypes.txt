@@ -31,9 +31,11 @@ beast master$ranger
 hunter$ranger
 arcane trickster$rogue
 assassin$rogue
+swashbuckler$rogue
 thief$rogue
-draconic sorcerer$sorcerer
-wildling sorcerer$sorcerer
+draconic$sorcerer
+wildling$sorcerer
+stormborn$sorcerer
 archfey$warlock
 fiend$warlock
 great old ones$warlock

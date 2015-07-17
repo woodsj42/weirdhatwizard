@@ -1,5 +1,14 @@
 commanders strike$battle master$1
 disarming strike$battle master$1
+fog cloud$stormborn$1
+thunderwave$stormborn$1
+gust of wind$stormborn$3
+levitate$stormborn$3
+call lightning$stormborn$5
+sleet storm$stormborn$5
+conjure minor elementals$stormborn$7
+ice storm$stormborn$7
+conjure elemental$stormborn$9
 distracting strike$battle master$1
 evasive footwork$battle master$1
 feinting attack$battle master$1
