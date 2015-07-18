@@ -7,27 +7,27 @@ barbarian$6$3$mindless rage$4$2$
 barbarian$7$3$feral instinct$4$2$
 barbarian$8$3$ability score improvement 2$4$2$
 barbarian$9$4$brutal critical 1$4$3$
-barbarian$10$4$intimidating presence$12$4$3$
-barbarian$11$4$relentless rage$12$4$3$
-barbarian$12$4$ability score improvement 3$12$5$3$
-barbarian$13$5$brutal critical 2$5$3$
-barbarian$14$5$retaliation$12$5$3$
-barbarian$15$5$persistent rage$12$5$3$
-barbarian$16$5$ability score improvement 4$5$4$
-barbarian$17$6$brutal critical 3$6$4$
-barbarian$18$6$indomitable might$6$4$
-barbarian$19$6$ability score improvement 5$6$4$
-barbarian$20$6$primal champion$unlimited$unlimited$4$
+barbarian$10$4$intimidating presence$4$3$3$
+barbarian$11$4$relentless rage$4$3$3$
+barbarian$12$4$ability score improvement 3$5$3$3$
+barbarian$13$5$brutal critical 2$5$3$3$
+barbarian$14$5$retaliation$5$3$3$
+barbarian$15$5$persistent rage$5$3$3$
+barbarian$16$5$ability score improvement 4$5$4$5$
+barbarian$17$6$brutal critical 3$6$4$6$
+barbarian$18$6$indomitable might$6$4$6$
+barbarian$19$6$ability score improvement 5$6$4$6$
+barbarian$20$6$primal champion$unlimited$4$6$
 bard$1$2$spellcasting,bardic inspiration 1$2$4$2$-$-$-$-$-$-$-$-$
 bard$2$2$jack of all trades,song of rest d6$2$5$3$-$-$-$-$-$-$-$-$
 bard$3$2$bonus skill proficiencies,cutting words,expertise 1$2$6$4$2$-$-$-$-$-$-$-$
 bard$4$2$ability score improvement 1$3$7$4$3$-$-$-$-$-$-$-$
-bard$5$3$bardic inspiration 2,font of inspiration$3$8$4$2$3$-$-$-$-$-$-$
+bard$5$3$bardic inspiration 2,font of inspiration$3$8$4$3$2$-$-$-$-$-$-$
 bard$6$3$countercharm,additional magical secrets$3$9$4$3$3$-$-$-$-$-$-$
 bard$7$3$-$3$10$4$3$3$1$-$-$-$-$-$
 bard$8$3$ability score improvement 2$3$11$4$3$3$2$-$-$-$-$-$
 bard$9$4$song of rest 1$3$12$4$3$3$3$1$-$-$-$-$
-bard$10$4$magical secrets 1$4$14$4$3$3$3$1$-$-$-$-$
+bard$10$4$magical secrets 1$4$14$4$3$3$3$2$-$-$-$-$
 bard$11$4$-$4$15$4$3$3$3$2$1$-$-$-$
 bard$12$4$ability score improvement 2$4$15$4$3$3$3$2$1$-$-$-$
 bard$13$5$song of rest 2$4$16$4$3$3$3$2$1$1$-$-$
@@ -36,7 +36,7 @@ bard$15$5$bardic inspiration 3$4$19$4$3$3$3$2$1$1$1$-$
 bard$16$5$ability score improvement 3$4$19$4$3$3$3$2$1$1$1$-$
 bard$17$6$song of rest 3$4$20$4$3$3$3$2$1$1$1$1$
 bard$18$6$magical secrets 3$4$22$4$3$3$3$3$1$1$1$1$
-bard$19$6$ability score improvement 4$4$22$4$3$3$3$2$1$1$1$
+bard$19$6$ability score improvement 4$4$22$4$3$3$3$3$2$1$1$1$
 bard$20$6$superior inspiration$4$22$4$3$3$3$3$2$2$1$1$
 cleric$1$2$Spellcasting,blessings of knowledge$3$2$-$-$-$-$-$-$-$-$command,identify
 cleric$2$2$knowledge of the ages,channel divinity 1$3$3$-$-$-$-$-$-$-$-$
@@ -46,11 +46,11 @@ cleric$5$3$destroy undead 1$4$4$3$2$-$-$-$-$-$-$nondetection,speak with dead,
 cleric$6$3$read thoughts,read thoughts,channel divinity 2$4$4$3$3$-$-$-$-$-$-$
 cleric$7$3$-$4$4$3$3$1$-$-$-$-$-$arcane eye,confusion
 cleric$8$3$ablility score improvement 2,destroy undead 2,potent spellcasting$4$4$3$3$2$-$-$-$-$-$
-cleric$9$4$-$4$4$3$3$3$1$2$-$-$-$-$legend lore,scrying
-cleric$10$4$divine intervention$5$4$3$3$3$2$2$-$-$-$-$
+cleric$9$4$-$4$4$3$3$3$1$-$-$-$-$-$legend lore,scrying
+cleric$10$4$divine intervention$5$4$3$3$3$3$2$-$-$-$-$
 cleric$11$4$destroy undead 3$5$4$3$3$3$2$1$-$-$-$
 cleric$12$4$ability score improvement 3$5$4$3$3$3$2$1$-$-$-$
-cleric$13$5$-$5$4$3$3$3$2$1$1$1$-$
+cleric$13$5$-$5$4$3$3$3$2$1$1$-$-$
 cleric$14$5$destroy undead 4$5$4$3$3$3$2$1$1$-$-$
 cleric$15$5$-$5$4$3$3$3$2$1$1$1$-$
 cleric$16$5$ability score improvement 4$5$4$3$3$3$2$1$1$1$-$
@@ -61,16 +61,16 @@ cleric$20$6$divine intervention improvement$5$4$3$3$3$3$2$2$1$1$
 druid$1$2$druidic,spellcasting$2$2$-$-$-$-$-$-$-$-$
 druid$2$2$wild shape 1,bonus cantrip,natural recovery$2$3$-$-$-$-$-$-$-$-$
 druid$3$2$-$2$4$2$-$-$-$-$-$-$-$hold person,spike growth
-druid$4$3$wild shape 2,ability score improvement 2$3$4$3$-$-$-$-$-$-$-$
-druid$5$3$-$-$3$4$3$2$-$-$-$-$-$sleet storm,slow
+druid$4$2$wild shape 2,ability score improvement 2$3$4$3$-$-$-$-$-$-$-$
+druid$5$3$-$3$4$3$2$-$-$-$-$-$-$sleet storm,slow
 druid$6$3$land's stride$3$4$3$3$-$-$-$-$-$-$
-druid$7$3$-$-$-$-$-$-$-$-$-$-$-$freedom of movement,ice storm
+druid$7$3$-$3$4$3$3$1$-$-$-$-$-$freedom of movement,ice storm
 druid$8$3$wild shape 3,ability score improvement 3$3$4$3$3$2$-$-$-$-$-$
 druid$9$3$-$3$4$3$3$3$1$-$-$-$-$commune with nature,cone of cold
 druid$10$4$nature's ward$4$4$3$3$3$2$-$-$-$-$
 druid$11$4$-$4$4$3$3$3$2$1$-$-$-$
 druid$12$4$ability score improvement 4$4$4$3$3$3$2$1$-$-$-$
-druid$13$4$-$4$4$3$3$3$2$1$-$-$-$
+druid$13$4$-$4$4$3$3$3$2$1$1$-$-$
 druid$14$4$nature's sanctuary$4$4$3$3$3$2$1$1$-$-$
 druid$15$4$-$4$4$3$3$3$2$1$1$1$-$
 druid$16$4$ability score movement 5$4$4$3$3$3$2$1$1$1$-$
@@ -99,25 +99,25 @@ fighter$18$6$survivor
 fighter$19$6$ability score improvement 7
 fighter$20$6$extra attack 3
 monk$1$2$1d4$-$-$unarmored defense,Martial arts
-monk$2$2$1d4$2$10ft$ki,unarmored movement 1
-monk$3$2$1d4$3$10ft$open hand technique,deflect missiles
-monk$4$2$1d4$4$10ft$ability score improvement 1,slow fall
-monk$5$3$1d6$5$10ft$extra attack 1,stunning strike
-monk$6$3$1d6$6$10ft$ki-empowered strikes,wholeness of body
-monk$7$3$1d6$7$15ft$evasion,stillness of mind
-monk$8$3$1d6$8$15ft$ability score improvement 2
-monk$9$4$1d6$9$15ft$unarmored movement 2
-monk$10$4$1d8$10$15ft$purity of body
-monk$11$4$1d8$11$20ft$tranquility
-monk$12$4$1d8$12$20ft$ability score improvement 3
-monk$13$5$1d8$13$20ft$tongue of sun and moon
-monk$14$5$1d8$14$20ft$diamond soul
-monk$15$5$1d8$15$25ft$timeless body
-monk$16$5$1d10$16$25ft$ability score improvement 4
-monk$17$6$1d10$17$25ft$quivering palm
-monk$18$6$1d10$18$30ft$empty body
-monk$19$6$1d10$19$30ft$ability score improvement 5
-monk$20$6$1d10$20$30ft$perfect self
+monk$2$2$1d4$2$+10ft$ki,unarmored movement 1
+monk$3$2$1d4$3$+10ft$open hand technique,deflect missiles
+monk$4$2$1d4$4$+10ft$ability score improvement 1,slow fall
+monk$5$3$1d6$5$+10ft$extra attack 1,stunning strike
+monk$6$3$1d6$6$+10ft$ki-empowered strikes,wholeness of body
+monk$7$3$1d6$7$+15ft$evasion,stillness of mind
+monk$8$3$1d6$8$+15ft$ability score improvement 2
+monk$9$4$1d6$9$+15ft$unarmored movement 2
+monk$10$4$1d6$10$+15ft$purity of body
+monk$11$4$1d8$11$+20ft$tranquility
+monk$12$4$1d8$12$+20ft$ability score improvement 3
+monk$13$5$1d8$13$+20ft$tongue of sun and moon
+monk$14$5$1d8$14$+20ft$diamond soul
+monk$15$5$1d8$15$+25ft$timeless body
+monk$16$5$1d8$16$+25ft$ability score improvement 4
+monk$17$6$1d10$17$+25ft$quivering palm
+monk$18$6$1d10$18$+30ft$empty body
+monk$19$6$1d10$19$+30ft$ability score improvement 5
+monk$20$6$1d10$20$+30ft$perfect self
 paladin$1$2$divine sense,lay on hands$-$-$-$-$-$
 paladin$2$2$fighting style,spellcasting,divine smite 1$2$-$-$-$-$
 paladin$3$2$divine health,nature's wrath,turn the faithless$3$-$-$-$-$ensnaring strike,speak with animals
@@ -130,9 +130,9 @@ paladin$9$4$-$4$3$2$-$-$plant growth,protection from energy
 paladin$10$4$aura of courage$4$3$2$-$-$
 paladin$11$4$divine smite 2$4$3$3$-$-$
 paladin$12$4$ability score improvement 3$4$3$3$-$-$
-paladin$13$5$-$4$3$3$-$-$ice storm,stoneskin
+paladin$13$5$-$4$3$3$1$-$ice storm,stoneskin
 paladin$14$5$cleansing oath$4$3$3$1$-$
-paladin$15$5$undying sentinel$4$3$3$1$-$
+paladin$15$5$undying sentinel$4$3$3$2$-$
 paladin$16$5$ability score improvement 4$4$3$3$2$-$
 paladin$17$6$-$4$3$3$3$1$commune with nature,tree stride
 paladin$18$6$aura improvements$4$3$3$3$1$
@@ -178,9 +178,9 @@ rogue$17$6$9d6$thief's reflexes
 rogue$18$6$9d6$elusive
 rogue$19$6$10d6$ability score improvement 6
 rogue$20$6$10d6$stroke of luck
-sorcerer$1$2$spellcasting,wild magic,tides of chaos$4$2$2$2$-$-$-$-$-$-$-$-$
-sorcerer$2$2$font of magic$4$3$3$3$-$-$-$-$-$-$-$3$
-sorcerer$3$2$metamagic 1$4$4$4$4$2$-$-$-$-$-$-$3$
+sorcerer$1$2$spellcasting,wild magic,tides of chaos$4$2$2$-$-$-$-$-$-$-$-$-$
+sorcerer$2$2$font of magic$4$3$3$-$-$-$-$-$-$-$-$3$
+sorcerer$3$2$metamagic 1$4$4$4$2$-$-$-$-$-$-$-$3$
 sorcerer$4$2$ability score improvement 1$5$5$4$3$-$-$-$-$-$-$-$4$
 sorcerer$5$3$-$5$6$4$3$2$-$-$-$-$-$-$5$
 sorcerer$6$3$bend luck$5$7$4$3$3$-$-$-$-$-$-$6$
@@ -190,9 +190,9 @@ sorcerer$9$4$-$5$10$4$3$3$3$1$-$-$-$-$9$
 sorcerer$10$4$metamagic 2$6$11$4$3$3$3$2$-$-$-$-$10$
 sorcerer$11$4$-$6$12$4$3$3$3$2$1$-$-$-$11$
 sorcerer$12$4$ability score improvement 3$6$12$4$3$3$3$2$1$-$-$-$12$
-sorcerer$13$5$-$6$13$-$-$-$-$-$-$-$-$-$13$
+sorcerer$13$5$-$6$13$4$3$3$3$2$1$1$-$-$13$
 sorcerer$14$5$controlled chaos$6$13$4$3$3$3$2$1$1$-$-$14$
-sorcerer$15$5$-$6$14$4$3$3$3$2$1$1$-$-$15$
+sorcerer$15$5$-$6$14$4$3$3$3$2$1$1$1$-$15$
 sorcerer$16$5$ability score improvement 4$6$14$4$3$3$3$2$1$1$1$-$16$
 sorcerer$17$6$metamagic 3$6$15$4$3$3$3$2$1$1$1$1$17$
 sorcerer$18$6$spell bombardment$6$15$4$3$3$3$3$1$1$1$1$18$

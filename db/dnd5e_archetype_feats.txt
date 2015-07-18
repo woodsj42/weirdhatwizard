@@ -3,14 +3,14 @@ berserker$3$frenzy$<p>You can choose to go into a frenzy when you rage. If you d
 **berserker$10$intimidating presence$<p>You can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a wisdom saving throw( <strong>DC equal to 8 + your proficiency bonus + your charisma modifier</strong> ) or be frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the frightened creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you</p>
 <p>If the creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours.</p>
 **berserker$14$retaliation$<p>When you take damage from a creature that is within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature.</p>
-**totem warrior$3$spirit seeker$<p>You gain the ability to cast the beast sense and speak with animals spells, but only as rituals.</p>
+**totem warrior$3$spirit seeker$<p>You gain the ability to cast the <i>beast sense</i> and <i>speak with animals</i> spells, but only as rituals.</p>
 **totem warrior$3$totem spirit$<p>When you acquire this feature you must make a physical totem object to represent your power or something to that effect. You gain one of the following benefits</p>
 <p><strong>Bear.</strong> While raging, you have resistance to all damage except psychic damage.</p>
 <p><strong>Eagle.</strong> While you're raging and aren't wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the dash action as a bonus action on your turn.</p>
 <p><strong>Wolf.</strong> While you're raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you.</p>
 **totem warrior$6$aspect of the beast$<p>You can choose one of the following benefits.</p>
-<p><strong>Bear.</strong> Your carrying capacity( including maximum load and maximum lift ) is doubled, and you have advantage on strength checks made to push, pull, lift or break objects.</p>
-<p><strong>Eagle.</strong> You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your wisdom( perception ) checks</p>
+<p><strong>Bear.</strong> Your carrying capacity ( including maximum load and maximum lift ) is doubled, and you have advantage on strength checks made to push, pull, lift or break objects.</p>
+<p><strong>Eagle.</strong> You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your wisdom( perception ) checks.</p>
 <p><strong>Wolf.</strong> You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace. </p>
 **totem warrior$10$spirit walker$<p>You can cast the commune with nature spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek.<p>
 **totem warrior$14$totemic attunement$<p>You can choose one of the following benefits.</p>
@@ -428,7 +428,7 @@ berserker$3$frenzy$<p>You can choose to go into a frenzy when you rage. If you d
 **conjurer$14$durable summons$<p>Any creature that you summon or create with a conjuration spell has 30 temporary hit points.</p>
 **diviner$2$divination savant$<p>The gold and time you must spend to copy a divination spell into your spellbook is halved.</p>
 **diviner$2$portent$<p>When you finish a long rest, roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.</p>
-<p>Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls.</p>
+<p>Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls.</p>$2 d20s
 **diviner$6$expert divination$<p>Casting divination spells comes so easily to you that it expends only a fraction of your spellcasting efforts. When you cast a divination spell of 2nd-level or higher using a spell slot, you regain one expended spell slot. The slot you regain must be of a level lower than the spell you cast and it can't be higher than 5th-level.</p>
 **diviner$10$the third eye$<p>You can use your action to increase your powers of perception. When you do so choose one of the following benefits, which lasts until you are incapacitated or you take a short or long rest. You can't use the feature again until you finish a rest.</p>
 <p><strong>Darkvision.</strong> You gain darkvision out to a range of 60 feet.</p>
@@ -436,7 +436,7 @@ berserker$3$frenzy$<p>You can choose to go into a frenzy when you rage. If you d
 <p><strong>Greater Comprehension.</strong> You can read any language.</p>
 <p><strong>See Invisibility.</strong> You can see invisible creatures and objects within 10 feet of you that are within line of sight.</p>
 **diviner$14$portent$<p>When you finish a long rest, roll three d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.</p>
-<p>Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls.</p>
+<p>Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls.</p>$3 d20s
 **enchanter$2$enchantment savant$<p>The gold and time you must spend to copy an enchantment spell into your spellbook is halved.</p>
 **enchanter$2$hypnotic gaze$<p>As an action, choose one creature that you can see within 5 feet of you. If the target can see or hear you, it must succeed on a wisdom saving throw against your wizard spell save DC or be charmed by you until the end of your next turn. The charmed creature;s speed drops to 0, and the creature is incapacitated and visibly dazed.</p>
 <p>On subsequent turns, you can use your action to maintain this effect, extending its duration until the end of your next turn. However the effect ends if you move more than 5 feet away from the creature, if the creature can neither see nor hear you, or if the creature takes damage.</p>

@@ -55,6 +55,6 @@ class Dnd5eArchetypeAttribute < ActiveRecord::Base
 					end
 			end
 		end
-			sorted
+			sorted.sort! {|a,b| a[1].name <=> b[1].name}
 	end
 end
