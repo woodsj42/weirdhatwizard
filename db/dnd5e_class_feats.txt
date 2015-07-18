@@ -10,11 +10,11 @@ barbarian$1$rage$ <p> Enter rage as a bonus action, you gain the following benef
 **barbarian$1$unarmored defense$<p>While you are not wearing any armor, your armor class equals 10 + Dex modifier + Con modifier. You ca use a shield and still gain this benefit</p>
 **barbarian$2$reckless attack$ <p>When you make your first attack for a turn you can decide whether to attack recklessly or not, giving yourself advantage on melee attack rolls that are using your strength modifier. However attack rolls against you have advantage until your next turn.  </p>
 **barbarian$2$danger sense$<p>You have advantage on dexterity saving throws against effects that you can see, such as traps and spells to gain this benefit, you can't be blinded, deafened, or incapacitated.</p>
-**barbarian$5$extra attack$<p> When you use the attack action you make another attack</p>
+**barbarian$5$extra attack$<p> When you use the attack action you make another attack</p>$1
 **barbarian$5$fast movement$your speed increases by 10 feet while your aren't wearing heavy armor.</p>
-**barbarian$9$brutal critical$<p>you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</p>
-**barbarian$13$brutal critical$<p>you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</p>
-**barbarian$17$brutal critical$<p>you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</p>
+**barbarian$9$brutal critical$<p>you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</p>$1 die
+**barbarian$13$brutal critical$<p>you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</p>2 dice
+**barbarian$17$brutal critical$<p>you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</p>3 dice
 **barbarian$11$relentless rage$<p>Your rage can keep you fighting if you would drop below zero hit points while raging you don't die outright, you can make a DC 10 constitution saving throw, if you succeed you drop to one hit point instead. </p><p>each time you use this feature, the DC increases by 5. When you finish a short or long rest the DC resets to 10.</p>
 **barbarian$15$persistent rage$<p>Your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.</p>
 **barbarian$18$indomitable might$<p>If your total for a strength check is less than your strength score, you can use that score in place of the total.</p>
@@ -27,21 +27,21 @@ barbarian$1$rage$ <p> Enter rage as a bonus action, you gain the following benef
 <p><strong>Arcane Focus</strong><br>You can use a musical instrument as a spellcasting focus for your bard spells</p>
 **bard$1$bardic inspiration$<p>use a bonus action on our turn to choose one creature other than yourself within 60 feet of you who can hear you. that creature gains one bardic inspiration die, a d6</p>
 <p>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The create can wait until after it rolls the d20 before deciding to use the bardic inspiration die, but must decide before the DM says whether the roll succeeds or fails. A creature can have only one bardic inspiration die at a time.</p>
-<p>You can use this feature a number of times equal to your charisma modifier. You regain any expended inspiration die after a long rest.</p>
+<p>You can use this feature a number of times equal to your charisma modifier. You regain any expended inspiration die after a long rest.</p>$d6
 **bard$5$bardic inspiration$<p>use a bonus action on our turn to choose one creature other than yourself within 60 feet of you who can hear you. that creature gains one bardic inspiration die, a d8</p>
 <p>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The create can wait until after it rolls the d20 before deciding to use the bardic inspiration die, but must decide before the DM says whether the roll succeeds or fails. A creature can have only one bardic inspiration die at a time.</p>
-<p>You can use this feature a number of times equal to your charisma modifier. You regain any expended inspiration die after a long rest.</p>
+<p>You can use this feature a number of times equal to your charisma modifier. You regain any expended inspiration die after a long rest.</p>$d8
 **bard$10$bardic inspiration$<p>use a bonus action on our turn to choose one creature other than yourself within 60 feet of you who can hear you. that creature gains one bardic inspiration die, a d10</p>
 <p>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The create can wait until after it rolls the d20 before deciding to use the bardic inspiration die, but must decide before the DM says whether the roll succeeds or fails. A creature can have only one bardic inspiration die at a time.</p>
-<p>You can use this feature a number of times equal to your charisma modifier. You regain any expended inspiration die after a long rest.</p>
+<p>You can use this feature a number of times equal to your charisma modifier. You regain any expended inspiration die after a long rest.</p>$d10
 **bard$15$bardic inspiration$<p>use a bonus action on our turn to choose one creature other than yourself within 60 feet of you who can hear you. that creature gains one bardic inspiration die, a d12</p>
 <p>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The create can wait until after it rolls the d20 before deciding to use the bardic inspiration die, but must decide before the DM says whether the roll succeeds or fails. A creature can have only one bardic inspiration die at a time.</p>
-<p>You can use this feature a number of times equal to your charisma modifier. You regain any expended inspiration die after a long rest.</p>
+<p>You can use this feature a number of times equal to your charisma modifier. You regain any expended inspiration die after a long rest.</p>$d12
 **bard$2$jack of all trades$<p>You can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus</p>
-**bard$2$song of rest$<p>You can use soothing music or oration to help revitalize your wounded allies during a short rest, each of those creatures regains an extra 1d6 hit points</p>
-**bard$9$song of rest$<p>You can use soothing music or oration to help revitalize your wounded allies during a short rest, each of those creatures regains an extra 1d8 hit points</p>
-**bard$13$song of rest$<p>You can use soothing music or oration to help revitalize your wounded allies during a short rest, each of those creatures regains an extra 1d10 hit points</p>
-**bard$17$song of rest$<p>You can use soothing music or oration to help revitalize your wounded allies during a short rest, each of those creatures regains an extra 1d12 hit points</p>
+**bard$2$song of rest$<p>You can use soothing music or oration to help revitalize your wounded allies during a short rest, each of those creatures regains an extra 1d6 hit points</p>$d6
+**bard$9$song of rest$<p>You can use soothing music or oration to help revitalize your wounded allies during a short rest, each of those creatures regains an extra 1d8 hit points</p>$d8
+**bard$13$song of rest$<p>You can use soothing music or oration to help revitalize your wounded allies during a short rest, each of those creatures regains an extra 1d10 hit points</p>$d10
+**bard$17$song of rest$<p>You can use soothing music or oration to help revitalize your wounded allies during a short rest, each of those creatures regains an extra 1d12 hit points</p>$d12
 **bard$3$expertise$<p>choose two of your skill proficiencies. Your proficiency bonus doubled for any ability check you make that uses either of the chosen proficiencies.</p>
 **bard$5$font of inspiration$<p>you can regain all of your expended uses of bardic inspiration when you finish a short or long rest</p>
 **bard$6$countercharm$<p> You gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being frightened or charmed. A creature must be able to hear you to gain this benefit. The performance ends early if you are incapacitated</p>
@@ -55,20 +55,21 @@ barbarian$1$rage$ <p> Enter rage as a bonus action, you gain the following benef
 <p><strong>Spellcasting Ability</strong><br>Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your wisdom whenever a cleric spell refers to your spellcasting ability.</p><p><strong>Spell save DC</strong> = 8 + proficiency bonus + your wisdom modifier</p><p><strong>Spell attack modifier</strong> = your proficiency bonus + your wisdom modifier</p>
 <p><strong>Ritual Casting</strong><br> You can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared</p>
 <p><strong>Spellcasting focus</strong><br>You can use a holy symbol as a spellcasting focus</p>
-**cleric$2$channel divinity$<p> You have the ability to channel your deity's power into magical effects one a day</p>
-**cleric$6$channel divinity$<p> You have the ability to channel your deity's power into magical effects twice a day</p>
+**cleric$2$channel divinity$<p> You have the ability to channel your deity's power into magical effects one a day</p>$1/rest
+**cleric$6$channel divinity$<p> You have the ability to channel your deity's power into magical effects twice a day</p>$2/rest
+**cleric$18$channel divinity$<p> You have the ability to channel your deity's power into magical effects thrice a day</p>$3/rest
 **cleric$2$channel divinity:turn undead$<p> As an action, you present your holy symbol. Each undead that can see or hear you within 30 feet of you must make a wisdom saving throw. If the creature fails its saving throw, it is turned for one minute or until it takes damage</p>
 <p>A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use the dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the dodge action.</p>
 **cleric$5$destroy undead$
-<p>If an undead fails it's saving throw against your Turn Undead, the creature is instantly destroyed if its challenge rating is 1/2 or lower </p>
+<p>If an undead fails it's saving throw against your Turn Undead, the creature is instantly destroyed if its challenge rating is 1/2 or lower </p>$CR 1/2
 **cleric$8$destroy undead$
-<p>If an undead fails it's saving throw against your Turn Undead, the creature is instantly destroyed if its challenge rating is 1 or lower </p>
+<p>If an undead fails it's saving throw against your Turn Undead, the creature is instantly destroyed if its challenge rating is 1 or lower </p>$CR 1
 **cleric$11$destroy undead$
-<p>If an undead fails it's saving throw against your Turn Undead, the creature is instantly destroyed if its challenge rating is 2 or lower </p>
+<p>If an undead fails it's saving throw against your Turn Undead, the creature is instantly destroyed if its challenge rating is 2 or lower </p>$CR 2
 **cleric$14$destroy undead$
-<p>If an undead fails it's saving throw against your Turn Undead, the creature is instantly destroyed if its challenge rating is 3 or lower </p>
+<p>If an undead fails it's saving throw against your Turn Undead, the creature is instantly destroyed if its challenge rating is 3 or lower </p>$CR 3
 **cleric$17$destroy undead$
-<p>If an undead fails it's saving throw against your Turn Undead, the creature is instantly destroyed if its challenge rating is 4 or lower </p>
+<p>If an undead fails it's saving throw against your Turn Undead, the creature is instantly destroyed if its challenge rating is 4 or lower </p>$CR 4
 **cleric$10$divine intervention$<p> Ask for assistance from what you worship. Ask for the kind of assistance you require and roll percentile dice. If you roll a number equal or lower than your cleric level, your deity intervenes. The DM  choose the nature of the intervention; effect of any cleric spell or cleric domain spell is appropriate. </p>  If the object of your worship intervenes, you can't use this feature again for 7 days. Otherwise you can use it again after you finish a long rest.</p> 
 **cleric$20$divine intervention$<p> Ask for assistance from what you worship. Ask for the kind of assistance you require and roll percentile dice. If you roll a number equal or lower than your cleric level, your deity intervenes. The DM  choose the nature of the intervention; effect of any cleric spell or cleric domain spell is appropriate. </p>  If the object of your worship intervenes, you can't use this feature again for 7 days. Otherwise you can use it again after you finish a long rest.</p> <p> Your calls for intervention work automatically with no roll required.</p> 
 **druid$1$druidic$<p>You know Druidic, the secret language of druids. You can speak the language and can use it to leave secret languages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 wisdom(perception) check but can't decipher it without magic. </p> 
@@ -123,11 +124,11 @@ barbarian$1$rage$ <p> Enter rage as a bonus action, you gain the following benef
 <h3>Two-Weapon Fighting</h3> When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack</p>
 <p><h3>Mariner</h3> As long as you are not wearing heavy armor or using a shield you have swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC.</p>
 **fighter$1$second wind$<p>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.</p> <p>Once you use this feature, you must finish a short or long rest before you can use it again.</p>
-**fighter$2$action surge$<p> You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.</p><p>Once you use this feature, you must finish a short of long rest before you can use it again.</p>
-**fighter$17$action surge$<p> You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.</p><p>You have two uses of this feature, before you must finish a short of long rest to use them again.</p>
-**fighter$5$extra attack$<p> You can attack twice with your attack action</p>
-**fighter$11$extra attack$<p> You can attack thrice with your attack action</p>
-**fighter$20$extra attack$<p> You can attack four times with your attack action</p>
+**fighter$2$action surge$<p> You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.</p><p>Once you use this feature, you must finish a short of long rest before you can use it again.</p>$1
+**fighter$17$action surge$<p> You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.</p><p>You have two uses of this feature, before you must finish a short of long rest to use them again.</p>$2
+**fighter$5$extra attack$<p> You can attack twice with your attack action</p>$1
+**fighter$11$extra attack$<p> You can attack thrice with your attack action</p>$2
+**fighter$20$extra attack$<p> You can attack four times with your attack action</p>$3
 **fighter$9$indomitable$<p>you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a long rest</p>
 **fighter$13$indomitable$<p>you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can use this feature twice before you need to finish a long rest</p>
 **fighter$17$indomitable$<p>you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can use this feature thrice before you need finish a long rest</p><p></p>
@@ -148,7 +149,7 @@ barbarian$1$rage$ <p> Enter rage as a bonus action, you gain the following benef
 **monk$3$deflect missiles$You can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by <strong>1d10 + your dexterity modifier + your monk level</strong></p>
 <p>If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack.</p>
 **monk$4$slow fall$<p>You can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level</p>
-**monk$5$extra attack$<p>When you use your attack action you can attack twice.</p>
+**monk$5$extra attack$<p>When you use your attack action you can attack twice.</p>$1
 **monk$5$stunning strike$<p>When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a constitution saving throw or be stunned until the end of your next turn</p>
 **monk$6$ki-empowered strikes$<p>Your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical damage attacks and damage.</p>
 **monk$7$evasion$<p>You can dodge out of the way of certain area effects. If you would make a dexterity saving throw, if you succeed then you take no damage instead of half</p>
@@ -181,7 +182,7 @@ To cast one of your paladin spells you must expend one spell slot. You regain al
 <p><h3>Spellcasting Focus</h3>You can use a holy symbol as a spellcasting focus for your paladin spells.</p>
 **paladin$2$divine smite$When you hit a creature with a melee weapon attack, you can expend one paladin spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than the 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is and undead or a fiend.</p>
 **paladin$3$divine health$<p>You are immune to disease</p>
-**paladin$5$extra attack$<p>You can use your attack action to attack twice</p>
+**paladin$5$extra attack$<p>You can use your attack action to attack twice</p>$1
 **paladin$6$aura of protection$<p>Whenever you or a friendly creature within 10 feet of you  must make a saving throw, the creature gains a bonus to the to the saving throw equal to your charisma modifier(minimum of +1). You must be conscious to grant this bonus </p>
 **paladin$18$aura of protection$<p>Whenever you or a friendly creature within 30 feet of you  must make a saving throw, the creature gains a bonus to the to the saving throw equal t    o your charisma modifier(minimum of +1). You must be conscious to grant this bonus </p>
 **paladin$10$aura of courage$<p>You and friendly creatures within 10 feet of you can't be frightened while you are conscious </p>
@@ -242,7 +243,7 @@ Wisdom is your spellcasting ability for your ranger spells, since your magic dra
 <p><strong>Spell Save DC =</strong> 8 + your proficiency modifier + your wisdom modifier</p>
 <p><strong>Spell Attack Modifier =</strong> your proficiency modifier + your wisdom modifier</p>
 **ranger$3$primeval awareness$<p>You can use your action and expend one ranger spell slot to focus your awareness on the region around you. for 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you( or within up to 6 miles if you are in your favored terrain ): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn't reveal the creatures' location or number</p>
-**ranger$5$extra attack$<p>When you use the attack action you can attack twice</p>
+**ranger$5$extra attack$<p>When you use the attack action you can attack twice</p>$1
 **ranger$8$land's stride$<p>Moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard. </p>
 <p>In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement.</p>
 **ranger$10$hide in plain sight$<p>You can spend 1 minute creating camouflage for yourself. You must have access to fresh mud, dirt, plants, soot, and other naturally occurring materials with which to create your camouflage.</p>

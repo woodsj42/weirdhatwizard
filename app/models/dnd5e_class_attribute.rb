@@ -4,7 +4,7 @@ class Dnd5eClassAttribute < ActiveRecord::Base
 	def self.get_all_attributes(id,level)
 		sorted = []
 		temp = []
-		self.where(dnd5e_class_id: id).map {|m|  if m.value != "-" and m.level.to_i <= level.to_i
+		self.where(dnd5e_class_id: id).map {|m|  if m.level.to_i <= level.to_i
                                                                         temp << m 
 	    						 end }
 		temp.sort! {|a,b| b.level.to_i <=> a.level.to_i}
@@ -29,7 +29,7 @@ class Dnd5eClassAttribute < ActiveRecord::Base
 		if level.to_i == 1
 			temp1 = Dnd5eClassAttribute.get_all_attributes(id, level)
 			temp1.each do |a|
-				sorted << ["*&nbsp;", a]
+				sorted << ["&nbsp;&nbsp;", a]
 			end
 		else
 			temp1 = Dnd5eClassAttribute.get_all_attributes(id, (level.to_i-1).to_s)

@@ -3,13 +3,13 @@ class Dnd5eArchetypeAttribute < ActiveRecord::Base
 	def self.get_all_attributes(id,level)
 		sorted = []
 		temp = []
-		self.where(dnd5e_archetype_id: id).map {|m|  if m.value != "-" and m.level.to_i <= level.to_i
+		self.where(dnd5e_archetype_id: id).map {|m|  if m.level.to_i <= level.to_i
                                                                         temp << m 
 	    						 end }
-		temp.sort {|a,b| b.level.to_i <=> a.level.to_i}
-		for i in temp
+		temp.sort! {|a,b| b.level.to_i <=> a.level.to_i}
+		temp.each do |i|
 			there = true
-			for j in sorted
+			sorted.each do |j|
 				if j.name == i.name
 					there = false	 
 				end
