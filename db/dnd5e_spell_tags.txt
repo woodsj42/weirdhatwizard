@@ -18,7 +18,7 @@ Produce Flame$utility,offense,range,damage
 Ray of Frost$offense,range,damage
 Resistance$melee,utility
 Sacred Flame$offense,saving throw,range,damage
-Shillelagh$offense,melee,damage
+Shillelagh$offense,melee,buff
 Shocking Grasp$melee,offense,damage
 Spare the Dying$utility,healing
 Thaumaturgy$utility
@@ -151,7 +151,7 @@ Plant Growth$area of effect,utility
 Protection From Energy$defense,buff
 Remove Curse$healing
 Sending$utility
-Sleet Storm$area of effect,damage,control
+Sleet Storm$area of effect,control
 Slow$area of effect,control
 Speak with Dead$utility
 Speak with Plants$utility
@@ -198,7 +198,7 @@ Clone$melee,utility,summons
 Control Weather$range,area of effect
 Demiplane$utility,range
 Dominate Monster$range,control
-Earthquake$area of effect,offense,range,damage
+Earthquake$area of effect,offense,range
 Feeblemind$range,control
 Glibness$utility
 Holy Aura$area of effect,buff
@@ -211,7 +211,7 @@ Telepathy$range,utility
 Tsunami$offense,range,damage
 Astral Projection$utility
 Foresight$utility
-Banishing Smite$offense,melee,saving throw
+Banishing Smite$offense,melee
 Gate$range,utility,mobility
 Imprisonment$range,saving throw
 Mass Heal$healing,area of effect,range
@@ -233,9 +233,9 @@ Awaken$healing,buff,summons
 Bigby's Hand$offense,summons,range
 Blade Barrier$defense,area of effect,damage
 Chain Lightning$offense,area of effect,range,damage
-Circle of Power$saving throw,buff,offense,area of effect
+Circle of Power$buff,offense,area of effect
 Circle of Death$saving throw,area of effect,offense
-Cloudkill$range,area of effect,saving throw,offense
+Cloudkill$range,area of effect,saving throw,offensei,damage
 Commune$utility
 Commune with Nature$utility
 Riposte$offense,melee,damage
@@ -243,7 +243,7 @@ Conjure Elemental$summons
 Conjure Fey$summons
 Conjure Volley$summons
 Contact Other Plane$utility
-Contagion$range,damage,control
+Contagion$range,control
 Contingency$utility,offense,defense
 Continual Flame$utility
 Find Traps$utility
@@ -281,7 +281,7 @@ Gentle Repose$healing,utility
 Giant Insect$summons,range
 Globe of Invulnerability$defense,area of effect
 Glyph of Warding$utility
-Grasping Vine$range,summons,damage
+Grasping Vine$range,summons
 Greater Invisibility$utility
 Greater Restoration$healing,melee
 Guardian of Faith$buff,range,defense
@@ -306,7 +306,7 @@ Locate Creature$utility
 Locate Object$utility
 Magic Jar$utility
 Magic Mouth$utility
-Magic Weapon$offense,damage
+Magic Weapon$offense,buff
 Mass Cure Wounds$area of effect,healing
 Mass Suggestion$area of effect,control,saving throw,utility
 Pass without Trace$utility
@@ -324,7 +324,7 @@ Move Earth$utility,range
 Nystul's Magic Aura$buff,defense,melee
 Otiluke's Freezing Sphere$area of effect,range,saving throw,offense
 Otiluke's Resilient Sphere$defense,saving throw
-Otto's Irresistible Dance$range,saving throw
+Otto's Irresistible Dance$range,control
 Phantasmal Force$offense,saving throw,range
 Phantasmal Killer$offense,saving throw,range
 Planar Ally$summons
@@ -368,8 +368,8 @@ Wind Walk$mobility
 Wind Wall$range,defense,control
 Word of Recall$defense
 Zone of Truth$utility,area of effect,saving throw
-Commanders Strike$offense,buff,damage
-Disarming Attack$offense,saving throw,damage
+Commanders Strike$offense,buff
+Disarming Attack$offense,damage,control
 Distracting Strike$offense,saving throw,damage
 Evasive Footwork$mobility
 Feinting Attack$offense,melee,damage
@@ -393,7 +393,7 @@ Rush of the Gale Spirits$range,control,saving throw
 Shape the Flowing River$utility,range
 Sweeping Cinder Strike$melee,offense,damage
 Water Whip$range,offense,damage
-Wave of Rolling Earth$offense,range,damage
+Wave of Rolling Earth$range,utility
 Control Flames$utility,range
 Create Bonfire$damage,range,saving throw,offense
 Frostbite$range,damage,saving throw,offense
@@ -402,7 +402,7 @@ Magic Stone$damage,range,offense
 Mold Earth$range,utility
 Shape Water$range,utility
 Thunderclap$area of effect,damage,saving throw
-Absorb Elements$quick,defense,damage
+Absorb Elements$quick,defense,damage,buff
 Beast Bond$melee,utility
 Catapult$damage,range,offense
 Earth Tremor$control,saving throw,area of effect,damage
@@ -416,10 +416,10 @@ Skywrite$utility,range
 Snilloc's Snowball Swarm$area of effect,range,damage
 Warding Wind$area of effect,defense
 Erupting Earth$damage,saving throw,offense,range
-Flame Arrows$damage,range,offense
+Flame Arrows$damage,range,offense,buff
 Melf's Minute Meteors$range,area of effect,damage,offense
 Tidal Wave$saving throw,area of effect,control,damage,offense
-Wall of Sand$defense,control,damage,range
+Wall of Sand$defense,control,range
 Wall of Water$defense,control,defense,range
 Elemental Bane$range,saving throw,offense,damage
 Storm Sphere$summons,range,damage,saving throw,area of effect
@@ -430,10 +430,10 @@ Immolation$range,saving throw,damage,offense
 Maelstrom$range,saving throw,offense,damage
 Transmute Rock$control,area of effect,range
 Bones of the Earth$utility,saving throw,control,damage
-Investiture of Flame$damage,utility,offense,damage
-Investiture of Ice$damage,utility,offense,damage
-Investiture of Stone$damage,utility,offense,damage
-Investiture of Wind$damage,utility,offense,damage
+Investiture of Flame$damage,utility,offense,damage,buff
+Investiture of Ice$damage,utility,offense,damage,buff
+Investiture of Stone$damage,utility,offense,buff
+Investiture of Wind$damage,utility,offense,damage,buff
 Primordial Ward$defense
 Whirlwind$control,range,damage
 Abi-Dalzim's Horrid Wilting$area of effect,damage,offense,saving throw

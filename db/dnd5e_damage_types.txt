@@ -1,0 +1,13 @@
+thunder
+psychic
+lightning
+fire
+necrotic
+cold
+piercing
+bludgeoning
+slashing
+acid
+poison
+force
+radiant

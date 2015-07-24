@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150706033248) do
+ActiveRecord::Schema.define(version: 20150724194113) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -172,6 +172,12 @@ ActiveRecord::Schema.define(version: 20150706033248) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "dnd5e_damage_types", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "dnd5e_durations", force: :cascade do |t|
     t.string   "name"
     t.datetime "created_at", null: false
@@ -199,6 +205,12 @@ ActiveRecord::Schema.define(version: 20150706033248) do
     t.datetime "updated_at",    null: false
   end
 
+  create_table "dnd5e_saving_throws", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "dnd5e_spell_types", force: :cascade do |t|
     t.string   "name"
     t.datetime "created_at", null: false
@@ -217,6 +229,8 @@ ActiveRecord::Schema.define(version: 20150706033248) do
     t.string   "ritual"
     t.string   "concentration"
     t.string   "tags"
+    t.string   "saving_throw"
+    t.string   "damage_type"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
   end

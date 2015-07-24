@@ -12,6 +12,8 @@ class CreateDnd5eSpells < ActiveRecord::Migration
       t.string :ritual
       t.string :concentration
       t.string :tags
+      t.string :saving_throw
+      t.string :damage_type
 
       t.timestamps null: false
     end

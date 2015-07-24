@@ -16,6 +16,34 @@ class Dnd5eSpell < ActiveRecord::Base
 		@sorted
 	end
 	
+	def self.sort_by_saving_throw(id)
+		length = [0,0,0,0,0,0,0,0,0,0]
+		@sorted = [[],[],[],[],[],[],[],[],[],[]]
+		st = Dnd5eSavingThrow.find(id)
+		Dnd5eSpell.all.map { |m| 
+					if m.saving_throw and m.saving_throw == st.name
+				      		temp = m.level.to_i 	
+						@sorted[ temp ][ length[ temp ] ] = m
+						length[temp] += 1 
+					end
+	     			   }
+		@sorted
+	end
+	
+	def self.sort_by_damage_type(id)
+		length = [0,0,0,0,0,0,0,0,0,0]
+		@sorted = [[],[],[],[],[],[],[],[],[],[]]
+		dt = Dnd5eDamageType.find(id)
+		Dnd5eSpell.all.map { |m| 
+					if m.damage_type and m.damage_type.split(',').detect {|i| i == dt.name}
+				      		temp = m.level.to_i 	
+						@sorted[ temp ][ length[ temp ] ] = m
+						length[temp] += 1 
+					end
+	     			   }
+		@sorted
+	end
+
 	def self.sort_by_tag(id)
 		length = [0,0,0,0,0,0,0,0,0,0]
 		@sorted = [[],[],[],[],[],[],[],[],[],[]]

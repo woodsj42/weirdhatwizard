@@ -10,9 +10,19 @@ class Dnd5eSpellsController < ApplicationController
 		@spell_type = nil
 		@spell = nil
 		@tag = nil
+		@saving_throw = nil
+		@damage_type = nil
 		@search = params[:search]
 		
 	
+		if params[:saving_throw].to_i == 0
+			@saving_throw_all = 0
+		end
+
+		if params[:damage_type].to_i == 0
+			@damage_type_all = 0
+		end
+
 		if params[:class].to_i == 0
 			@class_all = 0
 		end
@@ -25,6 +35,14 @@ class Dnd5eSpellsController < ApplicationController
 			@spell_type_all = 0
 		end
 		
+
+		if Dnd5eSavingThrow.exists?(params[:saving_throw].to_i)
+			@saving_throw = params[:saving_throw].to_i	
+		end
+
+		if Dnd5eDamageType.exists?(params[:damage_type].to_i)
+			@damage_type = params[:damage_type].to_i	
+		end
 
 		if SpellTag.exists?(params[:tag].to_i)
 			@tag = params[:tag].to_i	
@@ -78,7 +96,21 @@ class Dnd5eSpellsController < ApplicationController
 
                         end
 		end 	
-		
+	
+		if @saving_throw
+			spells_by_saving_throw = Dnd5eSpell.sort_by_saving_throw(@saving_throw)
+			for i in 0..@spells.length-1
+                        	@spells[i] = @spells[i] & spells_by_saving_throw[i]
+
+                        end
+		elsif @damage_type
+			spells_by_damage_type = Dnd5eSpell.sort_by_damage_type(@damage_type)
+			for i in 0..@spells.length-1
+                        	@spells[i] = @spells[i] & spells_by_damage_type[i]
+
+                        end
+		end
+	
 		if @search
 			@search = @search.titleize.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 			if @best_fit = Dnd5eSpell.find_by_name(@search) 

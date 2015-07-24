@@ -1,0 +1,83 @@
+Acid Splash$dexterity
+Minor Illusion$intelligence
+Poison Spray$consitution
+Sacred Flame$dexterity
+Vicious Mockery$wisdom
+Arms of Hadar$strength
+Dissonant Whispers$wisdom
+Hellish Rebuke$dexterity
+Ray of Sickness$constitution
+Tasha's Hideous Laughter$wisdom
+Calm Emotions$charisma
+Crown of Madness$wisdom
+Hold Person$wisdom
+Suggestion$wisdom
+Bestow Curse$wisdom
+Fear$wisdom
+Call Lightning$dexterity
+Conjure Barrage$dexterity
+Counterspell$intelligence
+Fireball$dexterity
+Hunger of Hadar$dexterity
+Hypnotic Pattern$wisdom
+Spirit Guardian$wisdom
+Stinking Cloud$constitution
+Banishment$charisma
+Blight$constitution
+Compulsion$wisdom
+Confusion$wisdom
+Delayed Blast Fireball$dexterity
+Divine Word$charisma
+Cone of Cold$constitution
+Finger of Death$constitution
+Fire Storm$dexterity
+Incendiary Cloud$dexterity
+Maze$intelligence
+Power Word Stun$constitution
+Sunburst$constitution
+Imprisonment$wisdom
+Weird$wisdom
+Circle of Death$constitution
+Cloudkill$constitution
+Destructive Wave$constitution
+Eyebite$wisdom
+Flesh To Stone$constitution
+Geas$wisdom
+Gust of Wind$strength
+Harm$constitution
+Ice Storm$dexterity
+Insect Plague$constitution
+Mass Suggestion$wisdom
+Moonbeam$constitution
+Otiluke's Freezing Sphere$constitution
+Otiluke's Resilient Sphere$constutition
+Phantasmal Force$intelligence
+Phantasmal Killer$wisdom
+Ray of Enfeeblement$constitution
+Seeming$charisma
+Shatter$constitution
+Staggering Smite$wisdom
+Sunbeam$constitution
+Menacing Attack$wisdom
+Zone of Truth$charisma
+Disarming Attack$strength
+Breath of Winter$constitution
+Flames of the Phoenix$dexterity
+Gong of the Summit$constitution
+Rush of the Gale Spirits$strength
+Create Bonfire$dexterity
+Frostbite$constitution
+Thunderclap$constitution
+Earth Tremor$dexterity
+Aganazzar's Scorcher$dexterity
+Dust Devil$strength
+Maximilian's Earthen Grasp$strength
+Pyrotechnics$constitution
+Erupting Earth$dexterity
+Tidal Wave$dexterity
+Elemental Bane$constitution
+Storm Sphere$strength
+Immolation$dexterity
+Maelstrom$strength
+Bones of the Earth$dexterity
+Abi-Dalzim's Horrid Wilting$constitution

@@ -117,6 +117,34 @@ File.open(dnd5e + spell_file) do |f|
 
 end
 
+File.open( dnd5e + "saving_throws.txt") do |f|
+		while line = f.gets
+			Dnd5eSavingThrow.create(:name => line.titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the'))
+		end
+end
+
+File.open(dnd5e + "damage_types.txt") do |f|
+		while line = f.gets
+			Dnd5eDamageType.create(:name => line.titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the'))
+		end
+end
+
+File.open(dnd5e + "spell_saving_throw.txt") do |f|
+		while line = f.gets
+			arr = line.split('$')
+			cleaned_name = arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			Dnd5eSpell.update( Dnd5eSpell.where(:name => cleaned_name ).take.id, :saving_throw => arr[1].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the') )
+		end
+end
+
+File.open(dnd5e + "spell_damage.txt") do |f|
+		while line = f.gets
+			arr = line.split('$')
+			cleaned_name = arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			Dnd5eSpell.update( Dnd5eSpell.where(:name => cleaned_name ).take.id, :damage_type => arr[1].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the') )
+		end
+end
+
 Dnd5eComponent.create(:name => "V")
 Dnd5eComponent.create(:name => "S")
 Dnd5eComponent.create(:name => "M")
@@ -1035,7 +1063,7 @@ end
 
 File.open(Dir.pwd + '/db/spell_tags.txt') do |f|
 		while line = f.gets
-			SpellTag.create(name: line.chomp.titleize )
+			SpellTag.create(name: line.chomp.titleize.gsub('And','and').gsub('With','with').gsub('Into','into').gsub('The', 'the').gsub('Of ', 'of ') )
 		end
 end
 
