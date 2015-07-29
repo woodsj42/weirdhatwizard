@@ -133,7 +133,10 @@ File.open(dnd5e + "spell_saving_throw.txt") do |f|
 		while line = f.gets
 			arr = line.split('$')
 			cleaned_name = arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-			Dnd5eSpell.update( Dnd5eSpell.where(:name => cleaned_name ).take.id, :saving_throw => arr[1].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the') )
+			temp1 = arr[1].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With', 'with').gsub('Into','into').gsub('The', 'the').split(',')
+			temp1.sort!
+			cleaned_throws = temp1.join(", ")	
+			Dnd5eSpell.update( Dnd5eSpell.where(:name => cleaned_name ).take.id, :saving_throw => cleaned_throws)
 		end
 end
 

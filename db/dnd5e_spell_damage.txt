@@ -1,7 +1,7 @@
-Forbiddance$radiant,necrotic
-Storm of Vengeance$thunder,acid,cold,bludgeoning,lightning
-Prismatic Wall$fire,cold,acid,lightning,poison
-Meteor Swarm$fire,bludgeoning
+Forbiddance$radiant, necrotic
+Storm of Vengeance$thunder, acid, cold, bludgeoning, lightning
+Prismatic Wall$fire, cold, acid, lightning, poison
+Meteor Swarm$fire, bludgeoning
 Incendiary Cloud$fire
 Feeblemind$psychic
 Symbol$necrotic
@@ -17,8 +17,8 @@ Guardian of Faith$radiant
 Evard's Black Tentacles$bludgeoning
 Control Water$bludgeoning
 Wind Wall$bludgeoning
-Spirit Guardian$radiant,necrotic
-Spirit Guardians$radiant,necrotic
+Spirit Guardian$radiant, necrotic
+Spirit Guardians$radiant, necrotic
 Glyph of Warding$acid, cold, fire, lightning, thunder
 Spiritual Weapon$force
 Spike Growth$piercing
