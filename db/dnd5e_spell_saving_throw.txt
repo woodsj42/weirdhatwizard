@@ -1,3 +1,19 @@
+Holy Aura$constitution
+True Polymorph$wisdom
+Storm of Vengeance$constitution,dexterity
+Prismatic Wall$wisdom,constitution
+Meteor Swarm$dexterity
+Tsunami$strength
+Feeblemind$intelligence
+Dominate Monster$wisdom
+Earthquake$dexterity,constitution
+Whirlwind$dexterity
+Antipathy/Sympathy$wisdom
+Symbol$intelligence,constitution,wisdom,charisma
+Reverse Gravity$dexterity
+Project Image$intelligence
+prismatic spray$dexterity,wisdom,constitution
+Forcecage$charisma
 Wall of Thorns$dexterity
 Wall of Ice$dexterity
 Magic Jar$charisma

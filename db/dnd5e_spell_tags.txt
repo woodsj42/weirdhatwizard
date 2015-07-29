@@ -168,63 +168,63 @@ Conjure Woodland Beings$summons
 Control Water$utility,range,saving throw,damage
 Death Ward$healing,buff,melee
 Dimension Door$utility,mobility
-Conjure Celestial$summones
+Conjure Celestial$summons
 Delayed Blast Fireball$offense,area of effect,saving throw,damage
-Divine Word$saving throw,control,area of effect
+Divine Word$saving throw,control,area of effect,quick
 Mordenkainen's Sword$offense,summons,damage
 Cone of Cold$saving throw,offense,area of effect,damage
 Etherealness$utility,mobility
 Finger of Death$offense,saving throw,range,damage,summons
 Fire Storm$area of effect,offense,saving throw,damage
-Forcecage$utility,control
+Forcecage$utility,control,saving throw
 Mirage Arcane$area of effect,control
 Mordenkainen's Magnificent Mansion$utility
 Precision Attack$offense,buff
 Plane Shift$utility,mobility
-Prismatic Spray$range,offense,area of effect,damage,control
-Project Image$range,control
-Regenerate$healing,utility,defense
+Prismatic Spray$range,offense,area of effect,damage,control,saving throw
+Project Image$range,control,saving throw
+Regenerate$healing,utility
 Resurrection$healing
-Reverse Gravity$range,utility
+Reverse Gravity$range,utility,saving throw,control
 Sequester$melee,utility
 Simulacrum$melee,utility
-Symbol$utility
+Symbol$utility,saving throw,damage
 Teleport$utility,mobility
 Animal Shapes$utility
 Antimagic Field$area of effect,defense
-Antipathy/Sympathy$range,utility
+Antipathy/Sympathy$range,utility,saving throw
 Clone$melee,utility,summons
 Control Weather$range,area of effect
 Demiplane$utility,range
-Dominate Monster$range,control
-Earthquake$area of effect,offense,range
-Feeblemind$range,control
-Glibness$utility
-Holy Aura$area of effect,buff
-Incendiary Cloud$area of effect,offense,saving throw
+Dominate Monster$range,control,saving throw
+Earthquake$area of effect,offense,range,saving throw
+Feeblemind$range,control,damage,saving throw
+Glibness$utility,buff
+Holy Aura$area of effect,buff,saving throw
+Incendiary Cloud$area of effect,offense,saving throw,damage
 Maze$range,saving throw
 Mind Blank$melee,buff,defense
 Power Word Stun$saving throw,range
 Sunburst$area of effect,range,saving throw,offense,damage
 Telepathy$range,utility
-Tsunami$offense,range,damage
+Tsunami$offense,range,damage,control,saving throw
 Astral Projection$utility
-Foresight$utility
+Foresight$utility,buff
 Banishing Smite$offense,melee,quick,damage
 Gate$range,utility,mobility
-Imprisonment$range,saving throw
+Imprisonment$range,saving throw,control
 Mass Heal$healing,area of effect,range
-Meteor Swarm$offense,area of effect,range
+Meteor Swarm$offense,area of effect,range,damage,saving throw
 Power Word Heal$healing,melee
 Power Word Kill$range,offense
-Prismatic Wall$defense,range
+Prismatic Wall$defense,range,saving throw,damage
 Shapechange$utility
-Storm of Vengeance$area of effect,
-Time Stop$utility,
+Storm of Vengeance$area of effect,saving throw,damage
+Time Stop$utility,control
 True Polymorph$utility,saving throw
 True Resurrection$healing
 Weird$offense,saving throw,area of effect,damage
-Wish$utility
+Wish$utility,offense,defense,mobility
 Animate Objects$range,summons
 Anti Life Shell$area of effect,defense
 Arcane Gate$utility,mobility
@@ -434,5 +434,5 @@ Investiture of Ice$damage,utility,offense,damage,buff,saving throw
 Investiture of Stone$damage,utility,offense,buff,saving throw
 Investiture of Wind$damage,utility,offense,damage,buff,saving throw
 Primordial Ward$defense,buff
-Whirlwind$control,range,damage
+Whirlwind$control,range,damage,saving throw
 Abi-Dalzim's Horrid Wilting$area of effect,damage,offense,saving throw

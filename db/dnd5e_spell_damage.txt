@@ -1,4 +1,10 @@
 Forbiddance$radiant,necrotic
+Storm of Vengeance$thunder,acid,cold,bludgeoning,lightning
+Prismatic Wall$fire,cold,acid,lightning,poison
+Meteor Swarm$fire,bludgeoning
+Incendiary Cloud$fire
+Feeblemind$psychic
+Symbol$necrotic
 Otiluke's Freezing Sphere$cold
 Circle of Death$necrotic
 Geas$psychic
