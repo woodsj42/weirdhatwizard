@@ -182,39 +182,39 @@ shocking grasp$wizard$1
 thunderclap$wizard$1
 true strike$wizard$1
 absorb elements$wizard$1
-alarm$wizard$3
-burning hands$wizard$3
-catapult$wizard$3
-charm person$wizard$3
-chromatic orb$wizard$3
-color spray$wizard$3
-comprehend languages$wizard$3
-detect magic$wizard$3
-disguise self$wizard$3
-earth tremor$wizard$3
-expeditious retreat$wizard$3
-false life$wizard$3
-feather fall$wizard$3
-find familiar$wizard$3
-fog cloud$wizard$3
-grease$wizard$3
-ice knife$wizard$3
-identify$wizard$3
-illusory script$wizard$3
-jump$wizard$3
-longstrider$wizard$3
-mage armor$wizard$3
-magic missile$wizard$3
-protection from evil and good$wizard$3
-ray of sickness$wizard$3
-shield$wizard$3
-silent image$wizard$3
-sleep$wizard$3
-tasha's hideous laughter$wizard$3
-tenser's floating disk$wizard$3
-thunderwave$wizard$3
-unseen servant$wizard$3
-witch bolt$wizard$3
+alarm$wizard$1
+burning hands$wizard$1
+catapult$wizard$1
+charm person$wizard$1
+chromatic orb$wizard$1
+color spray$wizard$1
+comprehend languages$wizard$1
+detect magic$wizard$1
+disguise self$wizard$1
+earth tremor$wizard$1
+expeditious retreat$wizard$1
+false life$wizard$1
+feather fall$wizard$1
+find familiar$wizard$1
+fog cloud$wizard$1
+grease$wizard$1
+ice knife$wizard$1
+identify$wizard$1
+illusory script$wizard$1
+jump$wizard$1
+longstrider$wizard$1
+mage armor$wizard$1
+magic missile$wizard$1
+protection from evil and good$wizard$1
+ray of sickness$wizard$1
+shield$wizard$1
+silent image$wizard$1
+sleep$wizard$1
+tasha's hideous laughter$wizard$1
+tenser's floating disk$wizard$1
+thunderwave$wizard$1
+unseen servant$wizard$1
+witch bolt$wizard$1
 aganazzar's scorcher$wizard$3
 alter self$wizard$3
 arcane lock$wizard$3

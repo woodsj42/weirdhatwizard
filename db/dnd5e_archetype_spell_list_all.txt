@@ -1,4 +1,4 @@
-commanders strike$battle master$1
+commander's strike$battle master$1
 disarming strike$battle master$1
 fog cloud$stormborn$1
 thunderwave$stormborn$1
@@ -22,7 +22,7 @@ pushing attack$battle master$1
 rally attack$battle master$1
 riposte$battle master$1
 sweeping attack$battle master$1
-tripping attack$battle master$1
+trip attack$battle master$1
 breath of winter$four elements$17
 clench of the north wind$four elements$6
 elemental attunement$four elements$3

@@ -6,36 +6,43 @@
 </p>
 
 <p>
-<strong>Tags: </strong><%= spell.tags.gsub(',',', ') %>
+<strong>Tags: </strong>
+	
+	<%tags_all = spell.tags.split(',') %>
+	<% tags_all.each_with_index do |m, index| %>
+
+		<% if  ( index + 1 ) % 3 == 0  %>	
+			<%= ", " + m  %>
+			<br>
+		<% elsif  ( index + 1 ) == 1  %>	
+			<%=  m  %>
+		<% elsif  ( index + 1 ) % 4 == 0  %>	
+			<%= m  %>
+		<% elsif  ( index + 1 ) % 2 == 0  %>	
+			<%= ", " + m  %>
+		<% else %>
+			<%= ", " + m  %>
+		<% end %>
+	<% end %>
 </p>
 
 <p>
 	<strong>Class Level:</strong>
+	<% archetype_spells = Dnd5eArchetypeSpell.archetypes_that_know_this_spell_by_level(spell.id).map { |m| m = m.name + " " + Dnd5eArchetypeSpell.where(dnd5e_archetype_id: m.id,dnd5e_spell_id: spell.id).take.level }%>
+	<% class_spells = Dnd5eClassSpell.classes_that_know_this_spell_by_level(spell.id).map { |m| m = m.name + " " + Dnd5eClassSpell.where(dnd5e_class_id: m.id,dnd5e_spell_id: spell.id).take.level } %>
 	
-	<% @archetype_spells = Dnd5eArchetypeSpell.archetypes_that_know_this_spell_by_level(spell.id)%>
-	<% @class_spells = Dnd5eClassSpell.classes_that_know_this_spell_by_level(spell.id) %>
-	<% @class_spells.each_with_index do |m, index| %>
-		<%= m.name %>
-		<%= Dnd5eClassSpell.where(dnd5e_class_id: m.id,dnd5e_spell_id: spell.id).take.level %>
-		<% if ( ( index + 1 ) % 2 ) == 0 and @class_spells.length != ( index + 1) %>
-			<br>		
-		<% end %>
-		
-		<% if index % 2 == 0 and @class_spells.length != 1 or ( @archetype_spells.length == 1 and @class_spells.length == 1 ) %>
-			<label>,</label>
+	<% all = class_spells + archetype_spells %>
+	<% all.each_with_index do |m, index| %>
+
+		<% if  ( index + 1 ) % 2 == 0 %>	
+			<%= ", " + m  %>
+			<br>
+		<% else %>
+			<%= m  %>
 		<% end %>
 	<% end %>
-	<%@archetype_spells.each_with_index do |m, index| %>
-		<% if ( (  index + @class_spells.length) % 2 ) == 0 and @archetype_spells.length + @class_spells.length != 1 and ( @archetype_spells.length != 1 or @class_spells.length % 2 == 0 ) or ( @archetype_spells.length == 0 and @class_spells.length == 0  ) %>
-			<br>		
-		<% end %>
-		<%= m.name %>
-		<%= Dnd5eArchetypeSpell.where(dnd5e_archetype_id: m.id,dnd5e_spell_id: spell.id).take.level %>
-		<% if @class_spells.length != 0 and ( index + @class_spells.length + 1 ) % 2 != 0 and ( index + 1 ) != @archetype_spells.length  %>	
-			<label>,</label>
-		<% end %>
-		
-	<% end %>
+	
+	
 </p>
 
 <p>
@@ -59,14 +66,23 @@
 </p>
 
 <p>
-<strong>Concentration:</strong>
-  <%= spell.concentration %>
-</p>
-
-<p>
 <strong>Ritual:</strong>
   <%= spell.ritual %>
 </p>
+
+<% if spell.saving_throw %>
+	<p>
+	<strong>Saving Throw:</strong>
+  	<%= spell.saving_throw %>
+	</p>
+<% end %>
+
+<% if spell.damage_type %>
+	<p>
+	<strong>Damage:</strong>
+  	<%= spell.damage_type %>
+	</p>
+<% end %>
 
 <p>
   <%=  spell.description.html_safe %>

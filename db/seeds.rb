@@ -88,7 +88,7 @@ File.open(dnd5e + spell_file) do |f|
 #			print arr[7] + "\n"
 #			print arr[8] + "\n"
 #			print arr[9] + "\n"
-			cleaned_name =  arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
+			cleaned_name =  arr[0].titleize.chomp.gsub(' Or ',' or ').gsub(' From ',' from ').gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 			cleaned_cast_time =  arr[3].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 			cleaned_duration =  arr[6].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
 			cleaned_spell_type = arr[2].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
@@ -141,7 +141,10 @@ File.open(dnd5e + "spell_damage.txt") do |f|
 		while line = f.gets
 			arr = line.split('$')
 			cleaned_name = arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the')
-			Dnd5eSpell.update( Dnd5eSpell.where(:name => cleaned_name ).take.id, :damage_type => arr[1].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the') )
+			temp1 = arr[1].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With',     'with').gsub('Into','into').gsub('The', 'the').split(', ')
+			temp1.sort!
+			cleaned_damage = temp1.join(", ")	
+			Dnd5eSpell.update( Dnd5eSpell.where(:name => cleaned_name ).take.id, :damage_type => cleaned_damage )
 		end
 end
 
@@ -1074,8 +1077,10 @@ File.open(dnd5e + 'spell_tags.txt') do |f|
 			arr[1].split(',').each do |m|
 				temp = temp + m.titleize.chomp.gsub('And','and').gsub('With','with').gsub('Into','into').gsub('The', 'the').gsub('Of ', 'of ') + ','
 			end
-			spell = Dnd5eSpell.find_by_name(arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the'))
-			spell.tags = temp[0..-2]
+			spell = Dnd5eSpell.find_by_name(arr[0].titleize.chomp.gsub('From','from').gsub(' Or ',' or ').gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the'))
+			temp1 = temp[0..-2].split(',')
+			temp1.sort!
+			spell.tags = temp1.join(",")	
 			spell.save
 		end
 end

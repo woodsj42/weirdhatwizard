@@ -1,3 +1,26 @@
+Forbiddance$radiant,necrotic
+Otiluke's Freezing Sphere$cold
+Circle of Death$necrotic
+Geas$psychic
+Transmute Rock$bludgeoning
+Conjure Volley$bludgeoning, piercing, slashing
+Bigby's Hand$force,bludgeoning
+Banishing Smite$force
+Phantasmal Killer$psychic
+Guardian of Faith$radiant
+Evard's Black Tentacles$bludgeoning
+Control Water$bludgeoning
+Wind Wall$bludgeoning
+Spirit Guardian$radiant,necrotic
+Spirit Guardians$radiant,necrotic
+Glyph of Warding$acid, cold, fire, lightning, thunder
+Spiritual Weapon$force
+Spike Growth$piercing
+Dust Devil$bludgeoning
+Maneuvering Attack$piercig, bludgeoning, slashing
+Alter Self$piercig, bludgeoning, slashing
+Inflict Wounds$necrotic
+Hunter's Mark$piercing, bludgeoning, slashing
 Acid Splash$acid
 Cloudkill$poison
 Chill Touch$necrotic
@@ -6,12 +29,12 @@ Fire Bolt$fire
 Poison Spray$poison
 Produce Flame$fire
 Ray of Frost$cold
-Sacred Flame$fire
+Sacred Flame$radiant
 Shocking Grasp$lightning
 Thorn Whip$piercing
 Vicious Mockery$psychic
 Burning Hands$fire
-Chromatic Orb$acid,cold,fire,lightning,poison,thunder
+Chromatic Orb$acid, cold, fire, lightning, poison, thunder
 Guiding Bolt$radiant
 Divine Favor$radiant
 Ensnaring Strike$piercing
@@ -27,7 +50,7 @@ Cloud of Daggers$slashing
 Cordon of Arrows$piercing
 Blinding Smite$radiant
 Fireball$fire
-Hunger of Hadar$cold
+Hunger of Hadar$cold, acid
 Lightning Arrow$lightning
 Blight$necrotic
 Delayed Blast Fireball$fire
@@ -35,24 +58,24 @@ Mordenkainen's Sword$force
 Cone of Cold$cold
 Finger of Death$necrotic
 Fire Storm$fire
-Prismatic Spray$fire,lightning,acid,poison
+Prismatic Spray$fire, lightning, acid, poison
 Sunburst$radiant
 Tsunami$bludgeoning
 Weird$psychic
 Blade Barrier$slashing
 Chain Lightning$lightning
-Riposte$slashing,piercing,bludgeoning
-Destructive Wave$radiant,necrotic
+Riposte$slashing, piercing, bludgeoning
+Destructive Wave$radiant, necrotic
 Disintegrate$force
-Pushing Attack$slashing,piercing,bludgeoning
+Pushing Attack$slashing, piercing, bludgeoning
 Lightning Bolt$lightning
-Fire Shield$fire
+Fire Shield$fire,cold
 Flame Blade$fire
-Flame Strike$fire
+Flame Strike$fire,radiant
 Flaming Sphere$fire
 Harm$necrotic
 Heat Metal$fire
-Ice Storm$bludgeoning,cold
+Ice Storm$bludgeoning, cold
 Insect Plague$piercing
 Melf's Acid Arrow$acid
 Moonbeam$radiant
@@ -65,14 +88,14 @@ Wall of Fire$fire
 Wall of Force$force
 Wall of Ice$ice
 Wall of Thorns$piercing
-Menacing Attack$piercing,slashing,bludgeoning
-Disarming Attack$piercing,slashing,bludgeoning
-Distracting Strike$piercing,slashing,bludgeoning
-Feinting Attack$piercing,slashing,bludgeoning
-Goading Attack$piercing,slashing,bludgeoning
-Lunging Attack$piercing,slashing,bludgeoning
-Sweeping Attack$piercing,slashing,bludgeoning
-Trip Attack$piercing,slashing,bluedgeoning
+Menacing Attack$piercing, slashing, bludgeoning
+Disarming Attack$piercing, slashing, bludgeoning
+Distracting Strike$piercing, slashing, bludgeoning
+Feinting Attack$piercing, slashing, bludgeoning
+Goading Attack$piercing, slashing, bludgeoning
+Lunging Attack$piercing, slashing, bludgeoning
+Sweeping Attack$piercing, slashing, bludgeoning
+Trip Attack$piercing, slashing, bluedgeoning
 Breath of Winter$cold
 Fangs of the Fire Snake$fire
 Fist of the Four Thunders$thunder
@@ -85,10 +108,10 @@ Water Whip$bludgeoning
 Create Bonfire$fire
 Frostbite$cold
 Thunderclap$thunder
-Absorb Elements$cold,fire,thunder,lightning,poison,acid,radiant
+Absorb Elements$cold, fire, thunder, lightning, poison, acid, radiant
 Catapult$bludgeoning
 Earth Tremor$bludgeoning
-Ice Knife$cold,piercing
+Ice Knife$cold, piercing
 Aganazzar's Scorcher$fire
 Maximilian's Earthen Grasp$bludgeoning
 Snilloc's Snowball Swarm$cold
@@ -96,8 +119,8 @@ Erupting Earth$bludgeoning
 Flame Arrows$fire
 Melf's Minute Meteors$fire
 Tidal Wave$bludgeoning
-Elemental Bane$acid,cold,fire,lightning,thunder
-Storm Sphere$bludgeoning,lightning
+Elemental Bane$acid, cold, fire, lightning, thunder
+Storm Sphere$bludgeoning, lightning
 Vitriolic Sphere$acid
 Immolation$fire
 Maelstrom$bludgeoning

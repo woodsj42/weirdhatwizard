@@ -20,8 +20,8 @@ class Dnd5eSpell < ActiveRecord::Base
 		length = [0,0,0,0,0,0,0,0,0,0]
 		@sorted = [[],[],[],[],[],[],[],[],[],[]]
 		st = Dnd5eSavingThrow.find(id)
-		Dnd5eSpell.all.map { |m| 
-					if m.saving_throw and m.saving_throw == st.name
+		Dnd5eSpell.all.map { |m|
+					if m.saving_throw and m.saving_throw.split(', ').detect {|i| i == st.name} 
 				      		temp = m.level.to_i 	
 						@sorted[ temp ][ length[ temp ] ] = m
 						length[temp] += 1 
@@ -35,7 +35,7 @@ class Dnd5eSpell < ActiveRecord::Base
 		@sorted = [[],[],[],[],[],[],[],[],[],[]]
 		dt = Dnd5eDamageType.find(id)
 		Dnd5eSpell.all.map { |m| 
-					if m.damage_type and m.damage_type.split(',').detect {|i| i == dt.name}
+					if m.damage_type and m.damage_type.split(', ').detect {|i| i == dt.name}
 				      		temp = m.level.to_i 	
 						@sorted[ temp ][ length[ temp ] ] = m
 						length[temp] += 1 
