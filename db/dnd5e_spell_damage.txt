@@ -1,4 +1,7 @@
 Forbiddance$radiant, necrotic
+Hex$necrotic
+Hail of Thorns$piercing
+Armor of Agathys$cold
 Storm of Vengeance$thunder, acid, cold, bludgeoning, lightning
 Prismatic Wall$fire, cold, acid, lightning, poison
 Meteor Swarm$fire, bludgeoning

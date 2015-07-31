@@ -1,76 +1,76 @@
-Acid Splash$offense,saving throw,damage
-Blade Ward$defense
+Acid Splash$offense,saving throw,damage,range
+Blade Ward$defense,melee
 Chill Touch$offense,damage,melee
-Dancing Lights$utility
-Druidcraft$utility
+Dancing Lights$utility,range
+Druidcraft$utility,range
 Eldritch Blast$offense,range,damage
 Fire Bolt$offense,range,damage
 Friends$utility
-Guidance$utility
+Guidance$utility,melee
 Light$utility,saving throw
-Mage Hand$utility
-Mending$utility
-Message$utility
-Minor Illusion$utility,saving throw,control
-Poison Spray$offense,saving throw,range,damage
+Mage Hand$utility,range
+Mending$utility,melee
+Message$utility,range
+Minor Illusion$utility,saving throw,control,range
+Poison Spray$offense,saving throw,range,damage,range
 Prestidigitation$utiltiy,range
-Produce Flame$utility,offense,range,damage
+Produce Flame$utility,offense,range,damage,range
 Ray of Frost$offense,range,damage
 Resistance$melee,utility
 Sacred Flame$offense,saving throw,range,damage
 Shillelagh$offense,melee,buff
 Shocking Grasp$melee,offense,damage
-Spare the Dying$utility,healing
-Thaumaturgy$utility
+Spare the Dying$utility,healing,melee
+Thaumaturgy$utility,range
 Thorn Whip$range,offense,damage
-True Strike$offense,melee,buff
+True Strike$offense,buff,range
 Vicious Mockery$offense,saving throw,range,damage
-Alarm$utility
-Animal Friendship$utility,saving throw
-Armor of Agathys$defense,melee
+Alarm$utility,range
+Animal Friendship$utility,saving throw,range
+Armor of Agathys$defense,damage
 Arms of Hadar$offense,area of effect,saving throw
 Bane$offense,range,saving throw
 Bless$defense,range,buff
-Burning Hands$offense,melee,damage,saving throw
-Charm Person$utility,saving throw
+Burning Hands$offense,range,damage,saving throw
+Charm Person$utility,saving throw,range
 Chromatic Orb$range,offense,damage
-Color Spray$area of effect,offense,damage
-Command$range,utility,saving throw
-Compelled Duel$offense,range,quick,saving throw
+Color Spray$area of effect,offense,damage,range
+Command$range,utility,saving throw,range
+Compelled Duel$offense,range,quick,saving throw,range
 Comprehend Languages$utility
-Create Or Destroy Water$utility
+Create Or Destroy Water$utility,range
 Cure Wounds$melee,defense,healing
-Detect Evil and Good$utility,range
-Detect Magic$utility,range
+Detect Evil and Good$utility
+Detect Magic$utility
 Disguise Self$utility,saving throw
 Guiding Bolt$range,offense,damage
 Dissonant Whispers$saving throw,offense,range
-Divine Favor$offense,melee,damage,quick,buff
+Divine Favor$offense,damage,quick,buff
 Ensnaring Strike$offense,range,melee,damage,control,saving throw,quick
-Entangle$area of effect,control,saving throw
+Entangle$area of effect,control,saving throw,range
 Expeditious Retreat$mobility,quick
 Faerie Fire$range,control,buff
 False Life$healing
-Feather Fall$utility,quick
-Find Familiar$utility
-Fog Cloud$area of effect,control
+Feather Fall$utility,quick,range
+Find Familiar$utility,range
+Fog Cloud$area of effect,control,range
 Goodberry$defense,healing
-Grease$area of effect,control,saving throw
-Hail of Thorns$area of effect,control,saving throw
+Grease$area of effect,control,saving throw,range
+Hail of Thorns$area of effect,saving throw,quick,damage,buff
 Healing Word$healing,defense,range,quick
 Hellish Rebuke$saving throw,range,offense,damage,quick
 Heroism$buff,melee
-Hex$range,quick
+Hex$range,quick,damage
 Hunter's Mark$range,offense,quick,damage
 Identify$utility,melee
 Illusory Script$utility
 Inflict Wounds$offense,melee,damage
-Jump$mobility
+Jump$mobility,touch
 Longstrider$buff,melee,mobility
 Mage Armor$buff,defense
 Magic Missile$offense,range,damage
-Protection From Evil and Good$defense,buff
-Purify Food and Drink$utiltiy
+Protection From Evil and Good$defense,buff,melee
+Purify Food and Drink$utiltiy,range
 Ray of Sickness$range,offense,saving throw
 Sanctuary$defense,quick,saving throw
 Searing Smite$melee,offense,damage,quick,saving throw
@@ -90,20 +90,20 @@ Aid$buff,range
 Alter Self$utility,damage
 Dispel Magic$control,range
 Animal Messenger$utility
-Arcane Lock$utility
+Arcane Lock$utility,melee
 Augury$utility
 Barkskin$defense,buff
-Beast Sense$utility
+Beast Sense$utility,melee
 Blindness/Deafness$offense,range,saving throw
 Blur$buff,defense
 Branding Smite$melee,offense,damage
-Calm Emotions$saving throw,utility
+Calm Emotions$saving throw,utility,range
 Cloud of Daggers$area of effect,offense,damage
 Aura of Life$buff,area of effect
 Cordon of Arrows$defense,rage,damage
 Crown of Madness$range,saving throw,offense
 Darkness$range,utility
-Darkvision$buff
+Darkvision$buff,melee
 Detect Thoughts$range,utility,saving throw
 Hold Person$range,offense,saving throw
 Lesser Restoration$healing,melee
@@ -126,90 +126,90 @@ Clairvoyance$utility,range
 Conjure Animals$summons
 Conjure Barrage$offense,area of effect,saving throw
 Counterspell$defense,range,saving throw,control
-Create Food and Water$utility
+Create Food and Water$utility,range
 Crusader's Mantle$buff,area of effect,offense
-Daylight$utility
+Daylight$utility,range
 Parry$defense
-Feign Death$healing,utility
+Feign Death$healing,utility,melee
 Fireball$offense,area of effect,saving throw,damage
-Fly$mobility,buff
-Gaseous Form$mobility,buff
-Haste$buff,mobility
+Fly$mobility,buff,melee
+Gaseous Form$mobility,buff,melee
+Haste$buff,mobility,range
 Hunger of Hadar$area of effect,saving throw,damage
-Hypnotic Pattern$saving throw,control
+Hypnotic Pattern$saving throw,control,range
 Leomund's Tiny Hut$utility
 Lightning Arrow$offense,range,damage
 Revivify$healing,melee
-Magic Circle$area of effect,defense,saving throw
-Major Image$control,saving throw
+Magic Circle$area of effect,defense,saving throw,range
+Major Image$control,saving throw,range
 Mass Healing Word$healing,range,quick
 Meld into Stone$utility,mobility
-Nondetection$utiltiy
-Phantom Steed$utility,summons,mobility
-Plant Growth$area of effect,utility
-Protection From Energy$defense,buff
-Remove Curse$healing
-Sending$utility
-Sleet Storm$area of effect,control,saving throw
-Slow$area of effect,control,saving throw
-Speak with Dead$utility
-Speak with Plants$utility
+Nondetection$utiltiy,melee
+Phantom Steed$utility,summons,mobility,range
+Plant Growth$area of effect,utility,range
+Protection From Energy$defense,buff,touch
+Remove Curse$healing,melee
+Sending$utility,range
+Sleet Storm$area of effect,control,saving throw,range
+Slow$area of effect,control,saving throw,range
+Speak with Dead$utility,range
+Speak with Plants$utility,range
 Spirit Guardian$saving throw,offense,summons,damage
-Stinking Cloud$area of effect,offense,controls,saving throw
-Tongues$utility
-Arcane Eye$utility
+Stinking Cloud$area of effect,offense,controls,saving throw,range
+Tongues$utility,melee
+Arcane Eye$utility,summons,range
 Aura of Purity$buff,area of effect
-Banishment$saving throw,offense
-Blight$offense,saving throw,damage
-Compulsion$saving throw,control
-Confusion$area of effect,saving throw,control
-Conjure Minor Elementals$summons
-Conjure Woodland Beings$summons
+Banishment$saving throw,offense,range
+Blight$offense,saving throw,damage,range
+Compulsion$saving throw,control,range
+Confusion$area of effect,saving throw,control,range
+Conjure Minor Elementals$summons,range
+Conjure Woodland Beings$summons,range
 Control Water$utility,range,saving throw,damage
-Death Ward$healing,buff,melee
-Dimension Door$utility,mobility
-Conjure Celestial$summons
-Delayed Blast Fireball$offense,area of effect,saving throw,damage
-Divine Word$saving throw,control,area of effect,quick
-Mordenkainen's Sword$offense,summons,damage
-Cone of Cold$saving throw,offense,area of effect,damage
+Death Ward$healing,buff,melee,melee
+Dimension Door$utility,mobility,range
+Conjure Celestial$summons,range
+Delayed Blast Fireball$offense,area of effect,saving throw,damage,range
+Divine Word$saving throw,control,area of effect,quick,range
+Mordenkainen's Sword$offense,summons,damage,range
+Cone of Cold$saving throw,offense,area of effect,damage,range
 Etherealness$utility,mobility
 Finger of Death$offense,saving throw,range,damage,summons
-Fire Storm$area of effect,offense,saving throw,damage
-Forcecage$utility,control,saving throw
-Mirage Arcane$area of effect,control
-Mordenkainen's Magnificent Mansion$utility
+Fire Storm$area of effect,offense,saving throw,damage,range
+Forcecage$utility,control,saving throw,range
+Mirage Arcane$area of effect,control,range
+Mordenkainen's Magnificent Mansion$utility,range
 Precision Attack$offense,buff
-Plane Shift$utility,mobility
+Plane Shift$utility,mobility,melee
 Prismatic Spray$range,offense,area of effect,damage,control,saving throw
-Project Image$range,control,saving throw
-Regenerate$healing,utility
-Resurrection$healing
-Reverse Gravity$range,utility,saving throw,control
-Sequester$melee,utility
-Simulacrum$melee,utility
-Symbol$utility,saving throw,damage
-Teleport$utility,mobility
-Animal Shapes$utility
+Project Image$range,control,saving throw,range
+Regenerate$healing,utility,melee
+Resurrection$healing,melee
+Reverse Gravity$range,utility,saving throw,control,range
+Sequester$melee,utility,melee
+Simulacrum$melee,utility,melee
+Symbol$utility,saving throw,damage,melee
+Teleport$utility,mobility,melee
+Animal Shapes$utility,range
 Antimagic Field$area of effect,defense
 Antipathy/Sympathy$range,utility,saving throw
-Clone$melee,utility,summons
+Clone$melee,utility,summons,melee
 Control Weather$range,area of effect
 Demiplane$utility,range
 Dominate Monster$range,control,saving throw
 Earthquake$area of effect,offense,range,saving throw
 Feeblemind$range,control,damage,saving throw
-Glibness$utility,buff
+Glibness$utility,buff,
 Holy Aura$area of effect,buff,saving throw
-Incendiary Cloud$area of effect,offense,saving throw,damage
+Incendiary Cloud$area of effect,offense,saving throw,damage,range
 Maze$range,saving throw
 Mind Blank$melee,buff,defense
 Power Word Stun$saving throw,range
 Sunburst$area of effect,range,saving throw,offense,damage
 Telepathy$range,utility
 Tsunami$offense,range,damage,control,saving throw
-Astral Projection$utility
-Foresight$utility,buff
+Astral Projection$utility,range
+Foresight$utility,buff,melee
 Banishing Smite$offense,melee,quick,damage
 Gate$range,utility,mobility
 Imprisonment$range,saving throw,control
@@ -219,16 +219,16 @@ Power Word Heal$healing,melee
 Power Word Kill$range,offense
 Prismatic Wall$defense,range,saving throw,damage
 Shapechange$utility
-Storm of Vengeance$area of effect,saving throw,damage
+Storm of Vengeance$area of effect,saving throw,damage,range
 Time Stop$utility,control
-True Polymorph$utility,saving throw
-True Resurrection$healing
+True Polymorph$utility,saving throw,range
+True Resurrection$healing,melee
 Weird$offense,saving throw,area of effect,damage
 Wish$utility,offense,defense,mobility
 Animate Objects$range,summons
 Anti Life Shell$area of effect,defense
 Arcane Gate$utility,mobility
-Awaken$healing,buff,summons
+Awaken$healing,buff,summons,melee
 Bigby's Hand$offense,summons,range,damage,saving throw
 Blade Barrier$defense,area of effect,damage,saving throw
 Chain Lightning$offense,area of effect,range,damage,saving throw
@@ -238,34 +238,34 @@ Cloudkill$range,area of effect,saving throw,offense,damage
 Commune$utility
 Commune with Nature$utility
 Riposte$offense,melee,damage
-Conjure Elemental$summons
-Conjure Fey$summons
-Conjure Volley$summons,damage,saving throw
+Conjure Elemental$summons,range
+Conjure Fey$summons,range
+Conjure Volley$summons,damage,saving throw,range
 Contact Other Plane$utility
 Contagion$range,control,saving throw
 Contingency$utility,offense,defense
 Continual Flame$utility
-Find Traps$utility
-Create Undead$summons
-Creation$utiltiy
+Find Traps$utility,range
+Create Undead$summons,range
+Creation$utiltiy,range
 Destructive Wave$area of effect,offense,saving throw,damage
 Detect Poison and Disease$utility
 Disintegrate$offense,range,damage,saving throw
 Dispel Evil and Good$range,control,offense
-Divination$utility
+Divination$utility,range
 Pushing Attack$offense,damage,saving throw
 Dominate Beast$range,control,saving throw
 Dominate Person$range,control,saving throw
-Drawmij's Instant Summons$summons
-Dream$utility
-Enhance Ability$utility,buff
-Rally$area of effect,buff
+Drawmij's Instant Summons$summons,melee
+Dream$utility,range
+Enhance Ability$utility,buff,touch
+Rally$area of effect,buff,quick
 Enlarge/Reduce$range,buff,saving throw
 Enthrall$summons,range,control,saving throw
 Evard's Black Tentacles$area of effect,offense,range,damage,saving throw
-Eyebite$saving throw,control
-Fabricate$utility
-Find Steed$utility,summons
+Eyebite$saving throw,control,range
+Fabricate$utility,range
+Find Steed$utility,summons,range
 Lightning Bolt$range,offense,damage
 Find the Path$utility
 Fire Shield$defense,damage,buff
@@ -274,40 +274,40 @@ Flame Strike$range,offense,damage,saving throw
 Flaming Sphere$range,area of effect,summons,damage,saving throw
 Flesh To Stone$range,saving throw,control
 Forbiddance$melee,defense,control,damage
-Freedom of Movement$mobility,defense,buff
+Freedom of Movement$mobility,defense,buff,rnage
 Geas$saving throw,range,control,utility,damage
-Gentle Repose$healing,utility
+Gentle Repose$healing,utility,touch
 Giant Insect$summons,range
 Globe of Invulnerability$defense,area of effect
-Glyph of Warding$utility,saving throw,defense
+Glyph of Warding$utility,saving throw,defense,melee
 Grasping Vine$range,summons,saving throw,quick
-Greater Invisibility$utility,mobility
-Greater Restoration$healing,melee
+Greater Invisibility$utility,mobility,melee
+Greater Restoration$healing,melee,melee
 Guardian of Faith$buff,range,defense,damage,saving throw,summons
-Guards and Wards$defense,area of effect,control
+Guards and Wards$defense,area of effect,control,melee
 Gust of Wind$saving throw,range,control,utility,saving throw
-Hallow$melee
+Hallow$melee,utility,buff
 Hallucinatory Terrain$range,area of effect,control,saving throw
 Harm$range,offense,saving throw,damage
 Heal$healing,range
 Heat Metal$offense,range,damage
 Locate Animals Or Plants$utility,range
-Heroes' Feast$utility,healing,buff
+Heroes' Feast$utility,healing,buff,range
 Hold Monster$range,control,saving throw
-Ice Storm$area of effect,saving throw,offense,damage
+Ice Storm$area of effect,saving throw,offense,damage,range
 Insect Plague$range,saving throw,offense,damage
-Invisibility$utility,mobility
+Invisibility$utility,mobility,range
 Knock$range,utility,range
 Legend Lore$melee,utility
-Leomund's Secret Chest$utility
-Levitate$utility,mobility
+Leomund's Secret Chest$utility,touch
+Levitate$utility,mobility,range
 Locate Creature$utility
 Locate Object$utility
 Magic Jar$utility,saving throw
 Magic Mouth$utility
-Magic Weapon$offense,buff
-Mass Cure Wounds$area of effect,healing
-Mass Suggestion$area of effect,control,saving throw,utility
+Magic Weapon$offense,buff,weapon
+Mass Cure Wounds$area of effect,healing,range
+Mass Suggestion$area of effect,control,saving throw,utility,range
 Pass without Trace$utility,mobility
 Melf's Acid Arrow$range,offense,damage
 Mirror Image$control
@@ -316,40 +316,40 @@ Misty Step$mobility,quick
 Modify Memory$range,control,utility,saving throw
 Moonbeam$range,offense,saving throw,damage
 Mordenkainen's Faithful Hound$summons
-Passwall$utility,mobility
+Passwall$utility,mobility,range
 Maneuvering Attack$offense,damage
-Mordenkainen's Private Sanctum$utility
+Mordenkainen's Private Sanctum$utility,range
 Move Earth$utility,range
 Nystul's Magic Aura$buff,defense,melee,utility
 Otiluke's Freezing Sphere$area of effect,range,saving throw,offense,damage
-Otiluke's Resilient Sphere$defense,saving throw
+Otiluke's Resilient Sphere$defense,saving throw,range
 Otto's Irresistible Dance$range,control
 Phantasmal Force$offense,saving throw,range
 Phantasmal Killer$offense,saving throw,range,damage
-Planar Ally$summons
+Planar Ally$summons,range
 Planar Binding$range,summons,saving throw
 Polymorph$control,range
-Programmed Illusion$utility
+Programmed Illusion$utility,range
 Protection From Poison$buff,defense
-Raise Dead$summons
-Rary's Telepathic Bond$utility
+Raise Dead$summons,melee
+Rary's Telepathic Bond$utility,range
 Ray of Enfeeblement$offense,range,saving throw
-Reincarnate$healing
-Rope Trick$utility
+Reincarnate$healing,melee
+Rope Trick$utility,melee
 Scorching Ray$range,offense,damage
 Scrying$utility,saving throw
 See Invisibility$utility
 Seeming$range,saving throw
 Shatter$range,saving throw,damage
-Spider Climb$mobility
-Spike Growth$area of effect,defense,control,damage
+Spider Climb$mobility,melee
+Spike Growth$area of effect,defense,control,damage,range
 Spirit Guardians$saving throw,offense,summons,damage
 Staggering Smite$offense,melee,saving throw,damage,control,quick
 Stone Shape$utility,melee
 Sunbeam$range,saving throw,damage
-Swift Quiver$offense,range,utility,buff
+Swift Quiver$offense,melee,utility,buff
 Telekinesis$utility,range,saving throw
-Teleportation Circle$area of effect,utility,mobility
+Teleportation Circle$area of effect,utility,mobility,range
 Transport Via Plants$utility,mobility
 Tree Stride$utility,mobility
 True Seeing$utility
@@ -360,14 +360,14 @@ Wall of Ice$defense,range,damage,saving throw
 Wall of Stone$defense,range,damage,saving throw
 Wall of Thorns$defense,range,damage,saving throw
 Water Breathing$utility
-Water Walk$utility,mobility
+Water Walk$utility,mobility,range
 Menacing Attack$offense,saving throw,damage
 Web$range,control,saving throw
-Wind Walk$mobility
+Wind Walk$mobility,range
 Wind Wall$range,defense,control,damage,saving throw
-Word of Recall$defense,mobiltiy
+Word of Recall$defense,mobiltiy,range
 Zone of Truth$utility,area of effect,saving throw
-Commander's Strike$offense,buff
+Commander's Strike$offense,buff,range
 Disarming Attack$offense,damage,control
 Distracting Strike$offense,damage,buff
 Evasive Footwork$mobility
@@ -401,7 +401,7 @@ Magic Stone$damage,range,offense
 Mold Earth$range,utility
 Shape Water$range,utility
 Thunderclap$area of effect,damage,saving throw
-Absorb Elements$quick,defense,damage,buff
+Absorb Elements$quick,defense,damage,buff,melee
 Beast Bond$melee,utility
 Catapult$damage,range,offense
 Earth Tremor$control,saving throw,area of effect,damage
@@ -435,4 +435,4 @@ Investiture of Stone$damage,utility,offense,buff,saving throw
 Investiture of Wind$damage,utility,offense,damage,buff,saving throw
 Primordial Ward$defense,buff
 Whirlwind$control,range,damage,saving throw
-Abi-Dalzim's Horrid Wilting$area of effect,damage,offense,saving throw
+Abi-Dalzim's Horrid Wilting$area of effect,damage,offense,saving throw,range

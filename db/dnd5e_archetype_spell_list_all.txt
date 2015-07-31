@@ -19,7 +19,7 @@ menacing attack$battle master$1
 parry$battle master$1
 precision attack$battle master$1
 pushing attack$battle master$1
-rally attack$battle master$1
+rally$battle master$1
 riposte$battle master$1
 sweeping attack$battle master$1
 trip attack$battle master$1
