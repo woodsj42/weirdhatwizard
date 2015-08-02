@@ -5,16 +5,16 @@ barbarian$1$rage$ <p> Enter rage as a bonus action, you gain the following benef
 <li>you have resistance to bludgeoning, piercing, and slashing damage.</li>
 </p></ul>
 <p>if you are able to cast spells, you can't cast them or concentrate on them while raging</p>
-<p>your rage lasts 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. It is also possible to end rage as a bonus action</p>
+<p>your rage lasts 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. It is also possible to end your rage as a bonus action</p>
 <p>Once you have raged the maximum number of times possible, you must finish a long rest before you can rage again</p> 
 **barbarian$1$unarmored defense$<p>While you are not wearing any armor, your armor class equals <strong>10 + dexterity modifier + constitution modifier</strong>. You can use a shield and still gain this benefit</p>
 **barbarian$2$reckless attack$ <p>When you make your first attack for a turn you can decide whether to attack recklessly or not, giving yourself advantage on melee attack rolls that are using your strength modifier. However attack rolls against you have advantage until your next turn.  </p>
 **barbarian$2$danger sense$<p>You have advantage on dexterity saving throws against effects that you can see, such as traps and spells to gain this benefit, you can't be blinded, deafened, or incapacitated.</p>
 **barbarian$5$extra attack$<p> When you use the attack action you make another attack</p>$1
-**barbarian$5$fast movement$your speed increases by 10 feet while your aren't wearing heavy armor.</p>
+**barbarian$5$fast movement$Your speed increases by 10 feet while your aren't wearing heavy armor.</p>
 **barbarian$9$brutal critical$<p>you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</p>$1 die
-**barbarian$13$brutal critical$<p>you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</p>2 dice
-**barbarian$17$brutal critical$<p>you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</p>3 dice
+**barbarian$13$brutal critical$<p>you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</p>$2 dice
+**barbarian$17$brutal critical$<p>you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</p>$3 dice
 **barbarian$11$relentless rage$<p>Your rage can keep you fighting if you would drop below zero hit points while raging you don't die outright, you can make a DC 10 constitution saving throw, if you succeed you drop to one hit point instead. </p><p>each time you use this feature, the DC increases by 5. When you finish a short or long rest the DC resets to 10.</p>
 **barbarian$15$persistent rage$<p>Your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.</p>
 **barbarian$18$indomitable might$<p>If your total for a strength check is less than your strength score, you can use that score in place of the total.</p>
@@ -25,16 +25,16 @@ barbarian$1$rage$ <p> Enter rage as a bonus action, you gain the following benef
 <p><strong>Spell attack modifier</strong><br> = proficiency bonus + charisma modifier</p>
 <p><strong> Ritual Casting</strong><br> You can cast any bard spell you know as a ritual if that spell has a ritual tag</p>
 <p><strong>Arcane Focus</strong><br>You can use a musical instrument as a spellcasting focus for your bard spells</p>
-**bard$1$bardic inspiration$<p>use a bonus action on our turn to choose one creature other than yourself within 60 feet of you who can hear you. that creature gains one bardic inspiration die, a d6</p>
+**bard$1$bardic inspiration$<p>use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. that creature gains one bardic inspiration die, a d6</p>
 <p>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The create can wait until after it rolls the d20 before deciding to use the bardic inspiration die, but must decide before the DM says whether the roll succeeds or fails. A creature can have only one bardic inspiration die at a time.</p>
 <p>You can use this feature a number of times equal to your charisma modifier. You regain any expended inspiration die after a long rest.</p>$d6
-**bard$5$bardic inspiration$<p>use a bonus action on our turn to choose one creature other than yourself within 60 feet of you who can hear you. that creature gains one bardic inspiration die, a d8</p>
+**bard$5$bardic inspiration$<p>use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. that creature gains one bardic inspiration die, a d8</p>
 <p>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The create can wait until after it rolls the d20 before deciding to use the bardic inspiration die, but must decide before the DM says whether the roll succeeds or fails. A creature can have only one bardic inspiration die at a time.</p>
 <p>You can use this feature a number of times equal to your charisma modifier. You regain any expended inspiration die after a long rest.</p>$d8
-**bard$10$bardic inspiration$<p>use a bonus action on our turn to choose one creature other than yourself within 60 feet of you who can hear you. that creature gains one bardic inspiration die, a d10</p>
+**bard$10$bardic inspiration$<p>use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. that creature gains one bardic inspiration die, a d10</p>
 <p>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The create can wait until after it rolls the d20 before deciding to use the bardic inspiration die, but must decide before the DM says whether the roll succeeds or fails. A creature can have only one bardic inspiration die at a time.</p>
 <p>You can use this feature a number of times equal to your charisma modifier. You regain any expended inspiration die after a long rest.</p>$d10
-**bard$15$bardic inspiration$<p>use a bonus action on our turn to choose one creature other than yourself within 60 feet of you who can hear you. that creature gains one bardic inspiration die, a d12</p>
+**bard$15$bardic inspiration$<p>use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. that creature gains one bardic inspiration die, a d12</p>
 <p>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The create can wait until after it rolls the d20 before deciding to use the bardic inspiration die, but must decide before the DM says whether the roll succeeds or fails. A creature can have only one bardic inspiration die at a time.</p>
 <p>You can use this feature a number of times equal to your charisma modifier. You regain any expended inspiration die after a long rest.</p>$d12
 **bard$2$jack of all trades$<p>You can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus</p>
@@ -42,7 +42,7 @@ barbarian$1$rage$ <p> Enter rage as a bonus action, you gain the following benef
 **bard$9$song of rest$<p>You can use soothing music or oration to help revitalize your wounded allies during a short rest, each of those creatures regains an extra 1d8 hit points</p>$d8
 **bard$13$song of rest$<p>You can use soothing music or oration to help revitalize your wounded allies during a short rest, each of those creatures regains an extra 1d10 hit points</p>$d10
 **bard$17$song of rest$<p>You can use soothing music or oration to help revitalize your wounded allies during a short rest, each of those creatures regains an extra 1d12 hit points</p>$d12
-**bard$3$expertise$<p>choose two of your skill proficiencies. Your proficiency bonus doubled for any ability check you make that uses either of the chosen proficiencies.</p>
+**bard$3$expertise$<p>choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</p>
 **bard$5$font of inspiration$<p>you can regain all of your expended uses of bardic inspiration when you finish a short or long rest</p>
 **bard$6$countercharm$<p> You gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being frightened or charmed. A creature must be able to hear you to gain this benefit. The performance ends early if you are incapacitated</p>
 **bard$10$magical secrets$<p>You can choose two spells from any class, including this one. A spell you choose must be of a level you can cast.</p><p>the chosen spells count as bard spells for you and are included with the number of spells known</p>
@@ -140,7 +140,7 @@ barbarian$1$rage$ <p> Enter rage as a bonus action, you gain the following benef
 <li> You can also use your bonus action to make an unarmed strike as a bonus action, if you used an unarmed strike or a monk weapon. </li>
 </ul></p>
 **monk$2$ki$<p>You have access to ki points. You can spend these points to fuel various ki features including. </p>
-<p><h3>flurry of blows</h3>Immediately after you take the attack action on our turn, you can spend 1 ki point to make two unarmed strikes as a bonus action</p>
+<p><h3>flurry of blows</h3>Immediately after you take the attack action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action</p>
 <p><h3>patient defense</h3>You can spend 1 ki point to take the dodge action as a bonus action on your turn.</p>
 <p><h3>step of the wind</h3>You can spend 1 ki point to take the disengage action or dash action as a bonus action on your turn, and your jump distance is doubled</p>
 <p><strong>Ki save DC = </strong>8 + your proficiency modifier + your wisdom modifier</p>
@@ -514,7 +514,385 @@ When you cast a spell that targets only one creature and doesn't have a range of
 **wizard$20$signature spells$<p>Choose two 3rd-level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don't count against the number of spells you have prepared, and you can cast each of them once at 3rd-level without expending a spell slot. When you do so, you can't do so again until you finish a short or long rest.</p>
 <p>If you wdant to cast either spell at a higher level, you must expend a spell slot as normal.</p>
 **barbarian$1$Armor$<p>You are proficient with shields, light armor, and medium armor.</p>
+<p><table >
+	<tr>
+		<th>Armor</th>
+		<th>Cost</th>
+		<th>Armor Class (AC)</th>
+		<th>Strength</th>
+		<th>Stealth</th>
+		<th>Weight</th>
+	</tr>
+	<tr>
+		<th colspan="6">Light</th>
+	</tr>
+	<tr>
+		<td>Padded</td>	
+		<td>5 gp</td>	
+		<td>11 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>Disadvantage</td>	
+		<td>8 lb.</td>
+	</tr>
+	<tr>
+		<td>Leather</td>	
+		<td>10 gp</td>	
+		<td>11 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>10 lb.</td>	
+	</tr>
+	<tr>
+		<td>Studded Leather</td>	
+		<td>45 gp</td>	
+		<td>12 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>13 lb.</td>	
+	</tr>
+	<tr>
+		<th colspan="6">Medium</th>
+	</tr>
+	<tr>
+		<td>Hide</td>	
+		<td>10 gp</td>	
+		<td>12 + Dex Modifier (max 2)</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>12 lb.</td>	
+	</tr>
+	<tr>
+		<td>Chain Shirt</td>
+		<td>50 gp</td>
+		<td>13 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>20 lb</td>
+	</tr>
+	<tr>
+		<td>Scale Mail</td>
+		<td>50 gp</td>
+		<td>14 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>Disadvantage</td>
+		<td>45 lb.</td>
+	</tr>
+	<tr>
+		<td>Breastplate</td>
+		<td>400 gp</td>
+		<td>14 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>20 lb.</td>
+	</tr>
+	<tr>
+		<td>Half Plate</td>
+		<td>750 gp</td>
+		<td>15 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>Disadvantage</td>
+		<td>40 lb.</td>
+	</tr>
+	<tr>
+		<th colspan="6">Shield</th>
+	</tr>
+	<tr>
+		<td>Shield</td>
+		<td>10 gp</td>
+		<td>+2</td>
+		<td>-</td>
+		<td>-</td>
+		<td>6 lb.</td>
+	</tr>
+</table></p>
 **barbarian$1$Weapons$<p>You are proficient with simple weapons, and martial weapons.</p>
+<p><table>
+	<tr>
+		<th>Name</th>
+		<th>Cost</th>
+		<th>Damage</th>
+		<th>Weight</th>
+		<th>Properties</th>
+	</tr>
+	<tr>
+		<th colspan="5">Simple Melee Weapons</th>
+	</tr>
+	<tr>
+		<td>Club</td>
+		<td>1 sp</td>
+		<td>1d4 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Light</td>
+	</tr>
+	<tr>
+		<td>Dagger</td>
+		<td>2 gp</td>
+		<td>1d4 piercing</td>
+		<td>1 lb.</td>
+		<td>Finesse, light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Greatclub</td>
+		<td>2 sp</td>
+		<td>1d8 bludgeoning</td>
+		<td>10 lb.</td>
+		<td>Two-handed</td>
+	</tr>
+	<tr>
+		<td>Handaxe</td>
+		<td>5 gp</td>
+		<td>1d6 slashing</td>
+		<td>2 lb.</td>
+		<td>Light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Javelin</td>
+		<td>5 sp</td>
+		<td>1d6 piercing</td>
+		<td>2 lb.</td>
+		<td>Thrown (range 30/120)</td>
+	</tr>
+	<tr>
+		<td>Light Hammer</td>
+		<td>2 gp</td>
+		<td>1d4 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Mace</td>
+		<td>5 gp</td>
+		<td>1d6 bludgeoning</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Quarterstaff</td>
+		<td>2 sp</td>
+		<td>1d6 bludgeoning</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Sickle</td>
+		<td>1 gp</td>
+		<td>1d4 slashing</td>
+		<td>2 lb.</td>
+		<td>Light</td>
+	</tr>
+	<tr>
+		<td>Spear</td>
+		<td>1 gp</td>
+		<td>1d6 piercing</td>
+		<td>3 lb.</td>
+		<td>Thrown (range 20/60), versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Unarmed Strike</td>
+		<td>-</td>
+		<td>1 bludgeoning</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<th colspan="5" >Simple Ranged Weapons</th>
+	</tr>
+	<tr>
+		<td>Crossbow, light</td>
+		<td>25 gp</td>
+		<td>1d8 piercing</td>
+		<td>5 lb.</td>
+		<td>Ammunition (range 80/320), loading, two-handed</td>
+	</tr>
+	<tr>
+		<td>Dart</td>
+		<td>5 cp</td>
+		<td>1d4 piercing</td>
+		<td>1/4 lb.</td>
+		<td>Finesse, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Shortbow</td>
+		<td>25 gp</td>
+		<td>1d6 piercing</td>
+		<td>2 lb.</td>
+		<td>Ammunition (range 80/320), two-handed</td>
+	</tr>
+	<tr>
+		<td>Sling</td>
+		<td>1 sp</td>
+		<td>1d4 bludgeoning</td>
+		<td>-</td>
+		<td>Ammunition (range 30/120)</td>
+	</tr>
+	<tr>
+		<th colspan="5">Martial Melee Weapons</th>
+	</tr>
+	<tr>
+		<td>Battleaxe</td>
+		<td>10 gp</td>
+		<td>1d8 slashing</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Flail</td>
+		<td>10 gp</td>
+		<td>1d8 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Glaive</td>
+		<td>20 gp</td>
+		<td>1d10 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Greataxe</td>
+		<td>30 gp</td>
+		<td>1d12 slashing</td>
+		<td>7 lb.</td>
+		<td>Heavy, two-handed </td>
+	</tr>
+	<tr>
+		<td>Greatsword</td>
+		<td>50 gp</td>
+		<td>2d6 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Halberd</td>
+		<td>20 gp</td>
+		<td>1d10 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Lance</td>
+		<td>10 gp</td>
+		<td>1d12 piercing</td>
+		<td>6 lb.</td>
+		<td>Reach, specia</td>
+	</tr>
+	<tr>
+		<td>Lonsword</td>
+		<td>15 gp</td>
+		<td>1d8 slashing</td>
+		<td>3 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Maul</td>
+		<td>10 gp</td>
+		<td>2d6 bludgeoning</td>
+		<td>10 lb.</td>
+		<td>Heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Morningstar</td>
+		<td>15 gp</td>
+		<td>1d8 piercing</td>
+		<td>4 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Pike</td>
+		<td>5 gp</td>
+		<td>1d10 piercing</td>
+		<td>18 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Rapier</td>
+		<td>25 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>Finesse</td>
+	</tr>
+	<tr>
+		<td>Scimitar</td>
+		<td>25 gp</td>
+		<td>1d6 slashing</td>
+		<td>2 lb.</td>
+		<td>Finesse, light</td>
+	</tr>
+	<tr>
+		<td>Shortsword</td>
+		<td>10 gp</td>
+		<td>1d6 slasing</td>
+		<td>Finesse, light</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Trident</td>
+		<td>5 gp</td>
+		<td>1d6 piercing</td>
+		<td>4 lb.</td>
+		<td>Thrown (range 20/60), versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>War pick</td>
+		<td>5 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Warhammer</td>
+		<td>15 gp</td>
+		<td>1d8 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Whip</td>
+		<td>2 gp</td>
+		<td>1d4 slashing</td>
+		<td>3 lb</td>
+		<td>Finesse, reach</td>
+	</tr>
+	<tr>
+		<th colspan="5">Martial Ranged Weapons</th>
+	</tr>
+	<tr>
+		<td>Blowgun</td>
+		<td>10 gp</td>
+		<td>1 piercing</td>
+		<td>1 lb.</td>
+		<td>Ammunition (range 25/100), loading</td>
+	</tr>
+	<tr>
+		<td>Crossbow, hand</td>
+		<td>75 gp</td>
+		<td>1d6 piercing</td>
+		<td>3 lb.</td>
+		<td>Ammunition (range 30/120), loading</td>
+	</tr>
+	<tr>
+		<td>Crossbow, heavy</td>
+		<td>50 gp</td>
+		<td>1d10 piercing</td>
+		<td>18 lb.</td>
+		<td>Ammunition (range 10/400), heavy, loading, two-handed</td>
+	</tr>
+	<tr>
+		<td>Longbow</td>
+		<td>50 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>Ammunition (range 150/600), heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Net</td>
+		<td>1 gp</td>
+		<td>-</td>
+		<td>2 lb.</td>
+		<td>Special, Thrown (range 5/15)</td>
+	</tr>
+</table></p>
 **barbarian$1$Tools$<p>There are no tools that you are proficient with.</p>
 **barbarian$1$Saving Throws$<p>The saving throws you are proficient in are <strong>strength</strong> and <strong>constitution</strong>.</p>
 **barbarian$1$Skills$<p>You may choose 2 of the following skills to be proficient in:</p><p><ul>
@@ -525,8 +903,332 @@ When you cast a spell that targets only one creature and doesn't have a range of
 <li>Perception</li>
 <li>Survival</li>
 </ul></p>
-**bard$1$Armor$<p>You are proficient with light armor.<p>$
+**bard$1$Armor$<p>You are proficient with light armor.<p>
+<p><table >
+	<tr>
+		<th>Armor</th>
+		<th>Cost</th>
+		<th>Armor Class (AC)</th>
+		<th>Strength</th>
+		<th>Stealth</th>
+		<th>Weight</th>
+	</tr>
+	<tr>
+		<th colspan="6">Light</th>
+	</tr>
+	<tr>
+		<td>Padded</td>	
+		<td>5 gp</td>	
+		<td>11 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>Disadvantage</td>	
+		<td>8 lb.</td>
+	</tr>
+	<tr>
+		<td>Leather</td>	
+		<td>10 gp</td>	
+		<td>11 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>10 lb.</td>	
+	</tr>
+	<tr>
+		<td>Studded Leather</td>	
+		<td>45 gp</td>	
+		<td>12 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>13 lb.</td>	
+	</tr>
+</table></p>
 **bard$1$Weapons$<p>You are proficient with simple weapons, hand crossbows, longswords, rapiers, and shortswords</p>
+<p><table>
+	<tr>
+		<th>Name</th>
+		<th>Cost</th>
+		<th>Damage</th>
+		<th>Weight</th>
+		<th>Properties</th>
+	</tr>
+	<tr>
+		<th colspan="5">Simple Melee Weapons</th>
+	</tr>
+	<tr>
+		<td>Club</td>
+		<td>1 sp</td>
+		<td>1d4 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Light</td>
+	</tr>
+	<tr>
+		<td>Dagger</td>
+		<td>2 gp</td>
+		<td>1d4 piercing</td>
+		<td>1 lb.</td>
+		<td>Finesse, light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Greatclub</td>
+		<td>2 sp</td>
+		<td>1d8 bludgeoning</td>
+		<td>10 lb.</td>
+		<td>Two-handed</td>
+	</tr>
+	<tr>
+		<td>Handaxe</td>
+		<td>5 gp</td>
+		<td>1d6 slashing</td>
+		<td>2 lb.</td>
+		<td>Light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Javelin</td>
+		<td>5 sp</td>
+		<td>1d6 piercing</td>
+		<td>2 lb.</td>
+		<td>Thrown (range 30/120)</td>
+	</tr>
+	<tr>
+		<td>Light Hammer</td>
+		<td>2 gp</td>
+		<td>1d4 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Mace</td>
+		<td>5 gp</td>
+		<td>1d6 bludgeoning</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Quarterstaff</td>
+		<td>2 sp</td>
+		<td>1d6 bludgeoning</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Sickle</td>
+		<td>1 gp</td>
+		<td>1d4 slashing</td>
+		<td>2 lb.</td>
+		<td>Light</td>
+	</tr>
+	<tr>
+		<td>Spear</td>
+		<td>1 gp</td>
+		<td>1d6 piercing</td>
+		<td>3 lb.</td>
+		<td>Thrown (range 20/60), versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Unarmed Strike</td>
+		<td>-</td>
+		<td>1 bludgeoning</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<th colspan="5" >Simple Ranged Weapons</th>
+	</tr>
+	<tr>
+		<td>Crossbow, light</td>
+		<td>25 gp</td>
+		<td>1d8 piercing</td>
+		<td>5 lb.</td>
+		<td>Ammunition (range 80/320), loading, two-handed</td>
+	</tr>
+	<tr>
+		<td>Dart</td>
+		<td>5 cp</td>
+		<td>1d4 piercing</td>
+		<td>1/4 lb.</td>
+		<td>Finesse, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Shortbow</td>
+		<td>25 gp</td>
+		<td>1d6 piercing</td>
+		<td>2 lb.</td>
+		<td>Ammunition (range 80/320), two-handed</td>
+	</tr>
+	<tr>
+		<td>Sling</td>
+		<td>1 sp</td>
+		<td>1d4 bludgeoning</td>
+		<td>-</td>
+		<td>Ammunition (range 30/120)</td>
+	</tr>
+	<tr>
+		<th colspan="5">Martial Melee Weapons</th>
+	</tr>
+	<tr>
+		<td>Battleaxe</td>
+		<td>10 gp</td>
+		<td>1d8 slashing</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Flail</td>
+		<td>10 gp</td>
+		<td>1d8 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Glaive</td>
+		<td>20 gp</td>
+		<td>1d10 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Greataxe</td>
+		<td>30 gp</td>
+		<td>1d12 slashing</td>
+		<td>7 lb.</td>
+		<td>Heavy, two-handed </td>
+	</tr>
+	<tr>
+		<td>Greatsword</td>
+		<td>50 gp</td>
+		<td>2d6 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Halberd</td>
+		<td>20 gp</td>
+		<td>1d10 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Lance</td>
+		<td>10 gp</td>
+		<td>1d12 piercing</td>
+		<td>6 lb.</td>
+		<td>Reach, specia</td>
+	</tr>
+	<tr>
+		<td>Lonsword</td>
+		<td>15 gp</td>
+		<td>1d8 slashing</td>
+		<td>3 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Maul</td>
+		<td>10 gp</td>
+		<td>2d6 bludgeoning</td>
+		<td>10 lb.</td>
+		<td>Heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Morningstar</td>
+		<td>15 gp</td>
+		<td>1d8 piercing</td>
+		<td>4 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Pike</td>
+		<td>5 gp</td>
+		<td>1d10 piercing</td>
+		<td>18 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Rapier</td>
+		<td>25 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>Finesse</td>
+	</tr>
+	<tr>
+		<td>Scimitar</td>
+		<td>25 gp</td>
+		<td>1d6 slashing</td>
+		<td>2 lb.</td>
+		<td>Finesse, light</td>
+	</tr>
+	<tr>
+		<td>Shortsword</td>
+		<td>10 gp</td>
+		<td>1d6 slasing</td>
+		<td>Finesse, light</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Trident</td>
+		<td>5 gp</td>
+		<td>1d6 piercing</td>
+		<td>4 lb.</td>
+		<td>Thrown (range 20/60), versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>War pick</td>
+		<td>5 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Warhammer</td>
+		<td>15 gp</td>
+		<td>1d8 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Whip</td>
+		<td>2 gp</td>
+		<td>1d4 slashing</td>
+		<td>3 lb</td>
+		<td>Finesse, reach</td>
+	</tr>
+	<tr>
+		<th colspan="5">Martial Ranged Weapons</th>
+	</tr>
+	<tr>
+		<td>Blowgun</td>
+		<td>10 gp</td>
+		<td>1 piercing</td>
+		<td>1 lb.</td>
+		<td>Ammunition (range 25/100), loading</td>
+	</tr>
+	<tr>
+		<td>Crossbow, hand</td>
+		<td>75 gp</td>
+		<td>1d6 piercing</td>
+		<td>3 lb.</td>
+		<td>Ammunition (range 30/120), loading</td>
+	</tr>
+	<tr>
+		<td>Crossbow, heavy</td>
+		<td>50 gp</td>
+		<td>1d10 piercing</td>
+		<td>18 lb.</td>
+		<td>Ammunition (range 10/400), heavy, loading, two-handed</td>
+	</tr>
+	<tr>
+		<td>Longbow</td>
+		<td>50 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>Ammunition (range 150/600), heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Net</td>
+		<td>1 gp</td>
+		<td>-</td>
+		<td>2 lb.</td>
+		<td>Special, Thrown (range 5/15)</td>
+	</tr>
+</table></p>
 **bard$1$Tools$<p>You are proficient with three musical instruments of your choice.</p>
 **bard$1$Saving Throws$<p>the saving throws you are proficient with are <strong>dexterity</strong> and <strong>charisma</strong>.</p>
 **bard$1$Skills$<p>You may choose any three of the following skills:</p>
@@ -551,7 +1253,385 @@ When you cast a spell that targets only one creature and doesn't have a range of
 <li>Survival</li>
 </ul></p>
 **cleric$1$Armor$<p>You are proficient with light armor, medium armor, and shields.</p>
+<p><table >
+	<tr>
+		<th>Armor</th>
+		<th>Cost</th>
+		<th>Armor Class (AC)</th>
+		<th>Strength</th>
+		<th>Stealth</th>
+		<th>Weight</th>
+	</tr>
+	<tr>
+		<th colspan="6">Light</th>
+	</tr>
+	<tr>
+		<td>Padded</td>	
+		<td>5 gp</td>	
+		<td>11 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>Disadvantage</td>	
+		<td>8 lb.</td>
+	</tr>
+	<tr>
+		<td>Leather</td>	
+		<td>10 gp</td>	
+		<td>11 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>10 lb.</td>	
+	</tr>
+	<tr>
+		<td>Studded Leather</td>	
+		<td>45 gp</td>	
+		<td>12 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>13 lb.</td>	
+	</tr>
+	<tr>
+		<th colspan="6">Medium</th>
+	</tr>
+	<tr>
+		<td>Hide</td>	
+		<td>10 gp</td>	
+		<td>12 + Dex Modifier (max 2)</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>12 lb.</td>	
+	</tr>
+	<tr>
+		<td>Chain Shirt</td>
+		<td>50 gp</td>
+		<td>13 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>20 lb</td>
+	</tr>
+	<tr>
+		<td>Scale Mail</td>
+		<td>50 gp</td>
+		<td>14 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>Disadvantage</td>
+		<td>45 lb.</td>
+	</tr>
+	<tr>
+		<td>Breastplate</td>
+		<td>400 gp</td>
+		<td>14 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>20 lb.</td>
+	</tr>
+	<tr>
+		<td>Half Plate</td>
+		<td>750 gp</td>
+		<td>15 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>Disadvantage</td>
+		<td>40 lb.</td>
+	</tr>
+	<tr>
+		<th colspan="6">Shield</th>
+	</tr>
+	<tr>
+		<td>Shield</td>
+		<td>10 gp</td>
+		<td>+2</td>
+		<td>-</td>
+		<td>-</td>
+		<td>6 lb.</td>
+	</tr>
+</table></p>
 **cleric$1$Weapons$<p>You are proficient with all simple weapons</p>
+<p><table>
+	<tr>
+		<th>Name</th>
+		<th>Cost</th>
+		<th>Damage</th>
+		<th>Weight</th>
+		<th>Properties</th>
+	</tr>
+	<tr>
+		<th colspan="5">Simple Melee Weapons</th>
+	</tr>
+	<tr>
+		<td>Club</td>
+		<td>1 sp</td>
+		<td>1d4 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Light</td>
+	</tr>
+	<tr>
+		<td>Dagger</td>
+		<td>2 gp</td>
+		<td>1d4 piercing</td>
+		<td>1 lb.</td>
+		<td>Finesse, light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Greatclub</td>
+		<td>2 sp</td>
+		<td>1d8 bludgeoning</td>
+		<td>10 lb.</td>
+		<td>Two-handed</td>
+	</tr>
+	<tr>
+		<td>Handaxe</td>
+		<td>5 gp</td>
+		<td>1d6 slashing</td>
+		<td>2 lb.</td>
+		<td>Light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Javelin</td>
+		<td>5 sp</td>
+		<td>1d6 piercing</td>
+		<td>2 lb.</td>
+		<td>Thrown (range 30/120)</td>
+	</tr>
+	<tr>
+		<td>Light Hammer</td>
+		<td>2 gp</td>
+		<td>1d4 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Mace</td>
+		<td>5 gp</td>
+		<td>1d6 bludgeoning</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Quarterstaff</td>
+		<td>2 sp</td>
+		<td>1d6 bludgeoning</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Sickle</td>
+		<td>1 gp</td>
+		<td>1d4 slashing</td>
+		<td>2 lb.</td>
+		<td>Light</td>
+	</tr>
+	<tr>
+		<td>Spear</td>
+		<td>1 gp</td>
+		<td>1d6 piercing</td>
+		<td>3 lb.</td>
+		<td>Thrown (range 20/60), versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Unarmed Strike</td>
+		<td>-</td>
+		<td>1 bludgeoning</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<th colspan="5" >Simple Ranged Weapons</th>
+	</tr>
+	<tr>
+		<td>Crossbow, light</td>
+		<td>25 gp</td>
+		<td>1d8 piercing</td>
+		<td>5 lb.</td>
+		<td>Ammunition (range 80/320), loading, two-handed</td>
+	</tr>
+	<tr>
+		<td>Dart</td>
+		<td>5 cp</td>
+		<td>1d4 piercing</td>
+		<td>1/4 lb.</td>
+		<td>Finesse, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Shortbow</td>
+		<td>25 gp</td>
+		<td>1d6 piercing</td>
+		<td>2 lb.</td>
+		<td>Ammunition (range 80/320), two-handed</td>
+	</tr>
+	<tr>
+		<td>Sling</td>
+		<td>1 sp</td>
+		<td>1d4 bludgeoning</td>
+		<td>-</td>
+		<td>Ammunition (range 30/120)</td>
+	</tr>
+	<tr>
+		<th colspan="5">Martial Melee Weapons</th>
+	</tr>
+	<tr>
+		<td>Battleaxe</td>
+		<td>10 gp</td>
+		<td>1d8 slashing</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Flail</td>
+		<td>10 gp</td>
+		<td>1d8 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Glaive</td>
+		<td>20 gp</td>
+		<td>1d10 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Greataxe</td>
+		<td>30 gp</td>
+		<td>1d12 slashing</td>
+		<td>7 lb.</td>
+		<td>Heavy, two-handed </td>
+	</tr>
+	<tr>
+		<td>Greatsword</td>
+		<td>50 gp</td>
+		<td>2d6 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Halberd</td>
+		<td>20 gp</td>
+		<td>1d10 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Lance</td>
+		<td>10 gp</td>
+		<td>1d12 piercing</td>
+		<td>6 lb.</td>
+		<td>Reach, specia</td>
+	</tr>
+	<tr>
+		<td>Lonsword</td>
+		<td>15 gp</td>
+		<td>1d8 slashing</td>
+		<td>3 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Maul</td>
+		<td>10 gp</td>
+		<td>2d6 bludgeoning</td>
+		<td>10 lb.</td>
+		<td>Heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Morningstar</td>
+		<td>15 gp</td>
+		<td>1d8 piercing</td>
+		<td>4 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Pike</td>
+		<td>5 gp</td>
+		<td>1d10 piercing</td>
+		<td>18 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Rapier</td>
+		<td>25 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>Finesse</td>
+	</tr>
+	<tr>
+		<td>Scimitar</td>
+		<td>25 gp</td>
+		<td>1d6 slashing</td>
+		<td>2 lb.</td>
+		<td>Finesse, light</td>
+	</tr>
+	<tr>
+		<td>Shortsword</td>
+		<td>10 gp</td>
+		<td>1d6 slasing</td>
+		<td>Finesse, light</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Trident</td>
+		<td>5 gp</td>
+		<td>1d6 piercing</td>
+		<td>4 lb.</td>
+		<td>Thrown (range 20/60), versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>War pick</td>
+		<td>5 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Warhammer</td>
+		<td>15 gp</td>
+		<td>1d8 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Whip</td>
+		<td>2 gp</td>
+		<td>1d4 slashing</td>
+		<td>3 lb</td>
+		<td>Finesse, reach</td>
+	</tr>
+	<tr>
+		<th colspan="5">Martial Ranged Weapons</th>
+	</tr>
+	<tr>
+		<td>Blowgun</td>
+		<td>10 gp</td>
+		<td>1 piercing</td>
+		<td>1 lb.</td>
+		<td>Ammunition (range 25/100), loading</td>
+	</tr>
+	<tr>
+		<td>Crossbow, hand</td>
+		<td>75 gp</td>
+		<td>1d6 piercing</td>
+		<td>3 lb.</td>
+		<td>Ammunition (range 30/120), loading</td>
+	</tr>
+	<tr>
+		<td>Crossbow, heavy</td>
+		<td>50 gp</td>
+		<td>1d10 piercing</td>
+		<td>18 lb.</td>
+		<td>Ammunition (range 10/400), heavy, loading, two-handed</td>
+	</tr>
+	<tr>
+		<td>Longbow</td>
+		<td>50 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>Ammunition (range 150/600), heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Net</td>
+		<td>1 gp</td>
+		<td>-</td>
+		<td>2 lb.</td>
+		<td>Special, Thrown (range 5/15)</td>
+	</tr>
+</table></p>
 **cleric$1$Tools$<p>You are proficient with no tools</p>
 **cleric$1$Saving Throws$<p>The saving throws you are proficient with are <strong>wisdom</strong> and <strong>charisma</strong></p>
 **cleric$1$Skills$<p>You may choose any 2 of the following skills:</p>
@@ -563,6 +1643,97 @@ When you cast a spell that targets only one creature and doesn't have a range of
 <li>Religion</li>
 </ul></p>
 **druid$1$Armor$<p>You are proficient with light armor, medium armor, and shields ( druids will not wear armor or use shields made of metal ).</p>
+<p><table >
+	<tr>
+		<th>Armor</th>
+		<th>Cost</th>
+		<th>Armor Class (AC)</th>
+		<th>Strength</th>
+		<th>Stealth</th>
+		<th>Weight</th>
+	</tr>
+	<tr>
+		<th colspan="6">Light</th>
+	</tr>
+	<tr>
+		<td>Padded</td>	
+		<td>5 gp</td>	
+		<td>11 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>Disadvantage</td>	
+		<td>8 lb.</td>
+	</tr>
+	<tr>
+		<td>Leather</td>	
+		<td>10 gp</td>	
+		<td>11 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>10 lb.</td>	
+	</tr>
+	<tr>
+		<td>Studded Leather</td>	
+		<td>45 gp</td>	
+		<td>12 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>13 lb.</td>	
+	</tr>
+	<tr>
+		<th colspan="6">Medium</th>
+	</tr>
+	<tr>
+		<td>Hide</td>	
+		<td>10 gp</td>	
+		<td>12 + Dex Modifier (max 2)</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>12 lb.</td>	
+	</tr>
+	<tr>
+		<td>Chain Shirt</td>
+		<td>50 gp</td>
+		<td>13 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>20 lb</td>
+	</tr>
+	<tr>
+		<td>Scale Mail</td>
+		<td>50 gp</td>
+		<td>14 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>Disadvantage</td>
+		<td>45 lb.</td>
+	</tr>
+	<tr>
+		<td>Breastplate</td>
+		<td>400 gp</td>
+		<td>14 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>20 lb.</td>
+	</tr>
+	<tr>
+		<td>Half Plate</td>
+		<td>750 gp</td>
+		<td>15 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>Disadvantage</td>
+		<td>40 lb.</td>
+	</tr>
+	<tr>
+		<th colspan="6">Shield</th>
+	</tr>
+	<tr>
+		<td>Shield</td>
+		<td>10 gp</td>
+		<td>+2</td>
+		<td>-</td>
+		<td>-</td>
+		<td>6 lb.</td>
+	</tr>
+</table></p>
 **druid$1$Weapons$<p>You are proficient with the club, dagger, dart, javelin, mace, quarterstaff, scimitar, sickle, sling, and spear. </p>
 **druid$1$Tools$<p>You are proficient with the herbalism kit</p>
 **druid$1$Saving Throws$<p>The saving throws you are proficient with are <strong>intelligence</strong> and <strong>wisdom</strong>.</p>
@@ -578,7 +1749,420 @@ When you cast a spell that targets only one creature and doesn't have a range of
 <li>Survival</li>
 </ul></p>
 **fighter$1$Armor$<p>You are proficient with all armor, and shields</p>
+<p><table >
+	<tr>
+		<th>Armor</th>
+		<th>Cost</th>
+		<th>Armor Class (AC)</th>
+		<th>Strength</th>
+		<th>Stealth</th>
+		<th>Weight</th>
+	</tr>
+	<tr>
+		<th colspan="6">Light</th>
+	</tr>
+	<tr>
+		<td>Padded</td>	
+		<td>5 gp</td>	
+		<td>11 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>Disadvantage</td>	
+		<td>8 lb.</td>
+	</tr>
+	<tr>
+		<td>Leather</td>	
+		<td>10 gp</td>	
+		<td>11 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>10 lb.</td>	
+	</tr>
+	<tr>
+		<td>Studded Leather</td>	
+		<td>45 gp</td>	
+		<td>12 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>13 lb.</td>	
+	</tr>
+	<tr>
+		<th colspan="6">Medium</th>
+	</tr>
+	<tr>
+		<td>Hide</td>	
+		<td>10 gp</td>	
+		<td>12 + Dex Modifier (max 2)</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>12 lb.</td>	
+	</tr>
+	<tr>
+		<td>Chain Shirt</td>
+		<td>50 gp</td>
+		<td>13 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>20 lb</td>
+	</tr>
+	<tr>
+		<td>Scale Mail</td>
+		<td>50 gp</td>
+		<td>14 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>Disadvantage</td>
+		<td>45 lb.</td>
+	</tr>
+	<tr>
+		<td>Breastplate</td>
+		<td>400 gp</td>
+		<td>14 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>20 lb.</td>
+	</tr>
+	<tr>
+		<td>Half Plate</td>
+		<td>750 gp</td>
+		<td>15 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>Disadvantage</td>
+		<td>40 lb.</td>
+	</tr>
+	<tr>
+		<th colspan="6">Heavy</th>
+	</tr>
+	<tr>
+		<td>Ring Mail</td>
+		<td>30 gp</td>
+		<td>14</td>
+		<td>-</td>
+		<td>Disadvantage</td>
+		<td>40 lb.</td>
+	</tr>
+	<tr>
+		<td>Chain Mail</td>
+		<td>75 gp</td>
+		<td>16</td>
+		<td>Str 13</td>
+		<td>Disadvantage</td>
+		<td>55 lb.</td>
+	</tr>
+	<tr>
+		<td>Splint</td>
+		<td>200 gp</td>
+		<td>Str 15</td>
+		<td>-</td>
+		<td>Disadvantage</td>
+		<td>60 lb.</td>
+	</tr>
+	<tr>
+		<td>Plate</td>
+		<td>1,500 gp</td>
+		<td>18</td>
+		<td>Str 15</td>
+		<td>Disadvantage</td>
+		<td>65 lb.</td>
+	</tr>
+	<tr>
+		<th colspan="6">Shield</th>
+	</tr>
+	<tr>
+		<td>Shield</td>
+		<td>10 gp</td>
+		<td>+2</td>
+		<td>-</td>
+		<td>-</td>
+		<td>6 lb.</td>
+	</tr>
+</table></p>
 **fighter$1$Weapons$<p>You are proficient with simple weapons and martial weapons.</p>
+<p><table>
+	<tr>
+		<th>Name</th>
+		<th>Cost</th>
+		<th>Damage</th>
+		<th>Weight</th>
+		<th>Properties</th>
+	</tr>
+	<tr>
+		<th colspan="5">Simple Melee Weapons</th>
+	</tr>
+	<tr>
+		<td>Club</td>
+		<td>1 sp</td>
+		<td>1d4 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Light</td>
+	</tr>
+	<tr>
+		<td>Dagger</td>
+		<td>2 gp</td>
+		<td>1d4 piercing</td>
+		<td>1 lb.</td>
+		<td>Finesse, light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Greatclub</td>
+		<td>2 sp</td>
+		<td>1d8 bludgeoning</td>
+		<td>10 lb.</td>
+		<td>Two-handed</td>
+	</tr>
+	<tr>
+		<td>Handaxe</td>
+		<td>5 gp</td>
+		<td>1d6 slashing</td>
+		<td>2 lb.</td>
+		<td>Light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Javelin</td>
+		<td>5 sp</td>
+		<td>1d6 piercing</td>
+		<td>2 lb.</td>
+		<td>Thrown (range 30/120)</td>
+	</tr>
+	<tr>
+		<td>Light Hammer</td>
+		<td>2 gp</td>
+		<td>1d4 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Mace</td>
+		<td>5 gp</td>
+		<td>1d6 bludgeoning</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Quarterstaff</td>
+		<td>2 sp</td>
+		<td>1d6 bludgeoning</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Sickle</td>
+		<td>1 gp</td>
+		<td>1d4 slashing</td>
+		<td>2 lb.</td>
+		<td>Light</td>
+	</tr>
+	<tr>
+		<td>Spear</td>
+		<td>1 gp</td>
+		<td>1d6 piercing</td>
+		<td>3 lb.</td>
+		<td>Thrown (range 20/60), versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Unarmed Strike</td>
+		<td>-</td>
+		<td>1 bludgeoning</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<th colspan="5" >Simple Ranged Weapons</th>
+	</tr>
+	<tr>
+		<td>Crossbow, light</td>
+		<td>25 gp</td>
+		<td>1d8 piercing</td>
+		<td>5 lb.</td>
+		<td>Ammunition (range 80/320), loading, two-handed</td>
+	</tr>
+	<tr>
+		<td>Dart</td>
+		<td>5 cp</td>
+		<td>1d4 piercing</td>
+		<td>1/4 lb.</td>
+		<td>Finesse, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Shortbow</td>
+		<td>25 gp</td>
+		<td>1d6 piercing</td>
+		<td>2 lb.</td>
+		<td>Ammunition (range 80/320), two-handed</td>
+	</tr>
+	<tr>
+		<td>Sling</td>
+		<td>1 sp</td>
+		<td>1d4 bludgeoning</td>
+		<td>-</td>
+		<td>Ammunition (range 30/120)</td>
+	</tr>
+	<tr>
+		<th colspan="5">Martial Melee Weapons</th>
+	</tr>
+	<tr>
+		<td>Battleaxe</td>
+		<td>10 gp</td>
+		<td>1d8 slashing</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Flail</td>
+		<td>10 gp</td>
+		<td>1d8 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Glaive</td>
+		<td>20 gp</td>
+		<td>1d10 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Greataxe</td>
+		<td>30 gp</td>
+		<td>1d12 slashing</td>
+		<td>7 lb.</td>
+		<td>Heavy, two-handed </td>
+	</tr>
+	<tr>
+		<td>Greatsword</td>
+		<td>50 gp</td>
+		<td>2d6 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Halberd</td>
+		<td>20 gp</td>
+		<td>1d10 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Lance</td>
+		<td>10 gp</td>
+		<td>1d12 piercing</td>
+		<td>6 lb.</td>
+		<td>Reach, specia</td>
+	</tr>
+	<tr>
+		<td>Lonsword</td>
+		<td>15 gp</td>
+		<td>1d8 slashing</td>
+		<td>3 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Maul</td>
+		<td>10 gp</td>
+		<td>2d6 bludgeoning</td>
+		<td>10 lb.</td>
+		<td>Heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Morningstar</td>
+		<td>15 gp</td>
+		<td>1d8 piercing</td>
+		<td>4 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Pike</td>
+		<td>5 gp</td>
+		<td>1d10 piercing</td>
+		<td>18 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Rapier</td>
+		<td>25 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>Finesse</td>
+	</tr>
+	<tr>
+		<td>Scimitar</td>
+		<td>25 gp</td>
+		<td>1d6 slashing</td>
+		<td>2 lb.</td>
+		<td>Finesse, light</td>
+	</tr>
+	<tr>
+		<td>Shortsword</td>
+		<td>10 gp</td>
+		<td>1d6 slasing</td>
+		<td>Finesse, light</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Trident</td>
+		<td>5 gp</td>
+		<td>1d6 piercing</td>
+		<td>4 lb.</td>
+		<td>Thrown (range 20/60), versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>War pick</td>
+		<td>5 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Warhammer</td>
+		<td>15 gp</td>
+		<td>1d8 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Whip</td>
+		<td>2 gp</td>
+		<td>1d4 slashing</td>
+		<td>3 lb</td>
+		<td>Finesse, reach</td>
+	</tr>
+	<tr>
+		<th colspan="5">Martial Ranged Weapons</th>
+	</tr>
+	<tr>
+		<td>Blowgun</td>
+		<td>10 gp</td>
+		<td>1 piercing</td>
+		<td>1 lb.</td>
+		<td>Ammunition (range 25/100), loading</td>
+	</tr>
+	<tr>
+		<td>Crossbow, hand</td>
+		<td>75 gp</td>
+		<td>1d6 piercing</td>
+		<td>3 lb.</td>
+		<td>Ammunition (range 30/120), loading</td>
+	</tr>
+	<tr>
+		<td>Crossbow, heavy</td>
+		<td>50 gp</td>
+		<td>1d10 piercing</td>
+		<td>18 lb.</td>
+		<td>Ammunition (range 10/400), heavy, loading, two-handed</td>
+	</tr>
+	<tr>
+		<td>Longbow</td>
+		<td>50 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>Ammunition (range 150/600), heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Net</td>
+		<td>1 gp</td>
+		<td>-</td>
+		<td>2 lb.</td>
+		<td>Special, Thrown (range 5/15)</td>
+	</tr>
+</table></p>
 **fighter$1$Tools$<p>You are proficient with no tools.</p>
 **fighter$1$Saving Throws$<p>the saving throws you are proficient with are <strong>strength</strong> and <strong>Constitution</strong>.</p>
 **fighter$1$Skills$<p>You may choose any two of the following skills:</p>
@@ -594,6 +2178,293 @@ When you cast a spell that targets only one creature and doesn't have a range of
 </ul></p>
 **monk$1$Armor$<p>You are proficient with no armor</p>
 **monk$1$Weapons$<p>You are proficient with simple weapons, and martial weapons.</p>
+<p><table>
+	<tr>
+		<th>Name</th>
+		<th>Cost</th>
+		<th>Damage</th>
+		<th>Weight</th>
+		<th>Properties</th>
+	</tr>
+	<tr>
+		<th colspan="5">Simple Melee Weapons</th>
+	</tr>
+	<tr>
+		<td>Club</td>
+		<td>1 sp</td>
+		<td>1d4 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Light</td>
+	</tr>
+	<tr>
+		<td>Dagger</td>
+		<td>2 gp</td>
+		<td>1d4 piercing</td>
+		<td>1 lb.</td>
+		<td>Finesse, light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Greatclub</td>
+		<td>2 sp</td>
+		<td>1d8 bludgeoning</td>
+		<td>10 lb.</td>
+		<td>Two-handed</td>
+	</tr>
+	<tr>
+		<td>Handaxe</td>
+		<td>5 gp</td>
+		<td>1d6 slashing</td>
+		<td>2 lb.</td>
+		<td>Light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Javelin</td>
+		<td>5 sp</td>
+		<td>1d6 piercing</td>
+		<td>2 lb.</td>
+		<td>Thrown (range 30/120)</td>
+	</tr>
+	<tr>
+		<td>Light Hammer</td>
+		<td>2 gp</td>
+		<td>1d4 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Mace</td>
+		<td>5 gp</td>
+		<td>1d6 bludgeoning</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Quarterstaff</td>
+		<td>2 sp</td>
+		<td>1d6 bludgeoning</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Sickle</td>
+		<td>1 gp</td>
+		<td>1d4 slashing</td>
+		<td>2 lb.</td>
+		<td>Light</td>
+	</tr>
+	<tr>
+		<td>Spear</td>
+		<td>1 gp</td>
+		<td>1d6 piercing</td>
+		<td>3 lb.</td>
+		<td>Thrown (range 20/60), versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Unarmed Strike</td>
+		<td>-</td>
+		<td>1 bludgeoning</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<th colspan="5" >Simple Ranged Weapons</th>
+	</tr>
+	<tr>
+		<td>Crossbow, light</td>
+		<td>25 gp</td>
+		<td>1d8 piercing</td>
+		<td>5 lb.</td>
+		<td>Ammunition (range 80/320), loading, two-handed</td>
+	</tr>
+	<tr>
+		<td>Dart</td>
+		<td>5 cp</td>
+		<td>1d4 piercing</td>
+		<td>1/4 lb.</td>
+		<td>Finesse, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Shortbow</td>
+		<td>25 gp</td>
+		<td>1d6 piercing</td>
+		<td>2 lb.</td>
+		<td>Ammunition (range 80/320), two-handed</td>
+	</tr>
+	<tr>
+		<td>Sling</td>
+		<td>1 sp</td>
+		<td>1d4 bludgeoning</td>
+		<td>-</td>
+		<td>Ammunition (range 30/120)</td>
+	</tr>
+	<tr>
+		<th colspan="5">Martial Melee Weapons</th>
+	</tr>
+	<tr>
+		<td>Battleaxe</td>
+		<td>10 gp</td>
+		<td>1d8 slashing</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Flail</td>
+		<td>10 gp</td>
+		<td>1d8 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Glaive</td>
+		<td>20 gp</td>
+		<td>1d10 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Greataxe</td>
+		<td>30 gp</td>
+		<td>1d12 slashing</td>
+		<td>7 lb.</td>
+		<td>Heavy, two-handed </td>
+	</tr>
+	<tr>
+		<td>Greatsword</td>
+		<td>50 gp</td>
+		<td>2d6 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Halberd</td>
+		<td>20 gp</td>
+		<td>1d10 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Lance</td>
+		<td>10 gp</td>
+		<td>1d12 piercing</td>
+		<td>6 lb.</td>
+		<td>Reach, specia</td>
+	</tr>
+	<tr>
+		<td>Lonsword</td>
+		<td>15 gp</td>
+		<td>1d8 slashing</td>
+		<td>3 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Maul</td>
+		<td>10 gp</td>
+		<td>2d6 bludgeoning</td>
+		<td>10 lb.</td>
+		<td>Heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Morningstar</td>
+		<td>15 gp</td>
+		<td>1d8 piercing</td>
+		<td>4 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Pike</td>
+		<td>5 gp</td>
+		<td>1d10 piercing</td>
+		<td>18 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Rapier</td>
+		<td>25 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>Finesse</td>
+	</tr>
+	<tr>
+		<td>Scimitar</td>
+		<td>25 gp</td>
+		<td>1d6 slashing</td>
+		<td>2 lb.</td>
+		<td>Finesse, light</td>
+	</tr>
+	<tr>
+		<td>Shortsword</td>
+		<td>10 gp</td>
+		<td>1d6 slasing</td>
+		<td>Finesse, light</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Trident</td>
+		<td>5 gp</td>
+		<td>1d6 piercing</td>
+		<td>4 lb.</td>
+		<td>Thrown (range 20/60), versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>War pick</td>
+		<td>5 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Warhammer</td>
+		<td>15 gp</td>
+		<td>1d8 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Whip</td>
+		<td>2 gp</td>
+		<td>1d4 slashing</td>
+		<td>3 lb</td>
+		<td>Finesse, reach</td>
+	</tr>
+	<tr>
+		<th colspan="5">Martial Ranged Weapons</th>
+	</tr>
+	<tr>
+		<td>Blowgun</td>
+		<td>10 gp</td>
+		<td>1 piercing</td>
+		<td>1 lb.</td>
+		<td>Ammunition (range 25/100), loading</td>
+	</tr>
+	<tr>
+		<td>Crossbow, hand</td>
+		<td>75 gp</td>
+		<td>1d6 piercing</td>
+		<td>3 lb.</td>
+		<td>Ammunition (range 30/120), loading</td>
+	</tr>
+	<tr>
+		<td>Crossbow, heavy</td>
+		<td>50 gp</td>
+		<td>1d10 piercing</td>
+		<td>18 lb.</td>
+		<td>Ammunition (range 10/400), heavy, loading, two-handed</td>
+	</tr>
+	<tr>
+		<td>Longbow</td>
+		<td>50 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>Ammunition (range 150/600), heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Net</td>
+		<td>1 gp</td>
+		<td>-</td>
+		<td>2 lb.</td>
+		<td>Special, Thrown (range 5/15)</td>
+	</tr>
+</table></p>
 **monk$1$Tools$<p>You may choose any one of the following artisan's tools or musical instruments:</p>
 <p><ul>
 <li></li>Alchemist's supplies
@@ -635,7 +2506,420 @@ When you cast a spell that targets only one creature and doesn't have a range of
 <li>Stealth</li>
 </ul></p>
 **paladin$1$Armor$<p>You are proficient with all armor, and shields.</p>
+<p><table >
+	<tr>
+		<th>Armor</th>
+		<th>Cost</th>
+		<th>Armor Class (AC)</th>
+		<th>Strength</th>
+		<th>Stealth</th>
+		<th>Weight</th>
+	</tr>
+	<tr>
+		<th colspan="6">Light</th>
+	</tr>
+	<tr>
+		<td>Padded</td>	
+		<td>5 gp</td>	
+		<td>11 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>Disadvantage</td>	
+		<td>8 lb.</td>
+	</tr>
+	<tr>
+		<td>Leather</td>	
+		<td>10 gp</td>	
+		<td>11 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>10 lb.</td>	
+	</tr>
+	<tr>
+		<td>Studded Leather</td>	
+		<td>45 gp</td>	
+		<td>12 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>13 lb.</td>	
+	</tr>
+	<tr>
+		<th colspan="6">Medium</th>
+	</tr>
+	<tr>
+		<td>Hide</td>	
+		<td>10 gp</td>	
+		<td>12 + Dex Modifier (max 2)</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>12 lb.</td>	
+	</tr>
+	<tr>
+		<td>Chain Shirt</td>
+		<td>50 gp</td>
+		<td>13 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>20 lb</td>
+	</tr>
+	<tr>
+		<td>Scale Mail</td>
+		<td>50 gp</td>
+		<td>14 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>Disadvantage</td>
+		<td>45 lb.</td>
+	</tr>
+	<tr>
+		<td>Breastplate</td>
+		<td>400 gp</td>
+		<td>14 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>20 lb.</td>
+	</tr>
+	<tr>
+		<td>Half Plate</td>
+		<td>750 gp</td>
+		<td>15 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>Disadvantage</td>
+		<td>40 lb.</td>
+	</tr>
+	<tr>
+		<th colspan="6">Heavy</th>
+	</tr>
+	<tr>
+		<td>Ring Mail</td>
+		<td>30 gp</td>
+		<td>14</td>
+		<td>-</td>
+		<td>Disadvantage</td>
+		<td>40 lb.</td>
+	</tr>
+	<tr>
+		<td>Chain Mail</td>
+		<td>75 gp</td>
+		<td>16</td>
+		<td>Str 13</td>
+		<td>Disadvantage</td>
+		<td>55 lb.</td>
+	</tr>
+	<tr>
+		<td>Splint</td>
+		<td>200 gp</td>
+		<td>Str 15</td>
+		<td>-</td>
+		<td>Disadvantage</td>
+		<td>60 lb.</td>
+	</tr>
+	<tr>
+		<td>Plate</td>
+		<td>1,500 gp</td>
+		<td>18</td>
+		<td>Str 15</td>
+		<td>Disadvantage</td>
+		<td>65 lb.</td>
+	</tr>
+	<tr>
+		<th colspan="6">Shield</th>
+	</tr>
+	<tr>
+		<td>Shield</td>
+		<td>10 gp</td>
+		<td>+2</td>
+		<td>-</td>
+		<td>-</td>
+		<td>6 lb.</td>
+	</tr>
+</table></p>
 **paladin$1$Weapons$<p>You are proficient with simple weapons, and martial weapons.</p>
+<p><table>
+	<tr>
+		<th>Name</th>
+		<th>Cost</th>
+		<th>Damage</th>
+		<th>Weight</th>
+		<th>Properties</th>
+	</tr>
+	<tr>
+		<th colspan="5">Simple Melee Weapons</th>
+	</tr>
+	<tr>
+		<td>Club</td>
+		<td>1 sp</td>
+		<td>1d4 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Light</td>
+	</tr>
+	<tr>
+		<td>Dagger</td>
+		<td>2 gp</td>
+		<td>1d4 piercing</td>
+		<td>1 lb.</td>
+		<td>Finesse, light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Greatclub</td>
+		<td>2 sp</td>
+		<td>1d8 bludgeoning</td>
+		<td>10 lb.</td>
+		<td>Two-handed</td>
+	</tr>
+	<tr>
+		<td>Handaxe</td>
+		<td>5 gp</td>
+		<td>1d6 slashing</td>
+		<td>2 lb.</td>
+		<td>Light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Javelin</td>
+		<td>5 sp</td>
+		<td>1d6 piercing</td>
+		<td>2 lb.</td>
+		<td>Thrown (range 30/120)</td>
+	</tr>
+	<tr>
+		<td>Light Hammer</td>
+		<td>2 gp</td>
+		<td>1d4 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Mace</td>
+		<td>5 gp</td>
+		<td>1d6 bludgeoning</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Quarterstaff</td>
+		<td>2 sp</td>
+		<td>1d6 bludgeoning</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Sickle</td>
+		<td>1 gp</td>
+		<td>1d4 slashing</td>
+		<td>2 lb.</td>
+		<td>Light</td>
+	</tr>
+	<tr>
+		<td>Spear</td>
+		<td>1 gp</td>
+		<td>1d6 piercing</td>
+		<td>3 lb.</td>
+		<td>Thrown (range 20/60), versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Unarmed Strike</td>
+		<td>-</td>
+		<td>1 bludgeoning</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<th colspan="5" >Simple Ranged Weapons</th>
+	</tr>
+	<tr>
+		<td>Crossbow, light</td>
+		<td>25 gp</td>
+		<td>1d8 piercing</td>
+		<td>5 lb.</td>
+		<td>Ammunition (range 80/320), loading, two-handed</td>
+	</tr>
+	<tr>
+		<td>Dart</td>
+		<td>5 cp</td>
+		<td>1d4 piercing</td>
+		<td>1/4 lb.</td>
+		<td>Finesse, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Shortbow</td>
+		<td>25 gp</td>
+		<td>1d6 piercing</td>
+		<td>2 lb.</td>
+		<td>Ammunition (range 80/320), two-handed</td>
+	</tr>
+	<tr>
+		<td>Sling</td>
+		<td>1 sp</td>
+		<td>1d4 bludgeoning</td>
+		<td>-</td>
+		<td>Ammunition (range 30/120)</td>
+	</tr>
+	<tr>
+		<th colspan="5">Martial Melee Weapons</th>
+	</tr>
+	<tr>
+		<td>Battleaxe</td>
+		<td>10 gp</td>
+		<td>1d8 slashing</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Flail</td>
+		<td>10 gp</td>
+		<td>1d8 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Glaive</td>
+		<td>20 gp</td>
+		<td>1d10 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Greataxe</td>
+		<td>30 gp</td>
+		<td>1d12 slashing</td>
+		<td>7 lb.</td>
+		<td>Heavy, two-handed </td>
+	</tr>
+	<tr>
+		<td>Greatsword</td>
+		<td>50 gp</td>
+		<td>2d6 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Halberd</td>
+		<td>20 gp</td>
+		<td>1d10 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Lance</td>
+		<td>10 gp</td>
+		<td>1d12 piercing</td>
+		<td>6 lb.</td>
+		<td>Reach, specia</td>
+	</tr>
+	<tr>
+		<td>Lonsword</td>
+		<td>15 gp</td>
+		<td>1d8 slashing</td>
+		<td>3 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Maul</td>
+		<td>10 gp</td>
+		<td>2d6 bludgeoning</td>
+		<td>10 lb.</td>
+		<td>Heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Morningstar</td>
+		<td>15 gp</td>
+		<td>1d8 piercing</td>
+		<td>4 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Pike</td>
+		<td>5 gp</td>
+		<td>1d10 piercing</td>
+		<td>18 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Rapier</td>
+		<td>25 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>Finesse</td>
+	</tr>
+	<tr>
+		<td>Scimitar</td>
+		<td>25 gp</td>
+		<td>1d6 slashing</td>
+		<td>2 lb.</td>
+		<td>Finesse, light</td>
+	</tr>
+	<tr>
+		<td>Shortsword</td>
+		<td>10 gp</td>
+		<td>1d6 slasing</td>
+		<td>Finesse, light</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Trident</td>
+		<td>5 gp</td>
+		<td>1d6 piercing</td>
+		<td>4 lb.</td>
+		<td>Thrown (range 20/60), versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>War pick</td>
+		<td>5 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Warhammer</td>
+		<td>15 gp</td>
+		<td>1d8 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Whip</td>
+		<td>2 gp</td>
+		<td>1d4 slashing</td>
+		<td>3 lb</td>
+		<td>Finesse, reach</td>
+	</tr>
+	<tr>
+		<th colspan="5">Martial Ranged Weapons</th>
+	</tr>
+	<tr>
+		<td>Blowgun</td>
+		<td>10 gp</td>
+		<td>1 piercing</td>
+		<td>1 lb.</td>
+		<td>Ammunition (range 25/100), loading</td>
+	</tr>
+	<tr>
+		<td>Crossbow, hand</td>
+		<td>75 gp</td>
+		<td>1d6 piercing</td>
+		<td>3 lb.</td>
+		<td>Ammunition (range 30/120), loading</td>
+	</tr>
+	<tr>
+		<td>Crossbow, heavy</td>
+		<td>50 gp</td>
+		<td>1d10 piercing</td>
+		<td>18 lb.</td>
+		<td>Ammunition (range 10/400), heavy, loading, two-handed</td>
+	</tr>
+	<tr>
+		<td>Longbow</td>
+		<td>50 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>Ammunition (range 150/600), heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Net</td>
+		<td>1 gp</td>
+		<td>-</td>
+		<td>2 lb.</td>
+		<td>Special, Thrown (range 5/15)</td>
+	</tr>
+</table></p>
 **paladin$1$Tools$<p>You are proficient with no tools.</p>
 **paladin$1$Saving Throws$<p>The saving throws that you are proficient with are <strong>wisdom</strong> and <strong>charisma</strong>.</p>
 **paladin$1$Skills$<p>You may choose any two of the following skills:</p>
@@ -648,7 +2932,384 @@ When you cast a spell that targets only one creature and doesn't have a range of
 <li>Religion</li>
 </ul></p>
 **ranger$1$Armor$<p>You are proficient with light armor, medium armor, and shields.</p>
+<p><table >
+	<tr>
+		<th>Armor</th>
+		<th>Cost</th>
+		<th>Armor Class (AC)</th>
+		<th>Strength</th>
+		<th>Stealth</th>
+		<th>Weight</th>
+	</tr>
+	<tr>
+		<th colspan="6">Light</th>
+	</tr>
+	<tr>
+		<td>Padded</td>	
+		<td>5 gp</td>	
+		<td>11 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>Disadvantage</td>	
+		<td>8 lb.</td>
+	</tr>
+	<tr>
+		<td>Leather</td>	
+		<td>10 gp</td>	
+		<td>11 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>10 lb.</td>	
+	</tr>
+	<tr>
+		<td>Studded Leather</td>	
+		<td>45 gp</td>	
+		<td>12 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>13 lb.</td>	
+	</tr>
+	<tr>
+		<th colspan="6">Medium</th>
+	</tr>
+	<tr>
+		<td>Hide</td>	
+		<td>10 gp</td>	
+		<td>12 + Dex Modifier (max 2)</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>12 lb.</td>	
+	</tr>
+	<tr>
+		<td>Chain Shirt</td>
+		<td>50 gp</td>
+		<td>13 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>20 lb</td>
+	</tr>
+	<tr>
+		<td>Scale Mail</td>
+		<td>50 gp</td>
+		<td>14 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>Disadvantage</td>
+		<td>45 lb.</td>
+	</tr>
+	<tr>
+		<td>Breastplate</td>
+		<td>400 gp</td>
+		<td>14 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>-</td>
+		<td>20 lb.</td>
+	</tr>
+	<tr>
+		<td>Half Plate</td>
+		<td>750 gp</td>
+		<td>15 + Dex Modifier (max 2)</td>
+		<td>-</td>
+		<td>Disadvantage</td>
+		<td>40 lb.</td>
+	</tr>
+		<th colspan="6">Shield</th>
+	</tr>
+	<tr>
+		<td>Shield</td>
+		<td>10 gp</td>
+		<td>+2</td>
+		<td>-</td>
+		<td>-</td>
+		<td>6 lb.</td>
+	</tr>
+</table></p>
 **ranger$1$Weapons$<p>You are proficient with simple weapons, and martial weapons.</p>
+<p><table>
+	<tr>
+		<th>Name</th>
+		<th>Cost</th>
+		<th>Damage</th>
+		<th>Weight</th>
+		<th>Properties</th>
+	</tr>
+	<tr>
+		<th colspan="5">Simple Melee Weapons</th>
+	</tr>
+	<tr>
+		<td>Club</td>
+		<td>1 sp</td>
+		<td>1d4 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Light</td>
+	</tr>
+	<tr>
+		<td>Dagger</td>
+		<td>2 gp</td>
+		<td>1d4 piercing</td>
+		<td>1 lb.</td>
+		<td>Finesse, light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Greatclub</td>
+		<td>2 sp</td>
+		<td>1d8 bludgeoning</td>
+		<td>10 lb.</td>
+		<td>Two-handed</td>
+	</tr>
+	<tr>
+		<td>Handaxe</td>
+		<td>5 gp</td>
+		<td>1d6 slashing</td>
+		<td>2 lb.</td>
+		<td>Light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Javelin</td>
+		<td>5 sp</td>
+		<td>1d6 piercing</td>
+		<td>2 lb.</td>
+		<td>Thrown (range 30/120)</td>
+	</tr>
+	<tr>
+		<td>Light Hammer</td>
+		<td>2 gp</td>
+		<td>1d4 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Mace</td>
+		<td>5 gp</td>
+		<td>1d6 bludgeoning</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Quarterstaff</td>
+		<td>2 sp</td>
+		<td>1d6 bludgeoning</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Sickle</td>
+		<td>1 gp</td>
+		<td>1d4 slashing</td>
+		<td>2 lb.</td>
+		<td>Light</td>
+	</tr>
+	<tr>
+		<td>Spear</td>
+		<td>1 gp</td>
+		<td>1d6 piercing</td>
+		<td>3 lb.</td>
+		<td>Thrown (range 20/60), versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Unarmed Strike</td>
+		<td>-</td>
+		<td>1 bludgeoning</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<th colspan="5" >Simple Ranged Weapons</th>
+	</tr>
+	<tr>
+		<td>Crossbow, light</td>
+		<td>25 gp</td>
+		<td>1d8 piercing</td>
+		<td>5 lb.</td>
+		<td>Ammunition (range 80/320), loading, two-handed</td>
+	</tr>
+	<tr>
+		<td>Dart</td>
+		<td>5 cp</td>
+		<td>1d4 piercing</td>
+		<td>1/4 lb.</td>
+		<td>Finesse, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Shortbow</td>
+		<td>25 gp</td>
+		<td>1d6 piercing</td>
+		<td>2 lb.</td>
+		<td>Ammunition (range 80/320), two-handed</td>
+	</tr>
+	<tr>
+		<td>Sling</td>
+		<td>1 sp</td>
+		<td>1d4 bludgeoning</td>
+		<td>-</td>
+		<td>Ammunition (range 30/120)</td>
+	</tr>
+	<tr>
+		<th colspan="5">Martial Melee Weapons</th>
+	</tr>
+	<tr>
+		<td>Battleaxe</td>
+		<td>10 gp</td>
+		<td>1d8 slashing</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Flail</td>
+		<td>10 gp</td>
+		<td>1d8 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Glaive</td>
+		<td>20 gp</td>
+		<td>1d10 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Greataxe</td>
+		<td>30 gp</td>
+		<td>1d12 slashing</td>
+		<td>7 lb.</td>
+		<td>Heavy, two-handed </td>
+	</tr>
+	<tr>
+		<td>Greatsword</td>
+		<td>50 gp</td>
+		<td>2d6 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Halberd</td>
+		<td>20 gp</td>
+		<td>1d10 slashing</td>
+		<td>6 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Lance</td>
+		<td>10 gp</td>
+		<td>1d12 piercing</td>
+		<td>6 lb.</td>
+		<td>Reach, specia</td>
+	</tr>
+	<tr>
+		<td>Lonsword</td>
+		<td>15 gp</td>
+		<td>1d8 slashing</td>
+		<td>3 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Maul</td>
+		<td>10 gp</td>
+		<td>2d6 bludgeoning</td>
+		<td>10 lb.</td>
+		<td>Heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Morningstar</td>
+		<td>15 gp</td>
+		<td>1d8 piercing</td>
+		<td>4 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Pike</td>
+		<td>5 gp</td>
+		<td>1d10 piercing</td>
+		<td>18 lb.</td>
+		<td>Heavy, reach, two-handed</td>
+	</tr>
+	<tr>
+		<td>Rapier</td>
+		<td>25 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>Finesse</td>
+	</tr>
+	<tr>
+		<td>Scimitar</td>
+		<td>25 gp</td>
+		<td>1d6 slashing</td>
+		<td>2 lb.</td>
+		<td>Finesse, light</td>
+	</tr>
+	<tr>
+		<td>Shortsword</td>
+		<td>10 gp</td>
+		<td>1d6 slasing</td>
+		<td>Finesse, light</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Trident</td>
+		<td>5 gp</td>
+		<td>1d6 piercing</td>
+		<td>4 lb.</td>
+		<td>Thrown (range 20/60), versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>War pick</td>
+		<td>5 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>Warhammer</td>
+		<td>15 gp</td>
+		<td>1d8 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Whip</td>
+		<td>2 gp</td>
+		<td>1d4 slashing</td>
+		<td>3 lb</td>
+		<td>Finesse, reach</td>
+	</tr>
+	<tr>
+		<th colspan="5">Martial Ranged Weapons</th>
+	</tr>
+	<tr>
+		<td>Blowgun</td>
+		<td>10 gp</td>
+		<td>1 piercing</td>
+		<td>1 lb.</td>
+		<td>Ammunition (range 25/100), loading</td>
+	</tr>
+	<tr>
+		<td>Crossbow, hand</td>
+		<td>75 gp</td>
+		<td>1d6 piercing</td>
+		<td>3 lb.</td>
+		<td>Ammunition (range 30/120), loading</td>
+	</tr>
+	<tr>
+		<td>Crossbow, heavy</td>
+		<td>50 gp</td>
+		<td>1d10 piercing</td>
+		<td>18 lb.</td>
+		<td>Ammunition (range 10/400), heavy, loading, two-handed</td>
+	</tr>
+	<tr>
+		<td>Longbow</td>
+		<td>50 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>Ammunition (range 150/600), heavy, two-handed</td>
+	</tr>
+	<tr>
+		<td>Net</td>
+		<td>1 gp</td>
+		<td>-</td>
+		<td>2 lb.</td>
+		<td>Special, Thrown (range 5/15)</td>
+	</tr>
+</table></p>
 **ranger$1$Tools$<p>You are proficient with no tools.</p>
 **ranger$1$Saving Throws$<p>The saving throws that you are proficient with are <strong>strength</strong> and <strong>dexterity</strong>.</p>
 **ranger$1$Skills$<p>You may choose any three of the following skills:</p>
@@ -663,7 +3324,198 @@ When you cast a spell that targets only one creature and doesn't have a range of
 <li>Survival</li>
 </ul></p>
 **rogue$1$Armor$<p>You are proficient with light armor.</p>
+<p><table >
+	<tr>
+		<th>Armor</th>
+		<th>Cost</th>
+		<th>Armor Class (AC)</th>
+		<th>Strength</th>
+		<th>Stealth</th>
+		<th>Weight</th>
+	</tr>
+	<tr>
+		<th colspan="6">Light</th>
+	</tr>
+	<tr>
+		<td>Padded</td>	
+		<td>5 gp</td>	
+		<td>11 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>Disadvantage</td>	
+		<td>8 lb.</td>
+	</tr>
+	<tr>
+		<td>Leather</td>	
+		<td>10 gp</td>	
+		<td>11 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>10 lb.</td>	
+	</tr>
+	<tr>
+		<td>Studded Leather</td>	
+		<td>45 gp</td>	
+		<td>12 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>13 lb.</td>	
+	</tr>
+</table></p>
 **rogue$1$Weapons$<p>You are proficient with simple weapons, the hand crossbow, longsword, rapier, and shortsword.</p>
+<p><table>
+	<tr>
+		<th>Name</th>
+		<th>Cost</th>
+		<th>Damage</th>
+		<th>Weight</th>
+		<th>Properties</th>
+	</tr>
+	<tr>
+		<th colspan="5">Simple Melee Weapons</th>
+	</tr>
+	<tr>
+		<td>Club</td>
+		<td>1 sp</td>
+		<td>1d4 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Light</td>
+	</tr>
+	<tr>
+		<td>Dagger</td>
+		<td>2 gp</td>
+		<td>1d4 piercing</td>
+		<td>1 lb.</td>
+		<td>Finesse, light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Greatclub</td>
+		<td>2 sp</td>
+		<td>1d8 bludgeoning</td>
+		<td>10 lb.</td>
+		<td>Two-handed</td>
+	</tr>
+	<tr>
+		<td>Handaxe</td>
+		<td>5 gp</td>
+		<td>1d6 slashing</td>
+		<td>2 lb.</td>
+		<td>Light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Javelin</td>
+		<td>5 sp</td>
+		<td>1d6 piercing</td>
+		<td>2 lb.</td>
+		<td>Thrown (range 30/120)</td>
+	</tr>
+	<tr>
+		<td>Light Hammer</td>
+		<td>2 gp</td>
+		<td>1d4 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Mace</td>
+		<td>5 gp</td>
+		<td>1d6 bludgeoning</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Quarterstaff</td>
+		<td>2 sp</td>
+		<td>1d6 bludgeoning</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Sickle</td>
+		<td>1 gp</td>
+		<td>1d4 slashing</td>
+		<td>2 lb.</td>
+		<td>Light</td>
+	</tr>
+	<tr>
+		<td>Spear</td>
+		<td>1 gp</td>
+		<td>1d6 piercing</td>
+		<td>3 lb.</td>
+		<td>Thrown (range 20/60), versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Unarmed Strike</td>
+		<td>-</td>
+		<td>1 bludgeoning</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<th colspan="5" >Simple Ranged Weapons</th>
+	</tr>
+	<tr>
+		<td>Crossbow, light</td>
+		<td>25 gp</td>
+		<td>1d8 piercing</td>
+		<td>5 lb.</td>
+		<td>Ammunition (range 80/320), loading, two-handed</td>
+	</tr>
+	<tr>
+		<td>Dart</td>
+		<td>5 cp</td>
+		<td>1d4 piercing</td>
+		<td>1/4 lb.</td>
+		<td>Finesse, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Shortbow</td>
+		<td>25 gp</td>
+		<td>1d6 piercing</td>
+		<td>2 lb.</td>
+		<td>Ammunition (range 80/320), two-handed</td>
+	</tr>
+	<tr>
+		<td>Sling</td>
+		<td>1 sp</td>
+		<td>1d4 bludgeoning</td>
+		<td>-</td>
+		<td>Ammunition (range 30/120)</td>
+	</tr>
+	<tr>
+		<th colspan="5">Martial Melee Weapons</th>
+	</tr>
+	<tr>
+		<td>Lonsword</td>
+		<td>15 gp</td>
+		<td>1d8 slashing</td>
+		<td>3 lb.</td>
+		<td>Versatile (1d10)</td>
+	</tr>
+	<tr>
+		<td>Rapier</td>
+		<td>25 gp</td>
+		<td>1d8 piercing</td>
+		<td>2 lb.</td>
+		<td>Finesse</td>
+	</tr>
+	<tr>
+		<td>Shortsword</td>
+		<td>10 gp</td>
+		<td>1d6 slasing</td>
+		<td>Finesse, light</td>
+		<td></td>
+	</tr>
+	<tr>
+		<th colspan="5">Martial Ranged Weapons</th>
+	</tr>
+	<tr>
+		<td>Crossbow, hand</td>
+		<td>75 gp</td>
+		<td>1d6 piercing</td>
+		<td>3 lb.</td>
+		<td>Ammunition (range 30/120), loading</td>
+	</tr>
+</table></p>
 **rogue$1$Tools$<p>You are proficient with the Thieves' tools</p>
 **rogue$1$Saving Throws$<p>The saving throws that you are proficient with are <strong>dexterity</strong> and <strong>intelligence</strong>.</p>
 **rogue$1$Skills$<p>You may choose any four of the following skills:</p>
@@ -682,6 +3534,56 @@ When you cast a spell that targets only one creature and doesn't have a range of
 </ul></p>
 **sorcerer$1$Armor$<p>You are proficient with no armor.</p>
 **sorcerer$1$Weapons$<p>You are proficient with the dagger, dart, sling, quarterstaff, and light crossbow.</p>
+<p><table>
+	<tr>
+		<th>Name</th>
+		<th>Cost</th>
+		<th>Damage</th>
+		<th>Weight</th>
+		<th>Properties</th>
+	</tr>
+	<tr>
+		<th colspan="5">Simple Melee Weapons</th>
+	</tr>
+	<tr>
+		<td>Dagger</td>
+		<td>2 gp</td>
+		<td>1d4 piercing</td>
+		<td>1 lb.</td>
+		<td>Finesse, light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Quarterstaff</td>
+		<td>2 sp</td>
+		<td>1d6 bludgeoning</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d8)</td>
+	</tr>
+	<tr>
+		<th colspan="5" >Simple Ranged Weapons</th>
+	</tr>
+	<tr>
+		<td>Crossbow, light</td>
+		<td>25 gp</td>
+		<td>1d8 piercing</td>
+		<td>5 lb.</td>
+		<td>Ammunition (range 80/320), loading, two-handed</td>
+	</tr>
+	<tr>
+		<td>Dart</td>
+		<td>5 cp</td>
+		<td>1d4 piercing</td>
+		<td>1/4 lb.</td>
+		<td>Finesse, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Sling</td>
+		<td>1 sp</td>
+		<td>1d4 bludgeoning</td>
+		<td>-</td>
+		<td>Ammunition (range 30/120)</td>
+	</tr>
+</table></p>
 **sorcerer$1$Tools$<p><You are proficient with no tools./p>$
 **sorcerer$1$Saving Throws$<p>The saving throws you are profcient with are <strong>constitution</strong> and <strong>charisma</strong>.</p>
 **sorcerer$1$Skills$<p>You may choose any two of the following skills:</p>
@@ -694,7 +3596,164 @@ When you cast a spell that targets only one creature and doesn't have a range of
 <li>Religion</li>
 </ul></p>
 **warlock$1$Armor$<p>You are proficient with light armor.</p>
+<p><table >
+	<tr>
+		<th>Armor</th>
+		<th>Cost</th>
+		<th>Armor Class (AC)</th>
+		<th>Strength</th>
+		<th>Stealth</th>
+		<th>Weight</th>
+	</tr>
+	<tr>
+		<th colspan="6">Light</th>
+	</tr>
+	<tr>
+		<td>Padded</td>	
+		<td>5 gp</td>	
+		<td>11 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>Disadvantage</td>	
+		<td>8 lb.</td>
+	</tr>
+	<tr>
+		<td>Leather</td>	
+		<td>10 gp</td>	
+		<td>11 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>10 lb.</td>	
+	</tr>
+	<tr>
+		<td>Studded Leather</td>	
+		<td>45 gp</td>	
+		<td>12 + Dex Modifier</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>13 lb.</td>	
+	</tr>
+</table></p>
 **warlock$1$Weapons$<p>You are proficient with simple weapons.</p>
+<p><table>
+	<tr>
+		<th>Name</th>
+		<th>Cost</th>
+		<th>Damage</th>
+		<th>Weight</th>
+		<th>Properties</th>
+	</tr>
+	<tr>
+		<th colspan="5">Simple Melee Weapons</th>
+	</tr>
+	<tr>
+		<td>Club</td>
+		<td>1 sp</td>
+		<td>1d4 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Light</td>
+	</tr>
+	<tr>
+		<td>Dagger</td>
+		<td>2 gp</td>
+		<td>1d4 piercing</td>
+		<td>1 lb.</td>
+		<td>Finesse, light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Greatclub</td>
+		<td>2 sp</td>
+		<td>1d8 bludgeoning</td>
+		<td>10 lb.</td>
+		<td>Two-handed</td>
+	</tr>
+	<tr>
+		<td>Handaxe</td>
+		<td>5 gp</td>
+		<td>1d6 slashing</td>
+		<td>2 lb.</td>
+		<td>Light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Javelin</td>
+		<td>5 sp</td>
+		<td>1d6 piercing</td>
+		<td>2 lb.</td>
+		<td>Thrown (range 30/120)</td>
+	</tr>
+	<tr>
+		<td>Light Hammer</td>
+		<td>2 gp</td>
+		<td>1d4 bludgeoning</td>
+		<td>2 lb.</td>
+		<td>Light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Mace</td>
+		<td>5 gp</td>
+		<td>1d6 bludgeoning</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Quarterstaff</td>
+		<td>2 sp</td>
+		<td>1d6 bludgeoning</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Sickle</td>
+		<td>1 gp</td>
+		<td>1d4 slashing</td>
+		<td>2 lb.</td>
+		<td>Light</td>
+	</tr>
+	<tr>
+		<td>Spear</td>
+		<td>1 gp</td>
+		<td>1d6 piercing</td>
+		<td>3 lb.</td>
+		<td>Thrown (range 20/60), versatile (1d8)</td>
+	</tr>
+	<tr>
+		<td>Unarmed Strike</td>
+		<td>-</td>
+		<td>1 bludgeoning</td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<th colspan="5" >Simple Ranged Weapons</th>
+	</tr>
+	<tr>
+		<td>Crossbow, light</td>
+		<td>25 gp</td>
+		<td>1d8 piercing</td>
+		<td>5 lb.</td>
+		<td>Ammunition (range 80/320), loading, two-handed</td>
+	</tr>
+	<tr>
+		<td>Dart</td>
+		<td>5 cp</td>
+		<td>1d4 piercing</td>
+		<td>1/4 lb.</td>
+		<td>Finesse, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Shortbow</td>
+		<td>25 gp</td>
+		<td>1d6 piercing</td>
+		<td>2 lb.</td>
+		<td>Ammunition (range 80/320), two-handed</td>
+	</tr>
+	<tr>
+		<td>Sling</td>
+		<td>1 sp</td>
+		<td>1d4 bludgeoning</td>
+		<td>-</td>
+		<td>Ammunition (range 30/120)</td>
+	</tr>
+</table></p>
 **warlock$1$Tools$<p>You are proficient with no tools</p>
 **warlock$1$Saving Throws$<p>The saving throws you are proficient with are <strong>wisdom</strong> and <strong>charisma</strong>.</p>
 **warlock$1$Skills$<p>You may choose any two of the following skills:</p>
@@ -709,6 +3768,56 @@ When you cast a spell that targets only one creature and doesn't have a range of
 </ul></p>
 **wizard$1$Armor$<p>You are proficient with no armor.</p>
 **wizard$1$Weapons$<p>You are proficient with the dagger, dart, sling, quarterstaff, and light crossbow.</p>
+<p><table>
+	<tr>
+		<th>Name</th>
+		<th>Cost</th>
+		<th>Damage</th>
+		<th>Weight</th>
+		<th>Properties</th>
+	</tr>
+	<tr>
+		<th colspan="5">Simple Melee Weapons</th>
+	</tr>
+	<tr>
+		<td>Dagger</td>
+		<td>2 gp</td>
+		<td>1d4 piercing</td>
+		<td>1 lb.</td>
+		<td>Finesse, light, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Quarterstaff</td>
+		<td>2 sp</td>
+		<td>1d6 bludgeoning</td>
+		<td>4 lb.</td>
+		<td>Versatile (1d8)</td>
+	</tr>
+	<tr>
+		<th colspan="5" >Simple Ranged Weapons</th>
+	</tr>
+	<tr>
+		<td>Crossbow, light</td>
+		<td>25 gp</td>
+		<td>1d8 piercing</td>
+		<td>5 lb.</td>
+		<td>Ammunition (range 80/320), loading, two-handed</td>
+	</tr>
+	<tr>
+		<td>Dart</td>
+		<td>5 cp</td>
+		<td>1d4 piercing</td>
+		<td>1/4 lb.</td>
+		<td>Finesse, thrown (range 20/60)</td>
+	</tr>
+	<tr>
+		<td>Sling</td>
+		<td>1 sp</td>
+		<td>1d4 bludgeoning</td>
+		<td>-</td>
+		<td>Ammunition (range 30/120)</td>
+	</tr>
+</table></p>
 **wizard$1$Tools$<p>You are proficient with no tools</p>
 **wizard$1$Saving Throws$<p>The saving throws you are proficient with are <strong>intelligence</strong> and <strong>wisdom</strong>.</p>
 **wizard$1$Skills$<p>You may choose any two of the following skills:</p>

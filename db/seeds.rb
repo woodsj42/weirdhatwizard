@@ -308,7 +308,7 @@ end
 
 
 File.open(dnd5e + class_attr_file) do |f2|
-	probono = "<p>Your proficiency bonus applies to many of numbers that you will be rolling for including:</p>
+	probono = "<p>Your proficiency bonus applies to many numbers that you will be rolling for, including:</p>
 			<p><ul>
 			<li>Attack rolls using weapons that you are proficient with</li>
 			<li>Attack rolls with spells you cast</li>
@@ -318,33 +318,33 @@ File.open(dnd5e + class_attr_file) do |f2|
 			<li>Saving throw DCs for spells you cast</li>
 			</ul></p>
 			<p>Your proficiency bonus can't be added more than once to a single die roll or other number more than once. Occasionally your proficiency bonus might be modified ( doubled or halved, for example) before you apply it. If a circumstance suggests that your proficiency bonus applies more than once to the same roll or that it should be multiplied mroe than once, you neverthelessadd it only once, multiply it only once, and halve it only once.</p>"
-	rages_per_day = "<p> This is the Number of times you can rage in between long rests.</p>"
+	rages_per_day = "<p> This is the number of times you can rage in between long rests.</p>"
 	rage_damage = "<p> The amount of damage you can do while raging and using melee strength attacks.</p>"
-	cantrips_known = "<p>The Number of cantrips that you know and can cast.</p>"
-	num_spells_known = "<p>The Number of spells 1st-level and higher that you know.</p>"
-	level1 = "<p>The Number of 1st-level spell slots that you have and can use to cast that level of spell</p>"
-	level2 = "<p>The Number of 2nd-level spell slots that you have and can use to cast that level of spell</p>"
-	level3 = "<p>The Number of 3rd-level spell slots that you have and can use to cast that level of spell</p>"
-	level4 = "<p>The Number of 4th-level spell slots that you have and can use to cast that level of spell</p>"
-	level5 = "<p>The Number of 5th-level spell slots that you have and can use to cast that level of spell</p>"
-	level6 = "<p>The Number of 6th-level spell slots that you have and can use to cast that level of spell</p>"
-	level7 = "<p>The Number of 7th-level spell slots that you have and can use to cast that level of spell</p>"
-	level8 = "<p>The Number of 8th-level spell slots that you have and can use to cast that level of spell</p>"
-	level9 = "<p>The Number of 9th-level spell slots that you have and can use to cast that level of spell</p>"
+	cantrips_known = "<p>The number of cantrips that you know and can cast.</p>"
+	num_spells_known = "<p>The number of spells 1st-level and higher that you know.</p>"
+	level1 = "<p>The number of 1st-level spell slots that you have and can use to cast that level of spell</p>"
+	level2 = "<p>The number of 2nd-level spell slots that you have and can use to cast that level of spell</p>"
+	level3 = "<p>The number of 3rd-level spell slots that you have and can use to cast that level of spell</p>"
+	level4 = "<p>The number of 4th-level spell slots that you have and can use to cast that level of spell</p>"
+	level5 = "<p>The number of 5th-level spell slots that you have and can use to cast that level of spell</p>"
+	level6 = "<p>The number of 6th-level spell slots that you have and can use to cast that level of spell</p>"
+	level7 = "<p>The number of 7th-level spell slots that you have and can use to cast that level of spell</p>"
+	level8 = "<p>The number of 8th-level spell slots that you have and can use to cast that level of spell</p>"
+	level9 = "<p>The number of 9th-level spell slots that you have and can use to cast that level of spell</p>"
 	martial_arts = "<p>The damage die for any monk weapons you use or if you use unarmed strikes.</p>"
 	unarmored_movement = "<p>The additional amount of movement granted if you are wearing no armor at all.</p>"
 	ki_points = "<p>The maximum Number of ki points you can have.</p>"
 	sneak_attack_damage = "<p>The damage dice that you add to you damage when you trigger a sneak attack</p>"
 	sorcery_points = "<p>The maximum Number of sorcery points that you can have at one time.</p>"
 	num_invocations = "<p>The maximum Number of Eldritch invocations that you can know</p>"
-	spell_slots = "<p>The Number of spells that you can cast in between long rests. This only includes spells that expend spell slots.</p>"
+	spell_slots = "<p>The number of spells that you can cast in between long rests. This only includes spells that expend spell slots.</p>"
 	slot_level = "<p>The highest level spell you can cast.</p>"
 	superiority_die = "<p>The die you use with you maneuvers. </p>"
-	num_superiority_dice = "<p>The Number of maneuvers that you can use in between long rests.</p>"
-	num_known_maneuvers = "<p> The Number of maneuvers that you know.</p>"
-	num_disciplines = "<p>The Number of disciplines that you know.</p>"
+	num_superiority_dice = "<p>The number of maneuvers that you can use in between long rests.</p>"
+	num_known_maneuvers = "<p> The number of maneuvers that you know.</p>"
+	num_disciplines = "<p>The number of disciplines that you know.</p>"
 	max_ki_points = "<p>The maximum Number of ki points you can use to increase the spell level if the disciplines you cast.</p>"
-	asi = "<p>This is the Number of times that you can do one of the following</p>
+	asi = "<p>This is the number of times that you can do one of the following</p>
 	       <p><ul>
                <li>Increase one ability score of your choice by 2.</li>
                <li>Increase two ability scores of your choice by 1.</li>
