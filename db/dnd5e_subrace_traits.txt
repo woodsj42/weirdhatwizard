@@ -1,6 +1,6 @@
 Deep$Superior Darkvision$<p>Your darkvision has a radius of 120 feet.</p>
 **Deep$Gnome Cunning$<p>You have advantage on Dexterity (stealth) checks to hide in rocky terrain.</p>
-**Deep$Stone CamouflageE$<p>You have advantage on Dexterity (stealth) checks to hide in rocky terrain.</p>
+**Deep$Stone Camouflage$<p>You have advantage on Dexterity (stealth) checks to hide in rocky terrain.</p>
 **Air$Unending Breath$<p>You can hold your breath indefinitely while you?re not incapacitated.</p>
 **Air$Mingle with the Wind$<p>You can cast the levitate spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.</p>
 **Earth$Earth Walk$<p>You can move across difficult terrain made of earth or stone without expending extra movement.</p>
