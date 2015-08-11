@@ -70,8 +70,9 @@ barbarian$1$rage$ <p> Enter rage as a bonus action, you gain the following benef
 <p>If an undead fails it's saving throw against your Turn Undead, the creature is instantly destroyed if its challenge rating is 3 or lower </p>$CR 3
 **cleric$17$destroy undead$
 <p>If an undead fails it's saving throw against your Turn Undead, the creature is instantly destroyed if its challenge rating is 4 or lower </p>$CR 4
-**cleric$10$divine intervention$<p> Ask for assistance from what you worship. Ask for the kind of assistance you require and roll percentile dice. If you roll a number equal or lower than your cleric level, your deity intervenes. The DM  choose the nature of the intervention; effect of any cleric spell or cleric domain spell is appropriate. </p>  If the object of your worship intervenes, you can't use this feature again for 7 days. Otherwise you can use it again after you finish a long rest.</p> 
-**cleric$20$divine intervention$<p> Ask for assistance from what you worship. Ask for the kind of assistance you require and roll percentile dice. If you roll a number equal or lower than your cleric level, your deity intervenes. The DM  choose the nature of the intervention; effect of any cleric spell or cleric domain spell is appropriate. </p>  If the object of your worship intervenes, you can't use this feature again for 7 days. Otherwise you can use it again after you finish a long rest.</p> <p> Your calls for intervention work automatically with no roll required.</p> 
+**cleric$10$divine intervention$<p> Ask for assistance from what you worship. Ask for the kind of assistance you require and roll percentile dice. If you roll a number equal or lower than your cleric level, your deity intervenes. The DM  chooses the nature of the intervention; effect of any cleric spell or cleric domain spell is appropriate. </p>  If the object of your worship intervenes, you can't use this feature again for 7 days. Otherwise you can use it again after you finish a long rest.</p> 
+**cleric$20$divine intervention$<p> Ask for assistance from what you worship. Ask for the kind of assistance you require and roll percentile dice. If you roll a number equal or lower than your cleric level, your deity intervenes. The DM  chooses the nature of the intervention; effect of any cleric spell or cleric domain spell is appropriate. </p>
+<p>  If the object of your worship intervenes, you can't use this feature again for 7 days. Otherwise you can use it again after you finish a long rest.</p> <p> Your calls for intervention work automatically with no roll required.</p> 
 **druid$1$druidic$<p>You know Druidic, the secret language of druids. You can speak the language and can use it to leave secret languages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 wisdom(perception) check but can't decipher it without magic. </p> 
 **druid$1$spellcasting$ you may cast spells of 1st or higher depending upon your class level. When all of your spell slots are expended you must have a long rest to regain them.</p>
 <p> You prepare your list of castable druid spells for the day by choosing from the full list of druid spells. When you do so you choose a number of spells equal to your wisdom modifier + your druid level(minimum one spell), the spells must be of a level for which you have spell slots </p>
@@ -129,9 +130,9 @@ barbarian$1$rage$ <p> Enter rage as a bonus action, you gain the following benef
 **fighter$5$extra attack$<p> You can attack twice with your attack action</p>$1
 **fighter$11$extra attack$<p> You can attack thrice with your attack action</p>$2
 **fighter$20$extra attack$<p> You can attack four times with your attack action</p>$3
-**fighter$9$indomitable$<p>you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a long rest</p>
-**fighter$13$indomitable$<p>you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can use this feature twice before you need to finish a long rest</p>
-**fighter$17$indomitable$<p>you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can use this feature thrice before you need finish a long rest</p><p></p>
+**fighter$9$indomitable$<p>you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a long rest</p>$1
+**fighter$13$indomitable$<p>you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can use this feature twice before you need to finish a long rest</p>$2
+**fighter$17$indomitable$<p>you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can use this feature thrice before you need finish a long rest</p>$3
 **monk$1$unarmored defense$<p>While you are wearing no armor and not wielding a shield, your AC equals <strong>10 + your dexterity modifier + your wisdom modifier</strong></p>
 **monk$1$martial arts$<p>You gain the following benefits while you are unarmed or wield only monk weapons and you aren't wearing armor or wielding a shield</p>
 <p><ul>
@@ -378,7 +379,7 @@ When you cast a spell that targets only one creature and doesn't have a range of
 **warlock$2$eldritch invocations$<p>When you level in this class you can choose one of the invocations you know and replace it with another invocation that you can learn at this level.</p><p>You can choose from the invocations below</p>
 <h3>Agonizing Blast</h3>
 <p>Prerequisite: eldritch blast cantrip</p>
-<p>WHen you cast eldritch blast, add your charisma modifier to the damage it deals on a hit.</p>
+<p>When you cast eldritch blast, add your charisma modifier to the damage it deals on a hit.</p>
 <h3>Armor of Shadows</h3>
 <p>You can cast mage armor on yourself at will, without expending a spell slot or material components. </p>
 <h3>Ascendant Step</h3>
@@ -778,7 +779,7 @@ When you cast a spell that targets only one creature and doesn't have a range of
 		<td>Reach, specia</td>
 	</tr>
 	<tr>
-		<td>Lonsword</td>
+		<td>Longsword</td>
 		<td>15 gp</td>
 		<td>1d8 slashing</td>
 		<td>3 lb.</td>
@@ -1114,7 +1115,7 @@ When you cast a spell that targets only one creature and doesn't have a range of
 		<td>Reach, specia</td>
 	</tr>
 	<tr>
-		<td>Lonsword</td>
+		<td>Longsword</td>
 		<td>15 gp</td>
 		<td>1d8 slashing</td>
 		<td>3 lb.</td>
@@ -1517,7 +1518,7 @@ When you cast a spell that targets only one creature and doesn't have a range of
 		<td>Reach, specia</td>
 	</tr>
 	<tr>
-		<td>Lonsword</td>
+		<td>Longsword</td>
 		<td>15 gp</td>
 		<td>1d8 slashing</td>
 		<td>3 lb.</td>
@@ -2048,7 +2049,7 @@ When you cast a spell that targets only one creature and doesn't have a range of
 		<td>Reach, specia</td>
 	</tr>
 	<tr>
-		<td>Lonsword</td>
+		<td>Longsword</td>
 		<td>15 gp</td>
 		<td>1d8 slashing</td>
 		<td>3 lb.</td>
@@ -2350,7 +2351,7 @@ When you cast a spell that targets only one creature and doesn't have a range of
 		<td>Reach, specia</td>
 	</tr>
 	<tr>
-		<td>Lonsword</td>
+		<td>Longsword</td>
 		<td>15 gp</td>
 		<td>1d8 slashing</td>
 		<td>3 lb.</td>
@@ -2805,7 +2806,7 @@ When you cast a spell that targets only one creature and doesn't have a range of
 		<td>Reach, specia</td>
 	</tr>
 	<tr>
-		<td>Lonsword</td>
+		<td>Longsword</td>
 		<td>15 gp</td>
 		<td>1d8 slashing</td>
 		<td>3 lb.</td>
@@ -3195,7 +3196,7 @@ When you cast a spell that targets only one creature and doesn't have a range of
 		<td>Reach, specia</td>
 	</tr>
 	<tr>
-		<td>Lonsword</td>
+		<td>Longsword</td>
 		<td>15 gp</td>
 		<td>1d8 slashing</td>
 		<td>3 lb.</td>
@@ -3485,7 +3486,7 @@ When you cast a spell that targets only one creature and doesn't have a range of
 		<th colspan="5">Martial Melee Weapons</th>
 	</tr>
 	<tr>
-		<td>Lonsword</td>
+		<td>Longsword</td>
 		<td>15 gp</td>
 		<td>1d8 slashing</td>
 		<td>3 lb.</td>

@@ -319,7 +319,7 @@ File.open(dnd5e + class_attr_file) do |f2|
 			</ul></p>
 			<p>Your proficiency bonus can't be added more than once to a single die roll or other number more than once. Occasionally your proficiency bonus might be modified ( doubled or halved, for example) before you apply it. If a circumstance suggests that your proficiency bonus applies more than once to the same roll or that it should be multiplied mroe than once, you neverthelessadd it only once, multiply it only once, and halve it only once.</p>"
 	rages_per_day = "<p> This is the number of times you can rage in between long rests.</p>"
-	rage_damage = "<p> The amount of damage you can do while raging and using melee strength attacks.</p>"
+	rage_damage = "<p> The amount of damage you added to your melee strength attacks while raging.</p>"
 	cantrips_known = "<p>The number of cantrips that you know and can cast.</p>"
 	num_spells_known = "<p>The number of spells 1st-level and higher that you know.</p>"
 	level1 = "<p>The number of 1st-level spell slots that you have and can use to cast that level of spell</p>"
@@ -343,7 +343,7 @@ File.open(dnd5e + class_attr_file) do |f2|
 	num_superiority_dice = "<p>The number of maneuvers that you can use in between long rests.</p>"
 	num_known_maneuvers = "<p> The number of maneuvers that you know.</p>"
 	num_disciplines = "<p>The number of disciplines that you know.</p>"
-	max_ki_points = "<p>The maximum Number of ki points you can use to increase the spell level if the disciplines you cast.</p>"
+	max_ki_points = "<p>The maximum Number of ki points you can use to increase the spell level of the disciplines you cast.</p>"
 	asi = "<p>This is the number of times that you can do one of the following</p>
 	       <p><ul>
                <li>Increase one ability score of your choice by 2.</li>
@@ -606,8 +606,19 @@ File.open(dnd5e + class_attr_file) do |f2|
 		<p></ul>
 		<h3>Weapon Master</h3>
 		<p>You have practiced extensively with a variety of weapons, gaining the following benefits:</p>
+		<p><ul>
 		<li>increase your strength or dexterity score by 1, to a maximum of 20.</li>
-		<li>You gain proficiency with four weapons of your choice.</li>"
+		<li>You gain proficiency with four weapons of your choice.</li>
+		</ul></p>
+		<h3>Svirfneblin Magic</h3>
+		<p>Prerequisite: Gnome (deep gnome)</p>
+		<p>You have inherited the innate spellcasting ability of your
+			ancestors. This ability allows you to cast nondetection
+			on yourself at will, without needing a material
+			component. You can also cast each of the following
+			spells once with this ability: blindness/deafness, blur,
+			and disguise self. You regain the ability to cast these
+			spells when you finish a long rest.</p>"
 
 	while line = f2.gets
 		arr = line.split('$')
@@ -1051,7 +1062,11 @@ File.open(dnd5e + archetype_feats_file) do |f|
 		for i in f.read().split("**")
 			arr = i.split('$')
 			temp_archetype = Dnd5eArchetype.where(name: arr[0].titleize.chomp.gsub('And','and').gsub('Of', 'of').gsub('With','with').gsub('Into','into').gsub('The', 'the') ).take
+			if arr[4].nil?
 			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: arr[2].titleize.chomp.gsub('And','and').gsub('With','with').gsub('Into','into').gsub('The', 'the').gsub('Of ', 'of '), value: '*', level: arr[1], description: arr[3])
+			else
+			Dnd5eArchetypeAttribute.create(dnd5e_archetype_id: temp_archetype.id, name: arr[2].titleize.chomp.gsub('And','and').gsub('With','with').gsub('Into','into').gsub('The', 'the').gsub('Of ', 'of '), value: arr[4], level: arr[1], description: arr[3])
+			end
 		end
 end
 
@@ -1085,5 +1100,36 @@ File.open(dnd5e + 'spell_tags.txt') do |f|
 			temp1.sort!
 			spell.tags = temp1.join(",")	
 			spell.save
+		end
+end
+
+File.open(dnd5e + 'races.txt') do |f|
+		for i in f.read().split("**")
+			arr = i.split('$')
+			Dnd5eRace.create(name: arr[0].titleize.gsub('And','and').gsub('With','with').gsub('Into','into').gsub('The', 'the').gsub('Of ', 'of '), str: arr[1], dex: arr[2], con: arr[3], int: arr[4], wis: arr[5], cha: arr[6], speed: arr[7], size: arr[8], languages: arr[9], description: arr[10] )
+		end
+end
+
+File.open(dnd5e + 'subraces.txt') do |f|
+		for i in f.read().split("**")
+			arr = i.split('$')
+			temp = Dnd5eRace.find_by_name(arr[1].titleize.gsub('And','and').gsub('With','with').gsub('Into','into').gsub('The', 'the').gsub('Of ', 'of '))
+			Dnd5eSubrace.create(name: arr[0].chomp.titleize.gsub('And','and').gsub('With','with').gsub('Into','into').gsub('The', 'the').gsub('Of ', 'of '), dnd5e_race_id: temp.id, str: arr[2], dex: arr[3], con: arr[4], int: arr[5], wis: arr[6], cha: arr[7], description: arr[8] )
+		end
+end
+
+File.open(dnd5e + 'race_traits.txt') do |f|
+		for i in f.read().split("**")
+			arr = i.split('$')
+			temp = Dnd5eRace.find_by_name(arr[0].titleize.gsub('And','and').gsub('With','with').gsub('Into','into').gsub('The', 'the').gsub('Of ', 'of '))
+			Dnd5eRaceTrait.create(name: arr[1].chomp.titleize.gsub('And','and').gsub('With','with').gsub('Into','into').gsub('The', 'the').gsub('Of ', 'of '), dnd5e_race_id: temp.id, description: arr[2] )
+		end
+end
+
+File.open(dnd5e + 'subrace_traits.txt') do |f|
+		for i in f.read().split("**")
+			arr = i.split('$')
+			temp = Dnd5eSubrace.find_by_name(arr[0].titleize.gsub('And','and').gsub('With','with').gsub('Into','into').gsub('The', 'the').gsub('Of ', 'of '))
+			Dnd5eSubraceTrait.create(name: arr[1].chomp.titleize.gsub('And','and').gsub('With','with').gsub('Into','into').gsub('The', 'the').gsub('Of ', 'of '), dnd5e_subrace_id: temp.id, description: arr[2] )
 		end
 end

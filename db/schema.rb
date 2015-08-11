@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150724194113) do
+ActiveRecord::Schema.define(version: 20150809191218) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -205,6 +205,32 @@ ActiveRecord::Schema.define(version: 20150724194113) do
     t.datetime "updated_at",    null: false
   end
 
+  create_table "dnd5e_race_traits", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "dnd5e_race_id"
+    t.string   "description"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
+  add_index "dnd5e_race_traits", ["dnd5e_race_id"], name: "index_dnd5e_race_traits_on_dnd5e_race_id", using: :btree
+
+  create_table "dnd5e_races", force: :cascade do |t|
+    t.string   "name"
+    t.string   "str"
+    t.string   "dex"
+    t.string   "con"
+    t.string   "int"
+    t.string   "wis"
+    t.string   "cha"
+    t.string   "speed"
+    t.string   "size"
+    t.string   "languages"
+    t.string   "description"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
   create_table "dnd5e_saving_throws", force: :cascade do |t|
     t.string   "name"
     t.datetime "created_at", null: false
@@ -235,6 +261,32 @@ ActiveRecord::Schema.define(version: 20150724194113) do
     t.datetime "updated_at",    null: false
   end
 
+  create_table "dnd5e_subrace_traits", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "dnd5e_subrace_id"
+    t.string   "description"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
+  end
+
+  add_index "dnd5e_subrace_traits", ["dnd5e_subrace_id"], name: "index_dnd5e_subrace_traits_on_dnd5e_subrace_id", using: :btree
+
+  create_table "dnd5e_subraces", force: :cascade do |t|
+    t.string   "name"
+    t.string   "str"
+    t.string   "dex"
+    t.string   "con"
+    t.string   "int"
+    t.string   "wis"
+    t.string   "cha"
+    t.string   "description"
+    t.integer  "dnd5e_race_id"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
+  add_index "dnd5e_subraces", ["dnd5e_race_id"], name: "index_dnd5e_subraces_on_dnd5e_race_id", using: :btree
+
   create_table "dnd5e_xp_thresholds_by_character_levels", force: :cascade do |t|
     t.string   "character_level"
     t.string   "easy"
@@ -257,4 +309,6 @@ ActiveRecord::Schema.define(version: 20150724194113) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "dnd5e_race_traits", "dnd5e_races"
+  add_foreign_key "dnd5e_subrace_traits", "dnd5e_subraces"
 end
