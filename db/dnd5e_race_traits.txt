@@ -30,6 +30,7 @@ Aarakocra$Flight$<p>You have a flying speed of 50 feet. To use this speed, you c
 **Half-Elf$Extra Language$<p>You can speak, read, and write one extra language of your choice.</p>
 **Half-Elf$Darkvision$<p><Thanks to your elf blood, you have su perior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it w ere dim light. You can't discern color in darkness, only shades of gray./p>
 **Half-Elf$Fey Ancestry$<p>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</p>
+**Half-Elf$Adaptable$<p>Two different ability scores increase by 1.</p>
 **Half-Elf$Skill Versatility$<p>You have proficiency in two skills of your choice.</p>
 **Half-Orc$Darkvision$<p>Than ks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it w ere dim light. You can't discern color in darkness, only shades of gray.</p>
 **Half-Orc$Menacing$<p>You gain proficiency in the Intim idation skill.</p>

@@ -4,7 +4,7 @@ Dwarf$-$-$2$-$-$-$25$Medium$Common, Dwarfish$
 **Human$1$1$1$1$1$1$30$Medium$Common$
 **Dragonborn$2$-$-$-$-$1$30$Medium$Common, Draconic$
 **Gnome$-$-$-$2$-$-$25$Small$Common, Gnomish$
-**Half-Elf$-$2$-$-$-$-$30$Medium$Common, Elvish$
+**Half-Elf$-$-$-$-$-$2$30$Medium$Common, Elvish$
 **Half-Orc$2$-$1$-$-$-$30$Medium$Common, Orcish$
 **Tiefling$-$-$-$1$-$2$30$Medium$Common, Infernal$
 **Aarakocra$-$2$-$-$1$-$25$Medium$Common, Aarokocra, Auran$
