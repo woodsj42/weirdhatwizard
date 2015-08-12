@@ -261,7 +261,7 @@ Deep$Superior Darkvision$<p>Your darkvision has a radius of 120 feet.</p>
 **Variant$Adaptable$<p>Two different ability score increase by 1.</p>
 <p>You have proficiency with one skill of your choice.</p>
 <p>You have one feat from the feats list of your choice</p>
-<h2>Feats List</h2>
+<h1>Feats List</h1>
 		<h3>Alert</h3>
 		<p>Always on the lookout for danger, you gain the following benefits:</p>
 		<p><ul>
