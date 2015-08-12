@@ -7,7 +7,7 @@ Aarakocra$Flight$<p>You have a flying speed of 50 feet. To use this speed, you c
 **Dwarf$Darkvision$<p>You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colors in darkness, only shades of of grey.</p>
 **Dwarf$Dwarven Resilience$<p>You have advantage on saving throws against poison, and you have resistance against poison damage</p>
 **Dwarf$Dwarven Combat Training$<p>You have proficiency with the battleaxe, handaxe, throwing hammer and warhammer.</p>
-**Dwarf$Tool Proficiency$<p>You have proficiency with the artisan's tools of your choise:</p>
+**Dwarf$Tool Proficiency$<p>You have proficiency with the artisan's tools of your choice:</p>
 <p><ul>
 	<li>smith's tools</li>
 	<li>brewer's tools</li>
