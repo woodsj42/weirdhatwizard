@@ -44,15 +44,26 @@ class Dnd5eSpell < ActiveRecord::Base
 		@sorted
 	end
 
-	def self.sort_by_tag(id)
+	def self.sort_by_tag(ids)
 		length = [0,0,0,0,0,0,0,0,0,0]
 		@sorted = [[],[],[],[],[],[],[],[],[],[]]
-		tag = SpellTag.find(id)
-		Dnd5eSpell.all.map { |m| 
-					if m.tags.split(',').detect {|i| i == tag.name}
-				      		temp = m.level.to_i 	
-						@sorted[ temp ][ length[ temp ] ] = m
-						length[temp] += 1 
+		tags_to_search = []	
+		
+		ids.split(",").each do |id|
+			tags_to_search << SpellTag.find(id.to_i)
+		end
+
+		Dnd5eSpell.all.map { |m|
+					test = true
+					tags_to_search.each do |tag| 
+						if !( m.tags.split(',').detect {|i| i == tag.name} )
+							test = false
+						end
+					end
+					if test
+				      			temp = m.level.to_i 	
+							@sorted[ temp ][ length[ temp ] ] = m
+							length[temp] += 1 
 					end
 	     			   }
 		@sorted

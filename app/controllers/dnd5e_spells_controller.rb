@@ -9,12 +9,12 @@ class Dnd5eSpellsController < ApplicationController
 		@archetype = nil
 		@spell_type = nil
 		@spell = nil
-		@tag = nil
+		@tag = ""
 		@saving_throw = nil
 		@damage_type = nil
 		@search = params[:search]
 		
-	
+		
 		if params[:saving_throw].to_i == 0
 			@saving_throw_all = 0
 		end
@@ -44,8 +44,14 @@ class Dnd5eSpellsController < ApplicationController
 			@damage_type = params[:damage_type].to_i	
 		end
 
-		if SpellTag.exists?(params[:tag].to_i)
-			@tag = params[:tag].to_i	
+		if params[:tag]
+			temp = ""
+			params[:tag].split(",").each do |m|
+				if SpellTag.exists?(m.to_i)
+					temp << m + ","	 	
+				end
+			end
+			@tag = temp.chomp(",")
 		end
 
 		if Dnd5eSpellType.exists?(params[:spell_type].to_i)
@@ -89,14 +95,14 @@ class Dnd5eSpellsController < ApplicationController
                         end
 		end
 
-		if @tag
+		if @tag != ""
 			spells_by_tag = Dnd5eSpell.sort_by_tag(@tag)
 			for i in 0..@spells.length-1
                         	@spells[i] = @spells[i] & spells_by_tag[i]
-
                         end
 		end 	
 	
+
 		if @saving_throw
 			spells_by_saving_throw = Dnd5eSpell.sort_by_saving_throw(@saving_throw)
 			for i in 0..@spells.length-1

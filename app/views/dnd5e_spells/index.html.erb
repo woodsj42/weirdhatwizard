@@ -8,10 +8,20 @@
 			<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :tag => 0, :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => @spell }, {:style => "color: black;" } %>
 	<% end %>
 	<% @tags.each do |spell_tag| %>
-		<% if spell_tag.id == @tag %>
-			<%= link_to spell_tag.name, { :controller => "dnd5e_spells", :action => "index", :tag => spell_tag.id, :class => @class, :archetype => @archetype, :spell_type => @spell_tag, :spell => @spell }, {:style => "color: gray;" }%>
+		<% temp = ""%>
+        	<% test = false %>
+		<% @tag.split(",").each do |m| %>
+			<% if spell_tag.id == m.to_i %>
+				<% test = true%>
+			<%else%>
+				<% temp << m.to_s + "," %>
+                        <%end %>		
+                <%end %>		
+		<% if test  %>
+			<%= link_to spell_tag.name, { :controller => "dnd5e_spells", :action => "index", :tag => temp.chomp(","), :class => @class, :archetype => @archetype, :spell_type => @spell_tag, :spell => @spell }, {:style => "color: gray;" }%>
 		<% else %>
-			<%= link_to spell_tag.name, { :controller => "dnd5e_spells", :action => "index", :tag => spell_tag.id, :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => @spell }, {:style => "color: black;" } %>
+			<% temp << spell_tag.id.to_s %>
+			<%= link_to spell_tag.name, { :controller => "dnd5e_spells", :action => "index", :tag => temp , :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => @spell }, {:style => "color: black;" } %>
 		<% end %>
 	<% end %>	
 	</div>
