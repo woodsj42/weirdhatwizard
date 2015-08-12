@@ -27,7 +27,7 @@
 	</div>
 
 	<div id="spell_saving_throw">
-        <% if @tag == 6 %>
+        <% if @tag.split(",").detect { |i| i == "6" } %>
 	<label>_______________________________</label><br>
         	<% if 0 == @saving_throw_all %>
 				<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :saving_throw => 0, :tag => @tag, :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => @spell }, {:style => "color: gray;" }%>
@@ -45,7 +45,7 @@
 	</div>
 	
 	<div id="spell_damage_type">
-        <% if @tag == 3 %>
+        <% if @tag.split(",").detect { |i| i == "3" } %>
 	<label>_______________________________</label><br>	
         	<% if 0 == @damage_type_all %>
 				<%= link_to "All", { :controller => "dnd5e_spells", :action => "index", :damage_type => 0, :tag => @tag, :class => @class, :archetype => @archetype, :spell_type => @spell_type, :spell => @spell }, {:style => "color: gray;" }%>
