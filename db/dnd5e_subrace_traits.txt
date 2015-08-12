@@ -256,12 +256,12 @@ Deep$Superior Darkvision$<p>Your darkvision has a radius of 120 feet.</p>
 		<td>Ammunition (range 150/600), heavy, two-handed</td>
 	</tr>
 </table></p>
-**Lightfoot$Naturally Stealthy$<p></p>
-**Stout$Stout Resilience$<p></p>
+**Lightfoot$Naturally Stealthy$<p>You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.</p>
+**Stout$Stout Resilience$<p>You have advantage on saving throws against poison, and you have resistance against poison damage.</p>
 **Variant$Adaptable$<p>Two different ability score increase by 1.</p>
 <p>You have proficiency with one skill of your choice.</p>
 <p>You have one feat from the feats list of your choice</p>
-<h2 style='"'text-align:left;'"'>Feats List</h2>
+<h2>Feats List</h2>
 		<h3>Alert</h3>
 		<p>Always on the lookout for danger, you gain the following benefits:</p>
 		<p><ul>
