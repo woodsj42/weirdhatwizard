@@ -1,12 +1,12 @@
 Deep$Superior Darkvision$<p>Your darkvision has a radius of 120 feet.</p>
 **Deep$Gnome Cunning$<p>You have advantage on Dexterity (stealth) checks to hide in rocky terrain.</p>
 **Deep$Stone Camouflage$<p>You have advantage on Dexterity (stealth) checks to hide in rocky terrain.</p>
-**Air$Unending Breath$<p>You can hold your breath indefinitely while you?re not incapacitated.</p>
+**Air$Unending Breath$<p>You can hold your breath indefinitely while you're not incapacitated.</p>
 **Air$Mingle with the Wind$<p>You can cast the levitate spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.</p>
 **Earth$Earth Walk$<p>You can move across difficult terrain made of earth or stone without expending extra movement.</p>
 **Earth$Merge with Stone$<p>You can move across difficult terrain made of earth or stone without expending extra movement.</p>
-**Fire$Darkvision$<p></p>
-**Fire$Fire Resistance$<p>You can move across difficult terrain made of earth or stone without expending extra movement.</p>
+**Fire$Darkvision$<p>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. Your ties to the Elemental Plane of Fire make your darkvision unusual: everything you see in darkness is in a shade of red.</p>
+**Fire$Fire Resistance$<p> You have resistance to fire damage.</p>
 **Fire$Reach to the Blaze$<p>You know the produce flame cantrip. Once you reach 3rd level, you can cast the burning hands spell once with this trait as a 1st-level spell, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.</p>
 **Water$Acid Resistance$<p>You have resistance to acid damage.</p>
 **Water$Amphibious$<p>You can breathe air and water.</p>
@@ -64,7 +64,8 @@ Deep$Superior Darkvision$<p>Your darkvision has a radius of 120 feet.</p>
 	<tr>
 		<td>Chain Shirt</td>
 		<td>50 gp</td>
-**High$Elf Weapon Training$<p>You have proficiency with the longsword, shortsword, shortbow , and longbow.</p>
+</table></p>
+**High$Elf Weapon Training$<p>You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>
 <p><table>
 	<tr>
 		<th>Name</th>
@@ -110,6 +111,7 @@ Deep$Superior Darkvision$<p>Your darkvision has a radius of 120 feet.</p>
 		<td>2 lb.</td>
 		<td>Ammunition (range 150/600), heavy, two-handed</td>
 	</tr>
+</table></p>
 **High$Cantrip$<p>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</p>
 **High$Extra Language$<p>You can speak, read, and write one extra language of your choice.</p>
 **Wood$Elf Weapon Training$<p>You have proficiency with the longsword, shortsword, shortbow , and longbow .</p>
@@ -158,8 +160,9 @@ Deep$Superior Darkvision$<p>Your darkvision has a radius of 120 feet.</p>
 		<td>2 lb.</td>
 		<td>Ammunition (range 150/600), heavy, two-handed</td>
 	</tr>
+</table></p>
 **Wood$Fleet of Foot$<p>Your base walking speed in creases to 35 feet.</p>
-**Wood$Mask of the Wild$<p>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow , mist, and other natural phenomena.</p>
+**Wood$Mask of the Wild$<p>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>
 **Dark$Superior Darkvision$<p>Your darkvision has a radius of 120 feet.</p>
 **Dark$Sunlight Sensitivity$<p>You have disadvantage on attack rolls and on Wisdom ( Perception ) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
 **Dark$Drow Magic$<p>You know the dancing lights cantrip.When you reach 3rd level, you can cast the faerie fire spell once per day. When you reach 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells.</p>
@@ -199,7 +202,8 @@ Deep$Superior Darkvision$<p>Your darkvision has a radius of 120 feet.</p>
 		<td>3 lb.</td>
 		<td>Ammunition (range 30/120), loading</td>
 	</tr>
-**Eladrin$$<p></p>You can cast the misty step spell once using this trait. You regain the ability to do so when you finish a short or long rest.
+</table></p>
+**Eladrin$Fey Step$<p>You can cast the misty step spell once using this trait. You regain the ability to do so when you finish a short or long rest.</p>
 **Eladrin$Elf Weapon Training$<p>You have proficiency with the longsword, shortsword, shortbow , and longbow .</p>
 <p><table>
 	<tr>
@@ -246,6 +250,7 @@ Deep$Superior Darkvision$<p>Your darkvision has a radius of 120 feet.</p>
 		<td>2 lb.</td>
 		<td>Ammunition (range 150/600), heavy, two-handed</td>
 	</tr>
+</table></p>
 **Lightfoot$Naturally Stealthy$<p></p>
 **Stout$Stout Resilience$<p></p>
 **Variant$Adaptable$<p>Two different ability score increase by 1.</p>
@@ -359,7 +364,7 @@ Deep$Superior Darkvision$<p>Your darkvision has a radius of 120 feet.</p>
 		<li>You can accurately recall anything you have seen or heard within the past month</li>
 		<p></ul>
 		<h3>Lightly Armored</h3>
-		<p>YOu have trained to master the use of light armor, gaining the following benefits:</p>
+		<p>you have trained to master the use of light armor, gaining the following benefits:</p>
 		<p><ul>
 		<li>Increase your strength or dexterity score by 1, to a maximum of 20.</li>
 		<li>ou gain proficiency with light armor.</li>

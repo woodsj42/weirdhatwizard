@@ -1,6 +1,6 @@
 Aarakocra$Flight$<p>You have a flying speed of 50 feet. To use this speed, you can't be wearing medium or heavy armor.</p>
-**Aarakocra$Talons$<p>You have a flying speed of 50 feet. To use this speed, you can?t be wearing medium or heavy armor.</p>
-**Goliath$Natural Athlete$<p>ou have proficiency in the athletics skill.</p>
+**Aarakocra$Talons$<p>You have a flying speed of 50 feet. To use this speed, you can't be wearing medium or heavy armor.</p>
+**Goliath$Natural Athlete$<p>You have proficiency in the athletics skill.</p>
 **Goliath$Stone's Endurance$<p>You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest.</p>
 **Goliath$Powerful Build$<p></p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
 **Goliath$Mountain Born$<p>You're acclimated to high altitude, including elevations above 20,000 feet. You?re also naturally adapted to cold climates</p>
@@ -14,13 +14,13 @@ Aarakocra$Flight$<p>You have a flying speed of 50 feet. To use this speed, you c
 	<li>mason's tools</li>
 </ul></p>
 **Dwarf$Stonecunning$<p>Whenever you make an intelligence (history) check related to the origin of stonework, you double your proficiency bonus to check, instead of your normal proficiency bonus.</p>
-**Elf$Darkvision$<p>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. YOu cant discern color in darkness, only shades of gray.</p>
+**Elf$Darkvision$<p>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. you cant discern color in darkness, only shades of gray.</p>
 **Elf$Keen Senses$<p>You have proficiency in the perception skill.</p>
 **Elf$Fey Ancestry$<p>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</p>
 **Elf$Trance$<p>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconsious, for 4 hours a day. ( the Common word for such meditation is "trance.") While meditating, you can dream after a fashion; such dreams are actually mental exercises that  have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</p>
-**Aasimar$Darkvision$<p>Thanks to your celestial heritage, you have superior vision in da rk and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+**Aasimar$Darkvision$<p>Thanks to your celestial heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
 **Aasimar$Celestial Resistance$<p>You have resistance to necrotic damage and radiant damage.</p>
-**Aasimar$Celestial Legacy$<p>You know the light can trip. Once you reach 3rd level , you can cast the lesser restoration spell once with this trait, and you regain the ability to do so when you finish a long rest. Once you reach 5th level, you can cast the daylight spell once with this trait as a 3rd-level spell, and you regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p> 
+**Aasimar$Celestial Legacy$<p>You know the light cantrip. Once you reach 3rd level , you can cast the lesser restoration spell once with this trait, and you regain the ability to do so when you finish a long rest. Once you reach 5th level, you can cast the daylight spell once with this trait as a 3rd-level spell, and you regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p> 
 **Halfling$Lucky$<p>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</p>
 **Halfling$Brave$<p>You have advantage on saving throws against being frightened.</p>
 **Halfling$Halfling Nimbleness$<p>You can move through the space of any creature that is of a size larger than yours.</p>
@@ -32,10 +32,10 @@ Aarakocra$Flight$<p>You have a flying speed of 50 feet. To use this speed, you c
 **Half-Elf$Fey Ancestry$<p>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</p>
 **Half-Elf$Adaptable$<p>Two different ability scores increase by 1.</p>
 **Half-Elf$Skill Versatility$<p>You have proficiency in two skills of your choice.</p>
-**Half-Orc$Darkvision$<p>Than ks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it w ere dim light. You can't discern color in darkness, only shades of gray.</p>
-**Half-Orc$Menacing$<p>You gain proficiency in the Intim idation skill.</p>
+**Half-Orc$Darkvision$<p>Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+**Half-Orc$Menacing$<p>You gain proficiency in the Intimidation skill.</p>
 **Half-Orc$Relentless Endurance$<p>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.</p>
-**Half-Orc$Savage Attacks$<p>When you score a critical hit with a melee weapon attack, you can roll one of the w eapon's dam age dice one additional time and add it to the extra damage of the critical hit.</p>
+**Half-Orc$Savage Attacks$<p>When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</p>
 **Tiefling$Darkvision$<p>Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
 **Tiefling$Hellish Resistance$<p>You have resistance to fire damage.</p>
 **Tiefling$Infernal Legacy$<p>You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the hellish rebuke spell once per day as a 2nd-level spell. Once you reach 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells.</p>
