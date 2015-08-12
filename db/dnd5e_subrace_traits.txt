@@ -64,6 +64,11 @@ Deep$Superior Darkvision$<p>Your darkvision has a radius of 120 feet.</p>
 	<tr>
 		<td>Chain Shirt</td>
 		<td>50 gp</td>
+		<td>13 + Dex Modifier (max 2)</td>	
+		<td>-</td>	
+		<td>-</td>	
+		<td>20 lb.</td>	
+	</tr>
 </table></p>
 **High$Elf Weapon Training$<p>You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>
 <p><table>
@@ -98,8 +103,8 @@ Deep$Superior Darkvision$<p>Your darkvision has a radius of 120 feet.</p>
 		<td>Shortsword</td>
 		<td>10 gp</td>
 		<td>1d6 slasing</td>
+		<td>2 lb.</td>
 		<td>Finesse, light</td>
-		<td></td>
 	</tr>
 	<tr>
 		<th colspan="5">Martial Ranged Weapons</th>
@@ -189,8 +194,8 @@ Deep$Superior Darkvision$<p>Your darkvision has a radius of 120 feet.</p>
 		<td>Shortsword</td>
 		<td>10 gp</td>
 		<td>1d6 slasing</td>
+		<td>2 lb.</td>
 		<td>Finesse, light</td>
-		<td></td>
 	</tr>
 	<tr>
 		<th colspan="5">Martial Ranged Weapons</th>
@@ -237,8 +242,8 @@ Deep$Superior Darkvision$<p>Your darkvision has a radius of 120 feet.</p>
 		<td>Shortsword</td>
 		<td>10 gp</td>
 		<td>1d6 slasing</td>
+		<td>2 lb.</td>
 		<td>Finesse, light</td>
-		<td></td>
 	</tr>
 	<tr>
 		<th colspan="5">Martial Ranged Weapons</th>
