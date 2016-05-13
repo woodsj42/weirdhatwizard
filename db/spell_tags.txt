@@ -12,3 +12,4 @@ quick
 control
 area of effect
 summons
+concentration
