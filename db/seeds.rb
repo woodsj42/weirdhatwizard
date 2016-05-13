@@ -431,7 +431,7 @@ File.open(dnd5e + class_attr_file) do |f2|
 		<p>You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits:</p>
 		<p><ul>
 		<li>When you use a healer's kit to stabilize a dying creature, that creature also regains 1 hit point.</li>
-		<li>As an action, you can spend one use of a healer's kit to tend to a creature and resotre 1d6 + 4 hit points to it, plus additional hit points equal to the creature's maximum number of hit dice. The creature can't regain hit points from this feat again until it finishes a short or long rest</li>
+		<li>As an action, you can spend one use of a healer's kit to tend to a creature and resotre <b>1d6 + 4</b> hit points to it, plus additional hit points equal to the creature's maximum number of hit dice. The creature can't regain hit points from this feat again until it finishes a short or long rest</li>
 		<p></ul>
 		<h3>Heavily Armored</h3>
 		<p>Prerequisite: proficiency with medium armor</p>
