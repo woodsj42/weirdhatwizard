@@ -1,0 +1,57 @@
+thief
+urban
+shallow ocean
+suburban
+rural
+forest
+cave
+dungeon
+abandoned building
+desert
+jungle
+seacoast
+deep ocean
+pond
+beach
+scrubland
+sky
+storm
+rain
+mountain
+temple
+minion
+goon
+messenger
+ambush
+cult
+solitary
+group
+swarm
+graveyard
+swamp
+plains
+raid
+mercenary
+guard
+boss
+dungeon
+castle
+tundra
+haunting
+sentinel
+anywhere
+minions
+surprise
+trap
+layer
+camp
+base of operations
+stream
+river
+hills
+underdark
+hell
+war
+skirmish
+pack
+gang

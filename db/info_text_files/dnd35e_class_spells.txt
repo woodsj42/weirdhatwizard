@@ -1,0 +1,2820 @@
+sorcerer$2$4$Acid Arrow
+wizard$2$3$Acid Arrow
+sorcerer$6$12$Acid Fog
+wizard$6$11$Acid Fog
+sorcerer$0$1$Acid Splash
+wizard$0$1$Acid Splash
+cleric$2$3$Aid
+cleric$4$7$Air Walk
+druid$4$7$Air Walk
+bard$1$2$Alarm
+ranger$1$4$Alarm
+sorcerer$1$1$Alarm
+wizard$1$1$Alarm
+cleric$2$3$Align Weapon
+bard$2$4$Alter Self
+sorcerer$2$4$Alter Self
+wizard$2$3$Alter Self
+bard$6$16$Analyze Dweomer
+sorcerer$6$12$Analyze Dweomer
+wizard$6$11$Analyze Dweomer
+druid$5$9$Animal Growth
+ranger$4$14$Animal Growth
+sorcerer$5$10$Animal Growth
+wizard$5$9$Animal Growth
+bard$2$4$Animal Messenger
+druid$2$3$Animal Messenger
+ranger$1$4$Animal Messenger
+druid$8$15$Animal Shapes
+bard$2$4$Animal Trance
+druid$2$3$Animal Trance
+cleric$3$5$Animate Dead
+sorcerer$4$8$Animate Dead
+wizard$4$7$Animate Dead
+bard$6$16$Animate Objects
+cleric$6$11$Animate Objects
+druid$7$13$Animate Plants
+bard$1$2$Animate Rope
+sorcerer$1$1$Animate Rope
+wizard$1$1$Animate Rope
+cleric$6$11$Antilife Shell
+druid$6$11$Antilife Shell
+cleric$8$15$Antimagic Field
+sorcerer$6$12$Antimagic Field
+wizard$6$11$Antimagic Field
+druid$9$17$Antipathy
+sorcerer$8$16$Antipathy
+wizard$8$15$Antipathy
+druid$4$7$Antiplant Shell
+sorcerer$4$8$Arcane Eye
+wizard$4$7$Arcane Eye
+sorcerer$2$4$Arcane Lock
+wizard$2$3$Arcane Lock
+sorcerer$0$1$Arcane Mark
+wizard$0$1$Arcane Mark
+sorcerer$3$6$Arcane Sight
+wizard$3$5$Arcane Sight
+sorcerer$7$14$Arcane Sight, Greater
+wizard$7$13$Arcane Sight, Greater
+cleric$9$17$Astral Projection
+sorcerer$9$18$Astral Projection
+wizard$9$17$Astral Projection
+cleric$5$9$Atonement
+druid$5$9$Atonement
+cleric$2$3$Augury
+druid$5$9$Awaken
+druid$5$9$Baleful Polymorph
+sorcerer$5$10$Baleful Polymorph
+wizard$5$9$Baleful Polymorph
+cleric$1$1$Bane
+cleric$6$11$Banishment
+sorcerer$7$14$Banishment
+wizard$7$13$Banishment
+druid$2$3$Barkskin
+ranger$2$8$Barkskin
+cleric$2$3$Bears Endurance
+druid$2$3$Bears Endurance
+ranger$2$8$Bears Endurance
+sorcerer$2$4$Bears Endurance
+wizard$2$3$Bears Endurance
+cleric$6$11$Bears Endurance, Mass
+druid$6$11$Bears Endurance, Mass
+sorcerer$6$12$Bears Endurance, Mass
+wizard$6$11$Bears Endurance, Mass
+cleric$3$5$Bestow Curse
+sorcerer$4$8$Bestow Curse
+wizard$4$7$Bestow Curse
+sorcerer$8$16$Binding
+wizard$8$15$Binding
+sorcerer$4$8$Black Tentacles
+wizard$4$7$Black Tentacles
+cleric$6$11$Blade Barrier
+cleric$7$13$Blasphemy
+cleric$1$1$Bless
+paladin$1$4$Bless
+cleric$1$1$Bless Water
+paladin$1$4$Bless Water
+paladin$1$4$Bless Weapon
+druid$4$7$Blight
+sorcerer$5$10$Blight
+wizard$5$9$Blight
+bard$2$4$Blindness/Deafness
+cleric$3$5$Blindness/Deafness
+sorcerer$2$4$Blindness/Deafness
+wizard$2$3$Blindness/Deafness
+bard$3$7$Blink
+sorcerer$3$6$Blink
+wizard$3$5$Blink
+bard$2$4$Blur
+sorcerer$2$4$Blur
+wizard$2$3$Blur
+bard$4$10$Break Enchantment
+cleric$5$9$Break Enchantment
+paladin$4$14$Break Enchantment
+sorcerer$5$10$Break Enchantment
+wizard$5$9$Break Enchantment
+cleric$2$3$Bulls Strength
+druid$2$3$Bulls Strength
+paladin$2$8$Bulls Strength
+sorcerer$2$4$Bulls Strength
+wizard$2$3$Bulls Strength
+cleric$6$11$Bulls Strength, Mass
+druid$6$11$Bulls Strength, Mass
+sorcerer$6$12$Bulls Strength, Mass
+wizard$6$11$Bulls Strength, Mass
+sorcerer$1$1$Burning Hands
+wizard$1$1$Burning Hands
+druid$3$5$Call Lightning
+druid$5$9$Call Lightning Storm
+druid$1$1$Calm Animals
+ranger$1$4$Calm Animals
+bard$2$4$Calm Emotions
+cleric$2$3$Calm Emotions
+bard$2$4$Cats Grace
+druid$2$3$Cats Grace
+ranger$2$8$Cats Grace
+sorcerer$2$4$Cats Grace
+wizard$2$3$Cats Grace
+bard$6$16$Cats Grace, Mass
+druid$6$11$Cats Grace, Mass
+sorcerer$6$12$Cats Grace, Mass
+wizard$6$11$Cats Grace, Mass
+bard$1$2$Cause Fear
+cleric$1$1$Cause Fear
+sorcerer$1$1$Cause Fear
+wizard$1$1$Cause Fear
+sorcerer$6$12$Chain Lightning
+wizard$6$11$Chain Lightning
+druid$7$13$Changestaff
+druid$1$1$Charm Animal
+ranger$1$4$Charm Animal
+bard$3$7$Charm Monster
+sorcerer$4$8$Charm Monster
+wizard$4$7$Charm Monster
+bard$6$16$Charm Monster, Mass
+sorcerer$8$16$Charm Monster, Mass
+wizard$8$15$Charm Monster, Mass
+bard$1$2$Charm Person
+sorcerer$1$1$Charm Person
+wizard$1$1$Charm Person
+druid$2$3$Chill Metal
+sorcerer$1$1$Chill Touch
+wizard$1$1$Chill Touch
+sorcerer$6$12$Circle of Death
+wizard$6$11$Circle of Death
+bard$3$7$Clairaudience/Clairvoyance
+sorcerer$3$6$Clairaudience/Clairvoyance
+wizard$3$5$Clairaudience/Clairvoyance
+sorcerer$8$16$Clenched Fist
+wizard$8$15$Clenched Fist
+cleric$8$15$Cloak of Chaos
+sorcerer$8$16$Clone
+wizard$8$15$Clone
+sorcerer$5$10$Cloudkill
+wizard$5$9$Cloudkill
+sorcerer$1$1$Color Spray
+wizard$1$1$Color Spray
+cleric$1$1$Command
+cleric$5$9$Command, Greater
+druid$4$7$Command Plants
+ranger$3$11$Command Plants
+sorcerer$2$4$Command Undead
+wizard$2$3$Command Undead
+cleric$5$9$Commune
+druid$5$9$Commune with Nature
+ranger$4$14$Commune with Nature
+bard$1$2$Comprehend Languages
+cleric$1$1$Comprehend Languages
+sorcerer$1$1$Comprehend Languages
+wizard$1$1$Comprehend Languages
+sorcerer$5$10$Cone of Cold
+wizard$5$9$Cone of Cold
+bard$3$7$Confusion
+sorcerer$4$8$Confusion
+wizard$4$7$Confusion
+bard$1$2$Confusion, Lesser
+cleric$2$3$Consecrate
+sorcerer$5$10$Contact Other Plane
+wizard$5$9$Contact Other Plane
+cleric$3$5$Contagion
+druid$3$5$Contagion
+sorcerer$4$8$Contagion
+wizard$4$7$Contagion
+sorcerer$6$12$Contingency
+wizard$6$11$Contingency
+cleric$3$5$Continual Flame
+sorcerer$2$4$Continual Flame
+wizard$2$3$Continual Flame
+druid$8$15$Control Plants
+sorcerer$7$14$Control Undead
+wizard$7$13$Control Undead
+cleric$4$7$Control Water
+druid$4$7$Control Water
+sorcerer$6$12$Control Water
+wizard$6$11$Control Water
+cleric$7$13$Control Weather
+druid$7$13$Control Weather
+sorcerer$7$14$Control Weather
+wizard$7$13$Control Weather
+druid$5$9$Control Winds
+cleric$3$5$Create Food and Water
+cleric$8$15$Create Greater Undead
+sorcerer$8$16$Create Greater Undead
+wizard$8$15$Create Greater Undead
+cleric$6$11$Create Undead
+sorcerer$6$12$Create Undead
+wizard$6$11$Create Undead
+cleric$0$1$Create Water
+druid$0$1$Create Water
+paladin$1$4$Create Water
+druid$7$13$Creeping Doom
+bard$3$7$Crushing Despair
+sorcerer$4$8$Crushing Despair
+wizard$4$7$Crushing Despair
+sorcerer$9$18$Crushing Hand
+wizard$9$17$Crushing Hand
+bard$4$10$Cure Critical Wounds
+cleric$4$7$Cure Critical Wounds
+druid$5$9$Cure Critical Wounds
+cleric$8$15$Cure Critical Wounds, Mass
+druid$9$17$Cure Critical Wounds, Mass
+bard$1$2$Cure Light Wounds
+cleric$1$1$Cure Light Wounds
+druid$1$1$Cure Light Wounds
+paladin$1$4$Cure Light Wounds
+ranger$2$8$Cure Light Wounds
+bard$5$13$Cure Light Wounds, Mass
+cleric$5$9$Cure Light Wounds, Mass
+druid$6$11$Cure Light Wounds, Mass
+cleric$0$1$Cure Minor Wounds
+druid$0$1$Cure Minor Wounds
+bard$2$4$Cure Moderate Wounds
+cleric$2$3$Cure Moderate Wounds
+druid$3$5$Cure Moderate Wounds
+paladin$3$11$Cure Moderate Wounds
+ranger$3$11$Cure Moderate Wounds
+bard$6$16$Cure Moderate Wounds, Mass
+cleric$6$11$Cure Moderate Wounds, Mass
+druid$7$13$Cure Moderate Wounds, Mass
+bard$3$7$Cure Serious Wounds
+cleric$3$5$Cure Serious Wounds
+druid$4$7$Cure Serious Wounds
+paladin$4$14$Cure Serious Wounds
+ranger$4$14$Cure Serious Wounds
+cleric$7$13$Cure Serious Wounds, Mass
+druid$8$15$Cure Serious Wounds, Mass
+cleric$1$1$Curse Water
+bard$0$1$Dancing Lights
+sorcerer$0$1$Dancing Lights
+wizard$0$1$Dancing Lights
+bard$2$4$Darkness
+cleric$2$3$Darkness
+sorcerer$2$4$Darkness
+wizard$2$3$Darkness
+ranger$3$11$Darkvision
+sorcerer$2$4$Darkvision
+wizard$2$3$Darkvision
+bard$3$7$Daylight
+cleric$3$5$Daylight
+druid$3$5$Daylight
+paladin$3$11$Daylight
+sorcerer$3$6$Daylight
+wizard$3$5$Daylight
+bard$0$1$Daze
+sorcerer$0$1$Daze
+wizard$0$1$Daze
+bard$2$4$Daze Monster
+sorcerer$2$4$Daze Monster
+wizard$2$3$Daze Monster
+cleric$2$3$Death Knell
+cleric$4$7$Death Ward
+druid$5$9$Death Ward
+paladin$4$14$Death Ward
+cleric$1$1$Deathwatch
+bard$3$7$Deep Slumber
+sorcerer$3$6$Deep Slumber
+wizard$3$5$Deep Slumber
+cleric$3$5$Deeper Darkness
+bard$2$4$Delay Poison
+cleric$2$3$Delay Poison
+druid$2$3$Delay Poison
+paladin$2$8$Delay Poison
+ranger$1$4$Delay Poison
+sorcerer$7$14$Delayed Blast Fireball
+wizard$7$13$Delayed Blast Fireball
+sorcerer$8$16$Demand
+wizard$8$15$Demand
+cleric$2$3$Desecrate
+cleric$7$13$Destruction
+druid$1$1$Detect Animals or Plants
+ranger$1$4$Detect Animals or Plants
+cleric$1$1$Detect Chaos
+cleric$1$1$Detect Evil
+cleric$1$1$Detect Good
+cleric$1$1$Detect Law
+bard$0$1$Detect Magic
+cleric$0$1$Detect Magic
+druid$0$1$Detect Magic
+sorcerer$0$1$Detect Magic
+wizard$0$1$Detect Magic
+cleric$0$1$Detect Poison
+druid$0$1$Detect Poison
+paladin$1$4$Detect Poison
+ranger$1$4$Detect Poison
+sorcerer$0$1$Detect Poison
+wizard$0$1$Detect Poison
+bard$4$10$Detect Scrying
+sorcerer$4$8$Detect Scrying
+wizard$4$7$Detect Scrying
+bard$1$2$Detect Secret Doors
+sorcerer$1$1$Detect Secret Doors
+wizard$1$1$Detect Secret Doors
+druid$1$1$Detect Snares and Pits
+ranger$1$4$Detect Snares and Pits
+bard$2$4$Detect Thoughts
+sorcerer$2$4$Detect Thoughts
+wizard$2$3$Detect Thoughts
+cleric$1$1$Detect Undead
+paladin$1$4$Detect Undead
+sorcerer$1$1$Detect Undead
+wizard$1$1$Detect Undead
+cleric$7$13$Dictum
+bard$4$10$Dimension Door
+sorcerer$4$8$Dimension Door
+wizard$4$7$Dimension Door
+cleric$4$7$Dimensional Anchor
+sorcerer$4$8$Dimensional Anchor
+wizard$4$7$Dimensional Anchor
+cleric$8$15$Dimensional Lock
+sorcerer$8$16$Dimensional Lock
+wizard$8$15$Dimensional Lock
+druid$3$5$Diminish Plants
+ranger$3$11$Diminish Plants
+cleric$4$7$Discern Lies
+paladin$3$11$Discern Lies
+cleric$8$15$Discern Location
+sorcerer$8$16$Discern Location
+wizard$8$15$Discern Location
+bard$1$2$Disguise Self
+sorcerer$1$1$Disguise Self
+wizard$1$1$Disguise Self
+sorcerer$6$12$Disintegrate
+wizard$6$11$Disintegrate
+cleric$4$7$Dismissal
+sorcerer$5$10$Dismissal
+wizard$5$9$Dismissal
+cleric$5$9$Dispel Chaos
+paladin$4$14$Dispel Chaos
+cleric$5$9$Dispel Evil
+paladin$4$14$Dispel Evil
+cleric$5$9$Dispel Good
+cleric$5$9$Dispel Law
+bard$3$7$Dispel Magic
+cleric$3$5$Dispel Magic
+druid$4$7$Dispel Magic
+paladin$3$11$Dispel Magic
+sorcerer$3$6$Dispel Magic
+wizard$3$5$Dispel Magic
+bard$5$13$Dispel Magic, Greater
+cleric$6$11$Dispel Magic, Greater
+druid$6$11$Dispel Magic, Greater
+sorcerer$6$12$Dispel Magic, Greater
+wizard$6$11$Dispel Magic, Greater
+bard$3$7$Displacement
+sorcerer$3$6$Displacement
+wizard$3$5$Displacement
+sorcerer$0$1$Disrupt Undead
+wizard$0$1$Disrupt Undead
+cleric$5$9$Disrupting Weapon
+cleric$4$7$Divination
+cleric$1$1$Divine Favor
+paladin$1$4$Divine Favor
+cleric$4$7$Divine Power
+druid$3$5$Dominate Animal
+sorcerer$9$18$Dominate Monster
+wizard$9$17$Dominate Monster
+bard$4$10$Dominate Person
+sorcerer$5$10$Dominate Person
+wizard$5$9$Dominate Person
+cleric$1$1$Doom
+bard$5$13$Dream
+sorcerer$5$10$Dream
+wizard$5$9$Dream
+bard$2$4$Eagles Splendor
+cleric$2$3$Eagles Splendor
+paladin$2$8$Eagles Splendor
+sorcerer$2$4$Eagles Splendor
+wizard$2$3$Eagles Splendor
+bard$6$16$Eagles Splendor, Mass
+cleric$6$11$Eagles Splendor, Mass
+sorcerer$6$12$Eagles Splendor, Mass
+wizard$6$11$Eagles Splendor, Mass
+cleric$8$15$Earthquake
+druid$8$15$Earthquake
+druid$9$17$Elemental Swarm
+cleric$1$1$Endure Elements
+druid$1$1$Endure Elements
+paladin$1$4$Endure Elements
+ranger$1$4$Endure Elements
+sorcerer$1$1$Endure Elements
+wizard$1$1$Endure Elements
+cleric$9$17$Energy Drain
+sorcerer$9$18$Energy Drain
+wizard$9$17$Energy Drain
+sorcerer$4$8$Enervation
+wizard$4$7$Enervation
+sorcerer$1$1$Enlarge Person
+wizard$1$1$Enlarge Person
+sorcerer$4$8$Enlarge Person, Mass
+wizard$4$7$Enlarge Person, Mass
+druid$1$1$Entangle
+ranger$1$4$Entangle
+bard$2$4$Enthrall
+cleric$2$3$Enthrall
+cleric$1$1$Entropic Shield
+bard$1$2$Erase
+sorcerer$1$1$Erase
+wizard$1$1$Erase
+cleric$7$13$Ethereal Jaunt
+sorcerer$7$14$Ethereal Jaunt
+wizard$7$13$Ethereal Jaunt
+cleric$9$17$Etherealness
+sorcerer$9$18$Etherealness
+wizard$9$17$Etherealness
+bard$1$2$Expeditious Retreat
+sorcerer$1$1$Expeditious Retreat
+wizard$1$1$Expeditious Retreat
+sorcerer$3$6$Explosive Runes
+wizard$3$5$Explosive Runes
+bard$6$16$Eyebite
+sorcerer$6$12$Eyebite
+wizard$6$11$Eyebite
+sorcerer$5$10$Fabricate
+wizard$5$9$Fabricate
+druid$1$1$Faerie Fire
+sorcerer$2$4$False Life
+wizard$2$3$False Life
+bard$5$13$False Vision
+sorcerer$5$10$False Vision
+wizard$5$9$False Vision
+bard$3$7$Fear
+sorcerer$4$8$Fear
+wizard$4$7$Fear
+bard$1$2$Feather Fall
+sorcerer$1$1$Feather Fall
+wizard$1$1$Feather Fall
+sorcerer$5$10$Feeblemind
+wizard$5$9$Feeblemind
+bard$6$16$Find the Path
+cleric$6$11$Find the Path
+druid$6$11$Find the Path
+cleric$2$3$Find Traps
+druid$8$15$Finger of Death
+sorcerer$7$14$Finger of Death
+wizard$7$13$Finger of Death
+druid$6$11$Fire Seeds
+sorcerer$4$8$Fire Shield
+wizard$4$7$Fire Shield
+cleric$8$15$Fire Storm
+druid$7$13$Fire Storm
+druid$2$3$Fire Trap
+sorcerer$4$8$Fire Trap
+wizard$4$7$Fire Trap
+sorcerer$3$6$Fireball
+wizard$3$5$Fireball
+sorcerer$3$6$Flame Arrow
+wizard$3$5$Flame Arrow
+druid$2$3$Flame Blade
+cleric$5$9$Flame Strike
+druid$4$7$Flame Strike
+druid$2$3$Flaming Sphere
+sorcerer$2$4$Flaming Sphere
+wizard$2$3$Flaming Sphere
+bard$0$1$Flare
+druid$0$1$Flare
+sorcerer$0$1$Flare
+wizard$0$1$Flare
+sorcerer$6$12$Flesh to Stone
+wizard$6$11$Flesh to Stone
+sorcerer$3$6$Fly
+wizard$3$5$Fly
+sorcerer$1$1$Floating Disk
+wizard$1$1$Floating Disk
+druid$2$3$Fog Cloud
+sorcerer$2$4$Fog Cloud
+wizard$2$3$Fog Cloud
+cleric$6$11$Forbiddance
+sorcerer$7$14$Forcecage
+wizard$7$13$Forcecage
+sorcerer$6$12$Forceful Hand
+wizard$6$11$Forceful Hand
+druid$9$17$Foresight
+sorcerer$9$18$Foresight
+wizard$9$17$Foresight
+bard$2$4$Foxs Cunning
+sorcerer$2$4$Foxs Cunning
+wizard$2$3$Foxs Cunning
+bard$6$16$Foxs Cunning, Mass
+sorcerer$6$12$Foxs Cunning, Mass
+wizard$6$11$Foxs Cunning, Mass
+sorcerer$9$18$Freedom
+wizard$9$17$Freedom
+bard$4$10$Freedom of Movement
+cleric$4$7$Freedom of Movement
+druid$4$7$Freedom of Movement
+ranger$4$14$Freedom of Movement
+sorcerer$6$12$Freezing Sphere
+wizard$6$11$Freezing Sphere
+bard$3$7$Gaseous Form
+sorcerer$3$6$Gaseous Form
+wizard$3$5$Gaseous Form
+cleric$9$17$Gate
+sorcerer$9$18$Gate
+wizard$9$17$Gate
+bard$6$16$Geas/Quest
+cleric$6$11$Geas/Quest
+sorcerer$6$12$Geas/Quest
+wizard$6$11$Geas/Quest
+bard$3$7$Geas, Lesser
+sorcerer$4$8$Geas, Lesser
+wizard$4$7$Geas, Lesser
+cleric$2$3$Gentle Repose
+sorcerer$3$6$Gentle Repose
+wizard$3$5$Gentle Repose
+bard$0$1$Ghost Sound
+sorcerer$0$1$Ghost Sound
+wizard$0$1$Ghost Sound
+sorcerer$2$4$Ghoul Touch
+wizard$2$3$Ghoul Touch
+cleric$4$7$Giant Vermin
+druid$4$7$Giant Vermin
+bard$3$7$Glibness
+bard$2$4$Glitterdust
+sorcerer$2$4$Glitterdust
+wizard$2$3$Glitterdust
+sorcerer$6$12$Globe of Invulnerability
+wizard$6$11$Globe of Invulnerability
+sorcerer$4$8$Globe of Invulnerability, Lesser
+wizard$4$7$Globe of Invulnerability, Lesser
+cleric$3$5$Glyph of Warding
+cleric$6$11$Glyph of Warding, Greater
+druid$1$1$Goodberry
+bard$3$7$Good Hope
+sorcerer$7$14$Grasping Hand
+wizard$7$13$Grasping Hand
+bard$1$2$Grease
+sorcerer$1$1$Grease
+wizard$1$1$Grease
+sorcerer$6$12$Guards and Wards
+wizard$6$11$Guards and Wards
+cleric$0$1$Guidance
+druid$0$1$Guidance
+druid$2$3$Gust of Wind
+sorcerer$2$4$Gust of Wind
+wizard$2$3$Gust of Wind
+cleric$5$9$Hallow
+druid$5$9$Hallow
+bard$4$10$Hallucinatory Terrain
+sorcerer$4$8$Hallucinatory Terrain
+wizard$4$7$Hallucinatory Terrain
+sorcerer$3$6$Halt Undead
+wizard$3$5$Halt Undead
+cleric$6$11$Harm
+bard$3$7$Haste
+sorcerer$3$6$Haste
+wizard$3$5$Haste
+cleric$6$11$Heal
+druid$7$13$Heal
+cleric$9$17$Heal, Mass
+paladin$3$11$Heal Mount
+druid$2$3$Heat Metal
+cleric$3$5$Helping Hand
+bard$6$16$Heroes Feast
+cleric$6$11$Heroes Feast
+bard$2$4$Heroism
+sorcerer$3$6$Heroism
+wizard$3$5$Heroism
+bard$5$13$Heroism, Greater
+sorcerer$6$12$Heroism, Greater
+wizard$6$11$Heroism, Greater
+druid$1$1$Hide from Animals
+ranger$1$4$Hide from Animals
+cleric$1$1$Hide from Undead
+bard$1$2$Hideous Laughter
+sorcerer$2$4$Hideous Laughter
+wizard$2$3$Hideous Laughter
+druid$2$3$Hold Animal
+ranger$2$8$Hold Animal
+bard$4$10$Hold Monster
+sorcerer$5$10$Hold Monster
+wizard$5$9$Hold Monster
+sorcerer$9$18$Hold Monster, Mass
+wizard$9$17$Hold Monster, Mass
+bard$2$4$Hold Person
+cleric$2$3$Hold Person
+sorcerer$3$6$Hold Person
+wizard$3$5$Hold Person
+sorcerer$7$14$Hold Person, Mass
+wizard$7$13$Hold Person, Mass
+sorcerer$1$1$Hold Portal
+wizard$1$1$Hold Portal
+cleric$8$15$Holy Aura
+paladin$4$14$Holy Sword
+cleric$7$13$Holy Word
+sorcerer$8$16$Horrid Wilting
+wizard$8$15$Horrid Wilting
+bard$2$4$Hypnotic Pattern
+sorcerer$2$4$Hypnotic Pattern
+wizard$2$3$Hypnotic Pattern
+bard$1$2$Hypnotism
+sorcerer$1$1$Hypnotism
+wizard$1$1$Hypnotism
+druid$4$7$Ice Storm
+sorcerer$4$8$Ice Storm
+wizard$4$7$Ice Storm
+bard$1$2$Identify
+sorcerer$1$1$Identify
+wizard$1$1$Identify
+bard$3$7$Illusory Script
+sorcerer$3$6$Illusory Script
+wizard$3$5$Illusory Script
+sorcerer$4$8$Illusory Wall
+wizard$4$7$Illusory Wall
+cleric$4$7$Imbue with Spell Ability
+cleric$9$17$Implosion
+sorcerer$9$18$Imprisonment
+wizard$9$17$Imprisonment
+sorcerer$8$16$Incendiary Cloud
+wizard$8$15$Incendiary Cloud
+cleric$4$7$Inflict Critical Wounds
+cleric$8$15$Inflict Critical Wounds, Mass
+cleric$1$1$Inflict Light Wounds
+cleric$5$9$Inflict Light Wounds, Mass
+cleric$0$1$Inflict Minor Wounds
+cleric$2$3$Inflict Moderate Wounds
+cleric$6$11$Inflict Moderate Wounds, Mass
+cleric$3$5$Inflict Serious Wounds
+cleric$7$13$Inflict Serious Wounds, Mass
+sorcerer$7$14$Insanity
+wizard$7$13$Insanity
+cleric$5$9$Insect Plague
+druid$5$9$Insect Plague
+sorcerer$7$14$Instant Summons
+wizard$7$13$Instant Summons
+sorcerer$5$10$Interposing Hand
+wizard$5$9$Interposing Hand
+bard$2$4$Invisibility
+sorcerer$2$4$Invisibility
+wizard$2$3$Invisibility
+bard$4$10$Invisibility, Greater
+sorcerer$4$8$Invisibility, Greater
+wizard$4$7$Invisibility, Greater
+sorcerer$7$14$Invisibility, Mass
+wizard$7$13$Invisibility, Mass
+cleric$3$5$Invisibility Purge
+bard$3$7$Invisibility Sphere
+sorcerer$3$6$Invisibility Sphere
+wizard$3$5$Invisibility Sphere
+sorcerer$8$16$Iron Body
+wizard$8$15$Iron Body
+druid$6$11$Ironwood
+bard$6$16$Irresistible Dance
+sorcerer$8$16$Irresistible Dance
+wizard$8$15$Irresistible Dance
+druid$1$1$Jump
+ranger$1$4$Jump
+sorcerer$1$1$Jump
+wizard$1$1$Jump
+sorcerer$3$6$Keen Edge
+wizard$3$5$Keen Edge
+sorcerer$2$4$Knock
+wizard$2$3$Knock
+bard$0$1$Know Direction
+druid$0$1$Know Direction
+bard$4$10$Legend Lore
+sorcerer$6$12$Legend Lore
+wizard$6$11$Legend Lore
+sorcerer$2$4$Levitate
+wizard$2$3$Levitate
+bard$0$1$Light
+cleric$0$1$Light
+druid$0$1$Light
+sorcerer$0$1$Light
+wizard$0$1$Light
+sorcerer$3$6$Lightning Bolt
+wizard$3$5$Lightning Bolt
+sorcerer$7$14$Limited Wish
+wizard$7$13$Limited Wish
+druid$6$11$Liveoak
+bard$4$10$Locate Creature
+sorcerer$4$8$Locate Creature
+wizard$4$7$Locate Creature
+bard$2$4$Locate Object
+cleric$3$5$Locate Object
+sorcerer$2$4$Locate Object
+wizard$2$3$Locate Object
+druid$1$1$Longstrider
+ranger$1$4$Longstrider
+bard$0$1$Lullaby
+sorcerer$1$1$Mage Armor
+wizard$1$1$Mage Armor
+bard$0$1$Mage Hand
+sorcerer$0$1$Mage Hand
+wizard$0$1$Mage Hand
+sorcerer$9$18$Mages Disjunction
+wizard$9$17$Mages Disjunction
+sorcerer$5$10$Mages Faithful Hound
+wizard$5$9$Mages Faithful Hound
+sorcerer$7$14$Mages Magnificent Mansion
+wizard$7$13$Mages Magnificent Mansion
+sorcerer$5$10$Mages Private Sanctum
+wizard$5$9$Mages Private Sanctum
+sorcerer$7$14$Mages Sword
+wizard$7$13$Mages Sword
+bard$1$2$Magic Aura
+sorcerer$1$1$Magic Aura
+wizard$1$1$Magic Aura
+cleric$3$5$Magic Circle against Chaos
+paladin$3$11$Magic Circle against Chaos
+sorcerer$3$6$Magic Circle against Chaos
+wizard$3$5$Magic Circle against Chaos
+cleric$3$5$Magic Circle against Evil
+paladin$3$11$Magic Circle against Evil
+sorcerer$3$6$Magic Circle against Evil
+wizard$3$5$Magic Circle against Evil
+cleric$3$5$Magic Circle against Good
+sorcerer$3$6$Magic Circle against Good
+wizard$3$5$Magic Circle against Good
+cleric$3$5$Magic Circle against Law
+sorcerer$3$6$Magic Circle against Law
+wizard$3$5$Magic Circle against Law
+druid$1$1$Magic Fang
+ranger$1$4$Magic Fang
+druid$3$5$Magic Fang, Greater
+ranger$3$11$Magic Fang, Greater
+sorcerer$5$10$Magic Jar
+wizard$5$9$Magic Jar
+sorcerer$1$1$Magic Missile
+wizard$1$1$Magic Missile
+bard$1$2$Magic Mouth
+sorcerer$2$4$Magic Mouth
+wizard$2$3$Magic Mouth
+cleric$1$1$Magic Stone
+druid$1$1$Magic Stone
+cleric$3$5$Magic Vestment
+cleric$1$1$Magic Weapon
+paladin$1$4$Magic Weapon
+sorcerer$1$1$Magic Weapon
+wizard$1$1$Magic Weapon
+cleric$4$7$Magic Weapon, Greater
+paladin$3$11$Magic Weapon, Greater
+sorcerer$3$6$Magic Weapon, Greater
+wizard$3$5$Magic Weapon, Greater
+sorcerer$5$10$Major Creation
+wizard$5$9$Major Creation
+bard$3$7$Major Image
+sorcerer$3$6$Major Image
+wizard$3$5$Major Image
+cleric$2$3$Make Whole
+cleric$5$9$Mark of Justice
+paladin$4$14$Mark of Justice
+sorcerer$8$16$Maze
+wizard$8$15$Maze
+cleric$3$5$Meld into Stone
+druid$3$5$Meld into Stone
+bard$0$1$Mending
+cleric$0$1$Mending
+druid$0$1$Mending
+sorcerer$0$1$Mending
+wizard$0$1$Mending
+bard$0$1$Message
+sorcerer$0$1$Message
+wizard$0$1$Message
+sorcerer$9$18$Meteor Swarm
+wizard$9$17$Meteor Swarm
+sorcerer$8$16$Mind Blank
+wizard$8$15$Mind Blank
+bard$5$13$Mind Fog
+sorcerer$5$10$Mind Fog
+wizard$5$9$Mind Fog
+sorcerer$4$8$Minor Creation
+wizard$4$7$Minor Creation
+bard$2$4$Minor Image
+sorcerer$2$4$Minor Image
+wizard$2$3$Minor Image
+cleric$9$17$Miracle
+bard$5$13$Mirage Arcana
+sorcerer$5$10$Mirage Arcana
+wizard$5$9$Mirage Arcana
+bard$2$4$Mirror Image
+sorcerer$2$4$Mirror Image
+wizard$2$3$Mirror Image
+bard$2$4$Misdirection
+sorcerer$2$4$Misdirection
+wizard$2$3$Misdirection
+bard$5$13$Mislead
+sorcerer$6$12$Mislead
+wizard$6$11$Mislead
+bard$4$10$Modify Memory
+sorcerer$8$16$Moment of Prescience
+wizard$8$15$Moment of Prescience
+sorcerer$1$1$Mount
+wizard$1$1$Mount
+druid$6$11$Move Earth
+sorcerer$6$12$Move Earth
+wizard$6$11$Move Earth
+bard$4$10$Neutralize Poison
+cleric$4$7$Neutralize Poison
+druid$3$5$Neutralize Poison
+paladin$4$14$Neutralize Poison
+ranger$3$11$Neutralize Poison
+bard$5$13$Nightmare
+sorcerer$5$10$Nightmare
+wizard$5$9$Nightmare
+ranger$4$14$Nondetection
+sorcerer$3$6$Nondetection
+wizard$3$5$Nondetection
+bard$1$2$Obscure Object
+cleric$3$5$Obscure Object
+sorcerer$2$4$Obscure Object
+wizard$2$3$Obscure Object
+cleric$1$1$Obscuring Mist
+druid$1$1$Obscuring Mist
+sorcerer$1$1$Obscuring Mist
+wizard$1$1$Obscuring Mist
+bard$0$1$Open/Close
+sorcerer$0$1$Open/Close
+wizard$0$1$Open/Close
+sorcerer$5$10$Overland Flight
+wizard$5$9$Overland Flight
+cleric$2$3$Owls Wisdom
+druid$2$3$Owls Wisdom
+paladin$2$8$Owls Wisdom
+ranger$2$8$Owls Wisdom
+sorcerer$2$4$Owls Wisdom
+wizard$2$3$Owls Wisdom
+cleric$6$11$Owls Wisdom, Mass
+druid$6$11$Owls Wisdom, Mass
+sorcerer$6$12$Owls Wisdom, Mass
+wizard$6$11$Owls Wisdom, Mass
+sorcerer$5$10$Passwall
+wizard$5$9$Passwall
+druid$1$1$Pass without Trace
+ranger$1$4$Pass without Trace
+sorcerer$5$10$Permanency
+wizard$5$9$Permanency
+bard$6$16$Permanent Image
+sorcerer$6$12$Permanent Image
+wizard$6$11$Permanent Image
+bard$5$13$Persistent Image
+sorcerer$5$10$Persistent Image
+wizard$5$9$Persistent Image
+sorcerer$4$8$Phantasmal Killer
+wizard$4$7$Phantasmal Killer
+bard$3$7$Phantom Steed
+sorcerer$3$6$Phantom Steed
+wizard$3$5$Phantom Steed
+sorcerer$2$4$Phantom Trap
+wizard$2$3$Phantom Trap
+sorcerer$7$14$Phase Door
+wizard$7$13$Phase Door
+cleric$6$11$Planar Ally
+cleric$8$15$Planar Ally, Greater
+cleric$4$7$Planar Ally, Lesser
+sorcerer$6$12$Planar Binding
+wizard$6$11$Planar Binding
+sorcerer$8$16$Planar Binding, Greater
+wizard$8$15$Planar Binding, Greater
+sorcerer$5$10$Planar Binding, Lesser
+wizard$5$9$Planar Binding, Lesser
+cleric$5$9$Plane Shift
+sorcerer$7$14$Plane Shift
+wizard$7$13$Plane Shift
+druid$3$5$Plant Growth
+ranger$3$11$Plant Growth
+cleric$4$7$Poison
+druid$3$5$Poison
+sorcerer$8$16$Polar Ray
+wizard$8$15$Polar Ray
+sorcerer$4$8$Polymorph
+wizard$4$7$Polymorph
+sorcerer$8$16$Polymorph Any Object
+wizard$8$15$Polymorph Any Object
+sorcerer$7$14$Power Word Blind
+wizard$7$13$Power Word Blind
+sorcerer$9$18$Power Word Kill
+wizard$9$17$Power Word Kill
+sorcerer$8$16$Power Word Stun
+wizard$8$15$Power Word Stun
+cleric$3$5$Prayer
+paladin$3$11$Prayer
+bard$0$1$Prestidigitation
+sorcerer$0$1$Prestidigitation
+wizard$0$1$Prestidigitation
+sorcerer$9$18$Prismatic Sphere
+wizard$9$17$Prismatic Sphere
+sorcerer$7$14$Prismatic Spray
+wizard$7$13$Prismatic Spray
+sorcerer$8$16$Prismatic Wall
+wizard$8$15$Prismatic Wall
+druid$1$1$Produce Flame
+bard$6$16$Programmed Image
+sorcerer$6$12$Programmed Image
+wizard$6$11$Programmed Image
+bard$6$16$Project Image
+sorcerer$7$14$Project Image
+wizard$7$13$Project Image
+sorcerer$2$4$Protection from Arrows
+wizard$2$3$Protection from Arrows
+cleric$1$1$Protection from Chaos
+paladin$1$4$Protection from Chaos
+sorcerer$1$1$Protection from Chaos
+wizard$1$1$Protection from Chaos
+cleric$3$5$Protection from Energy
+druid$3$5$Protection from Energy
+ranger$2$8$Protection from Energy
+sorcerer$3$6$Protection from Energy
+wizard$3$5$Protection from Energy
+cleric$1$1$Protection from Evil
+paladin$1$4$Protection from Evil
+sorcerer$1$1$Protection from Evil
+wizard$1$1$Protection from Evil
+cleric$1$1$Protection from Good
+sorcerer$1$1$Protection from Good
+wizard$1$1$Protection from Good
+cleric$1$1$Protection from Law
+sorcerer$1$1$Protection from Law
+wizard$1$1$Protection from Law
+sorcerer$8$16$Protection from Spells
+wizard$8$15$Protection from Spells
+sorcerer$5$10$Prying Eyes
+wizard$5$9$Prying Eyes
+sorcerer$8$16$Prying Eyes, Greater
+wizard$8$15$Prying Eyes, Greater
+cleric$0$1$Purify Food and Drink
+druid$0$1$Purify Food and Drink
+bard$2$4$Pyrotechnics
+sorcerer$2$4$Pyrotechnics
+wizard$2$3$Pyrotechnics
+druid$3$5$Quench
+bard$2$4$Rage
+sorcerer$3$6$Rage
+wizard$3$5$Rage
+bard$4$10$Rainbow Pattern
+sorcerer$4$8$Rainbow Pattern
+wizard$4$7$Rainbow Pattern
+cleric$5$9$Raise Dead
+sorcerer$1$1$Ray of Enfeeblement
+wizard$1$1$Ray of Enfeeblement
+sorcerer$3$6$Ray of Exhaustion
+wizard$3$5$Ray of Exhaustion
+sorcerer$0$1$Ray of Frost
+wizard$0$1$Ray of Frost
+bard$0$1$Read Magic
+cleric$0$1$Read Magic
+druid$0$1$Read Magic
+paladin$1$4$Read Magic
+ranger$1$4$Read Magic
+sorcerer$0$1$Read Magic
+wizard$0$1$Read Magic
+druid$2$3$Reduce Animal
+ranger$3$11$Reduce Animal
+sorcerer$1$1$Reduce Person
+wizard$1$1$Reduce Person
+sorcerer$4$8$Reduce Person, Mass
+wizard$4$7$Reduce Person, Mass
+cleric$7$13$Refuge
+sorcerer$9$18$Refuge
+wizard$9$17$Refuge
+cleric$7$13$Regenerate
+druid$9$17$Regenerate
+druid$4$7$Reincarnate
+cleric$3$5$Remove Blindness/Deafness
+paladin$3$11$Remove Blindness/Deafness
+bard$3$7$Remove Curse
+cleric$3$5$Remove Curse
+paladin$3$11$Remove Curse
+sorcerer$4$8$Remove Curse
+wizard$4$7$Remove Curse
+cleric$3$5$Remove Disease
+druid$3$5$Remove Disease
+ranger$3$11$Remove Disease
+bard$1$2$Remove Fear
+cleric$1$1$Remove Fear
+cleric$2$3$Remove Paralysis
+paladin$2$8$Remove Paralysis
+druid$8$15$Repel Metal or Stone
+bard$4$10$Repel Vermin
+cleric$4$7$Repel Vermin
+druid$4$7$Repel Vermin
+ranger$3$11$Repel Vermin
+druid$6$11$Repel Wood
+cleric$7$13$Repulsion
+sorcerer$6$12$Repulsion
+wizard$6$11$Repulsion
+sorcerer$4$8$Resilient Sphere
+wizard$4$7$Resilient Sphere
+bard$0$1$Resistance
+cleric$0$1$Resistance
+druid$0$1$Resistance
+paladin$1$4$Resistance
+sorcerer$0$1$Resistance
+wizard$0$1$Resistance
+cleric$2$3$Resist Energy
+druid$2$3$Resist Energy
+paladin$2$8$Resist Energy
+ranger$1$4$Resist Energy
+sorcerer$2$4$Resist Energy
+wizard$2$3$Resist Energy
+cleric$4$7$Restoration
+paladin$4$14$Restoration
+cleric$7$13$Restoration, Greater
+cleric$2$3$Restoration, Lesser
+druid$2$3$Restoration, Lesser
+paladin$1$4$Restoration, Lesser
+cleric$7$13$Resurrection
+druid$8$15$Reverse Gravity
+sorcerer$7$14$Reverse Gravity
+wizard$7$13$Reverse Gravity
+cleric$5$9$Righteous Might
+sorcerer$2$4$Rope Trick
+wizard$2$3$Rope Trick
+druid$4$7$Rusting Grasp
+cleric$1$1$Sanctuary
+bard$2$4$Scare
+sorcerer$2$4$Scare
+wizard$2$3$Scare
+sorcerer$8$16$Scintillating Pattern
+wizard$8$15$Scintillating Pattern
+sorcerer$2$4$Scorching Ray
+wizard$2$3$Scorching Ray
+sorcerer$8$16$Screen
+wizard$8$15$Screen
+bard$3$7$Scrying
+cleric$5$9$Scrying
+druid$4$7$Scrying
+sorcerer$4$8$Scrying
+wizard$4$7$Scrying
+bard$6$16$Scrying, Greater
+cleric$7$13$Scrying, Greater
+druid$7$13$Scrying, Greater
+sorcerer$7$14$Scrying, Greater
+wizard$7$13$Scrying, Greater
+bard$3$7$Sculpt Sound
+cleric$3$5$Searing Light
+sorcerer$5$10$Secret Chest
+wizard$5$9$Secret Chest
+bard$3$7$Secret Page
+sorcerer$3$6$Secret Page
+wizard$3$5$Secret Page
+bard$4$10$Secure Shelter
+sorcerer$4$8$Secure Shelter
+wizard$4$7$Secure Shelter
+bard$3$7$See Invisibility
+sorcerer$2$4$See Invisibility
+wizard$2$3$See Invisibility
+bard$5$13$Seeming
+sorcerer$5$10$Seeming
+wizard$5$9$Seeming
+cleric$4$7$Sending
+sorcerer$5$10$Sending
+wizard$5$9$Sending
+bard$3$7$Sepia Snake Sigil
+sorcerer$3$6$Sepia Snake Sigil
+wizard$3$5$Sepia Snake Sigil
+sorcerer$7$14$Sequester
+wizard$7$13$Sequester
+sorcerer$9$18$Shades
+wizard$9$17$Shades
+bard$4$10$Shadow Conjuration
+sorcerer$4$8$Shadow Conjuration
+wizard$4$7$Shadow Conjuration
+sorcerer$7$14$Shadow Conjuration, Greater
+wizard$7$13$Shadow Conjuration, Greater
+bard$5$13$Shadow Evocation
+sorcerer$5$10$Shadow Evocation
+wizard$5$9$Shadow Evocation
+sorcerer$8$16$Shadow Evocation, Greater
+wizard$8$15$Shadow Evocation, Greater
+bard$5$13$Shadow Walk
+sorcerer$6$12$Shadow Walk
+wizard$6$11$Shadow Walk
+druid$9$17$Shambler
+druid$9$17$Shapechange
+sorcerer$9$18$Shapechange
+wizard$9$17$Shapechange
+bard$2$4$Shatter
+cleric$2$3$Shatter
+sorcerer$2$4$Shatter
+wizard$2$3$Shatter
+sorcerer$1$1$Shield
+wizard$1$1$Shield
+cleric$1$1$Shield of Faith
+cleric$8$15$Shield of Law
+cleric$2$3$Shield Other
+paladin$2$8$Shield Other
+druid$1$1$Shillelagh
+sorcerer$1$1$Shocking Grasp
+wizard$1$1$Shocking Grasp
+bard$4$10$Shout
+sorcerer$4$8$Shout
+wizard$4$7$Shout
+bard$6$16$Shout, Greater
+sorcerer$8$16$Shout, Greater
+wizard$8$15$Shout, Greater
+sorcerer$3$6$Shrink Item
+wizard$3$5$Shrink Item
+bard$2$4$Silence
+cleric$2$3$Silence
+bard$1$2$Silent Image
+sorcerer$1$1$Silent Image
+wizard$1$1$Silent Image
+sorcerer$7$14$Simulacrum
+wizard$7$13$Simulacrum
+cleric$5$9$Slay Living
+bard$1$2$Sleep
+sorcerer$1$1$Sleep
+wizard$1$1$Sleep
+druid$3$5$Sleet Storm
+sorcerer$3$6$Sleet Storm
+wizard$3$5$Sleet Storm
+bard$3$7$Slow
+sorcerer$3$6$Slow
+wizard$3$5$Slow
+ranger$2$8$Snare
+druid$3$5$Snare
+druid$2$3$Soften Earth and Stone
+sorcerer$4$8$Solid Fog
+wizard$4$7$Solid Fog
+bard$5$13$Song of Discord
+cleric$9$17$Soul Bind
+sorcerer$9$18$Soul Bind
+wizard$9$17$Soul Bind
+bard$2$4$Sound Burst
+cleric$2$3$Sound Burst
+bard$3$7$Speak with Animals
+druid$1$1$Speak with Animals
+ranger$1$4$Speak with Animals
+cleric$3$5$Speak with Dead
+bard$4$10$Speak with Plants
+druid$3$5$Speak with Plants
+ranger$2$8$Speak with Plants
+sorcerer$2$4$Spectral Hand
+wizard$2$3$Spectral Hand
+cleric$4$7$Spell Immunity
+cleric$8$15$Spell Immunity, Greater
+cleric$5$9$Spell Resistance
+druid$6$11$Spellstaff
+sorcerer$7$14$Spell Turning
+wizard$7$13$Spell Turning
+druid$2$3$Spider Climb
+sorcerer$2$4$Spider Climb
+wizard$2$3$Spider Climb
+druid$3$5$Spike Growth
+ranger$2$8$Spike Growth
+druid$4$7$Spike Stones
+cleric$2$3$Spiritual Weapon
+sorcerer$7$14$Statue
+wizard$7$13$Statue
+cleric$2$3$Status
+sorcerer$3$6$Stinking Cloud
+wizard$3$5$Stinking Cloud
+cleric$3$5$Stone Shape
+druid$3$5$Stone Shape
+sorcerer$4$8$Stone Shape
+wizard$4$7$Stone Shape
+druid$5$9$Stoneskin
+sorcerer$4$8$Stoneskin
+wizard$4$7$Stoneskin
+druid$6$11$Stone Tell
+sorcerer$6$12$Stone to Flesh
+wizard$6$11$Stone to Flesh
+druid$9$17$Storm of Vengeance
+cleric$9$17$Storm of Vengeance
+bard$2$4$Suggestion
+sorcerer$3$6$Suggestion
+wizard$3$5$Suggestion
+bard$5$13$Suggestion, Mass
+sorcerer$6$12$Suggestion, Mass
+wizard$6$11$Suggestion, Mass
+bard$0$1$Summon Instrument
+bard$1$2$Summon Monster I
+cleric$1$1$Summon Monster I
+sorcerer$1$1$Summon Monster I
+wizard$1$1$Summon Monster I
+bard$2$4$Summon Monster II
+cleric$2$3$Summon Monster II
+sorcerer$2$4$Summon Monster II
+wizard$2$3$Summon Monster II
+bard$3$7$Summon Monster III
+cleric$3$5$Summon Monster III
+sorcerer$3$6$Summon Monster III
+wizard$3$5$Summon Monster III
+bard$4$10$Summon Monster IV
+cleric$4$7$Summon Monster IV
+sorcerer$4$8$Summon Monster IV
+wizard$4$7$Summon Monster IV
+bard$5$13$Summon Monster V
+cleric$5$9$Summon Monster V
+sorcerer$5$10$Summon Monster V
+wizard$5$9$Summon Monster V
+bard$6$16$Summon Monster VI
+cleric$6$11$Summon Monster VI
+sorcerer$6$12$Summon Monster VI
+wizard$6$11$Summon Monster VI
+cleric$7$13$Summon Monster VII
+sorcerer$7$14$Summon Monster VII
+wizard$7$13$Summon Monster VII
+cleric$8$15$Summon Monster VIII
+sorcerer$8$16$Summon Monster VIII
+wizard$8$15$Summon Monster VIII
+cleric$9$17$Summon Monster IX
+sorcerer$9$18$Summon Monster IX
+wizard$9$17$Summon Monster IX
+druid$1$1$Summon Natures Ally I
+ranger$1$4$Summon Natures Ally I
+druid$2$3$Summon Natures Ally II
+ranger$2$8$Summon Natures Ally II
+druid$3$5$Summon Natures Ally III
+ranger$3$11$Summon Natures Ally III
+druid$4$7$Summon Natures Ally IV
+ranger$4$14$Summon Natures Ally IV
+druid$5$9$Summon Natures Ally V
+druid$6$11$Summon Natures Ally VI
+druid$7$13$Summon Natures Ally VII
+druid$8$15$Summon Natures Ally VIII
+druid$9$17$Summon Natures Ally IX
+bard$2$4$Summon Swarm
+druid$2$3$Summon Swarm
+sorcerer$2$4$Summon Swarm
+wizard$2$3$Summon Swarm
+druid$7$13$Sunbeam
+druid$8$15$Sunburst
+sorcerer$8$16$Sunburst
+wizard$8$15$Sunburst
+cleric$8$15$Symbol of Death
+sorcerer$8$16$Symbol of Death
+wizard$8$15$Symbol of Death
+cleric$6$11$Symbol of Fear
+sorcerer$6$12$Symbol of Fear
+wizard$6$11$Symbol of Fear
+cleric$8$15$Symbol of Insanity
+sorcerer$8$16$Symbol of Insanity
+wizard$8$15$Symbol of Insanity
+cleric$5$9$Symbol of Pain
+sorcerer$5$10$Symbol of Pain
+wizard$5$9$Symbol of Pain
+cleric$6$11$Symbol of Persuasion
+sorcerer$6$12$Symbol of Persuasion
+wizard$6$11$Symbol of Persuasion
+cleric$5$9$Symbol of Sleep
+sorcerer$5$10$Symbol of Sleep
+wizard$5$9$Symbol of Sleep
+cleric$7$13$Symbol of Stunning
+sorcerer$7$14$Symbol of Stunning
+wizard$7$13$Symbol of Stunning
+cleric$7$13$Symbol of Weakness
+sorcerer$7$14$Symbol of Weakness
+wizard$7$13$Symbol of Weakness
+bard$6$16$Sympathetic Vibration
+druid$9$17$Sympathy
+sorcerer$8$16$Sympathy
+wizard$8$15$Sympathy
+sorcerer$5$10$Telekinesis
+wizard$5$9$Telekinesis
+sorcerer$8$16$Telekinetic Sphere
+wizard$8$15$Telekinetic Sphere
+sorcerer$5$10$Telepathic Bond
+wizard$5$9$Telepathic Bond
+sorcerer$5$10$Teleport
+wizard$5$9$Teleport
+sorcerer$7$14$Teleport Object
+wizard$7$13$Teleport Object
+sorcerer$7$14$Teleport, Greater
+wizard$7$13$Teleport, Greater
+sorcerer$9$18$Teleportation Circle
+wizard$9$17$Teleportation Circle
+sorcerer$8$16$Temporal Stasis
+wizard$8$15$Temporal Stasis
+sorcerer$9$18$Time Stop
+wizard$9$17$Time Stop
+bard$3$7$Tiny Hut
+sorcerer$3$6$Tiny Hut
+wizard$3$5$Tiny Hut
+bard$2$4$Tongues
+cleric$4$7$Tongues
+sorcerer$3$6$Tongues
+wizard$3$5$Tongues
+sorcerer$0$1$Touch of Fatigue
+wizard$0$1$Touch of Fatigue
+sorcerer$2$4$Touch of Idiocy
+wizard$2$3$Touch of Idiocy
+sorcerer$6$12$Transformation
+wizard$6$11$Transformation
+druid$7$13$Transmute Metal to Wood
+druid$5$9$Transmute Mud to Rock
+sorcerer$5$10$Transmute Mud to Rock
+wizard$5$9$Transmute Mud to Rock
+druid$5$9$Transmute Rock to Mud
+sorcerer$5$10$Transmute Rock to Mud
+wizard$5$9$Transmute Rock to Mud
+druid$6$11$Transport via Plants
+sorcerer$8$16$Trap the Soul
+wizard$8$15$Trap the Soul
+druid$2$3$Tree Shape
+ranger$3$11$Tree Shape
+druid$5$9$Tree Stride
+ranger$4$14$Tree Stride
+cleric$9$17$True Resurrection
+cleric$5$9$True Seeing
+druid$7$13$True Seeing
+sorcerer$6$12$True Seeing
+wizard$6$11$True Seeing
+sorcerer$1$1$True Strike
+wizard$1$1$True Strike
+cleric$6$11$Undeath to Death
+sorcerer$6$12$Undeath to Death
+wizard$6$11$Undeath to Death
+bard$1$2$Undetectable Alignment
+cleric$2$3$Undetectable Alignment
+paladin$2$8$Undetectable Alignment
+cleric$5$9$Unhallow
+druid$5$9$Unhallow
+cleric$8$15$Unholy Aura
+bard$1$2$Unseen Servant
+sorcerer$1$1$Unseen Servant
+wizard$1$1$Unseen Servant
+sorcerer$3$6$Vampiric Touch
+wizard$3$5$Vampiric Touch
+bard$6$16$Veil
+sorcerer$6$12$Veil
+wizard$6$11$Veil
+bard$1$2$Ventriloquism
+sorcerer$1$1$Ventriloquism
+wizard$1$1$Ventriloquism
+cleric$0$1$Virtue
+druid$0$1$Virtue
+paladin$1$4$Virtue
+sorcerer$7$14$Vision
+wizard$7$13$Vision
+sorcerer$9$18$Wail of the Banshee
+wizard$9$17$Wail of the Banshee
+druid$5$9$Wall of Fire
+sorcerer$4$8$Wall of Fire
+wizard$4$7$Wall of Fire
+sorcerer$5$10$Wall of Force
+wizard$5$9$Wall of Force
+sorcerer$4$8$Wall of Ice
+wizard$4$7$Wall of Ice
+sorcerer$6$12$Wall of Iron
+wizard$6$11$Wall of Iron
+cleric$5$9$Wall of Stone
+druid$6$11$Wall of Stone
+sorcerer$5$10$Wall of Stone
+wizard$5$9$Wall of Stone
+druid$5$9$Wall of Thorns
+druid$2$3$Warp Wood
+cleric$3$5$Water Breathing
+druid$3$5$Water Breathing
+sorcerer$3$6$Water Breathing
+wizard$3$5$Water Breathing
+cleric$3$5$Water Walk
+ranger$3$11$Water Walk
+sorcerer$7$14$Waves of Exhaustion
+wizard$7$13$Waves of Exhaustion
+sorcerer$5$10$Waves of Fatigue
+wizard$5$9$Waves of Fatigue
+sorcerer$2$4$Web
+wizard$2$3$Web
+sorcerer$9$18$Weird
+wizard$9$17$Weird
+druid$8$15$Whirlwind
+bard$2$4$Whispering Wind
+sorcerer$2$4$Whispering Wind
+wizard$2$3$Whispering Wind
+cleric$6$11$Wind Walk
+druid$7$13$Wind Walk
+cleric$3$5$Wind Wall
+druid$3$5$Wind Wall
+ranger$2$8$Wind Wall
+sorcerer$3$6$Wind Wall
+wizard$3$5$Wind Wall
+sorcerer$9$18$Wish
+wizard$9$17$Wish
+druid$2$3$Wood Shape
+cleric$7$13$Word of Chaos
+cleric$6$11$Word of Recall
+druid$8$15$Word of Recall
+bard$4$10$Zone of Silence
+cleric$2$3$Zone of Truth
+paladin$2$8$Zone of Truth
+sorcerer$2$4$Acid Arrow
+wizard$2$3$Acid Arrow
+sorcerer$6$12$Acid Fog
+wizard$6$11$Acid Fog
+sorcerer$0$1$Acid Splash
+wizard$0$1$Acid Splash
+cleric$2$3$Aid
+cleric$4$7$Air Walk
+druid$4$7$Air Walk
+bard$1$2$Alarm
+ranger$1$4$Alarm
+sorcerer$1$1$Alarm
+wizard$1$1$Alarm
+cleric$2$3$Align Weapon
+bard$2$4$Alter Self
+sorcerer$2$4$Alter Self
+wizard$2$3$Alter Self
+bard$6$16$Analyze Dweomer
+sorcerer$6$12$Analyze Dweomer
+wizard$6$11$Analyze Dweomer
+druid$5$9$Animal Growth
+ranger$4$14$Animal Growth
+sorcerer$5$10$Animal Growth
+wizard$5$9$Animal Growth
+bard$2$4$Animal Messenger
+druid$2$3$Animal Messenger
+ranger$1$4$Animal Messenger
+druid$8$15$Animal Shapes
+bard$2$4$Animal Trance
+druid$2$3$Animal Trance
+cleric$3$5$Animate Dead
+sorcerer$4$8$Animate Dead
+wizard$4$7$Animate Dead
+bard$6$16$Animate Objects
+cleric$6$11$Animate Objects
+druid$7$13$Animate Plants
+bard$1$2$Animate Rope
+sorcerer$1$1$Animate Rope
+wizard$1$1$Animate Rope
+cleric$6$11$Antilife Shell
+druid$6$11$Antilife Shell
+cleric$8$15$Antimagic Field
+sorcerer$6$12$Antimagic Field
+wizard$6$11$Antimagic Field
+druid$9$17$Antipathy
+sorcerer$8$16$Antipathy
+wizard$8$15$Antipathy
+druid$4$7$Antiplant Shell
+sorcerer$4$8$Arcane Eye
+wizard$4$7$Arcane Eye
+sorcerer$2$4$Arcane Lock
+wizard$2$3$Arcane Lock
+sorcerer$0$1$Arcane Mark
+wizard$0$1$Arcane Mark
+sorcerer$3$6$Arcane Sight
+wizard$3$5$Arcane Sight
+sorcerer$7$14$Arcane Sight, Greater
+wizard$7$13$Arcane Sight, Greater
+cleric$9$17$Astral Projection
+sorcerer$9$18$Astral Projection
+wizard$9$17$Astral Projection
+cleric$5$9$Atonement
+druid$5$9$Atonement
+cleric$2$3$Augury
+druid$5$9$Awaken
+druid$5$9$Baleful Polymorph
+sorcerer$5$10$Baleful Polymorph
+wizard$5$9$Baleful Polymorph
+cleric$1$1$Bane
+cleric$6$11$Banishment
+sorcerer$7$14$Banishment
+wizard$7$13$Banishment
+druid$2$3$Barkskin
+ranger$2$8$Barkskin
+cleric$2$3$Bears Endurance
+druid$2$3$Bears Endurance
+ranger$2$8$Bears Endurance
+sorcerer$2$4$Bears Endurance
+wizard$2$3$Bears Endurance
+cleric$6$11$Bears Endurance, Mass
+druid$6$11$Bears Endurance, Mass
+sorcerer$6$12$Bears Endurance, Mass
+wizard$6$11$Bears Endurance, Mass
+cleric$3$5$Bestow Curse
+sorcerer$4$8$Bestow Curse
+wizard$4$7$Bestow Curse
+sorcerer$8$16$Binding
+wizard$8$15$Binding
+sorcerer$4$8$Black Tentacles
+wizard$4$7$Black Tentacles
+cleric$6$11$Blade Barrier
+cleric$7$13$Blasphemy
+cleric$1$1$Bless
+paladin$1$4$Bless
+cleric$1$1$Bless Water
+paladin$1$4$Bless Water
+paladin$1$4$Bless Weapon
+druid$4$7$Blight
+sorcerer$5$10$Blight
+wizard$5$9$Blight
+bard$2$4$Blindness/Deafness
+cleric$3$5$Blindness/Deafness
+sorcerer$2$4$Blindness/Deafness
+wizard$2$3$Blindness/Deafness
+bard$3$7$Blink
+sorcerer$3$6$Blink
+wizard$3$5$Blink
+bard$2$4$Blur
+sorcerer$2$4$Blur
+wizard$2$3$Blur
+bard$4$10$Break Enchantment
+cleric$5$9$Break Enchantment
+paladin$4$14$Break Enchantment
+sorcerer$5$10$Break Enchantment
+wizard$5$9$Break Enchantment
+cleric$2$3$Bulls Strength
+druid$2$3$Bulls Strength
+paladin$2$8$Bulls Strength
+sorcerer$2$4$Bulls Strength
+wizard$2$3$Bulls Strength
+cleric$6$11$Bulls Strength, Mass
+druid$6$11$Bulls Strength, Mass
+sorcerer$6$12$Bulls Strength, Mass
+wizard$6$11$Bulls Strength, Mass
+sorcerer$1$1$Burning Hands
+wizard$1$1$Burning Hands
+druid$3$5$Call Lightning
+druid$5$9$Call Lightning Storm
+druid$1$1$Calm Animals
+ranger$1$4$Calm Animals
+bard$2$4$Calm Emotions
+cleric$2$3$Calm Emotions
+bard$2$4$Cats Grace
+druid$2$3$Cats Grace
+ranger$2$8$Cats Grace
+sorcerer$2$4$Cats Grace
+wizard$2$3$Cats Grace
+bard$6$16$Cats Grace, Mass
+druid$6$11$Cats Grace, Mass
+sorcerer$6$12$Cats Grace, Mass
+wizard$6$11$Cats Grace, Mass
+bard$1$2$Cause Fear
+cleric$1$1$Cause Fear
+sorcerer$1$1$Cause Fear
+wizard$1$1$Cause Fear
+sorcerer$6$12$Chain Lightning
+wizard$6$11$Chain Lightning
+druid$7$13$Changestaff
+druid$1$1$Charm Animal
+ranger$1$4$Charm Animal
+bard$3$7$Charm Monster
+sorcerer$4$8$Charm Monster
+wizard$4$7$Charm Monster
+bard$6$16$Charm Monster, Mass
+sorcerer$8$16$Charm Monster, Mass
+wizard$8$15$Charm Monster, Mass
+bard$1$2$Charm Person
+sorcerer$1$1$Charm Person
+wizard$1$1$Charm Person
+druid$2$3$Chill Metal
+sorcerer$1$1$Chill Touch
+wizard$1$1$Chill Touch
+sorcerer$6$12$Circle of Death
+wizard$6$11$Circle of Death
+bard$3$7$Clairaudience/Clairvoyance
+sorcerer$3$6$Clairaudience/Clairvoyance
+wizard$3$5$Clairaudience/Clairvoyance
+sorcerer$8$16$Clenched Fist
+wizard$8$15$Clenched Fist
+cleric$8$15$Cloak of Chaos
+sorcerer$8$16$Clone
+wizard$8$15$Clone
+sorcerer$5$10$Cloudkill
+wizard$5$9$Cloudkill
+sorcerer$1$1$Color Spray
+wizard$1$1$Color Spray
+cleric$1$1$Command
+cleric$5$9$Command, Greater
+druid$4$7$Command Plants
+ranger$3$11$Command Plants
+sorcerer$2$4$Command Undead
+wizard$2$3$Command Undead
+cleric$5$9$Commune
+druid$5$9$Commune with Nature
+ranger$4$14$Commune with Nature
+bard$1$2$Comprehend Languages
+cleric$1$1$Comprehend Languages
+sorcerer$1$1$Comprehend Languages
+wizard$1$1$Comprehend Languages
+sorcerer$5$10$Cone of Cold
+wizard$5$9$Cone of Cold
+bard$3$7$Confusion
+sorcerer$4$8$Confusion
+wizard$4$7$Confusion
+bard$1$2$Confusion, Lesser
+cleric$2$3$Consecrate
+sorcerer$5$10$Contact Other Plane
+wizard$5$9$Contact Other Plane
+cleric$3$5$Contagion
+druid$3$5$Contagion
+sorcerer$4$8$Contagion
+wizard$4$7$Contagion
+sorcerer$6$12$Contingency
+wizard$6$11$Contingency
+cleric$3$5$Continual Flame
+sorcerer$2$4$Continual Flame
+wizard$2$3$Continual Flame
+druid$8$15$Control Plants
+sorcerer$7$14$Control Undead
+wizard$7$13$Control Undead
+cleric$4$7$Control Water
+druid$4$7$Control Water
+sorcerer$6$12$Control Water
+wizard$6$11$Control Water
+cleric$7$13$Control Weather
+druid$7$13$Control Weather
+sorcerer$7$14$Control Weather
+wizard$7$13$Control Weather
+druid$5$9$Control Winds
+cleric$3$5$Create Food and Water
+cleric$8$15$Create Greater Undead
+sorcerer$8$16$Create Greater Undead
+wizard$8$15$Create Greater Undead
+cleric$6$11$Create Undead
+sorcerer$6$12$Create Undead
+wizard$6$11$Create Undead
+cleric$0$1$Create Water
+druid$0$1$Create Water
+paladin$1$4$Create Water
+druid$7$13$Creeping Doom
+bard$3$7$Crushing Despair
+sorcerer$4$8$Crushing Despair
+wizard$4$7$Crushing Despair
+sorcerer$9$18$Crushing Hand
+wizard$9$17$Crushing Hand
+bard$4$10$Cure Critical Wounds
+cleric$4$7$Cure Critical Wounds
+druid$5$9$Cure Critical Wounds
+cleric$8$15$Cure Critical Wounds, Mass
+druid$9$17$Cure Critical Wounds, Mass
+bard$1$2$Cure Light Wounds
+cleric$1$1$Cure Light Wounds
+druid$1$1$Cure Light Wounds
+paladin$1$4$Cure Light Wounds
+ranger$2$8$Cure Light Wounds
+bard$5$13$Cure Light Wounds, Mass
+cleric$5$9$Cure Light Wounds, Mass
+druid$6$11$Cure Light Wounds, Mass
+cleric$0$1$Cure Minor Wounds
+druid$0$1$Cure Minor Wounds
+bard$2$4$Cure Moderate Wounds
+cleric$2$3$Cure Moderate Wounds
+druid$3$5$Cure Moderate Wounds
+paladin$3$11$Cure Moderate Wounds
+ranger$3$11$Cure Moderate Wounds
+bard$6$16$Cure Moderate Wounds, Mass
+cleric$6$11$Cure Moderate Wounds, Mass
+druid$7$13$Cure Moderate Wounds, Mass
+bard$3$7$Cure Serious Wounds
+cleric$3$5$Cure Serious Wounds
+druid$4$7$Cure Serious Wounds
+paladin$4$14$Cure Serious Wounds
+ranger$4$14$Cure Serious Wounds
+cleric$7$13$Cure Serious Wounds, Mass
+druid$8$15$Cure Serious Wounds, Mass
+cleric$1$1$Curse Water
+bard$0$1$Dancing Lights
+sorcerer$0$1$Dancing Lights
+wizard$0$1$Dancing Lights
+bard$2$4$Darkness
+cleric$2$3$Darkness
+sorcerer$2$4$Darkness
+wizard$2$3$Darkness
+ranger$3$11$Darkvision
+sorcerer$2$4$Darkvision
+wizard$2$3$Darkvision
+bard$3$7$Daylight
+cleric$3$5$Daylight
+druid$3$5$Daylight
+paladin$3$11$Daylight
+sorcerer$3$6$Daylight
+wizard$3$5$Daylight
+bard$0$1$Daze
+sorcerer$0$1$Daze
+wizard$0$1$Daze
+bard$2$4$Daze Monster
+sorcerer$2$4$Daze Monster
+wizard$2$3$Daze Monster
+cleric$2$3$Death Knell
+cleric$4$7$Death Ward
+druid$5$9$Death Ward
+paladin$4$14$Death Ward
+cleric$1$1$Deathwatch
+bard$3$7$Deep Slumber
+sorcerer$3$6$Deep Slumber
+wizard$3$5$Deep Slumber
+cleric$3$5$Deeper Darkness
+bard$2$4$Delay Poison
+cleric$2$3$Delay Poison
+druid$2$3$Delay Poison
+paladin$2$8$Delay Poison
+ranger$1$4$Delay Poison
+sorcerer$7$14$Delayed Blast Fireball
+wizard$7$13$Delayed Blast Fireball
+sorcerer$8$16$Demand
+wizard$8$15$Demand
+cleric$2$3$Desecrate
+cleric$7$13$Destruction
+druid$1$1$Detect Animals or Plants
+ranger$1$4$Detect Animals or Plants
+cleric$1$1$Detect Chaos
+cleric$1$1$Detect Evil
+cleric$1$1$Detect Good
+cleric$1$1$Detect Law
+bard$0$1$Detect Magic
+cleric$0$1$Detect Magic
+druid$0$1$Detect Magic
+sorcerer$0$1$Detect Magic
+wizard$0$1$Detect Magic
+cleric$0$1$Detect Poison
+druid$0$1$Detect Poison
+paladin$1$4$Detect Poison
+ranger$1$4$Detect Poison
+sorcerer$0$1$Detect Poison
+wizard$0$1$Detect Poison
+bard$4$10$Detect Scrying
+sorcerer$4$8$Detect Scrying
+wizard$4$7$Detect Scrying
+bard$1$2$Detect Secret Doors
+sorcerer$1$1$Detect Secret Doors
+wizard$1$1$Detect Secret Doors
+druid$1$1$Detect Snares and Pits
+ranger$1$4$Detect Snares and Pits
+bard$2$4$Detect Thoughts
+sorcerer$2$4$Detect Thoughts
+wizard$2$3$Detect Thoughts
+cleric$1$1$Detect Undead
+paladin$1$4$Detect Undead
+sorcerer$1$1$Detect Undead
+wizard$1$1$Detect Undead
+cleric$7$13$Dictum
+bard$4$10$Dimension Door
+sorcerer$4$8$Dimension Door
+wizard$4$7$Dimension Door
+cleric$4$7$Dimensional Anchor
+sorcerer$4$8$Dimensional Anchor
+wizard$4$7$Dimensional Anchor
+cleric$8$15$Dimensional Lock
+sorcerer$8$16$Dimensional Lock
+wizard$8$15$Dimensional Lock
+druid$3$5$Diminish Plants
+ranger$3$11$Diminish Plants
+cleric$4$7$Discern Lies
+paladin$3$11$Discern Lies
+cleric$8$15$Discern Location
+sorcerer$8$16$Discern Location
+wizard$8$15$Discern Location
+bard$1$2$Disguise Self
+sorcerer$1$1$Disguise Self
+wizard$1$1$Disguise Self
+sorcerer$6$12$Disintegrate
+wizard$6$11$Disintegrate
+cleric$4$7$Dismissal
+sorcerer$5$10$Dismissal
+wizard$5$9$Dismissal
+cleric$5$9$Dispel Chaos
+paladin$4$14$Dispel Chaos
+cleric$5$9$Dispel Evil
+paladin$4$14$Dispel Evil
+cleric$5$9$Dispel Good
+cleric$5$9$Dispel Law
+bard$3$7$Dispel Magic
+cleric$3$5$Dispel Magic
+druid$4$7$Dispel Magic
+paladin$3$11$Dispel Magic
+sorcerer$3$6$Dispel Magic
+wizard$3$5$Dispel Magic
+bard$5$13$Dispel Magic, Greater
+cleric$6$11$Dispel Magic, Greater
+druid$6$11$Dispel Magic, Greater
+sorcerer$6$12$Dispel Magic, Greater
+wizard$6$11$Dispel Magic, Greater
+bard$3$7$Displacement
+sorcerer$3$6$Displacement
+wizard$3$5$Displacement
+sorcerer$0$1$Disrupt Undead
+wizard$0$1$Disrupt Undead
+cleric$5$9$Disrupting Weapon
+cleric$4$7$Divination
+cleric$1$1$Divine Favor
+paladin$1$4$Divine Favor
+cleric$4$7$Divine Power
+druid$3$5$Dominate Animal
+sorcerer$9$18$Dominate Monster
+wizard$9$17$Dominate Monster
+bard$4$10$Dominate Person
+sorcerer$5$10$Dominate Person
+wizard$5$9$Dominate Person
+cleric$1$1$Doom
+bard$5$13$Dream
+sorcerer$5$10$Dream
+wizard$5$9$Dream
+bard$2$4$Eagles Splendor
+cleric$2$3$Eagles Splendor
+paladin$2$8$Eagles Splendor
+sorcerer$2$4$Eagles Splendor
+wizard$2$3$Eagles Splendor
+bard$6$16$Eagles Splendor, Mass
+cleric$6$11$Eagles Splendor, Mass
+sorcerer$6$12$Eagles Splendor, Mass
+wizard$6$11$Eagles Splendor, Mass
+cleric$8$15$Earthquake
+druid$8$15$Earthquake
+druid$9$17$Elemental Swarm
+cleric$1$1$Endure Elements
+druid$1$1$Endure Elements
+paladin$1$4$Endure Elements
+ranger$1$4$Endure Elements
+sorcerer$1$1$Endure Elements
+wizard$1$1$Endure Elements
+cleric$9$17$Energy Drain
+sorcerer$9$18$Energy Drain
+wizard$9$17$Energy Drain
+sorcerer$4$8$Enervation
+wizard$4$7$Enervation
+sorcerer$1$1$Enlarge Person
+wizard$1$1$Enlarge Person
+sorcerer$4$8$Enlarge Person, Mass
+wizard$4$7$Enlarge Person, Mass
+druid$1$1$Entangle
+ranger$1$4$Entangle
+bard$2$4$Enthrall
+cleric$2$3$Enthrall
+cleric$1$1$Entropic Shield
+bard$1$2$Erase
+sorcerer$1$1$Erase
+wizard$1$1$Erase
+cleric$7$13$Ethereal Jaunt
+sorcerer$7$14$Ethereal Jaunt
+wizard$7$13$Ethereal Jaunt
+cleric$9$17$Etherealness
+sorcerer$9$18$Etherealness
+wizard$9$17$Etherealness
+bard$1$2$Expeditious Retreat
+sorcerer$1$1$Expeditious Retreat
+wizard$1$1$Expeditious Retreat
+sorcerer$3$6$Explosive Runes
+wizard$3$5$Explosive Runes
+bard$6$16$Eyebite
+sorcerer$6$12$Eyebite
+wizard$6$11$Eyebite
+sorcerer$5$10$Fabricate
+wizard$5$9$Fabricate
+druid$1$1$Faerie Fire
+sorcerer$2$4$False Life
+wizard$2$3$False Life
+bard$5$13$False Vision
+sorcerer$5$10$False Vision
+wizard$5$9$False Vision
+bard$3$7$Fear
+sorcerer$4$8$Fear
+wizard$4$7$Fear
+bard$1$2$Feather Fall
+sorcerer$1$1$Feather Fall
+wizard$1$1$Feather Fall
+sorcerer$5$10$Feeblemind
+wizard$5$9$Feeblemind
+bard$6$16$Find the Path
+cleric$6$11$Find the Path
+druid$6$11$Find the Path
+cleric$2$3$Find Traps
+druid$8$15$Finger of Death
+sorcerer$7$14$Finger of Death
+wizard$7$13$Finger of Death
+druid$6$11$Fire Seeds
+sorcerer$4$8$Fire Shield
+wizard$4$7$Fire Shield
+cleric$8$15$Fire Storm
+druid$7$13$Fire Storm
+druid$2$3$Fire Trap
+sorcerer$4$8$Fire Trap
+wizard$4$7$Fire Trap
+sorcerer$3$6$Fireball
+wizard$3$5$Fireball
+sorcerer$3$6$Flame Arrow
+wizard$3$5$Flame Arrow
+druid$2$3$Flame Blade
+cleric$5$9$Flame Strike
+druid$4$7$Flame Strike
+druid$2$3$Flaming Sphere
+sorcerer$2$4$Flaming Sphere
+wizard$2$3$Flaming Sphere
+bard$0$1$Flare
+druid$0$1$Flare
+sorcerer$0$1$Flare
+wizard$0$1$Flare
+sorcerer$6$12$Flesh to Stone
+wizard$6$11$Flesh to Stone
+sorcerer$3$6$Fly
+wizard$3$5$Fly
+sorcerer$1$1$Floating Disk
+wizard$1$1$Floating Disk
+druid$2$3$Fog Cloud
+sorcerer$2$4$Fog Cloud
+wizard$2$3$Fog Cloud
+cleric$6$11$Forbiddance
+sorcerer$7$14$Forcecage
+wizard$7$13$Forcecage
+sorcerer$6$12$Forceful Hand
+wizard$6$11$Forceful Hand
+druid$9$17$Foresight
+sorcerer$9$18$Foresight
+wizard$9$17$Foresight
+bard$2$4$Foxs Cunning
+sorcerer$2$4$Foxs Cunning
+wizard$2$3$Foxs Cunning
+bard$6$16$Foxs Cunning, Mass
+sorcerer$6$12$Foxs Cunning, Mass
+wizard$6$11$Foxs Cunning, Mass
+sorcerer$9$18$Freedom
+wizard$9$17$Freedom
+bard$4$10$Freedom of Movement
+cleric$4$7$Freedom of Movement
+druid$4$7$Freedom of Movement
+ranger$4$14$Freedom of Movement
+sorcerer$6$12$Freezing Sphere
+wizard$6$11$Freezing Sphere
+bard$3$7$Gaseous Form
+sorcerer$3$6$Gaseous Form
+wizard$3$5$Gaseous Form
+cleric$9$17$Gate
+sorcerer$9$18$Gate
+wizard$9$17$Gate
+bard$6$16$Geas/Quest
+cleric$6$11$Geas/Quest
+sorcerer$6$12$Geas/Quest
+wizard$6$11$Geas/Quest
+bard$3$7$Geas, Lesser
+sorcerer$4$8$Geas, Lesser
+wizard$4$7$Geas, Lesser
+cleric$2$3$Gentle Repose
+sorcerer$3$6$Gentle Repose
+wizard$3$5$Gentle Repose
+bard$0$1$Ghost Sound
+sorcerer$0$1$Ghost Sound
+wizard$0$1$Ghost Sound
+sorcerer$2$4$Ghoul Touch
+wizard$2$3$Ghoul Touch
+cleric$4$7$Giant Vermin
+druid$4$7$Giant Vermin
+bard$3$7$Glibness
+bard$2$4$Glitterdust
+sorcerer$2$4$Glitterdust
+wizard$2$3$Glitterdust
+sorcerer$6$12$Globe of Invulnerability
+wizard$6$11$Globe of Invulnerability
+sorcerer$4$8$Globe of Invulnerability, Lesser
+wizard$4$7$Globe of Invulnerability, Lesser
+cleric$3$5$Glyph of Warding
+cleric$6$11$Glyph of Warding, Greater
+druid$1$1$Goodberry
+bard$3$7$Good Hope
+sorcerer$7$14$Grasping Hand
+wizard$7$13$Grasping Hand
+bard$1$2$Grease
+sorcerer$1$1$Grease
+wizard$1$1$Grease
+sorcerer$6$12$Guards and Wards
+wizard$6$11$Guards and Wards
+cleric$0$1$Guidance
+druid$0$1$Guidance
+druid$2$3$Gust of Wind
+sorcerer$2$4$Gust of Wind
+wizard$2$3$Gust of Wind
+cleric$5$9$Hallow
+druid$5$9$Hallow
+bard$4$10$Hallucinatory Terrain
+sorcerer$4$8$Hallucinatory Terrain
+wizard$4$7$Hallucinatory Terrain
+sorcerer$3$6$Halt Undead
+wizard$3$5$Halt Undead
+cleric$6$11$Harm
+bard$3$7$Haste
+sorcerer$3$6$Haste
+wizard$3$5$Haste
+cleric$6$11$Heal
+druid$7$13$Heal
+cleric$9$17$Heal, Mass
+paladin$3$11$Heal Mount
+druid$2$3$Heat Metal
+cleric$3$5$Helping Hand
+bard$6$16$Heroes Feast
+cleric$6$11$Heroes Feast
+bard$2$4$Heroism
+sorcerer$3$6$Heroism
+wizard$3$5$Heroism
+bard$5$13$Heroism, Greater
+sorcerer$6$12$Heroism, Greater
+wizard$6$11$Heroism, Greater
+druid$1$1$Hide from Animals
+ranger$1$4$Hide from Animals
+cleric$1$1$Hide from Undead
+bard$1$2$Hideous Laughter
+sorcerer$2$4$Hideous Laughter
+wizard$2$3$Hideous Laughter
+druid$2$3$Hold Animal
+ranger$2$8$Hold Animal
+bard$4$10$Hold Monster
+sorcerer$5$10$Hold Monster
+wizard$5$9$Hold Monster
+sorcerer$9$18$Hold Monster, Mass
+wizard$9$17$Hold Monster, Mass
+bard$2$4$Hold Person
+cleric$2$3$Hold Person
+sorcerer$3$6$Hold Person
+wizard$3$5$Hold Person
+sorcerer$7$14$Hold Person, Mass
+wizard$7$13$Hold Person, Mass
+sorcerer$1$1$Hold Portal
+wizard$1$1$Hold Portal
+cleric$8$15$Holy Aura
+paladin$4$14$Holy Sword
+cleric$7$13$Holy Word
+sorcerer$8$16$Horrid Wilting
+wizard$8$15$Horrid Wilting
+bard$2$4$Hypnotic Pattern
+sorcerer$2$4$Hypnotic Pattern
+wizard$2$3$Hypnotic Pattern
+bard$1$2$Hypnotism
+sorcerer$1$1$Hypnotism
+wizard$1$1$Hypnotism
+druid$4$7$Ice Storm
+sorcerer$4$8$Ice Storm
+wizard$4$7$Ice Storm
+bard$1$2$Identify
+sorcerer$1$1$Identify
+wizard$1$1$Identify
+bard$3$7$Illusory Script
+sorcerer$3$6$Illusory Script
+wizard$3$5$Illusory Script
+sorcerer$4$8$Illusory Wall
+wizard$4$7$Illusory Wall
+cleric$4$7$Imbue with Spell Ability
+cleric$9$17$Implosion
+sorcerer$9$18$Imprisonment
+wizard$9$17$Imprisonment
+sorcerer$8$16$Incendiary Cloud
+wizard$8$15$Incendiary Cloud
+cleric$4$7$Inflict Critical Wounds
+cleric$8$15$Inflict Critical Wounds, Mass
+cleric$1$1$Inflict Light Wounds
+cleric$5$9$Inflict Light Wounds, Mass
+cleric$0$1$Inflict Minor Wounds
+cleric$2$3$Inflict Moderate Wounds
+cleric$6$11$Inflict Moderate Wounds, Mass
+cleric$3$5$Inflict Serious Wounds
+cleric$7$13$Inflict Serious Wounds, Mass
+sorcerer$7$14$Insanity
+wizard$7$13$Insanity
+cleric$5$9$Insect Plague
+druid$5$9$Insect Plague
+sorcerer$7$14$Instant Summons
+wizard$7$13$Instant Summons
+sorcerer$5$10$Interposing Hand
+wizard$5$9$Interposing Hand
+bard$2$4$Invisibility
+sorcerer$2$4$Invisibility
+wizard$2$3$Invisibility
+bard$4$10$Invisibility, Greater
+sorcerer$4$8$Invisibility, Greater
+wizard$4$7$Invisibility, Greater
+sorcerer$7$14$Invisibility, Mass
+wizard$7$13$Invisibility, Mass
+cleric$3$5$Invisibility Purge
+bard$3$7$Invisibility Sphere
+sorcerer$3$6$Invisibility Sphere
+wizard$3$5$Invisibility Sphere
+sorcerer$8$16$Iron Body
+wizard$8$15$Iron Body
+druid$6$11$Ironwood
+bard$6$16$Irresistible Dance
+sorcerer$8$16$Irresistible Dance
+wizard$8$15$Irresistible Dance
+druid$1$1$Jump
+ranger$1$4$Jump
+sorcerer$1$1$Jump
+wizard$1$1$Jump
+sorcerer$3$6$Keen Edge
+wizard$3$5$Keen Edge
+sorcerer$2$4$Knock
+wizard$2$3$Knock
+bard$0$1$Know Direction
+druid$0$1$Know Direction
+bard$4$10$Legend Lore
+sorcerer$6$12$Legend Lore
+wizard$6$11$Legend Lore
+sorcerer$2$4$Levitate
+wizard$2$3$Levitate
+bard$0$1$Light
+cleric$0$1$Light
+druid$0$1$Light
+sorcerer$0$1$Light
+wizard$0$1$Light
+sorcerer$3$6$Lightning Bolt
+wizard$3$5$Lightning Bolt
+sorcerer$7$14$Limited Wish
+wizard$7$13$Limited Wish
+druid$6$11$Liveoak
+bard$4$10$Locate Creature
+sorcerer$4$8$Locate Creature
+wizard$4$7$Locate Creature
+bard$2$4$Locate Object
+cleric$3$5$Locate Object
+sorcerer$2$4$Locate Object
+wizard$2$3$Locate Object
+druid$1$1$Longstrider
+ranger$1$4$Longstrider
+bard$0$1$Lullaby
+sorcerer$1$1$Mage Armor
+wizard$1$1$Mage Armor
+bard$0$1$Mage Hand
+sorcerer$0$1$Mage Hand
+wizard$0$1$Mage Hand
+sorcerer$9$18$Mages Disjunction
+wizard$9$17$Mages Disjunction
+sorcerer$5$10$Mages Faithful Hound
+wizard$5$9$Mages Faithful Hound
+sorcerer$7$14$Mages Magnificent Mansion
+wizard$7$13$Mages Magnificent Mansion
+sorcerer$5$10$Mages Private Sanctum
+wizard$5$9$Mages Private Sanctum
+sorcerer$7$14$Mages Sword
+wizard$7$13$Mages Sword
+bard$1$2$Magic Aura
+sorcerer$1$1$Magic Aura
+wizard$1$1$Magic Aura
+cleric$3$5$Magic Circle against Chaos
+paladin$3$11$Magic Circle against Chaos
+sorcerer$3$6$Magic Circle against Chaos
+wizard$3$5$Magic Circle against Chaos
+cleric$3$5$Magic Circle against Evil
+paladin$3$11$Magic Circle against Evil
+sorcerer$3$6$Magic Circle against Evil
+wizard$3$5$Magic Circle against Evil
+cleric$3$5$Magic Circle against Good
+sorcerer$3$6$Magic Circle against Good
+wizard$3$5$Magic Circle against Good
+cleric$3$5$Magic Circle against Law
+sorcerer$3$6$Magic Circle against Law
+wizard$3$5$Magic Circle against Law
+druid$1$1$Magic Fang
+ranger$1$4$Magic Fang
+druid$3$5$Magic Fang, Greater
+ranger$3$11$Magic Fang, Greater
+sorcerer$5$10$Magic Jar
+wizard$5$9$Magic Jar
+sorcerer$1$1$Magic Missile
+wizard$1$1$Magic Missile
+bard$1$2$Magic Mouth
+sorcerer$2$4$Magic Mouth
+wizard$2$3$Magic Mouth
+cleric$1$1$Magic Stone
+druid$1$1$Magic Stone
+cleric$3$5$Magic Vestment
+cleric$1$1$Magic Weapon
+paladin$1$4$Magic Weapon
+sorcerer$1$1$Magic Weapon
+wizard$1$1$Magic Weapon
+cleric$4$7$Magic Weapon, Greater
+paladin$3$11$Magic Weapon, Greater
+sorcerer$3$6$Magic Weapon, Greater
+wizard$3$5$Magic Weapon, Greater
+sorcerer$5$10$Major Creation
+wizard$5$9$Major Creation
+bard$3$7$Major Image
+sorcerer$3$6$Major Image
+wizard$3$5$Major Image
+cleric$2$3$Make Whole
+cleric$5$9$Mark of Justice
+paladin$4$14$Mark of Justice
+sorcerer$8$16$Maze
+wizard$8$15$Maze
+cleric$3$5$Meld into Stone
+druid$3$5$Meld into Stone
+bard$0$1$Mending
+cleric$0$1$Mending
+druid$0$1$Mending
+sorcerer$0$1$Mending
+wizard$0$1$Mending
+bard$0$1$Message
+sorcerer$0$1$Message
+wizard$0$1$Message
+sorcerer$9$18$Meteor Swarm
+wizard$9$17$Meteor Swarm
+sorcerer$8$16$Mind Blank
+wizard$8$15$Mind Blank
+bard$5$13$Mind Fog
+sorcerer$5$10$Mind Fog
+wizard$5$9$Mind Fog
+sorcerer$4$8$Minor Creation
+wizard$4$7$Minor Creation
+bard$2$4$Minor Image
+sorcerer$2$4$Minor Image
+wizard$2$3$Minor Image
+cleric$9$17$Miracle
+bard$5$13$Mirage Arcana
+sorcerer$5$10$Mirage Arcana
+wizard$5$9$Mirage Arcana
+bard$2$4$Mirror Image
+sorcerer$2$4$Mirror Image
+wizard$2$3$Mirror Image
+bard$2$4$Misdirection
+sorcerer$2$4$Misdirection
+wizard$2$3$Misdirection
+bard$5$13$Mislead
+sorcerer$6$12$Mislead
+wizard$6$11$Mislead
+bard$4$10$Modify Memory
+sorcerer$8$16$Moment of Prescience
+wizard$8$15$Moment of Prescience
+sorcerer$1$1$Mount
+wizard$1$1$Mount
+druid$6$11$Move Earth
+sorcerer$6$12$Move Earth
+wizard$6$11$Move Earth
+bard$4$10$Neutralize Poison
+cleric$4$7$Neutralize Poison
+druid$3$5$Neutralize Poison
+paladin$4$14$Neutralize Poison
+ranger$3$11$Neutralize Poison
+bard$5$13$Nightmare
+sorcerer$5$10$Nightmare
+wizard$5$9$Nightmare
+ranger$4$14$Nondetection
+sorcerer$3$6$Nondetection
+wizard$3$5$Nondetection
+bard$1$2$Obscure Object
+cleric$3$5$Obscure Object
+sorcerer$2$4$Obscure Object
+wizard$2$3$Obscure Object
+cleric$1$1$Obscuring Mist
+druid$1$1$Obscuring Mist
+sorcerer$1$1$Obscuring Mist
+wizard$1$1$Obscuring Mist
+bard$0$1$Open/Close
+sorcerer$0$1$Open/Close
+wizard$0$1$Open/Close
+sorcerer$5$10$Overland Flight
+wizard$5$9$Overland Flight
+cleric$2$3$Owls Wisdom
+druid$2$3$Owls Wisdom
+paladin$2$8$Owls Wisdom
+ranger$2$8$Owls Wisdom
+sorcerer$2$4$Owls Wisdom
+wizard$2$3$Owls Wisdom
+cleric$6$11$Owls Wisdom, Mass
+druid$6$11$Owls Wisdom, Mass
+sorcerer$6$12$Owls Wisdom, Mass
+wizard$6$11$Owls Wisdom, Mass
+sorcerer$5$10$Passwall
+wizard$5$9$Passwall
+druid$1$1$Pass without Trace
+ranger$1$4$Pass without Trace
+sorcerer$5$10$Permanency
+wizard$5$9$Permanency
+bard$6$16$Permanent Image
+sorcerer$6$12$Permanent Image
+wizard$6$11$Permanent Image
+bard$5$13$Persistent Image
+sorcerer$5$10$Persistent Image
+wizard$5$9$Persistent Image
+sorcerer$4$8$Phantasmal Killer
+wizard$4$7$Phantasmal Killer
+bard$3$7$Phantom Steed
+sorcerer$3$6$Phantom Steed
+wizard$3$5$Phantom Steed
+sorcerer$2$4$Phantom Trap
+wizard$2$3$Phantom Trap
+sorcerer$7$14$Phase Door
+wizard$7$13$Phase Door
+cleric$6$11$Planar Ally
+cleric$8$15$Planar Ally, Greater
+cleric$4$7$Planar Ally, Lesser
+sorcerer$6$12$Planar Binding
+wizard$6$11$Planar Binding
+sorcerer$8$16$Planar Binding, Greater
+wizard$8$15$Planar Binding, Greater
+sorcerer$5$10$Planar Binding, Lesser
+wizard$5$9$Planar Binding, Lesser
+cleric$5$9$Plane Shift
+sorcerer$7$14$Plane Shift
+wizard$7$13$Plane Shift
+druid$3$5$Plant Growth
+ranger$3$11$Plant Growth
+cleric$4$7$Poison
+druid$3$5$Poison
+sorcerer$8$16$Polar Ray
+wizard$8$15$Polar Ray
+sorcerer$4$8$Polymorph
+wizard$4$7$Polymorph
+sorcerer$8$16$Polymorph Any Object
+wizard$8$15$Polymorph Any Object
+sorcerer$7$14$Power Word Blind
+wizard$7$13$Power Word Blind
+sorcerer$9$18$Power Word Kill
+wizard$9$17$Power Word Kill
+sorcerer$8$16$Power Word Stun
+wizard$8$15$Power Word Stun
+cleric$3$5$Prayer
+paladin$3$11$Prayer
+bard$0$1$Prestidigitation
+sorcerer$0$1$Prestidigitation
+wizard$0$1$Prestidigitation
+sorcerer$9$18$Prismatic Sphere
+wizard$9$17$Prismatic Sphere
+sorcerer$7$14$Prismatic Spray
+wizard$7$13$Prismatic Spray
+sorcerer$8$16$Prismatic Wall
+wizard$8$15$Prismatic Wall
+druid$1$1$Produce Flame
+bard$6$16$Programmed Image
+sorcerer$6$12$Programmed Image
+wizard$6$11$Programmed Image
+bard$6$16$Project Image
+sorcerer$7$14$Project Image
+wizard$7$13$Project Image
+sorcerer$2$4$Protection from Arrows
+wizard$2$3$Protection from Arrows
+cleric$1$1$Protection from Chaos
+paladin$1$4$Protection from Chaos
+sorcerer$1$1$Protection from Chaos
+wizard$1$1$Protection from Chaos
+cleric$3$5$Protection from Energy
+druid$3$5$Protection from Energy
+ranger$2$8$Protection from Energy
+sorcerer$3$6$Protection from Energy
+wizard$3$5$Protection from Energy
+cleric$1$1$Protection from Evil
+paladin$1$4$Protection from Evil
+sorcerer$1$1$Protection from Evil
+wizard$1$1$Protection from Evil
+cleric$1$1$Protection from Good
+sorcerer$1$1$Protection from Good
+wizard$1$1$Protection from Good
+cleric$1$1$Protection from Law
+sorcerer$1$1$Protection from Law
+wizard$1$1$Protection from Law
+sorcerer$8$16$Protection from Spells
+wizard$8$15$Protection from Spells
+sorcerer$5$10$Prying Eyes
+wizard$5$9$Prying Eyes
+sorcerer$8$16$Prying Eyes, Greater
+wizard$8$15$Prying Eyes, Greater
+cleric$0$1$Purify Food and Drink
+druid$0$1$Purify Food and Drink
+bard$2$4$Pyrotechnics
+sorcerer$2$4$Pyrotechnics
+wizard$2$3$Pyrotechnics
+druid$3$5$Quench
+bard$2$4$Rage
+sorcerer$3$6$Rage
+wizard$3$5$Rage
+bard$4$10$Rainbow Pattern
+sorcerer$4$8$Rainbow Pattern
+wizard$4$7$Rainbow Pattern
+cleric$5$9$Raise Dead
+sorcerer$1$1$Ray of Enfeeblement
+wizard$1$1$Ray of Enfeeblement
+sorcerer$3$6$Ray of Exhaustion
+wizard$3$5$Ray of Exhaustion
+sorcerer$0$1$Ray of Frost
+wizard$0$1$Ray of Frost
+bard$0$1$Read Magic
+cleric$0$1$Read Magic
+druid$0$1$Read Magic
+paladin$1$4$Read Magic
+ranger$1$4$Read Magic
+sorcerer$0$1$Read Magic
+wizard$0$1$Read Magic
+druid$2$3$Reduce Animal
+ranger$3$11$Reduce Animal
+sorcerer$1$1$Reduce Person
+wizard$1$1$Reduce Person
+sorcerer$4$8$Reduce Person, Mass
+wizard$4$7$Reduce Person, Mass
+cleric$7$13$Refuge
+sorcerer$9$18$Refuge
+wizard$9$17$Refuge
+cleric$7$13$Regenerate
+druid$9$17$Regenerate
+druid$4$7$Reincarnate
+cleric$3$5$Remove Blindness/Deafness
+paladin$3$11$Remove Blindness/Deafness
+bard$3$7$Remove Curse
+cleric$3$5$Remove Curse
+paladin$3$11$Remove Curse
+sorcerer$4$8$Remove Curse
+wizard$4$7$Remove Curse
+cleric$3$5$Remove Disease
+druid$3$5$Remove Disease
+ranger$3$11$Remove Disease
+bard$1$2$Remove Fear
+cleric$1$1$Remove Fear
+cleric$2$3$Remove Paralysis
+paladin$2$8$Remove Paralysis
+druid$8$15$Repel Metal or Stone
+bard$4$10$Repel Vermin
+cleric$4$7$Repel Vermin
+druid$4$7$Repel Vermin
+ranger$3$11$Repel Vermin
+druid$6$11$Repel Wood
+cleric$7$13$Repulsion
+sorcerer$6$12$Repulsion
+wizard$6$11$Repulsion
+sorcerer$4$8$Resilient Sphere
+wizard$4$7$Resilient Sphere
+bard$0$1$Resistance
+cleric$0$1$Resistance
+druid$0$1$Resistance
+paladin$1$4$Resistance
+sorcerer$0$1$Resistance
+wizard$0$1$Resistance
+cleric$2$3$Resist Energy
+druid$2$3$Resist Energy
+paladin$2$8$Resist Energy
+ranger$1$4$Resist Energy
+sorcerer$2$4$Resist Energy
+wizard$2$3$Resist Energy
+cleric$4$7$Restoration
+paladin$4$14$Restoration
+cleric$7$13$Restoration, Greater
+cleric$2$3$Restoration, Lesser
+druid$2$3$Restoration, Lesser
+paladin$1$4$Restoration, Lesser
+cleric$7$13$Resurrection
+druid$8$15$Reverse Gravity
+sorcerer$7$14$Reverse Gravity
+wizard$7$13$Reverse Gravity
+cleric$5$9$Righteous Might
+sorcerer$2$4$Rope Trick
+wizard$2$3$Rope Trick
+druid$4$7$Rusting Grasp
+cleric$1$1$Sanctuary
+bard$2$4$Scare
+sorcerer$2$4$Scare
+wizard$2$3$Scare
+sorcerer$8$16$Scintillating Pattern
+wizard$8$15$Scintillating Pattern
+sorcerer$2$4$Scorching Ray
+wizard$2$3$Scorching Ray
+sorcerer$8$16$Screen
+wizard$8$15$Screen
+bard$3$7$Scrying
+cleric$5$9$Scrying
+druid$4$7$Scrying
+sorcerer$4$8$Scrying
+wizard$4$7$Scrying
+bard$6$16$Scrying, Greater
+cleric$7$13$Scrying, Greater
+druid$7$13$Scrying, Greater
+sorcerer$7$14$Scrying, Greater
+wizard$7$13$Scrying, Greater
+bard$3$7$Sculpt Sound
+cleric$3$5$Searing Light
+sorcerer$5$10$Secret Chest
+wizard$5$9$Secret Chest
+bard$3$7$Secret Page
+sorcerer$3$6$Secret Page
+wizard$3$5$Secret Page
+bard$4$10$Secure Shelter
+sorcerer$4$8$Secure Shelter
+wizard$4$7$Secure Shelter
+bard$3$7$See Invisibility
+sorcerer$2$4$See Invisibility
+wizard$2$3$See Invisibility
+bard$5$13$Seeming
+sorcerer$5$10$Seeming
+wizard$5$9$Seeming
+cleric$4$7$Sending
+sorcerer$5$10$Sending
+wizard$5$9$Sending
+bard$3$7$Sepia Snake Sigil
+sorcerer$3$6$Sepia Snake Sigil
+wizard$3$5$Sepia Snake Sigil
+sorcerer$7$14$Sequester
+wizard$7$13$Sequester
+sorcerer$9$18$Shades
+wizard$9$17$Shades
+bard$4$10$Shadow Conjuration
+sorcerer$4$8$Shadow Conjuration
+wizard$4$7$Shadow Conjuration
+sorcerer$7$14$Shadow Conjuration, Greater
+wizard$7$13$Shadow Conjuration, Greater
+bard$5$13$Shadow Evocation
+sorcerer$5$10$Shadow Evocation
+wizard$5$9$Shadow Evocation
+sorcerer$8$16$Shadow Evocation, Greater
+wizard$8$15$Shadow Evocation, Greater
+bard$5$13$Shadow Walk
+sorcerer$6$12$Shadow Walk
+wizard$6$11$Shadow Walk
+druid$9$17$Shambler
+druid$9$17$Shapechange
+sorcerer$9$18$Shapechange
+wizard$9$17$Shapechange
+bard$2$4$Shatter
+cleric$2$3$Shatter
+sorcerer$2$4$Shatter
+wizard$2$3$Shatter
+sorcerer$1$1$Shield
+wizard$1$1$Shield
+cleric$1$1$Shield of Faith
+cleric$8$15$Shield of Law
+cleric$2$3$Shield Other
+paladin$2$8$Shield Other
+druid$1$1$Shillelagh
+sorcerer$1$1$Shocking Grasp
+wizard$1$1$Shocking Grasp
+bard$4$10$Shout
+sorcerer$4$8$Shout
+wizard$4$7$Shout
+bard$6$16$Shout, Greater
+sorcerer$8$16$Shout, Greater
+wizard$8$15$Shout, Greater
+sorcerer$3$6$Shrink Item
+wizard$3$5$Shrink Item
+bard$2$4$Silence
+cleric$2$3$Silence
+bard$1$2$Silent Image
+sorcerer$1$1$Silent Image
+wizard$1$1$Silent Image
+sorcerer$7$14$Simulacrum
+wizard$7$13$Simulacrum
+cleric$5$9$Slay Living
+bard$1$2$Sleep
+sorcerer$1$1$Sleep
+wizard$1$1$Sleep
+druid$3$5$Sleet Storm
+sorcerer$3$6$Sleet Storm
+wizard$3$5$Sleet Storm
+bard$3$7$Slow
+sorcerer$3$6$Slow
+wizard$3$5$Slow
+ranger$2$8$Snare
+druid$3$5$Snare
+druid$2$3$Soften Earth and Stone
+sorcerer$4$8$Solid Fog
+wizard$4$7$Solid Fog
+bard$5$13$Song of Discord
+cleric$9$17$Soul Bind
+sorcerer$9$18$Soul Bind
+wizard$9$17$Soul Bind
+bard$2$4$Sound Burst
+cleric$2$3$Sound Burst
+bard$3$7$Speak with Animals
+druid$1$1$Speak with Animals
+ranger$1$4$Speak with Animals
+cleric$3$5$Speak with Dead
+bard$4$10$Speak with Plants
+druid$3$5$Speak with Plants
+ranger$2$8$Speak with Plants
+sorcerer$2$4$Spectral Hand
+wizard$2$3$Spectral Hand
+cleric$4$7$Spell Immunity
+cleric$8$15$Spell Immunity, Greater
+cleric$5$9$Spell Resistance
+druid$6$11$Spellstaff
+sorcerer$7$14$Spell Turning
+wizard$7$13$Spell Turning
+druid$2$3$Spider Climb
+sorcerer$2$4$Spider Climb
+wizard$2$3$Spider Climb
+druid$3$5$Spike Growth
+ranger$2$8$Spike Growth
+druid$4$7$Spike Stones
+cleric$2$3$Spiritual Weapon
+sorcerer$7$14$Statue
+wizard$7$13$Statue
+cleric$2$3$Status
+sorcerer$3$6$Stinking Cloud
+wizard$3$5$Stinking Cloud
+cleric$3$5$Stone Shape
+druid$3$5$Stone Shape
+sorcerer$4$8$Stone Shape
+wizard$4$7$Stone Shape
+druid$5$9$Stoneskin
+sorcerer$4$8$Stoneskin
+wizard$4$7$Stoneskin
+druid$6$11$Stone Tell
+sorcerer$6$12$Stone to Flesh
+wizard$6$11$Stone to Flesh
+druid$9$17$Storm of Vengeance
+cleric$9$17$Storm of Vengeance
+bard$2$4$Suggestion
+sorcerer$3$6$Suggestion
+wizard$3$5$Suggestion
+bard$5$13$Suggestion, Mass
+sorcerer$6$12$Suggestion, Mass
+wizard$6$11$Suggestion, Mass
+bard$0$1$Summon Instrument
+bard$1$2$Summon Monster I
+cleric$1$1$Summon Monster I
+sorcerer$1$1$Summon Monster I
+wizard$1$1$Summon Monster I
+bard$2$4$Summon Monster II
+cleric$2$3$Summon Monster II
+sorcerer$2$4$Summon Monster II
+wizard$2$3$Summon Monster II
+bard$3$7$Summon Monster III
+cleric$3$5$Summon Monster III
+sorcerer$3$6$Summon Monster III
+wizard$3$5$Summon Monster III
+bard$4$10$Summon Monster IV
+cleric$4$7$Summon Monster IV
+sorcerer$4$8$Summon Monster IV
+wizard$4$7$Summon Monster IV
+bard$5$13$Summon Monster V
+cleric$5$9$Summon Monster V
+sorcerer$5$10$Summon Monster V
+wizard$5$9$Summon Monster V
+bard$6$16$Summon Monster VI
+cleric$6$11$Summon Monster VI
+sorcerer$6$12$Summon Monster VI
+wizard$6$11$Summon Monster VI
+cleric$7$13$Summon Monster VII
+sorcerer$7$14$Summon Monster VII
+wizard$7$13$Summon Monster VII
+cleric$8$15$Summon Monster VIII
+sorcerer$8$16$Summon Monster VIII
+wizard$8$15$Summon Monster VIII
+cleric$9$17$Summon Monster IX
+sorcerer$9$18$Summon Monster IX
+wizard$9$17$Summon Monster IX
+druid$1$1$Summon Natures Ally I
+ranger$1$4$Summon Natures Ally I
+druid$2$3$Summon Natures Ally II
+ranger$2$8$Summon Natures Ally II
+druid$3$5$Summon Natures Ally III
+ranger$3$11$Summon Natures Ally III
+druid$4$7$Summon Natures Ally IV
+ranger$4$14$Summon Natures Ally IV
+druid$5$9$Summon Natures Ally V
+druid$6$11$Summon Natures Ally VI
+druid$7$13$Summon Natures Ally VII
+druid$8$15$Summon Natures Ally VIII
+druid$9$17$Summon Natures Ally IX
+bard$2$4$Summon Swarm
+druid$2$3$Summon Swarm
+sorcerer$2$4$Summon Swarm
+wizard$2$3$Summon Swarm
+druid$7$13$Sunbeam
+druid$8$15$Sunburst
+sorcerer$8$16$Sunburst
+wizard$8$15$Sunburst
+cleric$8$15$Symbol of Death
+sorcerer$8$16$Symbol of Death
+wizard$8$15$Symbol of Death
+cleric$6$11$Symbol of Fear
+sorcerer$6$12$Symbol of Fear
+wizard$6$11$Symbol of Fear
+cleric$8$15$Symbol of Insanity
+sorcerer$8$16$Symbol of Insanity
+wizard$8$15$Symbol of Insanity
+cleric$5$9$Symbol of Pain
+sorcerer$5$10$Symbol of Pain
+wizard$5$9$Symbol of Pain
+cleric$6$11$Symbol of Persuasion
+sorcerer$6$12$Symbol of Persuasion
+wizard$6$11$Symbol of Persuasion
+cleric$5$9$Symbol of Sleep
+sorcerer$5$10$Symbol of Sleep
+wizard$5$9$Symbol of Sleep
+cleric$7$13$Symbol of Stunning
+sorcerer$7$14$Symbol of Stunning
+wizard$7$13$Symbol of Stunning
+cleric$7$13$Symbol of Weakness
+sorcerer$7$14$Symbol of Weakness
+wizard$7$13$Symbol of Weakness
+bard$6$16$Sympathetic Vibration
+druid$9$17$Sympathy
+sorcerer$8$16$Sympathy
+wizard$8$15$Sympathy
+sorcerer$5$10$Telekinesis
+wizard$5$9$Telekinesis
+sorcerer$8$16$Telekinetic Sphere
+wizard$8$15$Telekinetic Sphere
+sorcerer$5$10$Telepathic Bond
+wizard$5$9$Telepathic Bond
+sorcerer$5$10$Teleport
+wizard$5$9$Teleport
+sorcerer$7$14$Teleport Object
+wizard$7$13$Teleport Object
+sorcerer$7$14$Teleport, Greater
+wizard$7$13$Teleport, Greater
+sorcerer$9$18$Teleportation Circle
+wizard$9$17$Teleportation Circle
+sorcerer$8$16$Temporal Stasis
+wizard$8$15$Temporal Stasis
+sorcerer$9$18$Time Stop
+wizard$9$17$Time Stop
+bard$3$7$Tiny Hut
+sorcerer$3$6$Tiny Hut
+wizard$3$5$Tiny Hut
+bard$2$4$Tongues
+cleric$4$7$Tongues
+sorcerer$3$6$Tongues
+wizard$3$5$Tongues
+sorcerer$0$1$Touch of Fatigue
+wizard$0$1$Touch of Fatigue
+sorcerer$2$4$Touch of Idiocy
+wizard$2$3$Touch of Idiocy
+sorcerer$6$12$Transformation
+wizard$6$11$Transformation
+druid$7$13$Transmute Metal to Wood
+druid$5$9$Transmute Mud to Rock
+sorcerer$5$10$Transmute Mud to Rock
+wizard$5$9$Transmute Mud to Rock
+druid$5$9$Transmute Rock to Mud
+sorcerer$5$10$Transmute Rock to Mud
+wizard$5$9$Transmute Rock to Mud
+druid$6$11$Transport via Plants
+sorcerer$8$16$Trap the Soul
+wizard$8$15$Trap the Soul
+druid$2$3$Tree Shape
+ranger$3$11$Tree Shape
+druid$5$9$Tree Stride
+ranger$4$14$Tree Stride
+cleric$9$17$True Resurrection
+cleric$5$9$True Seeing
+druid$7$13$True Seeing
+sorcerer$6$12$True Seeing
+wizard$6$11$True Seeing
+sorcerer$1$1$True Strike
+wizard$1$1$True Strike
+cleric$6$11$Undeath to Death
+sorcerer$6$12$Undeath to Death
+wizard$6$11$Undeath to Death
+bard$1$2$Undetectable Alignment
+cleric$2$3$Undetectable Alignment
+paladin$2$8$Undetectable Alignment
+cleric$5$9$Unhallow
+druid$5$9$Unhallow
+cleric$8$15$Unholy Aura
+bard$1$2$Unseen Servant
+sorcerer$1$1$Unseen Servant
+wizard$1$1$Unseen Servant
+sorcerer$3$6$Vampiric Touch
+wizard$3$5$Vampiric Touch
+bard$6$16$Veil
+sorcerer$6$12$Veil
+wizard$6$11$Veil
+bard$1$2$Ventriloquism
+sorcerer$1$1$Ventriloquism
+wizard$1$1$Ventriloquism
+cleric$0$1$Virtue
+druid$0$1$Virtue
+paladin$1$4$Virtue
+sorcerer$7$14$Vision
+wizard$7$13$Vision
+sorcerer$9$18$Wail of the Banshee
+wizard$9$17$Wail of the Banshee
+druid$5$9$Wall of Fire
+sorcerer$4$8$Wall of Fire
+wizard$4$7$Wall of Fire
+sorcerer$5$10$Wall of Force
+wizard$5$9$Wall of Force
+sorcerer$4$8$Wall of Ice
+wizard$4$7$Wall of Ice
+sorcerer$6$12$Wall of Iron
+wizard$6$11$Wall of Iron
+cleric$5$9$Wall of Stone
+druid$6$11$Wall of Stone
+sorcerer$5$10$Wall of Stone
+wizard$5$9$Wall of Stone
+druid$5$9$Wall of Thorns
+druid$2$3$Warp Wood
+cleric$3$5$Water Breathing
+druid$3$5$Water Breathing
+sorcerer$3$6$Water Breathing
+wizard$3$5$Water Breathing
+cleric$3$5$Water Walk
+ranger$3$11$Water Walk
+sorcerer$7$14$Waves of Exhaustion
+wizard$7$13$Waves of Exhaustion
+sorcerer$5$10$Waves of Fatigue
+wizard$5$9$Waves of Fatigue
+sorcerer$2$4$Web
+wizard$2$3$Web
+sorcerer$9$18$Weird
+wizard$9$17$Weird
+druid$8$15$Whirlwind
+bard$2$4$Whispering Wind
+sorcerer$2$4$Whispering Wind
+wizard$2$3$Whispering Wind
+cleric$6$11$Wind Walk
+druid$7$13$Wind Walk
+cleric$3$5$Wind Wall
+druid$3$5$Wind Wall
+ranger$2$8$Wind Wall
+sorcerer$2$4$6$Wind Wall
+wizard$3$5$Wind Wall
+sorcerer$9$18$Wish
+wizard$9$17$Wish
+druid$2$3$Wood Shape
+cleric$7$13$Word of Chaos
+cleric$6$11$Word of Recall
+druid$8$15$Word of Recall
+bard$4$10$Zone of Silence
+cleric$2$3$Zone of Truth
+paladin$2$8$Zone of Truth

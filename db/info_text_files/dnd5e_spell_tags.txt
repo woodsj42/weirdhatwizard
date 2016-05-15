@@ -1,0 +1,438 @@
+Acid Splash$offense,saving throw,damage,range
+Blade Ward$defense,melee
+Chill Touch$offense,damage,melee
+Dancing Lights$utility,range,concentration
+Druidcraft$utility,range
+Eldritch Blast$offense,range,damage
+Fire Bolt$offense,range,damage
+Friends$utility,concentration
+Guidance$utility,melee,concentration
+Light$utility,saving throw
+Mage Hand$utility,range
+Mending$utility,melee
+Message$utility,range
+Minor Illusion$utility,saving throw,control,range
+Poison Spray$offense,saving throw,range,damage,range
+Prestidigitation$utiltiy,range
+Produce Flame$utility,offense,range,damage,range
+Ray of Frost$offense,range,damage
+Resistance$melee,utility
+Sacred Flame$offense,saving throw,range,damage
+Shillelagh$offense,melee,buff
+Shocking Grasp$melee,offense,damage
+Spare the Dying$utility,healing,melee
+Thaumaturgy$utility,range
+Thorn Whip$range,offense,damage
+True Strike$offense,buff,range
+Vicious Mockery$offense,saving throw,range,damage
+Alarm$utility,range
+Animal Friendship$utility,saving throw,range
+Armor of Agathys$defense,damage
+Arms of Hadar$offense,area of effect,saving throw
+Bane$offense,range,saving throw,concentration
+Bless$defense,range,buff,concentration
+Burning Hands$offense,range,damage,saving throw
+Charm Person$utility,saving throw,range
+Chromatic Orb$range,offense,damage
+Color Spray$area of effect,offense,damage,range
+Command$range,utility,saving throw,range
+Compelled Duel$offense,range,quick,saving throw,range,concentration
+Comprehend Languages$utility
+Create Or Destroy Water$utility,range
+Cure Wounds$melee,defense,healing
+Detect Evil and Good$utility,concentration
+Detect Magic$utility,concentration
+Disguise Self$utility,saving throw
+Guiding Bolt$range,offense,damage
+Dissonant Whispers$saving throw,offense,range
+Divine Favor$offense,damage,quick,buff,concentration
+Ensnaring Strike$offense,range,melee,damage,control,saving throw,quick,concentration
+Entangle$area of effect,control,saving throw,range,concentration
+Expeditious Retreat$mobility,quick,concentration
+Faerie Fire$range,control,buff,concentration
+False Life$healing
+Feather Fall$utility,quick,range
+Find Familiar$utility,range
+Fog Cloud$area of effect,control,range,concentration
+Goodberry$defense,healing
+Grease$area of effect,control,saving throw,range
+Hail of Thorns$area of effect,saving throw,quick,damage,buff,concentration
+Healing Word$healing,defense,range,quick
+Hellish Rebuke$saving throw,range,offense,damage,quick
+Heroism$buff,melee,concentration
+Hex$range,quick,damage,concentration
+Hunter's Mark$range,offense,quick,damage,concentration
+Identify$utility,melee
+Illusory Script$utility
+Inflict Wounds$offense,melee,damage
+Jump$mobility,touch
+Longstrider$buff,melee,mobility
+Mage Armor$buff,defense
+Magic Missile$offense,range,damage
+Protection From Evil and Good$defense,buff,melee,concentration
+Purify Food and Drink$utiltiy,range
+Ray of Sickness$range,offense,saving throw
+Sanctuary$defense,quick,saving throw
+Searing Smite$melee,offense,damage,quick,saving throw,concentration
+Shield$defense,quick
+Shield of Faith$buff,range,defense,quick,concentration
+Silent Image$range,control,utility,saving throw,concentration
+Sleep$offense,range,area of effect,control
+Speak with Animals$utility
+Tasha's Hideous Laughter$range,offense,saving throw,control,concentration
+Tenser's Floating Disk$utility
+Thunderous Smite$offense,melee,damage,quick,saving throw,concentration
+Thunderwave$offense,area of effect,damage,saving throw
+Unseen Servant$utility
+Witch Bolt$offense,range,damage,concentration
+Wrathful Smite$offense,melee,damage,quick,saving throw,concentration
+Aid$buff,range
+Alter Self$utility,damage,concentration
+Dispel Magic$control,range
+Animal Messenger$utility
+Arcane Lock$utility,melee
+Augury$utility
+Barkskin$defense,buff,concentration
+Beast Sense$utility,melee,concentration
+Blindness/Deafness$offense,range,saving throw
+Blur$buff,defense,concentration
+Branding Smite$melee,offense,damage,concentration
+Calm Emotions$saving throw,utility,range,concentration
+Cloud of Daggers$area of effect,offense,damage,concentration
+Aura of Life$buff,area of effect,concentration
+Cordon of Arrows$defense,rage,damage
+Crown of Madness$range,saving throw,offense,concentration
+Darkness$range,utility,concentration
+Darkvision$buff,melee
+Detect Thoughts$range,utility,saving throw,concentration
+Hold Person$range,offense,saving throw,concentration
+Lesser Restoration$healing,melee
+Prayer of Healing$healing,range
+Silence$area of effect,offense,range,concentration
+Spiritual Weapon$melee,offense,summons,damage
+Elemental Weapon$melee,offense,buff,concentration
+Stoneskin$defense,buff,concentration
+Suggestion$saving throw,utility,concentration
+Warding Bond$buff,melee
+Animate Dead$summons,range
+Aura of Vitality$healing,buff,area of effect,concentration
+Beacon of Hope$buff,area of effect,concentration
+Bestow Curse$saving throw,offense,range,concentration
+Blinding Smite$offense,melee,damage,quick,saving throw,concentration
+Fear$saving throw,offense,range,offense,concentration
+Blink$utility,mobility
+Call Lightning$area of effect,range,saving throw,concentration
+Clairvoyance$utility,range,concentration
+Conjure Animals$summons,concentration
+Conjure Barrage$offense,area of effect,saving throw
+Counterspell$defense,range,saving throw,control
+Create Food and Water$utility,range
+Crusader's Mantle$buff,area of effect,offense,concentration
+Daylight$utility,range
+Parry$defense
+Feign Death$healing,utility,melee
+Fireball$offense,area of effect,saving throw,damage
+Fly$mobility,buff,melee,concentration
+Gaseous Form$mobility,buff,melee,concentration
+Haste$buff,mobility,range,concentration
+Hunger of Hadar$area of effect,saving throw,damage,concentration
+Hypnotic Pattern$saving throw,control,range,concentration
+Leomund's Tiny Hut$utility
+Lightning Arrow$offense,range,damage,concentration
+Revivify$healing,melee
+Magic Circle$area of effect,defense,saving throw,range
+Major Image$control,saving throw,range,concentration
+Mass Healing Word$healing,range,quick
+Meld into Stone$utility,mobility
+Nondetection$utiltiy,melee
+Phantom Steed$utility,summons,mobility,range
+Plant Growth$area of effect,utility,range
+Protection From Energy$defense,buff,touch,concentration
+Remove Curse$healing,melee
+Sending$utility,range
+Sleet Storm$area of effect,control,saving throw,range,concentration
+Slow$area of effect,control,saving throw,range,concentration
+Speak with Dead$utility,range
+Speak with Plants$utility,range
+Spirit Guardian$saving throw,offense,summons,damage
+Stinking Cloud$area of effect,offense,controls,saving throw,range,concentration
+Tongues$utility,melee
+Arcane Eye$utility,summons,range,concentration
+Aura of Purity$buff,area of effect,concentration
+Banishment$saving throw,offense,range,concentration
+Blight$offense,saving throw,damage,range
+Compulsion$saving throw,control,range,concentration
+Confusion$area of effect,saving throw,control,range,concentration
+Conjure Minor Elementals$summons,range,concentration
+Conjure Woodland Beings$summons,range,concentration
+Control Water$utility,range,saving throw,damage,concentration
+Death Ward$healing,buff,melee,melee
+Dimension Door$utility,mobility,range
+Conjure Celestial$summons,range,concentration
+Delayed Blast Fireball$offense,area of effect,saving throw,damage,range,concentration
+Divine Word$saving throw,control,area of effect,quick,range
+Mordenkainen's Sword$offense,summons,damage,range,concentration
+Cone of Cold$saving throw,offense,area of effect,damage,range
+Etherealness$utility,mobility
+Finger of Death$offense,saving throw,range,damage,summons
+Fire Storm$area of effect,offense,saving throw,damage,range
+Forcecage$utility,control,saving throw,range
+Mirage Arcane$area of effect,control,range
+Mordenkainen's Magnificent Mansion$utility,range
+Precision Attack$offense,buff
+Plane Shift$utility,mobility,melee
+Prismatic Spray$range,offense,area of effect,damage,control,saving throw
+Project Image$range,control,saving throw,range,concentration
+Regenerate$healing,utility,melee
+Resurrection$healing,melee
+Reverse Gravity$range,utility,saving throw,control,range,concentration
+Sequester$melee,utility,melee
+Simulacrum$melee,utility,melee
+Symbol$utility,saving throw,damage,melee
+Teleport$utility,mobility,melee
+Animal Shapes$utility,range,concentration
+Antimagic Field$area of effect,defense,concentration
+Antipathy/Sympathy$range,utility,saving throw
+Clone$melee,utility,summons,melee
+Control Weather$range,area of effect,concentration
+Demiplane$utility,range
+Dominate Monster$range,control,saving throw,concentration
+Earthquake$area of effect,offense,range,saving throw,concentration
+Feeblemind$range,control,damage,saving throw
+Glibness$utility,buff,
+Holy Aura$area of effect,buff,saving throw,concentration
+Incendiary Cloud$area of effect,offense,saving throw,damage,range,concentration
+Maze$range,saving throw,concentration
+Mind Blank$melee,buff,defense
+Power Word Stun$saving throw,range
+Sunburst$area of effect,range,saving throw,offense,damage
+Telepathy$range,utility
+Tsunami$offense,range,damage,control,saving throw
+Astral Projection$utility,range
+Foresight$utility,buff,melee
+Banishing Smite$offense,melee,quick,damage,concentration
+Gate$range,utility,mobility,concentration
+Imprisonment$range,saving throw,control
+Mass Heal$healing,area of effect,range
+Meteor Swarm$offense,area of effect,range,damage,saving throw
+Power Word Heal$healing,melee
+Power Word Kill$range,offense
+Prismatic Wall$defense,range,saving throw,damage
+Shapechange$utility,concentration
+Storm of Vengeance$area of effect,saving throw,damage,range,concentration
+Time Stop$utility,control
+True Polymorph$utility,saving throw,range,concentration
+True Resurrection$healing,melee
+Weird$offense,saving throw,area of effect,damage,concentration
+Wish$utility,offense,defense,mobility
+Animate Objects$range,summons,concentration
+Anti Life Shell$area of effect,defense,concentration
+Arcane Gate$utility,mobility,concentration
+Awaken$healing,buff,summons,melee
+Bigby's Hand$offense,summons,range,damage,saving throw,concentration
+Blade Barrier$defense,area of effect,damage,saving throw,concentration
+Chain Lightning$offense,area of effect,range,damage,saving throw
+Circle of Power$buff,offense,area of effect,concentration
+Circle of Death$saving throw,area of effect,offense,damage
+Cloudkill$range,area of effect,saving throw,offense,damage,concentration
+Commune$utility
+Commune with Nature$utility
+Riposte$offense,melee,damage
+Conjure Elemental$summons,range,concentration
+Conjure Fey$summons,range,concentration
+Conjure Volley$summons,damage,saving throw,range
+Contact Other Plane$utility
+Contagion$range,control,saving throw
+Contingency$utility,offense,defense
+Continual Flame$utility
+Find Traps$utility,range
+Create Undead$summons,range
+Creation$utiltiy,range
+Destructive Wave$area of effect,offense,saving throw,damage
+Detect Poison and Disease$utility,concentration
+Disintegrate$offense,range,damage,saving throw
+Dispel Evil and Good$range,control,offense,concentration
+Divination$utility,range
+Pushing Attack$offense,damage,saving throw
+Dominate Beast$range,control,saving throw,concentration
+Dominate Person$range,control,saving throw,concentration
+Drawmij's Instant Summons$summons,melee
+Dream$utility,range
+Enhance Ability$utility,buff,touch,concentration
+Rally$area of effect,buff,quick
+Enlarge/Reduce$range,buff,saving throw,concentration
+Enthrall$summons,range,control,saving throw
+Evard's Black Tentacles$area of effect,offense,range,damage,saving throw,concentration
+Eyebite$saving throw,control,range,concentration
+Fabricate$utility,range
+Find Steed$utility,summons,range
+Lightning Bolt$range,offense,damage
+Find the Path$utility,concentration
+Fire Shield$defense,damage,buff
+Flame Blade$melee,offense,damage,concentration
+Flame Strike$range,offense,damage,saving throw
+Flaming Sphere$range,area of effect,summons,damage,saving throw,concentration
+Flesh To Stone$range,saving throw,control,concentration
+Forbiddance$melee,defense,control,damage
+Freedom of Movement$mobility,defense,buff,rnage
+Geas$saving throw,range,control,utility,damage
+Gentle Repose$healing,utility,touch
+Giant Insect$summons,range,concentration
+Globe of Invulnerability$defense,area of effect,concentration
+Glyph of Warding$utility,saving throw,defense,melee
+Grasping Vine$range,summons,saving throw,quick,concentration
+Greater Invisibility$utility,mobility,melee,concentration
+Greater Restoration$healing,melee,melee
+Guardian of Faith$buff,range,defense,damage,saving throw,summons
+Guards and Wards$defense,area of effect,control,melee
+Gust of Wind$saving throw,range,control,utility,saving throw,concentration
+Hallow$melee,utility,buff
+Hallucinatory Terrain$range,area of effect,control,saving throw
+Harm$range,offense,saving throw,damage
+Heal$healing,range
+Heat Metal$offense,range,damage,concentration
+Locate Animals Or Plants$utility,range
+Heroes' Feast$utility,healing,buff,range
+Hold Monster$range,control,saving throw
+Ice Storm$area of effect,saving throw,offense,damage,range,concentration
+Insect Plague$range,saving throw,offense,damage,concentration
+Invisibility$utility,mobility,range,concentration
+Knock$range,utility,range
+Legend Lore$melee,utility
+Leomund's Secret Chest$utility,touch
+Levitate$utility,mobility,range,concentration
+Locate Creature$utility,concentration
+Locate Object$utility,concentration
+Magic Jar$utility,saving throw
+Magic Mouth$utility
+Magic Weapon$offense,buff,weapon,concentration
+Mass Cure Wounds$area of effect,healing,range
+Mass Suggestion$area of effect,control,saving throw,utility,range,concentration
+Pass without Trace$utility,mobility,concentration
+Melf's Acid Arrow$range,offense,damage
+Mirror Image$control
+Mislead$utility,mobility,defense,concentration
+Misty Step$mobility,quick
+Modify Memory$range,control,utility,saving throw,concentration
+Moonbeam$range,offense,saving throw,damage,concentration
+Mordenkainen's Faithful Hound$summons
+Passwall$utility,mobility,range
+Maneuvering Attack$offense,damage
+Mordenkainen's Private Sanctum$utility,range
+Move Earth$utility,range,concentration
+Nystul's Magic Aura$buff,defense,melee,utility
+Otiluke's Freezing Sphere$area of effect,range,saving throw,offense,damage,concentration
+Otiluke's Resilient Sphere$defense,saving throw,range
+Otto's Irresistible Dance$range,control,concentration
+Phantasmal Force$offense,saving throw,range,concentration
+Phantasmal Killer$offense,saving throw,range,damage,concentration
+Planar Ally$summons,range
+Planar Binding$range,summons,saving throw
+Polymorph$control,range,concentration
+Programmed Illusion$utility,range
+Protection From Poison$buff,defense
+Raise Dead$summons,melee
+Rary's Telepathic Bond$utility,range
+Ray of Enfeeblement$offense,range,saving throw,concentration
+Reincarnate$healing,melee
+Rope Trick$utility,melee
+Scorching Ray$range,offense,damage
+Scrying$utility,saving throw,concentration
+See Invisibility$utility
+Seeming$range,saving throw
+Shatter$range,saving throw,damage
+Spider Climb$mobility,melee,concentration
+Spike Growth$area of effect,defense,control,damage,range,concentration
+Spirit Guardians$saving throw,offense,summons,damage,concentration
+Staggering Smite$offense,melee,saving throw,damage,control,quick,concentration
+Stone Shape$utility,melee
+Sunbeam$range,saving throw,damage,concentration
+Swift Quiver$offense,melee,utility,buff,concentration
+Telekinesis$utility,range,saving throw,concentration
+Teleportation Circle$area of effect,utility,mobility,range
+Transport Via Plants$utility,mobility
+Tree Stride$utility,mobility,concentration
+True Seeing$utility
+Vampiric Touch$melee,offense,damage,concentration
+Wall of Fire$defense,range,damage,saving throw,concentration
+Wall of Force$defense,range,damage,concentration
+Wall of Ice$defense,range,damage,saving throw,concentration
+Wall of Stone$defense,range,damage,saving throw,concentration
+Wall of Thorns$defense,range,damage,saving throw,concentration
+Water Breathing$utility
+Water Walk$utility,mobility,range
+Menacing Attack$offense,saving throw,damage
+Web$range,control,saving throw,concentration
+Wind Walk$mobility,range
+Wind Wall$range,defense,control,damage,saving throw,concentration
+Word of Recall$defense,mobiltiy,range
+Zone of Truth$utility,area of effect,saving throw
+Commander's Strike$offense,buff,range
+Disarming Attack$offense,damage,control
+Distracting Strike$offense,damage,buff
+Evasive Footwork$mobility
+Feinting Attack$offense,melee,damage,quick
+Goading Attack$offense,damage,saving throw
+Lunging Attack$offense,damage
+Sweeping Attack$offense,melee,damage,saving throw
+Trip Attack$offense,melee,damage,saving throw
+Breath of Winter$saving throw,offense,range,damage
+Clench of the North Wind$control,range,saving throw
+Elemental Attunement$utilty,range
+Eternal Mountain Defense$defense,buff
+Fangs of the Fire Snake$range,offense,damage
+Fist of the Four Thunders$area of effect,offense,damage
+Fist of Unbroken Air$offense,range,damage
+Flames of the Phoenix$area of effect,range,offense,saving throw,damage
+Gong of the Summit$saving throw,area of effect,offense,damage
+Mist Stance$mobility
+Ride the Wind$mobility
+River of Hungry Flame$range,defense,damage,saving throw
+Rush of the Gale Spirits$range,control,saving throw
+Shape the Flowing River$utility,range
+Sweeping Cinder Strike$melee,offense,damage
+Water Whip$range,offense,damage,quick,saving throw
+Wave of Rolling Earth$range,utility,saving throw
+Control Flames$utility,range
+Create Bonfire$damage,range,saving throw,offense,concentration
+Frostbite$range,damage,saving throw,offense
+Gust$range,control
+Magic Stone$damage,range,offense
+Mold Earth$range,utility
+Shape Water$range,utility
+Thunderclap$area of effect,damage,saving throw
+Absorb Elements$quick,defense,damage,buff,melee
+Beast Bond$melee,utility,concentration
+Catapult$damage,range,offense
+Earth Tremor$control,saving throw,area of effect,damage
+Ice Knife$area of effect,range,damage,offense,saving throw
+Aganazzar's Scorcher$range,damage,saving throw,offense
+Dust Devil$range,summons,saving throw,offense,damage,concentration
+Earthbind$control,range,concentration
+Maximilian's Earthen Grasp$summons,damage,saving throw,concentration
+Pyrotechnics$saving throw,range,control
+Skywrite$utility,range,concentration
+Snilloc's Snowball Swarm$area of effect,range,damage,saving throw
+Warding Wind$area of effect,defense,concentration
+Erupting Earth$damage,saving throw,offense,range
+Flame Arrows$damage,range,offense,buff,concentration
+Melf's Minute Meteors$range,area of effect,damage,offense,saving throw,concentration
+Tidal Wave$saving throw,area of effect,control,damage,offense
+Wall of Sand$defense,control,range,concentration
+Wall of Water$defense,control,defense,range,concentration
+Elemental Bane$range,saving throw,offense,damage,concentration
+Storm Sphere$summons,range,damage,saving throw,area of effect,concentration
+Vitriolic Sphere$range,area of effect,damage,offense,saving throw
+Watery Sphere$range,control,area of effect,summons,saving throw,concentration
+Control Winds$control,area of effect,range,saving throw,concentration
+Immolation$range,saving throw,damage,offense,concentration
+Maelstrom$range,saving throw,offense,damage,concentration
+Transmute Rock$control,area of effect,range,saving throw,damage
+Bones of the Earth$utility,saving throw,control,damage
+Investiture of Flame$damage,utility,offense,damage,buff,saving throw,concentration
+Investiture of Ice$damage,utility,offense,damage,buff,saving throw,concentration
+Investiture of Stone$damage,utility,offense,buff,saving throw,concentration
+Investiture of Wind$damage,utility,offense,damage,buff,saving throw,concentration
+Primordial Ward$defense,buff,concentration
+Whirlwind$control,range,damage,saving throw,concentration
+Abi-Dalzim's Horrid Wilting$area of effect,damage,offense,saving throw,range
