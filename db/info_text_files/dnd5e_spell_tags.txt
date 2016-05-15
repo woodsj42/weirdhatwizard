@@ -25,7 +25,7 @@ Thaumaturgy$utility,range
 Thorn Whip$range,offense,damage
 True Strike$offense,buff,range
 Vicious Mockery$offense,saving throw,range,damage
-Alarm$utility,range
+Alarm$utility,range,ritual
 Animal Friendship$utility,saving throw,range
 Armor of Agathys$defense,damage
 Arms of Hadar$offense,area of effect,saving throw
@@ -37,11 +37,11 @@ Chromatic Orb$range,offense,damage
 Color Spray$area of effect,offense,damage,range
 Command$range,utility,saving throw,range
 Compelled Duel$offense,range,quick,saving throw,range,concentration
-Comprehend Languages$utility
+Comprehend Languages$utility,ritual
 Create Or Destroy Water$utility,range
 Cure Wounds$melee,defense,healing
 Detect Evil and Good$utility,concentration
-Detect Magic$utility,concentration
+Detect Magic$utility,concentration,ritual
 Disguise Self$utility,saving throw
 Guiding Bolt$range,offense,damage
 Dissonant Whispers$saving throw,offense,range
@@ -52,7 +52,7 @@ Expeditious Retreat$mobility,quick,concentration
 Faerie Fire$range,control,buff,concentration
 False Life$healing
 Feather Fall$utility,quick,range
-Find Familiar$utility,range
+Find Familiar$utility,range,ritual
 Fog Cloud$area of effect,control,range,concentration
 Goodberry$defense,healing
 Grease$area of effect,control,saving throw,range
@@ -62,15 +62,15 @@ Hellish Rebuke$saving throw,range,offense,damage,quick
 Heroism$buff,melee,concentration
 Hex$range,quick,damage,concentration
 Hunter's Mark$range,offense,quick,damage,concentration
-Identify$utility,melee
-Illusory Script$utility
+Identify$utility,melee,ritual
+Illusory Script$utility,ritual
 Inflict Wounds$offense,melee,damage
 Jump$mobility,touch
 Longstrider$buff,melee,mobility
 Mage Armor$buff,defense
 Magic Missile$offense,range,damage
 Protection From Evil and Good$defense,buff,melee,concentration
-Purify Food and Drink$utiltiy,range
+Purify Food and Drink$utiltiy,range,ritual
 Ray of Sickness$range,offense,saving throw
 Sanctuary$defense,quick,saving throw
 Searing Smite$melee,offense,damage,quick,saving throw,concentration
@@ -78,22 +78,22 @@ Shield$defense,quick
 Shield of Faith$buff,range,defense,quick,concentration
 Silent Image$range,control,utility,saving throw,concentration
 Sleep$offense,range,area of effect,control
-Speak with Animals$utility
+Speak with Animals$utility,ritual
 Tasha's Hideous Laughter$range,offense,saving throw,control,concentration
-Tenser's Floating Disk$utility
+Tenser's Floating Disk$utility,ritual
 Thunderous Smite$offense,melee,damage,quick,saving throw,concentration
 Thunderwave$offense,area of effect,damage,saving throw
-Unseen Servant$utility
+Unseen Servant$utility,ritual
 Witch Bolt$offense,range,damage,concentration
 Wrathful Smite$offense,melee,damage,quick,saving throw,concentration
 Aid$buff,range
 Alter Self$utility,damage,concentration
 Dispel Magic$control,range
-Animal Messenger$utility
+Animal Messenger$utility,ritual
 Arcane Lock$utility,melee
-Augury$utility
+Augury$utility,ritual
 Barkskin$defense,buff,concentration
-Beast Sense$utility,melee,concentration
+Beast Sense$utility,melee,concentration,ritual
 Blindness/Deafness$offense,range,saving throw
 Blur$buff,defense,concentration
 Branding Smite$melee,offense,damage,concentration
@@ -108,7 +108,7 @@ Detect Thoughts$range,utility,saving throw,concentration
 Hold Person$range,offense,saving throw,concentration
 Lesser Restoration$healing,melee
 Prayer of Healing$healing,range
-Silence$area of effect,offense,range,concentration
+Silence$area of effect,offense,range,concentration,ritual
 Spiritual Weapon$melee,offense,summons,damage
 Elemental Weapon$melee,offense,buff,concentration
 Stoneskin$defense,buff,concentration
@@ -130,22 +130,22 @@ Create Food and Water$utility,range
 Crusader's Mantle$buff,area of effect,offense,concentration
 Daylight$utility,range
 Parry$defense
-Feign Death$healing,utility,melee
+Feign Death$healing,utility,melee,ritual
 Fireball$offense,area of effect,saving throw,damage
 Fly$mobility,buff,melee,concentration
 Gaseous Form$mobility,buff,melee,concentration
 Haste$buff,mobility,range,concentration
 Hunger of Hadar$area of effect,saving throw,damage,concentration
 Hypnotic Pattern$saving throw,control,range,concentration
-Leomund's Tiny Hut$utility
+Leomund's Tiny Hut$utility,ritual
 Lightning Arrow$offense,range,damage,concentration
 Revivify$healing,melee
 Magic Circle$area of effect,defense,saving throw,range
 Major Image$control,saving throw,range,concentration
 Mass Healing Word$healing,range,quick
-Meld into Stone$utility,mobility
+Meld into Stone$utility,mobility,ritual
 Nondetection$utiltiy,melee
-Phantom Steed$utility,summons,mobility,range
+Phantom Steed$utility,summons,mobility,range,ritual
 Plant Growth$area of effect,utility,range
 Protection From Energy$defense,buff,touch,concentration
 Remove Curse$healing,melee
@@ -235,13 +235,13 @@ Chain Lightning$offense,area of effect,range,damage,saving throw
 Circle of Power$buff,offense,area of effect,concentration
 Circle of Death$saving throw,area of effect,offense,damage
 Cloudkill$range,area of effect,saving throw,offense,damage,concentration
-Commune$utility
-Commune with Nature$utility
+Commune$utility,ritual
+Commune with Nature$utility,ritual
 Riposte$offense,melee,damage
 Conjure Elemental$summons,range,concentration
 Conjure Fey$summons,range,concentration
 Conjure Volley$summons,damage,saving throw,range
-Contact Other Plane$utility
+Contact Other Plane$utility,ritual
 Contagion$range,control,saving throw
 Contingency$utility,offense,defense
 Continual Flame$utility
@@ -249,14 +249,14 @@ Find Traps$utility,range
 Create Undead$summons,range
 Creation$utiltiy,range
 Destructive Wave$area of effect,offense,saving throw,damage
-Detect Poison and Disease$utility,concentration
+Detect Poison and Disease$utility,concentration,ritual
 Disintegrate$offense,range,damage,saving throw
 Dispel Evil and Good$range,control,offense,concentration
-Divination$utility,range
+Divination$utility,range,ritual
 Pushing Attack$offense,damage,saving throw
 Dominate Beast$range,control,saving throw,concentration
 Dominate Person$range,control,saving throw,concentration
-Drawmij's Instant Summons$summons,melee
+Drawmij's Instant Summons$summons,melee,ritual
 Dream$utility,range
 Enhance Ability$utility,buff,touch,concentration
 Rally$area of effect,buff,quick
@@ -273,10 +273,10 @@ Flame Blade$melee,offense,damage,concentration
 Flame Strike$range,offense,damage,saving throw
 Flaming Sphere$range,area of effect,summons,damage,saving throw,concentration
 Flesh To Stone$range,saving throw,control,concentration
-Forbiddance$melee,defense,control,damage
+Forbiddance$melee,defense,control,damage,ritual
 Freedom of Movement$mobility,defense,buff,rnage
 Geas$saving throw,range,control,utility,damage
-Gentle Repose$healing,utility,touch
+Gentle Repose$healing,utility,touch,ritual
 Giant Insect$summons,range,concentration
 Globe of Invulnerability$defense,area of effect,concentration
 Glyph of Warding$utility,saving throw,defense,melee
@@ -291,7 +291,7 @@ Hallucinatory Terrain$range,area of effect,control,saving throw
 Harm$range,offense,saving throw,damage
 Heal$healing,range
 Heat Metal$offense,range,damage,concentration
-Locate Animals Or Plants$utility,range
+Locate Animals Or Plants$utility,range,ritual
 Heroes' Feast$utility,healing,buff,range
 Hold Monster$range,control,saving throw
 Ice Storm$area of effect,saving throw,offense,damage,range,concentration
@@ -304,7 +304,7 @@ Levitate$utility,mobility,range,concentration
 Locate Creature$utility,concentration
 Locate Object$utility,concentration
 Magic Jar$utility,saving throw
-Magic Mouth$utility
+Magic Mouth$utility,ritual
 Magic Weapon$offense,buff,weapon,concentration
 Mass Cure Wounds$area of effect,healing,range
 Mass Suggestion$area of effect,control,saving throw,utility,range,concentration
@@ -332,7 +332,7 @@ Polymorph$control,range,concentration
 Programmed Illusion$utility,range
 Protection From Poison$buff,defense
 Raise Dead$summons,melee
-Rary's Telepathic Bond$utility,range
+Rary's Telepathic Bond$utility,range,ritual
 Ray of Enfeeblement$offense,range,saving throw,concentration
 Reincarnate$healing,melee
 Rope Trick$utility,melee
@@ -359,8 +359,8 @@ Wall of Force$defense,range,damage,concentration
 Wall of Ice$defense,range,damage,saving throw,concentration
 Wall of Stone$defense,range,damage,saving throw,concentration
 Wall of Thorns$defense,range,damage,saving throw,concentration
-Water Breathing$utility
-Water Walk$utility,mobility,range
+Water Breathing$utility,ritual
+Water Walk$utility,mobility,range,ritual
 Menacing Attack$offense,saving throw,damage
 Web$range,control,saving throw,concentration
 Wind Walk$mobility,range
@@ -411,7 +411,7 @@ Dust Devil$range,summons,saving throw,offense,damage,concentration
 Earthbind$control,range,concentration
 Maximilian's Earthen Grasp$summons,damage,saving throw,concentration
 Pyrotechnics$saving throw,range,control
-Skywrite$utility,range,concentration
+Skywrite$utility,range,concentration,ritual
 Snilloc's Snowball Swarm$area of effect,range,damage,saving throw
 Warding Wind$area of effect,defense,concentration
 Erupting Earth$damage,saving throw,offense,range
