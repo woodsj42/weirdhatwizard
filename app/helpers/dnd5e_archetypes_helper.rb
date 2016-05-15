@@ -1,2 +1,0 @@
-module Dnd5eArchetypesHelper
-end
