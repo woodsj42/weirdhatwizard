@@ -1,0 +1,963 @@
+acid splash$sorcerer$1
+blade ward$sorcerer$1
+chill touch$sorcerer$1
+control flames$sorcerer$1
+create bonfire$sorcerer$1
+dancing lights$sorcerer$1
+fire bolt$sorcerer$1
+friends$sorcerer$1
+frostbite$sorcerer$1
+gust$sorcerer$1
+light$sorcerer$1
+mage hand$sorcerer$1
+mending$sorcerer$1
+message$sorcerer$1
+minor illusion$sorcerer$1
+mold earth$sorcerer$1
+poison spray$sorcerer$1
+prestidigitation$sorcerer$1
+ray of frost$sorcerer$1
+shape water$sorcerer$1
+shocking grasp$sorcerer$1
+thunderclap$sorcerer$1
+true strike$sorcerer$1
+burning hands$sorcerer$1
+catapult$sorcerer$1
+charm person$sorcerer$1
+chromatic orb$sorcerer$1
+color spray$sorcerer$1
+comprehend languages$sorcerer$1
+detect magic$sorcerer$1
+disguise self$sorcerer$1
+earth tremor$sorcerer$1
+expeditious retreat$sorcerer$1
+false life$sorcerer$1
+feather fall$sorcerer$1
+fog cloud$sorcerer$1
+ice knife$sorcerer$1
+jump$sorcerer$1
+mage armor$sorcerer$1
+magic missile$sorcerer$1
+ray of sickness$sorcerer$1
+shield$sorcerer$1
+silent image$sorcerer$1
+sleep$sorcerer$1
+thunderwave$sorcerer$1
+witch bolt$sorcerer$1
+aganazzar's scorcher$sorcerer$1
+alter self$sorcerer$3
+blindness/deafness$sorcerer$3
+blur$sorcerer$3
+cloud of daggers$sorcerer$3
+crown of madness$sorcerer$3
+darkness$sorcerer$3
+darkvision$sorcerer$3
+detect thoughts$sorcerer$3
+dust devil$sorcerer$3
+earthbind$sorcerer$3
+enhance ability$sorcerer$3
+enlarge/reduce$sorcerer$3
+gust of wind$sorcerer$3
+hold person$sorcerer$3
+invisibility$sorcerer$3
+knock$sorcerer$3
+levitate$sorcerer$3
+maximilian's earthen grasp$sorcerer$3
+mirror image$sorcerer$3
+misty step$sorcerer$3
+phantasmal force$sorcerer$3
+pyrotechnics$sorcerer$3
+scorching ray$sorcerer$3
+see invisibility$sorcerer$3
+shatter$sorcerer$3
+snilloc's snowball swarm$sorcerer$3
+spider climb$sorcerer$3
+suggestion$sorcerer$3
+warding wind$sorcerer$3
+web$sorcerer$3
+blink$sorcerer$5
+clairvoyance$sorcerer$5
+counterspell$sorcerer$5
+dayligt$sorcerer$5
+dispel magic$sorcerer$5
+erupting earth$sorcerer$5
+fear$sorcerer$5
+fireball$sorcerer$5
+flame arrows$sorcerer$5
+fly$sorcerer$5
+gaseous form$sorcerer$5
+haste$sorcerer$5
+hypnotic pattern$sorcerer$5
+lightning bolt$sorcerer$5
+major image$sorcerer$5
+melf's minute meteors$sorcerer$5
+protection from energy$sorcerer$5
+sleet storm$sorcerer$5
+slow$sorcerer$5
+stinking cloud$sorcerer$5
+tongues$sorcerer$5
+wall of water$sorcerer$5
+water breathing$sorcerer$5
+water walk$sorcerer$5
+banishment$sorcerer$7
+blight$sorcerer$7
+confusion$sorcerer$7
+dimension door$sorcerer$7
+dominate beast$sorcerer$7
+greater invisibility$sorcerer$7
+ice storm$sorcerer$7
+polymorph$sorcerer$7
+stoneskin$sorcerer$7
+storm sphere$sorcerer$7
+vitriolic sphere$sorcerer$7
+wall of fire$sorcerer$7
+watery sphere$sorcerer$7
+animate objects$sorcerer$15
+cloudkill$sorcerer$9
+cone of cold$sorcerer$9
+control winds$sorcerer$9
+creation$sorcerer$9
+dominate person$sorcerer$9
+hold monster$sorcerer$9
+immolation$sorcerer$9
+insect plague$sorcerer$9
+seeming$sorcerer$9
+telekinesis$sorcerer$9
+teleportation circle$sorcerer$9
+wall of stone$sorcerer$9
+arcane gate$sorcerer$9
+chain lightning$sorcerer$11
+circle of death$sorcerer$11
+disintegrate$sorcerer$11
+eyebite$sorcerer$11
+globe of invulnerability$sorcerer$11
+investiture of flame$sorcerer$11
+investiture of ice$sorcerer$11
+investiture of stone$sorcerer$11
+investiture of wind$sorcerer$11
+mass suggestion$sorcerer$11
+move earth$sorcerer$11
+sunbeam$sorcerer$11
+true seeing$sorcerer$11
+delayed blast fireball$sorcerer$13
+etherealness$sorcerer$13
+finger of death$sorcerer$13
+fire storm$sorcerer$13
+plane shift$sorcerer$13
+prismatic spray$sorcerer$13
+reverse gravity$sorcerer$13
+teleport$sorcerer$13
+abi-dalzim's horrid wilting$sorcerer$13
+dominate monster$sorcerer$1315
+earthquake$sorcerer$15
+incendiary cloud$sorcerer$15
+power word stun$sorcerer$15
+sunburst$sorcerer$15
+gate$sorcerer$17
+meteor swarm$sorcerer$17
+power word kill$sorcerer$17
+time stop$sorcerer$17
+wish$sorcerer$17
+acid splash$wizard$1
+blade ward$wizard$1
+chill touch$wizard$1
+control flames$wizard$1
+create bonfire$wizard$1
+dancing lights$wizard$1
+fire bolt$wizard$1
+friends$wizard$1
+frostbite$wizard$1
+gust$wizard$1
+light$wizard$1
+mage hand$wizard$1
+mending$wizard$1
+message$wizard$1
+minor illusion$wizard$1
+mold earth$wizard$1
+poison spray$wizard$1
+prestidigitation$wizard$1
+ray of frost$wizard$1
+shape water$wizard$1
+shocking grasp$wizard$1
+thunderclap$wizard$1
+true strike$wizard$1
+absorb elements$wizard$1
+alarm$wizard$1
+burning hands$wizard$1
+catapult$wizard$1
+charm person$wizard$1
+chromatic orb$wizard$1
+color spray$wizard$1
+comprehend languages$wizard$1
+detect magic$wizard$1
+disguise self$wizard$1
+earth tremor$wizard$1
+expeditious retreat$wizard$1
+false life$wizard$1
+feather fall$wizard$1
+find familiar$wizard$1
+fog cloud$wizard$1
+grease$wizard$1
+ice knife$wizard$1
+identify$wizard$1
+illusory script$wizard$1
+jump$wizard$1
+longstrider$wizard$1
+mage armor$wizard$1
+magic missile$wizard$1
+protection from evil and good$wizard$1
+ray of sickness$wizard$1
+shield$wizard$1
+silent image$wizard$1
+sleep$wizard$1
+tasha's hideous laughter$wizard$1
+tenser's floating disk$wizard$1
+thunderwave$wizard$1
+unseen servant$wizard$1
+witch bolt$wizard$1
+aganazzar's scorcher$wizard$3
+alter self$wizard$3
+arcane lock$wizard$3
+blindness/deafness$wizard$3
+blur$wizard$3
+cloud of daggers$wizard$3
+continual flame$wizard$3
+crown of madness$wizard$3
+darkness$wizard$3
+darkvision$wizard$3
+detect thoughts$wizard$3
+dust devil$wizard$3
+earthbind$wizard$3
+enlarge/reduce$wizard$3
+flaming sphere$wizard$3
+gentle repose$wizard$3
+gust of wind$wizard$3
+hold person$wizard$3
+invisibility$wizard$3
+knock$wizard$3
+levitate$wizard$3
+locate object$wizard$3
+magic mouth$wizard$3
+magic weapon$wizard$3
+maximilian's earthen grasp$wizard$3
+melf's acid arrow$wizard$3
+mirror image$wizard$3
+misty step$wizard$3
+nystul's magic aura$wizard$3
+phantasmal force$wizard$3
+pyrotechnics$wizard$3
+ray of enfeeblement$wizard$3
+rope trick$wizard$3
+scorching ray$wizard$3
+see invisibility$wizard$3
+shatter$wizard$3
+skywrite$wizard$3
+snilloc's snowball swarm$wizard$3
+spider climb$wizard$3
+suggestion$wizard$3
+web$wizard$3
+animate dead$wizard$5
+bestow curse$wizard$5
+blink$wizard$5
+clairvoyance$wizard$5
+counterspell$wizard$5
+dispel magic$wizard$5
+erupting earth$wizard$5
+fear$wizard$5
+feign death$wizard$5
+fireball$wizard$5
+flame arrows$wizard$5
+fly$wizard$5
+gaseous form$wizard$5
+glyph of warding$wizard$5
+haste$wizard$5
+hypnotic pattern$wizard$5
+leomund's tiny hut$wizard$5
+lightning bolt$wizard$5
+magic circle$wizard$5
+major image$wizard$5
+melf's minute meteors$wizard$5
+nondetection$wizard$5
+phantom steed$wizard$5
+protection from energy$wizard$5
+remove curse$wizard$5
+sending$wizard$5
+sleet storm$wizard$5
+slow$wizard$5
+stinking cloud$wizard$5
+tidal wave$wizard$5
+tongues$wizard$5
+vampiric touch$wizard$5
+wall of sand$wizard$5
+wall of water$wizard$5
+water breathing$wizard$5
+arcane eye$wizard$7
+banishment$wizard$7
+blight$wizard$7
+confusion$wizard$7
+conjure minor elementals$wizard$7
+control water$wizard$7
+dimension door$wizard$7
+elemental bane$wizard$7
+evard's black tentacles$wizard$7
+fabricate$wizard$7
+fire shield$wizard$7
+greater invisibility$wizard$7
+hallucinatory terrain$wizard$7
+ice storm$wizard$7
+leomund's secret chest$wizard$7
+locate creature$wizard$7
+mordenkainen's faithful hound$wizard$7
+mordenkainen's private sanctum$wizard$7
+otiluke's resilient sphere$wizard$7
+phantasmal killer$wizard$7
+polymorph$wizard$7
+stone shape$wizard$7
+stoneskin$wizard$7
+storm sphere$wizard$7
+vitriolic sphere$wizard$7
+wall of fire$wizard$7
+watery sphere$wizard$7
+animate objects$wizard$15
+bigby's hand$wizard$9
+cloudkill$wizard$9
+cone of cold$wizard$9
+conjure elemental$wizard$9
+contact other plane$wizard$9
+control winds$wizard$9
+creation$wizard$9
+dominate person$wizard$9
+dream$wizard$9
+geas$wizard$9
+hold monster$wizard$9
+immolation$wizard$9
+legend lore$wizard$9
+mislead$wizard$9
+modify memory$wizard$9
+passwall$wizard$9
+planar binding$wizard$9
+rary's telepathic bond$wizard$9
+scrying$wizard$9
+seeming$wizard$9
+telekinesis$wizard$9
+teleportation circle$wizard$9
+transmute rock$wizard$9
+wall of force$wizard$9
+wall of stone$wizard$9
+arcane gate$wizard$11
+chain lightning$wizard$11
+circle of death$wizard$11
+contingency$wizard$11
+create undead$wizard$11
+disintegrate$wizard$11
+drawmij's instant summons$wizard$11
+eyebite$wizard$11
+flesh to stone$wizard$11
+globe of invulnerability$wizard$11
+guards and wards$wizard$11
+investiture of flame$wizard$11
+investiture of ice$wizard$11
+investiture of stone$wizard$11
+investiture of wind$wizard$11
+magic jar$wizard$11
+mass suggestion$wizard$11
+move earth$wizard$11
+otiluke's freezing sphere$wizard$11
+otto's irresistible dance$wizard$11
+programmed illusion$wizard$11
+sunbeam$wizard$11
+true seeing$wizard$11
+wall of ice$wizard$11
+delayed blast fireball$wizard$13
+etherealness$wizard$13
+finger of death$wizard$13
+forcecage$wizard$13
+mirage arcane$wizard$13
+mordenkainen's magnificent mansion$wizard$13
+mordenkainen's sword$wizard$13
+plane shift$wizard$13
+prismatic spray$wizard$13
+project image$wizard$13
+reverse gravity$wizard$13
+sequester$wizard$13
+simulacrum$wizard$13
+symbol$wizard$13
+teleport$wizard$13
+whirlwind$wizard$13
+abi-dalzim's horrid wilting$wizard$13
+antimagic field$wizard$15
+antipathy/sympathy$wizard$15
+clone$wizard$15
+control weather$wizard$15
+demiplane$wizard$15
+dominate monster$wizard$15
+feeblemind$wizard$15
+incendiary cloud$wizard$15
+maze$wizard$15
+mind blank$wizard$15
+power word stun$wizard$15
+sunburst$wizard$15
+telepathy$wizard$15
+astral projection$wizard$17
+foresight$wizard$17
+gate$wizard$17
+imprisonment$wizard$17
+meteor swarm$wizard$17
+power word kill$wizard$17
+prismatic wall$wizard$17
+shapechange$wizard$17
+time stop$wizard$17
+true polymorph$wizard$17
+weird$wizard$17
+wish$wizard$17
+blade ward$warlock$1
+chill touch$warlock$1
+create bonfire$warlock$1
+eldritch blast$warlock$1
+friends$warlock$1
+frostbite$warlock$1
+mage hand$warlock$1
+magic stone$warlock$1
+minor illusion$warlock$1
+poison spray$warlock$1
+prestidigitation$warlock$1
+thunderclap$warlock$1
+true strike$warlock$1
+armor of agathys$warlock$1
+arms of hadar$warlock$1
+charm person$warlock$1
+comprehend languages$warlock$1
+expeditious retreat$warlock$1
+hellish rebuke$warlock$1
+hex$warlock$1
+illusory script$warlock$1
+protection from evil and good$warlock$1
+unseen servant$warlock$1
+witch bolt$warlock$1
+cloud of daggers$warlock$3
+crown of madness$warlock$3
+darkness$warlock$3
+earthbind$warlock$3
+enthrall$warlock$3
+hold person$warlock$3
+invisibility$warlock$3
+mirror image$warlock$3
+misty step$warlock$3
+ray of enfeeblement$warlock$3
+shatter$warlock$3
+spider climb$warlock$3
+suggestion$warlock$3
+counterspell$warlock$5
+dispel magic$warlock$5
+fear$warlock$5
+fly$warlock$5
+gaseous form$warlock$5
+hunger of hadar$warlock$5
+hypnotic pattern$warlock$5
+magic circle$warlock$5
+major image$warlock$5
+remove curse$warlock$5
+tongues$warlock$5
+vampiric touch$warlock$5
+banishment$warlock$7
+blight$warlock$7
+dimension door$warlock$7
+elemental bane$warlock$7
+hallucinatory terrain$warlock$7
+contact other plane$warlock$9
+dream$warlock$9
+hold monster$warlock$9
+scrying$warlock$9
+arcane gate$warlock$11
+circle of death$warlock$11
+conjure fey$warlock$11
+create undead$warlock$11
+eyebite$warlock$11
+flesh to stone$warlock$11
+investiture of flame$warlock$11
+investiture of ice$warlock$11
+investiture of stone$warlock$11
+investiture of wind$warlock$11
+mass suggestion$warlock$11
+true seeing$warlock$11
+etherealness$warlock$13
+finger of death$warlock$13
+forcecage$warlock$13
+plane shift$warlock$13
+demiplane$warlock$15
+dominate monster$warlock$15
+feeblemind$warlock$15
+glibness$warlock$15
+power word stun$warlock$15
+astral projection$warlock$17
+foresight$warlock$17
+imprisonment$warlock$17
+power word kill$warlock$17
+true polymorph$warlock$17
+guidance$cleric$1
+light$cleric$1
+mending$cleric$1
+resistance$cleric$1
+sacred flame$cleric$1
+spare the dying$cleric$1
+thaumaturgy$cleric$1
+bane$cleric$1
+bless$cleric$1
+command$cleric$1
+create or destroy water$cleric$1
+cure wounds$cleric$1
+detect evil and good$cleric$1
+detect magic$cleric$1
+detect poison and disease$cleric$1
+guiding bolt$cleric$1
+healing word$cleric$1
+inflict wounds$cleric$1
+protection from evil and good$cleric$1
+purify food and drink$cleric$1
+sanctuary$cleric$1
+shield of faith$cleric$1
+aid$cleric$3
+augury$cleric$3
+blindness/deafness$cleric$3
+calm emotions$cleric$3
+continual flame$cleric$3
+enhance ability$cleric$3
+find traps$cleric$3
+gentle repose$cleric$3
+hold person$cleric$3
+lesser restoration$cleric$3
+locate object$cleric$3
+prayer of healing$cleric$3
+protection from poison$cleric$3
+silence$cleric$3
+spiritual weapon$cleric$3
+warding bond$cleric$3
+zone of truth$cleric$3
+animate dead$cleric$3
+beacon of hope$cleric$3
+bestow curse$cleric$3
+clairvoyance$cleric$3
+create food and water$cleric$3
+daylight$cleric$3
+dispel magic$cleric$5
+feign death$cleric$5
+glyph of warding$cleric$5
+magic circle$cleric$5
+mass healing word$cleric$5
+meld into stone$cleric$5
+protection from energy$cleric$5
+remove curse$cleric$5
+revivify$cleric$5
+sending$cleric$5
+speak with dead$cleric$5
+spirit guardians$cleric$5
+tongues$cleric$5
+water walk$cleric$5
+banishment$cleric$7
+control water$cleric$7
+death ward$cleric$7
+divination$cleric$7
+freedom of movement$cleric$7
+guardian of faith$cleric$7
+locate creature$cleric$7
+stone shape$cleric$7
+commune$cleric$9
+contagion$cleric$9
+dispel evil and good$cleric$9
+flame strike$cleric$9
+geas$cleric$9
+greater restoration$cleric$9
+hallow$cleric$9
+insect plague$cleric$9
+legend lore$cleric$9
+mass cure wounds$cleric$9
+planar binding$cleric$9
+raise dead$cleric$9
+scrying$cleric$9
+blade barrier$cleric$11
+create undead$cleric$11
+find the path$cleric$11
+forbiddance$cleric$11
+harm$cleric$11
+heal$cleric$11
+heroes' feast$cleric$11
+planar ally$cleric$11
+true seeing$cleric$11
+word of recall$cleric$11
+conjure celestial$cleric$13
+divine word$cleric$13
+etherealness$cleric$13
+fire storm$cleric$13
+plane shift$cleric$13
+regenerate$cleric$13
+resurrection$cleric$13
+symbol$cleric$13
+antimagic field$cleric$15
+control weather$cleric$15
+earthquake$cleric$15
+holy aura$cleric$15
+astral projection$cleric$17
+gate$cleric$17
+mass heal$cleric$17
+true resurrection$cleric$17
+blade ward$bard$1
+dancing lights$bard$1
+friends$bard$1
+light$bard$1
+mage hand$bard$1
+mending$bard$1
+message$bard$1
+minor illusion$bard$1
+prestidigitation$bard$1
+thunderclap$bard$
+true strike$bard$1
+vicious mockery$bard$1
+animal friendship$bard$1
+bane$bard$1
+charm person$bard$1
+comprehend languages$bard$1
+cure wounds$bard$1
+detect magic$bard$1
+disguise self$bard$1
+dissonant whispers$bard$1
+earth tremor$bard$1
+faerie fire$bard$1
+feather fall$bard$1
+healing word$bard$1
+heroism$bard$1
+identify$bard$1
+illusory script$bard$1
+longstrider$bard$1
+silent image$bard$1
+sleep$bard$1
+speak with animals$bard$1
+tasha's hideous laughter$bard$1
+thunderwave$bard$1
+unseen servant$bard$1
+animal messenger$bard$3
+blindness/deafness$bard$3
+calm emotions$bard$3
+cloud of daggers$bard$3
+crown of madness$bard$3
+detect thoughts$bard$3
+enhance ability$bard$3
+enthrall$bard$3
+heat metal$bard$3
+hold person$bard$3
+invisibility$bard$3
+knock$bard$3
+lesser restoration$bard$3
+locate animals or plants$bard$3
+locate object$bard$3
+magic mouth$bard$3
+phantasmal force$bard$3
+pyrotechnics$bard$3
+see invisibility$bard$3
+shatter$bard$3
+silence$bard$3
+skywrite$bard$3
+suggestion$bard$3
+warding wind$bard$3
+zone of truth$bard$3
+bestow curse$bard$5
+clairvoyance$bard$5
+dispel magic$bard$5
+fear$bard$5
+feign death$bard$5
+glyph of warding$bard$5
+hypnotic pattern$bard$5
+leomund's tiny hut$bard$5
+major image$bard$5
+nondetection$bard$5
+plant growth$bard$5
+sending$bard$5
+speak with dead$bard$5
+speak with plants$bard$5
+stinking cloud$bard$5
+tongues$bard$5
+compulsion$bard$7
+confusion$bard$7
+dimension door$bard$7
+freedom of movement$bard$7
+greater invisibility$bard$7
+hallucinatory terrain$bard$7
+locate creature$bard$7
+polymorph$bard$7
+animate objects$bard$17
+awaken$bard$9
+dominate person$bard$9
+dream$bard$9
+geas$bard$9
+greater restoration$bard$9
+hold monster$bard$9
+legend lore$bard$9
+mass cure wounds$bard$9
+mislead$bard$9
+modify memory$bard$9
+planar binding$bard$9
+raise dead$bard$9
+scrying$bard$9
+seeming$bard$9
+teleportation circle$bard$9
+eyebite$bard$11
+find the path$bard$11
+guards and wards$bard$11
+mass suggestion$bard$11
+otto's irresistible dance$bard$11
+programmed illusion$bard$11
+true seeing$bard$13
+etherealness$bard$13
+forcecage$bard$13
+mirage arcane$bard$13
+mordenkainen's magnificent mansion$bard$13
+mordenkainen's sword$bard$13
+project image$bard$13
+regenerate$bard$13
+resurrection$bard$13
+symbol$bard$13
+teleport$bard$13
+dominate monster$bard$15
+feeblemind$bard$15
+glibness$bard$15
+mind blank$bard$15
+power word stun$bard$15
+foresight$bard$17
+power word heal$bard$17
+power word kill$bard$17
+true polymorph$bard$17
+absorb elements$ranger$2
+alarm$ranger$2
+animal friendship$ranger$2
+beast bond$ranger$2
+cure wounds$ranger$2
+detect magic$ranger$2
+detect poison and disease$ranger$2
+ensnaring strike$ranger$2
+fog cloud$ranger$2
+goodberry$ranger$2
+hail of thorns$ranger$2
+hunter's mark$ranger$2
+jump$ranger$2
+longstrider$ranger$2
+speak with animals$ranger$2
+animal messenger$ranger$5
+barkskin$ranger$5
+beast sense$ranger$5
+cordon of arrows$ranger$5
+darkvision$ranger$5
+find traps$ranger$5
+lesser restoration$ranger$5
+locate animals or plants$ranger$5
+locate object$ranger$5
+pass without trace$ranger$5
+protection from poison$ranger$5
+silence$ranger$5
+spike growth$ranger$5
+conjure animals$ranger$9
+conjure barrage$ranger$9
+daylight$ranger$9
+flame arrows$ranger$9
+lightning arrow$ranger$9
+nondetection$ranger$9
+plant growth$ranger$9
+protection from energy$ranger$9
+speak with plants$ranger$9
+water breathing$ranger$9
+water walk$ranger$9
+wind wall$ranger$9
+conjure woodland beings$ranger$13
+freedom of movement$ranger$13
+grasping vine$ranger$13
+locate creature$ranger$13
+stoneskin$ranger$13
+commune with nature$ranger$17
+conjure volley$ranger$17
+swift quiver$ranger$17
+tree stride$ranger$17
+control flames$druid$1
+create bonfire$druid$1
+druidcraft$druid$1
+frostbite$druid$1
+guidance$druid$1
+gust$druid$1
+magic stone$druid$1
+mending$druid$1
+mold earth$druid$1
+poison spray$druid$1
+produce flame$druid$1
+resistance$druid$1
+shape water$druid$1
+shillelagh$druid$1
+thorn whip$druid$1
+thunderclap$druid$1
+absorb elements$druid$1
+animal friendship$druid$1
+beast bond$druid$1
+charm person$druid$1
+create or destroy water$druid$1
+cure wounds$druid$1
+detect magic$druid$1
+detect poison and disease$druid$1
+earth tremor$druid$1
+entangle$druid$1
+faerie fire$druid$1
+fog cloud$druid$1
+goodberry$druid$1
+healing word$druid$1
+ice knife$druid$1
+jump$druid$1
+longstrider$druid$1
+purify food and drink$druid$1
+speak with animals$druid$1
+thunderwave$druid$1
+animal messenger$druid$3
+barkskin$druid$3
+beast sense$druid$3
+darkvision$druid$3
+dust devil$druid$3
+earthbind$druid$3
+enhance ability$druid$3
+find traps$druid$3
+flame blade$druid$3
+flaming sphere$druid$3
+gust of wind$druid$3
+heat metal$druid$3
+hold person$druid$3
+lesser restoration$druid$3
+locate animals or plants$druid$3
+locate object$druid$3
+moonbeam$druid$3
+pass without trace$druid$3
+protection from poison$druid$3
+skywrite$druid$3
+spike growth$druid$3
+warding wind$druid$3
+call lightning$druid$3
+conjure animals$druid$3
+daylight$druid$3
+dispel magic$druid$5
+erupting earth$druid$5
+feign death$druid$5
+flame arrows$druid$5
+meld into stone$druid$5
+plant growth$druid$5
+protection from energy$druid$5
+sleet storm$druid$5
+speak with plants$druid$5
+tidal wave$druid$5
+wall of water$druid$5
+water breathing$druid$5
+water walk$druid$5
+wind wall$druid$5
+blight$druid$7
+confusion$druid$7
+conjure minor elementals$druid$7
+conjure woodland beings$druid$7
+control water$druid$7
+dominate beast$druid$7
+elemental bane$druid$7
+freedom of movement$druid$7
+giant insect$druid$7
+grasping vine$druid$7
+hallucinatory terrain$druid$7
+ice storm$druid$7
+locate creature$druid$7
+polymorph$druid$7
+stone shape$druid$7
+stoneskin$druid$7
+wall of fire$druid$7
+watery sphere$druid$7
+antilife shell$druid$7
+awaken$druid$9
+commune with nature$druid$9
+conjure elemental$druid$9
+contagion$druid$9
+control winds$druid$9
+geas$druid$9
+greater restoration$druid$9
+insect plague$druid$9
+maelstrom$druid$9
+mass cure wounds$druid$9
+planar binding$druid$9
+reincarnate$druid$9
+scrying$druid$9
+transmute rock$druid$9
+tree stride$druid$9
+wall of stone$druid$9
+bones of the earth$druid$9
+conjure fey$druid$11
+find the path$druid$11
+heal$druid$11
+heroes' feast$druid$11
+investiture of flame$druid$11
+investiture of ice$druid$11
+investiture of stone$druid$11
+investiture of wind$druid$11
+move earth$druid$11
+primordial ward$druid$11
+sunbeam$druid$11
+transport via plants$druid$11
+wall of thorns$druid$11
+wind walk$druid$11
+fire storm$druid$13
+mirage arcane$druid$13
+plane shift$druid$13
+regenerate$druid$13
+reverse gravity$druid$13
+whirlwind$druid$13
+animal shapes$druid$15
+antipathy/sympathy$druid$15
+control weather$druid$15
+earthquake$druid$15
+feeblemind$druid$15
+sunburst$druid$15
+tsunami$druid$15
+foresight$druid$17
+shapechange$druid$17
+storm of vengeance$druid$17
+true resurrection$druid$17
+bless$paladin$2
+command$paladin$2
+compelled duel$paladin$2
+cure wounds$paladin$2
+detect evil and good$paladin$2
+detect magic$paladin$2
+detect poison and disease$paladin$2
+divine favor$paladin$2
+heroism$paladin$2
+protection from evil and good$paladin$2
+purify food and drink$paladin$2
+searing smite$paladin$2
+shield of faith$paladin$2
+thunderous smite$paladin$2
+wrathful smite$paladin$2
+aid$paladin$5
+branding smite$paladin$5
+find steed$paladin$5
+lesser restoration$paladin$5
+locate object$paladin$5
+magic weapon$paladin$5
+protection from poison$paladin$5
+zone of truth$paladin$5
+aura of vitality$paladin$9
+blinding smite$paladin$9
+create food and water$paladin$9
+crusader's mantle$paladin$9
+daylight$paladin$9
+dispel magic$paladin$9
+elemental weapon$paladin$9
+magic circle$paladin$9
+remove curse$paladin$9
+revivify$paladin$9
+aura of life$paladin$13
+aura of purity$paladin$13
+banishment$paladin$13
+death ward$paladin$13
+locate creature$paladin$13
+staggering smite$paladin$13
+banishing smite$paladin$17
+circle of power$paladin$17
+destructive wave$paladin$17
+dispel evil and good$paladin$17
+geas$paladin$17
+raise dead$paladin$17
