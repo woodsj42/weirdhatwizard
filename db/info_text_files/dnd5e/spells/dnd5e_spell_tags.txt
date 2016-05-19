@@ -436,3 +436,7 @@ Investiture of Wind$damage,utility,offense,damage,buff,saving throw,concentratio
 Primordial Ward$defense,buff,concentration
 Whirlwind$control,range,damage,saving throw,concentration
 Abi-Dalzim's Horrid Wilting$area of effect,damage,offense,saving throw,range
+Booming Blade$control,melee,damage,control
+Green-Flame Blade$damage,melee
+Lightning Lure$damage,melee,saving throw
+Sword Burst$melee,damage,saving throw

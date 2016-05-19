@@ -173,3 +173,5 @@ Immolation$dexterity
 Maelstrom$strength
 Bones of the Earth$dexterity
 Abi-Dalzim's Horrid Wilting$constitution
+Lightning Lure$strength
+Sword Burst$dexterity

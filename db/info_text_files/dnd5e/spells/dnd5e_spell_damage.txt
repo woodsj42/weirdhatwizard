@@ -139,3 +139,7 @@ Investiture of Ice$ice
 Investiture of Wind$bludgeoning
 Whirlwind$bludgeoning
 Abi-Dalzim's Horrid Wilting$necrotic
+Booming Blade$thunder
+Green-Flame Blade$fire
+Lightning Lure$lightning
+Sword Burst$force
