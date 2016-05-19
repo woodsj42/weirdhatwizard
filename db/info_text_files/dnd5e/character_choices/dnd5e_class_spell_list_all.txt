@@ -1,3 +1,7 @@
+Sword Burst$sorcerer$1
+Booming Blade$sorcerer$1
+Lightning Lure$sorcerer$1
+Green-Flame Blade$sorcerer$1
 acid splash$sorcerer$1
 blade ward$sorcerer$1
 chill touch$sorcerer$1
@@ -158,6 +162,10 @@ meteor swarm$sorcerer$17
 power word kill$sorcerer$17
 time stop$sorcerer$17
 wish$sorcerer$17
+Sword Burst$wizard$1
+Booming Blade$wizard$1
+Lightning Lure$wizard$1
+Green-Flame Blade$wizard$1
 acid splash$wizard$1
 blade ward$wizard$1
 chill touch$wizard$1
@@ -411,6 +419,10 @@ true polymorph$wizard$17
 weird$wizard$17
 wish$wizard$17
 blade ward$warlock$1
+Sword Burst$warlock$1
+Booming Blade$warlock$1
+Lightning Lure$warlock$1
+Green-Flame Blade$warlock$1
 chill touch$warlock$1
 create bonfire$warlock$1
 eldritch blast$warlock$1

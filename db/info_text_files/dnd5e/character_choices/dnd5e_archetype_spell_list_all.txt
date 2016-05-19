@@ -234,6 +234,10 @@ freedom of movement$swamp$7
 locate creature$swamp$7
 insect plague$swamp$9
 scrying$swamp$9
+Sword Burst$arcane trickster$3
+Booming Blade$arcane trickster$3
+Lightning Lure$arcane trickster$3
+Green-Flame Blade$arcane trickster$3
 acid splash$arcane trickster$3
 blade ward$arcane trickster$3
 chill touch$arcane trickster$3
@@ -446,6 +450,10 @@ ray of sickness$eldritch knight$3
 shield$eldritch knight$3
 silent image$eldritch knight$3
 sleep$eldritch knight$3
+Sword Burst$eldritch knight$3
+Booming Blade$eldritch knight$3
+Lightning Lure$eldritch knight$3
+Green-Flame Blade$eldritch knight$3
 tasha's hideous laughter$eldritch knight$3
 tenser's floating disk$eldritch knight$3
 thunderwave$eldritch knight$3
